@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/18F/guides-style.git
-  revision: 3085b3a781bf86bfb03fbfe266b945dc524bafc6
+  revision: 78dbdde247ccc7d7fb3862fd6a370db64776a20a
   branch: uswds
   specs:
     guides_style_18f (0.1.6)
@@ -39,7 +39,7 @@ GEM
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
     i18n (0.7.0)
-    jekyll (3.0.0)
+    jekyll (3.0.1)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -55,7 +55,7 @@ GEM
     json (1.8.3)
     kramdown (1.9.0)
     liquid (3.0.6)
-    listen (3.0.3)
+    listen (3.0.5)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     loofah (2.0.3)
@@ -88,7 +88,7 @@ GEM
     redcarpet (3.3.3)
     rouge (1.10.1)
     safe_yaml (1.0.4)
-    sass (3.4.19)
+    sass (3.4.20)
     thor (0.19.1)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
