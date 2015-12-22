@@ -29,11 +29,14 @@ logoalt: Federalist logo
 # List links that should appear in the site sidebar here
 navigation:
 - text: About Federalist
-  url: /
+  url: index.html
+  internal: true
 - text: Using Federalist
-  url: /pages/using-federalist/
+  url: pages/using-federalist/
+  internal: true
 - text: Custom Templates
-  url: /pages/custom-templates
+  url: pages/custom-templates
+  internal: true
 
 repos:
 - name: Federalist
