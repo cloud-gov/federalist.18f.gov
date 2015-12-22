@@ -37,15 +37,15 @@ Additionally, Federalist will build any Jekyll-based website, supporting complet
 
 Here are a few examples of Federalist websites in production:
 
-![College Scorecard](/uploads/college-scorecard.png)
+![College Scorecard]({{site.baseurl}}/uploads/college-scorecard.png)
 **[The College Scorecard](https://collegescorecard.ed.gov/)**
 
 
-![SBST.gov](/uploads/sbst.png)
+![SBST.gov]({{site.baseurl}}/uploads/sbst.png)
 **[The Social and Behavioral Sciences Team](https://sbst.gov/)**
 
 
-![NotAlone.gov](/uploads/notalone.png)
+![NotAlone.gov]({{site.baseurl}}/uploads/notalone.png)
 **[NotAlone.gov](https://www.notalone.gov/)**
 
 

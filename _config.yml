@@ -18,8 +18,8 @@ sass:
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: 18F
-  url: https://18f.gsa.gov
+  name: 18F - Federalist
+  url: https://federalist.18f.gov
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: /uploads/logo.svg
