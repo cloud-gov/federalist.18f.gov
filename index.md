@@ -1,51 +1,56 @@
 ---
 permalink: /
-title: Introduction
+title: What is Federalist
 ---
-Use this template to create [18F Guides](http://pages.18f.gov/guides/)
-and other 18F-branded documentation available on [18F
-Pages](https://pages.18f.gov/). It's structured like an 18F Guides guide,
-and it walks you through the process of creating and publishing an 18F Pages document based on
-the same theme.
 
-The template is derived from [CFPB/DOCter](https://github.com/CFPB/DOCter).
-It uses [Jekyll](http://jekyllrb.com/) as the rendering engine.
+Federalist is an [open source](https://github.com/18F/federalist) web publishing platform for the United States federal government. It provides templates for websites, an online editor for maintaining content, and cloud-based infrastructure for high-scale, low-cost website hosting.
 
-## Create a new guide/document
+The team at [18F](https://18f.gsa.gov/) builds and maintains it as a hosted service available to federal government agencies.
 
-To get started on a new guide (or other document based on this theme), 
-follow [the "Getting started" instructions in the 18F/guides-template GitHub
-repository](https://github.com/18F/guides-template/#getting-started) to create
-a local clone of this template.
+## Why build static websites
 
-Once you've created a clone, click the _Add a New Page_ entry in the table of
-contents to begin the rest of the steps.
+Federalist generates static websites as opposed to using a content management system (CMS) like Drupal or Wordpress. Static websites are collections of text files as opposed to applications that dynamically generate website content.They have several advantages:
 
-## Update an existing guide/document
+- **Easy to host and maintain** It’s very easy to host static website files, and services like Amazon S3 offer very high scalability where you pay only for what you use.
 
-__Note: You only need to do this if your existing guide or document is not already
-using the `guides_style_18f` gem or if it does not have an `18f-pages`
-branch.__
+- **Less complexity and vulnerability** Avoiding CMSs means avoiding problems like maintaining dynamic server applications (no PHP or Apache / IIS) and database scaling and redundancy. Production-level static sites generally require one simple static file server or service as opposed to dozens.
 
-Add the [`guides_style_18f` gem](https://github.com/18F/guides-style) to your
-guide's `Gemfile`, if it's not already present. You may also wish to copy the
-`./go` script from the template if your document doesn't already have one.
+- **Fully customizable** Static websites take any form developers and designers intend without the need to strip away CMS-provided features and defaults. Possible applications of static sites vary widely, from organization homepage or intranet to pre-generated web application program interfaces (API).
 
-To receive layout updates, as well as any new styles or scripts associated
-with them, you will need to run `./go update_theme`. Or — if you aren't using
-a `./go` script — you can run `bundle update --source guides_style_18f`
-manually.)
+Static websites store content in text files. The Federalist editor provides a way for editing these files without needing to write code.
 
-If your repository already has a `gh-pages` branch, you can create an
-`18f-pages` branch from it by running these commands:
 
-```
-$ git checkout -b 18f-pages gh-pages
-$ git push origin 18f-pages
-```
+## What sites are possible with Federalist
 
-Follow the instructions in _Update the Config File_ to update your
-`_config.yml` accordingly. You may also need to consult the _GitHub Setup_ and
-_Post Your Guide_ chapters to ensure your guide is correctly published to
-`pages.18f.gov` and linked from the main [18F
-Guides](http://pages.18f.gov/guides/) site.
+Federalist provides ready-to-use templates for common websites:
+
+#### Modern organization home page based on the US Web Design Standards
+![US Web Design Standards template](https://federalist.18f.gov/images/team.thumb.png)
+
+#### Simple website for content-focused microsites
+![Microsite template](https://federalist.18f.gov/images/microsite.thumb.png)
+
+#### Documentation for an API and developer resources
+![Developer hub](https://federalist.18f.gov/images/developer.thumb.png)
+
+Additionally, Federalist will build any Jekyll-based website, supporting completely custom websites.
+
+Here are a few examples of Federalist websites in production:
+
+![College Scorecard](/uploads/college-scorecard.png)
+**[The College Scorecard](https://collegescorecard.ed.gov/)**
+
+
+![SBST.gov](/uploads/sbst.png)
+**[The Social and Behavioral Sciences Team](https://sbst.gov/)**
+
+
+![NotAlone.gov](/uploads/notalone.png)
+**[NotAlone.gov](https://www.notalone.gov/)**
+
+
+## Getting access
+
+Federalist is currently under active development. We are working with a select list of partners to test the platform and launch new websites. Starting in the first quarter of 2016, we plan to open Federalist to all federal government agencies. We estimate the cost for the platform to be below $750 / per month / per site.
+
+If you have a project that you think would be a good git for Federalist, [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform).

@@ -1,5 +1,5 @@
 markdown: redcarpet
-name: 18F Guides Template
+name: Federalist Documentation
 exclude:
 - CONTRIBUTING.md
 - Gemfile
@@ -22,47 +22,27 @@ author:
   url: https://18f.gsa.gov
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /assets/img/18f-logo.png
-logoalt: 18F logo
+logourl: /uploads/logo.svg
+logoalt: Federalist logo
 
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Introduction
-  url: index.html
-  internal: true
-- text: Add a new page
-  url: add-a-new-page/
-  internal: true
-  children:
-  - text: Make a child page
-    url: make-a-child-page/
-    internal: true
-- text: Add images
-  url: add-images/
-  internal: true
-- text: Update the config file
-  url: update-the-config-file/
-  internal: true
-  children:
-  - text: Understanding the `baseurl:` property
-    url: understanding-baseurl/
-    internal: true
-- text: GitHub setup
-  url: github-setup/
-  internal: true
-- text: Post your guide
-  url: post-your-guide/
-  internal: true
+- text: About Federalist
+  url: /
+- text: Using Federalist
+  url: /pages/using-federalist/
+- text: Custom Templates
+  url: /pages/custom-templates
 
 repos:
-- name: Guides Template
+- name: Federalist
   description: Main repository
-  url: https://github.com/18F/guides-template
+  url: https://github.com/18F/federalist
 
 back_link:
-  url: "https://pages.18f.gov/guides/"
-  text: Read more 18F Guides
+  url: "https://federalist.18f.gov/"
+  text: Back to Federalist
 
 google_analytics_ua: UA-48605964-19
 
