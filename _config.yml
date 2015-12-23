@@ -34,10 +34,10 @@ navigation:
   url: index.html
   internal: true
 - text: Using Federalist
-  url: pages/using-federalist/
+  url: docs/using-federalist/
   internal: true
 - text: Content Guide
-  url: pages/content-guide/
+  url: docs/content-guide/
   internal: true
   children:
   - text: Writing content for your homepage
@@ -56,10 +56,10 @@ navigation:
     url: contact-forms/
     internal: true
 - text: Custom Templates
-  url: pages/custom-templates/
+  url: docs/custom-templates/
   internal: true
 - text: How Federalist Works
-  url: pages/how-federalist-works/
+  url: docs/how-federalist-works/
   internal: true
 
 repos:
