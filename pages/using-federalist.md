@@ -2,10 +2,10 @@
 title: Using Federalist
 ---
 
-### Content strategy
+## Content strategy
 
-### Set up a template
+## Set up a template
 
-### Going live
+## Going live
 
-#### Setting up a domain
+### Setting up a domain

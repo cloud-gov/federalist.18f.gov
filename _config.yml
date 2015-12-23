@@ -8,6 +8,8 @@ exclude:
 - README.md
 - go
 - vendor
+include:
+  - _navigation.json
 
 permalink: pretty
 highlighter: rouge
@@ -34,14 +36,36 @@ navigation:
 - text: Using Federalist
   url: pages/using-federalist/
   internal: true
+- text: Content Guide
+  url: pages/content-guide/
+  internal: true
+  children:
+  - text: Writing content for your homepage
+    url: writing-content-for-your-federalist-homepage/
+    internal: true
+  - text: Best practices for content
+    url: best-practices-for-content/
+    internal: true
+  - text: Writing about your team
+    url: best-practices-for-writing-who-we-are/
+    internal: true
+  - text: Writing about your research
+    url: best-practices-for-writing-what-we-do/
+    internal: true
+  - text: Writing clear contact forms
+    url: contact-forms/
+    internal: true
 - text: Custom Templates
-  url: pages/custom-templates
+  url: pages/custom-templates/
+  internal: true
+- text: How Federalist Works
+  url: pages/how-federalist-works/
   internal: true
 
 repos:
 - name: Federalist
-  description: Main repository
-  url: https://github.com/18F/federalist
+  description: Documentation repository
+  url: https://github.com/18F/federalist-docs
 
 back_link:
   url: "https://federalist.18f.gov/"

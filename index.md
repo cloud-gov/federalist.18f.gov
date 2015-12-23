@@ -49,7 +49,7 @@ Here are a few examples of Federalist websites in production:
 **[NotAlone.gov](https://www.notalone.gov/)**
 
 
-## Getting access
+## Getting started
 
 Federalist is currently under active development. We are working with a select list of partners to test the platform and launch new websites. Starting in the first quarter of 2016, we plan to open Federalist to all federal government agencies. We estimate the cost for the platform to be below $750 / per month / per site.
 
