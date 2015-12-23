@@ -1,4 +1,5 @@
 ---
+permalink: /
 title: What is Federalist
 ---
 
