@@ -109,6 +109,6 @@ Federalist supports Jekyll plugins. It enables any plugins in a site's `_plugins
 
 Several dependencies are already available for use in the building environment. These include `ruby`, `python`, and `node.js`, as well as the [`github-pages` gem](https://pages.github.com/versions/), which includes several common gems used for building sites. You can write plugins that take advantage of these without needing a `Gemfile`.
 
-To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-docker-build/blob/master/Dockerfile) and [base image Dockerfile`](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile).
+To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-docker-build/blob/master/Dockerfile) and [base image `Dockerfile`](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile).
 
 **Note:** using `Gemfile` may considerably slow down the generation of your website, depending on how long the `bundle install` step takes to complete.
