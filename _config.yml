@@ -1,4 +1,3 @@
-markdown: redcarpet
 name: Federalist Documentation
 exclude:
 - CONTRIBUTING.md
@@ -14,6 +13,9 @@ include:
 permalink: pretty
 highlighter: rouge
 incremental: true
+markdown: redcarpet
+redcarpet:
+  extensions: [with_toc_data]
 
 sass:
   style: :compressed
@@ -43,9 +45,6 @@ navigation:
   - text: Writing content for your homepage
     url: writing-content-for-your-federalist-homepage/
     internal: true
-  - text: Best practices for content
-    url: best-practices-for-content/
-    internal: true
   - text: Writing about your team
     url: best-practices-for-writing-who-we-are/
     internal: true
@@ -54,6 +53,9 @@ navigation:
     internal: true
   - text: Writing clear contact forms
     url: contact-forms/
+    internal: true
+  - text: Best practices for content
+    url: best-practices-for-content/
     internal: true
 - text: Custom Templates
   url: pages/custom-templates/

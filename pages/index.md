@@ -22,18 +22,9 @@ Static websites store content in text files. The Federalist editor provides a wa
 
 ## What sites are possible with Federalist
 
-Federalist provides ready-to-use templates for common websites:
+Federalist provides ready-to-use templates for common websites, as well as support for custom website templates based on Jekyll.
 
-#### Modern organization home page based on the US Web Design Standards
-![US Web Design Standards template](https://federalist.18f.gov/images/team.thumb.png)
-
-#### Simple website for content-focused microsites
-![Microsite template](https://federalist.18f.gov/images/microsite.thumb.png)
-
-#### Documentation for an API and developer resources
-![Developer hub](https://federalist.18f.gov/images/developer.thumb.png)
-
-Additionally, Federalist will build any Jekyll-based website, supporting completely custom websites.
+See [examples of the templates]({{site.baseurl}}/pages/using-federalist/#federalist-templates) currently available.
 
 Here are a few examples of Federalist websites in production:
 

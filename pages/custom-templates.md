@@ -20,6 +20,11 @@ For an example of a Jekyll site optimized for Federalist, see the [federalist-mo
 
 In addition to generating Jekyll sites, Federalist provides several features. The steps below outline how to set up custom websites that best take advantage of these.
 
+### Configuration
+
+Federalist adds a `site.branch` attribute to your global site object with the value of the current branch name. You may access this value in your templates and content. It's useful for styling a build differently based on a branch.
+
+
 ### Content editor
 
 Federalist provides a web-based content editor. To best take advantage of the content editor, content files should be in standard Markdown, with files ending in `.md`, and containing no embedded HTML (while embedded HTML is supported in Markdown, it does not currently work with our editor). When users open a Markdown file on Federalist, they will see a simple rich text editor with inline formatting for font styles, links, images, and lists.
