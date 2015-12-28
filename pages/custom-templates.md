@@ -2,15 +2,23 @@
 title: Developing Custom Templates
 ---
 
+Federalist is a continuous deployment-like build environment for static sites. It works by setting a webhook on your site's GitHub repository and generates your site on each `push` event to that repository. Changes made to the site's content and files in its repository through the Federalist web editor or otherwise launch rebuild tasks of the site in a build environment container.
+
+In addition to using the templates provided by Federalist, you may add your own GitHub repository to build a completely custom site. When adding a repository-based site, you may select a build engine: Jekyll, Hugo (not yet implemented), or static, which simply pushes the files in your repository.
+
+You may also specify a default branch of your repository to serve as the "production" version of the site.
+
+Federalist is designed to be a modular service. Some users only use this build process and make edits directly through GitHub or their own git-based workflow. Doing so provides a no-configuration production-ready hosting solution for GitHub-based static websites on 18F infrastructure with a custom domain. Others set up their custom sites to work with the Federalist web editor just like the provided templates.
+
 ## Jekyll resources
 
-Federalist generates any Jekyll website. This allows you to build completely custom websites hosted on Federalist. For documentation on getting started with Jekyll, see [jekyllrb.com](http://jekyllrb.com/).
+Federalist generates any Jekyll website. This allows you to build custom websites hosted on Federalist. For documentation on getting started with Jekyll, see [jekyllrb.com](http://jekyllrb.com/).
 
 For an example of a Jekyll site optimized for Federalist, see the [federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template).
 
 ## Federalist features
 
-In addition to generating Jekyll sites, Federalist provides several features.
+In addition to generating Jekyll sites, Federalist provides several features. The steps below outline how to set up custom websites that best take advantage of these.
 
 ### Content editor
 
@@ -79,4 +87,28 @@ If you [specify front-matter defaults](http://jekyllrb.com/docs/configuration/#f
 
 ### Base URLs
 
-### Jekyll Plug-ins
+To handle routing sites for previews, Federalist automatically sets a `baseurl` path for your site. This essentially nests your site in a subdirectory under the `federalist.18f.gov` domain, such as `federalist.18f.gov/preview/18f/hub/new-draft`, where `/preview/18f/hub` is the `baseurl`.
+
+All links to other pages or resources on the site require a `baseurl` prefix. The Federalist editor takes care of this when users create links or embed images. If you're designing a custom template to work with Federalist, make sure all references to relative links include `site.baseurl` prefixes, including trailing slashes, as follows:
+
+Link:
+```md
+[About Us]({{site.baseurl}}/about-us)
+```
+
+Image:
+```md
+![18F]({{site.baseurl}}/uploads/18f-logo.png)
+```
+
+### Jekyll Plugins
+
+Jekyll supports a plugin system for adding custom features to the build process of your website. Use-cases for plugins include automatically generating new pages or templates, fetching data or content from external resources, and CCS or JavaScript compilation. [Learn more about Jekyll plugins](http://jekyllrb.com/docs/plugins/).
+
+Federalist supports Jekyll plugins. It enables any plugins in a site's `_plugins` directory. Moreover, if the site includes a `Gemfile`, Federalist will run `bundle install && bundle exec jekyll build` to install required Ruby gems and generate the site with those libraries available for use in plugins. You may also use a `Gemfile` to change the version of Jekyll used to build the site.
+
+Several dependencies are already available for use in the building environment. These include `ruby`, `python`, and `node.js`, as well as the [`github-pages` gem](https://pages.github.com/versions/), which includes several common gems used for building sites. You can write plugins that take advantage of these without needing a `Gemfile`.
+
+To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-docker-build/blob/master/Dockerfile) and [base image Dockerfile`](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile).
+
+**Note:** using `Gemfile` may considerably slow down the generation of your website, depending on how long the `bundle install` step takes to complete.
