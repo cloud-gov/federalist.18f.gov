@@ -73,34 +73,3 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 ## Going live with a site
 
 The following requires elevated access to Amazon Web Services. When you're ready to go live with a Federalist site, **[contact the Federalist team](https://github.com/18F/federalist/issues/new), and we will configure the following settings for you**.
-
-Here is an overview of the process to set up a domain to work with Federalist.
-
-Going live with a site generally consists of 1) setting a custom domain in Federalist, 2) setting up a CloudFront distribution to route to Federalist, and 3) setting your DNS provider to route to that distribution.
-
-### 1. Setting a custom domain in Federalist
-
-Follow the instructions for setting a custom domain in the [previous section](#managing-site-settings). After setting a site's domain on the settings form, take note of the Custom Domain origin. This is the URL at which Federalist hosts your site. To use a custom domain, you'll need to route your domain to this origin URL.
-
-### 2. Setting up a CloudFront distribution
-
-[AWS CloudFront](https://aws.amazon.com/cloudfront/) distributions are an easy way to route requests to a Federalist website. They also provide a way to upload a certificate for HTTPS support.
-
-1. Create a new "web" distribution
-2. Paste the Custom Domain origin from Federalist in the Origin Domain Name field. Focusing on the next field on the form will automatically parse the Custom Domain origin into the name and Origin Path fields, as well as populating an Origin ID.
-3. The Origin Protocol Policy should be `HTTP Only`
-4. The Viewer Protocol Policy should be `Redirect HTTP to HTTPS`
-5. Set Object Caching to `Customize` and enter `0` for the three TTL fields
-6. Set the Alternate Domain Names (CNAMEs) field to include the custom domains for your site. For subdomains, this is usually one value, such as `example.agency.gov`. For root domains, this is usually takes the form of `example.com, www.example.gov`.
-7. Set a custom SSL Certificate. See [Amazon's documentation](http://docs.aws.amazon.com/console/cloudfront/custom-ssl-certificate) for more information.
-8. Save the settings and wait for the changes to take effect, which can take up to 30 minutes. You will see a Domain Name for your origin, like `d2q5lcXXXXX.cloudfront.net`. Save this domain name for the next step.
-
-### 3. Setting up a DNS record
-
-Now that you have a domain for your site from CloudFront, the last step is to set your DNS provider to point to this domain. At 18F, we generally use AWS Route 53 for this. If the domain is owned by another agency, create a new hosted zone in Route 53 and request that the agency set the `NS` records for the domain to those provided by Route 53 for the hosted zone.
-
-For subdomains, set a CNAME record in Route 53 (or another DNS provider) to point to the Domain Name value provided by CloudFront.
-
-For root domains, you need to use a DNS provide like AWS Route 53 that supports `Alias` records. In Route 53, add a new `A` record set to your hosted zone as an `Alias` that points to the CloudFront distribution.
-
-Once this setting propagates, your site will be available at the custom domain.
