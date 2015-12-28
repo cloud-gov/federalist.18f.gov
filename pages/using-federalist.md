@@ -72,4 +72,4 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 
 ## Going live with a site
 
-The following requires elevated access to Amazon Web Services. When you're ready to go live with a Federalist site, **[contact the Federalist team](https://github.com/18F/federalist/issues/new), and we will configure the following settings for you**.
+When you're ready to go live with a Federalist site, [contact the Federalist team](https://github.com/18F/federalist/issues/new), and we will configure your custom domain for you.
