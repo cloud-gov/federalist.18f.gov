@@ -1,5 +1,5 @@
 ---
-title: Developing Custom Templates
+title: Custom Templates
 ---
 
 Federalist is a continuous deployment-like build environment for static sites. It works by setting a webhook on your site's GitHub repository and generates your site on each `push` event to that repository. Changes made to the site's content and files in its repository through the Federalist web editor or otherwise launch rebuild tasks of the site in a build environment container.

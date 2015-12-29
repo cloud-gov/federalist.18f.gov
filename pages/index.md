@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: What is Federalist
+title: About Federalist
 ---
 
 Federalist is an [open source](https://github.com/18F/federalist) web publishing platform for the United States federal government. It provides templates for websites, an online editor for maintaining content, and cloud-based infrastructure for high-scale, low-cost website hosting.
