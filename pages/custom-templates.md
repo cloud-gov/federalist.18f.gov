@@ -1,7 +1,6 @@
 ---
 title: Custom Templates
 ---
-
 Federalist is a continuous deployment-like build environment for static sites. It works by setting a webhook on your site's GitHub repository and generates your site on each `push` event to that repository. Changes made to the site's content and files in its repository through the Federalist web editor or otherwise launch rebuild tasks of the site in a build environment container.
 
 In addition to using the templates provided by Federalist, you may add your own GitHub repository to build a completely custom site. When adding a repository-based site, you may select a build engine: Jekyll, Hugo (not yet implemented), or static, which simply pushes the files in your repository.
@@ -16,6 +15,8 @@ Federalist generates any Jekyll website. This allows you to build custom website
 
 For an example of a Jekyll site optimized for Federalist, see the [federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template).
 
+All government websites must meet section 508 accessibility standards. 18F provides a [guide and checklist for building accessible websites](https://pages.18f.gov/accessibility/).
+
 ## Federalist features
 
 In addition to generating Jekyll sites, Federalist provides several features. The steps below outline how to set up custom websites that best take advantage of these.
@@ -23,7 +24,6 @@ In addition to generating Jekyll sites, Federalist provides several features. Th
 ### Configuration
 
 Federalist adds a `site.branch` attribute to your global site object with the value of the current branch name. You may access this value in your templates and content. It's useful for styling a build differently based on a branch.
-
 
 ### Content editor
 
@@ -41,16 +41,15 @@ Federalist looks for a `_navigation.json` file in the root of a project to denot
 
 Since Jekyll will not generate files that start with an underscore, be sure to add `_nagivation.json` to your `_config.yml` file under the `include` block:
 
-```yml
-include:
-  - _navigation.json
-```
+    include:
+      - _navigation.json
 
 The schema for `_navigation.json` is simple.
 
 Each "page" must have:
 
 1. A `title` value, which should be a string. This will be the title shown to the user of the page in the listing
+
 2. A `href` value, which should point to the respective "file". This link will be displayed as "Edit" in Federalist and should link the user to the proper file, loaded into the editor. The value should not begin with a "/" and should be a relative URL from the root of the project structure (not the generated output).
 
 A "page" may have the following:
@@ -59,32 +58,30 @@ A "page" may have the following:
 
 Here is an example of a small `_navigation.json`:
 
-```json
-[
-  {
-    "title": "About",
-    "href": "pages/about.md"
-  },
-  {
-    "title": "Approach",
-    "href": "pages/approach.md"
-  },
-  {
-    "title": "Work",
-    "href": "pages/work.md",
-    "children": [
+    [
       {
-        "title": "Project 1",
-        "href": "pages/projects/microloans-for-farmers.md"
+        "title": "About",
+        "href": "pages/about.md"
       },
       {
-        "title": "Project 2",
-        "href": "pages/projects/reducing-summer-melt.md"
+        "title": "Approach",
+        "href": "pages/approach.md"
+      },
+      {
+        "title": "Work",
+        "href": "pages/work.md",
+        "children": [
+          {
+            "title": "Project 1",
+            "href": "pages/projects/microloans-for-farmers.md"
+          },
+          {
+            "title": "Project 2",
+            "href": "pages/projects/reducing-summer-melt.md"
+          }
+        ]
       }
     ]
-  }
-]
-```
 
 ### Metadata defaults
 
@@ -96,9 +93,9 @@ To handle routing sites for previews, Federalist automatically sets a `baseurl` 
 
 All links to other pages or resources on the site require a `baseurl` prefix. The Federalist editor takes care of this when users create links or embed images. If you're designing a custom template to work with Federalist, make sure all references to relative links include `site.baseurl` prefixes, including trailing slashes, as follows:
 
-Link: `{% raw %}[About Us]({{site.baseurl}}/about-us){% endraw %}`
+Link: `{% raw %}\[About Us\]({{site.baseurl}}/about-us){% endraw %}`
 
-Image: `{% raw %}![18F]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
+Image: `{% raw %}!\[18F\]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
 
 ### Jekyll Plugins
 
@@ -108,6 +105,6 @@ Federalist supports Jekyll plugins. It enables any plugins in a site's `_plugins
 
 Several dependencies are already available for use in the building environment. These include `ruby`, `python`, and `node.js`, as well as the [`github-pages` gem](https://pages.github.com/versions/), which includes several common gems used for building sites. You can write plugins that take advantage of these without needing a `Gemfile`.
 
-To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-docker-build/blob/master/Dockerfile) and [base image `Dockerfile`](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile).
+To see the exact configuration of the build environment, see the [build environment `Dockerfile](https://github.com/18F/federalist-docker-build/blob/master/Dockerfile)` and [base image `Dockerfile](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile)`.
 
 **Note:** using `Gemfile` may considerably slow down the generation of your website, depending on how long the `bundle install` step takes to complete.
