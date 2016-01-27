@@ -25,7 +25,7 @@ In addition to generating Jekyll sites, Federalist provides several features. Th
 
 Federalist adds a `site.branch` attribute to your global site object with the value of the current branch name. You may access this value in your templates and content. It's useful for styling a build differently based on a branch.
 
-Federalist also adds information about the git commit at which the site was built. Access this information through `site.commit`. The commit object includes site.commit.commit (the SHA), `site.commit.author`, `site.commit.date`, and `site.commit.message`.
+Federalist also adds information about the git commit at which the site was built. Access this information through `site.commit`. The commit object includes `site.commit.commit` (the SHA), `site.commit.author`, `site.commit.date`, and `site.commit.message`.
 
 ### Content editor
 
