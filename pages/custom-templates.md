@@ -25,6 +25,8 @@ In addition to generating Jekyll sites, Federalist provides several features. Th
 
 Federalist adds a `site.branch` attribute to your global site object with the value of the current branch name. You may access this value in your templates and content. It's useful for styling a build differently based on a branch.
 
+Federalist also adds information about the git commit at which the site was built. Access this information through `site.commit`. The commit object includes site.commit.commit (the SHA), `site.commit.author`, `site.commit.date`, and `site.commit.message`.
+
 ### Content editor
 
 Federalist provides a web-based content editor. To best take advantage of the content editor, content files should be in standard Markdown, with files ending in `.md`, and containing no embedded HTML (while embedded HTML is supported in Markdown, it does not currently work with our editor). When users open a Markdown file on Federalist, they will see a simple rich text editor with inline formatting for font styles, links, images, and lists.
@@ -93,9 +95,9 @@ To handle routing sites for previews, Federalist automatically sets a `baseurl` 
 
 All links to other pages or resources on the site require a `baseurl` prefix. The Federalist editor takes care of this when users create links or embed images. If you're designing a custom template to work with Federalist, make sure all references to relative links include `site.baseurl` prefixes, including trailing slashes, as follows:
 
-Link: `{% raw %}\[About Us\]({{site.baseurl}}/about-us){% endraw %}`
+Link: `{% raw %}\\\[About Us\\\]({{site.baseurl}}/about-us){% endraw %}`
 
-Image: `{% raw %}!\[18F\]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
+Image: `{% raw %}!\\\[18F\\\]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
 
 ### Jekyll Plugins
 
@@ -105,6 +107,6 @@ Federalist supports Jekyll plugins. It enables any plugins in a site's `_plugins
 
 Several dependencies are already available for use in the building environment. These include `ruby`, `python`, and `node.js`, as well as the [`github-pages` gem](https://pages.github.com/versions/), which includes several common gems used for building sites. You can write plugins that take advantage of these without needing a `Gemfile`.
 
-To see the exact configuration of the build environment, see the [build environment `Dockerfile](https://github.com/18F/federalist-docker-build/blob/master/Dockerfile)` and [base image `Dockerfile](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile)`.
+To see the exact configuration of the build environment, see the \[build environment `Dockerfile\](https://github.com/18F/federalist-docker-build/blob/master/Dockerfile)` and \[base image `Dockerfile\](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile)`.
 
 **Note:** using `Gemfile` may considerably slow down the generation of your website, depending on how long the `bundle install` step takes to complete.
