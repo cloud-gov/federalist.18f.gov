@@ -95,9 +95,9 @@ To handle routing sites for previews, Federalist automatically sets a `baseurl` 
 
 All links to other pages or resources on the site require a `baseurl` prefix. The Federalist editor takes care of this when users create links or embed images. If you're designing a custom template to work with Federalist, make sure all references to relative links include `site.baseurl` prefixes, including trailing slashes, as follows:
 
-Link: `{% raw %}\\\[About Us\\\]({{site.baseurl}}/about-us){% endraw %}`
+Link: `{% raw %}[About Us]({{site.baseurl}}/about-us){% endraw %}`
 
-Image: `{% raw %}!\\\[18F\\\]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
+Image: `{% raw %}![18F]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
 
 ### Jekyll Plugins
 
