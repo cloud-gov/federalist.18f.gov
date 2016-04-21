@@ -72,7 +72,7 @@ The Guides Template (either [running locally](http://localhost:4000) or the
 [published version](https://pages.18f.gov/guides-template/)) will walk you
 through the rest of the steps to edit and publish your guide.
 
-### Staging version (for 18F team members)
+### Staging version (for the 18F team)
 
 In addition to the `18f-pages` branch, you can create an `18f-pages-staging`
 branch and changes to that branch will be published to
