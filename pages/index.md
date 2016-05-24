@@ -44,4 +44,4 @@ Here are a few examples of Federalist websites in production:
 
 Federalist is currently under active development. We are working with a select list of partners to test the platform and launch new websites.
 
-If you have a project that you think would be a good git for Federalist, [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform).
+If you have a project that you think would be a good fit for Federalist, [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform).
