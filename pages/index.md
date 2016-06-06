@@ -9,7 +9,7 @@ The team at [18F](https://18f.gsa.gov/) builds and maintains it as a hosted serv
 
 ## Why build static websites
 
-Federalist generates static websites as opposed to using a content management system (CMS) like Drupal or Wordpress. Static websites are collections of text files as opposed to applications that dynamically generate website content.They have several advantages:
+Federalist generates static websites as opposed to using a content management system (CMS) like Drupal or Wordpress. Static websites are collections of text files as opposed to applications that dynamically generate website content. They have several advantages:
 
 - **Easy to host and maintain** It’s very easy to host static website files, and services like Amazon S3 offer very high scalability where you pay only for what you use.
 
@@ -42,6 +42,6 @@ Here are a few examples of Federalist websites in production:
 
 ## Getting started
 
-Federalist is currently under active development. We are working with a select list of partners to test the platform and launch new websites. Starting in the first quarter of 2016, we plan to open Federalist to all federal government agencies. We estimate the cost for the platform to be below $750 / per month / per site.
+Federalist is currently under active development. We are working with a select list of partners to test the platform and launch new websites.
 
-If you have a project that you think would be a good git for Federalist, [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform).
+If you have a project that you think would be a good fit for Federalist, [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform).
