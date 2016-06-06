@@ -68,8 +68,3 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 - **Custom domains** Enter domain (including protocol; without a trailing slash) for your website to host it on a custom domain, for instance, `https://example.gov`. When this setting is defined, Federalist will change the "View" link for your site to use the custom domain. It will also remove the `basurl` when generating your site, so that relative links are relative to the root domain. For more about setting a custom domain, see the "[going live](#going-live-with-a-site)" section below.
 
 - **Custom configuration** Enter a block of `yaml` configuration to append to your `_config.yml` configuration. This configuration is stored in Federalist, so you may use it to store settings that you don't want to commit to your GitHub repository. Federalist automatically adds a `branch` attribute with the name of the rendered branch, accessible in templates as `site.branch`.
-
-
-## Going live with a site
-
-When you're ready to go live with a Federalist site, [contact the Federalist team](https://github.com/18F/federalist/issues/new), and we will configure your custom domain for you.
