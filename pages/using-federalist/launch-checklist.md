@@ -1,5 +1,5 @@
 ---
-title: Launch Checklist
+title: Launch checklist
 parent: Using Federalist
 ---
 
