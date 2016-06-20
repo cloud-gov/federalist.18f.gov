@@ -4,7 +4,7 @@ title: Using Federalist
 
 ## Content strategy
 
-The first step to building a new site is to map a strategy for the site's content. 18F provides a several resources to assist with this process.
+The first step to building a new site is to map a strategy for the site's content. 18F provides several resources to assist with this process.
 
 The [18F method cards](https://methods.18f.gov/) are an overview of several different approaches for researching user needs and designing a website. This is often the best place to start for new projects.
 
