@@ -35,7 +35,7 @@ After selecting a template, your new site will be available in the list after it
 
 ## Editing content
 
-The Federalist web editor provides a simplified tool for editing your website content. After opening a site in the editor, you will a list of pages in your site. Pages are nested to reflect the menu hierarchy of your site. Select any page to edit its content.
+The Federalist web editor provides a simplified tool for editing your website content. After opening a site in the editor, you will see a list of pages in your site. Pages are nested to reflect the menu hierarchy of your site. Select any page to edit its content.
 
 
 ### Main body content
