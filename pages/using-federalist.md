@@ -30,7 +30,7 @@ Additionally, Federalist will build any Jekyll-based website, supporting [custom
 
 After logging into Federalist, you will see a list of your sites and a button to add a new site. When adding a new site, you will see a list of available templates. Select "use this template" under a template to use it as a basis for your new website.
 
-After selecting a template, your new site will be available in the list after it finishes building for the first time.
+After selecting a template, your new site will be available in the list. You may need to refresh the page for the site to be visible in the list and for the "view site" link to be available after the site completes building.
 
 
 ## Editing content
