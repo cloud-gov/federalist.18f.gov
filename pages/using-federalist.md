@@ -56,6 +56,8 @@ The save button will store any changes you made to content or settings on a page
 
 Once you save a page, Federalist will rebuild your site with the new changes. This process may take some time, depending on your site template. By returning to the site listing page, you may view the latest version of your site or check the log to see the status of recent builds.
 
+If you save a page as a draft, Federalist will provide a button to view the draft page. For those making edits directly in GitHub, the drafts are available for preview (with Federalist login) at `https://federalist.18f.gov/preview/:owner/:repo/:branch/`.
+
 
 ## Managing site settings
 
