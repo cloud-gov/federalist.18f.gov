@@ -2,13 +2,11 @@
 title: Using Federalist
 ---
 
-## Content strategy
+### Adding a new site
 
-The first step to building a new site is to map a strategy for the site's content. 18F provides several resources to assist with this process.
+After logging into Federalist, you will see a list of your sites and a button to add a new site. When adding a new site, you will see a list of available templates. Select "use this template" under a template to use it as a basis for your new website.
 
-The [18F method cards](https://methods.18f.gov/) are an overview of several different approaches for researching user needs and designing a website. This is often the best place to start for new projects.
-
-The Federalist team also provides a [content guide specifically for Federalist websites]({{site.baseurl}}/pages/content-guide/). This guide will help you "convey what your team does, using language and tone that a general audience will understand, or how to think about what to write in each section of your new website."
+After selecting a template, your new site will be available in the list. You may need to refresh the page for the site to be visible in the list and for the "view site" link to be available after the site completes building.
 
 ## Federalist templates
 
@@ -24,14 +22,6 @@ Federalist provides templates for common websites. Here are the templates curren
 ![Developer hub](https://federalist.18f.gov/images/developer.thumb.png)
 
 Additionally, Federalist will build any Jekyll-based website, supporting [custom website templates]({{site.baseurl}}/pages/custom-templates/).
-
-
-### Adding a new site
-
-After logging into Federalist, you will see a list of your sites and a button to add a new site. When adding a new site, you will see a list of available templates. Select "use this template" under a template to use it as a basis for your new website.
-
-After selecting a template, your new site will be available in the list. You may need to refresh the page for the site to be visible in the list and for the "view site" link to be available after the site completes building.
-
 
 ## Editing content
 
@@ -57,6 +47,14 @@ The save button will store any changes you made to content or settings on a page
 Once you save a page, Federalist will rebuild your site with the new changes. This process may take some time, depending on your site template. By returning to the site listing page, you may view the latest version of your site or check the log to see the status of recent builds.
 
 If you save a page as a draft, Federalist will provide a button to view the draft page. For those making edits directly in GitHub, the drafts are available for preview (with Federalist login) at `https://federalist.18f.gov/preview/:owner/:repo/:branch/`.
+
+## Content strategy
+
+The first step to building a new site is to map a strategy for the site's content. 18F provides several resources to assist with this process.
+
+The [18F method cards](https://methods.18f.gov/) are an overview of several different approaches for researching user needs and designing a website. This is often the best place to start for new projects.
+
+The Federalist team also provides a [content guide specifically for Federalist websites]({{site.baseurl}}/pages/content-guide/). This guide will help you "convey what your team does, using language and tone that a general audience will understand, or how to think about what to write in each section of your new website."
 
 
 ## Managing site settings
