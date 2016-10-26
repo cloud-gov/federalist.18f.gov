@@ -30,7 +30,7 @@ The Federalist web editor provides a simplified tool for editing your website co
 
 ### Main body content
 
-Edit main body content of a page using the rich text editor. This editor provides a toolbar for formatting options including links, lists, and header styles. Enter text in the main field. Highlight text and select a formatting option to apply it. The arrow buttons undo and redo changes.
+Edit main body content of a page using the rich text editor. This editor provides a toolbar for formatting options including links, lists, and header styles. Enter text in the main field. Highlight text and select a formatting option to apply it. The arrow buttons undo and redo changes. Your site should be drafted using links like this: `[Our Work]({{site.baseurl}}/work/)`. The "site.baseurl" framing allows multiple versions of the links to be built on preview copies of the site without interfering with the live site.
 
 The editor supports uploading images and referencing those that were uploaded previously. The image button opens a browser of past images. Selecting one adds it to the page's content.
 
