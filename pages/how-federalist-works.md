@@ -16,6 +16,11 @@ Other components of the Federalist service are available in separate repositorie
 - **[federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template)** This is a Jekyll site. It is a simple site to showcase the work of an organization with a few different page types.
 - **[federalist-docs](https://github.com/18F/federalist-docs)** This documentation website
 
+## Upcoming Migration
+
+Federalist is currently migrating to [cloud.gov's new GovCloud environment](https://landing.apps.cloud.gov/docs/apps/govcloud/), which is currently [undergoing FedRAMP certification](https://marketplace.fedramp.gov/index.html#/product/18f-cloudgov). The core archtecture of Federalist is changing to accomodate this move, and this page will be updated with new diagrams and documentation when possible.
+
+This page reflects the existing production archtecture of Federalist.
 
 ## Technical architecture
 
