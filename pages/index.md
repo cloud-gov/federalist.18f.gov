@@ -35,11 +35,6 @@ Here are a few examples of Federalist websites in production:
 ![SBST.gov]({{site.baseurl}}/uploads/sbst.png)
 **[The Social and Behavioral Sciences Team](https://sbst.gov/)**
 
-
-![NotAlone.gov]({{site.baseurl}}/uploads/notalone.png)
-**[NotAlone.gov](https://www.notalone.gov/)**
-
-
 ## Getting started
 
 Federalist is currently under active development. We are working with a select list of partners to test the platform and launch new websites.
