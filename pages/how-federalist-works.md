@@ -112,7 +112,7 @@ Website bucket for hosting generated static website files
 - previews: /preview/*
 
 #### Creating new buckets
-*The following guide is inteded for use with the new [cloud.gov](https://cloud.gov), hosted on the GovCloud AWS region.*
+*The following guide is intended for use with the new [cloud.gov](https://cloud.gov), hosted on the GovCloud AWS region.*
 
 There are two buckets, one for each of Federalist's environments (**production** and **staging**).
 These buckets *should* be active and properly configured, but there may be times when a developer needs to create a new one. To accomplish this, he developer should follow the [documentation on cloud.gov](https://cloud.gov/docs/apps/s3/#add-s3-to-an-application).
