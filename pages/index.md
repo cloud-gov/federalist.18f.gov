@@ -23,13 +23,17 @@ Federalist generates static websites instead of using a more complex content man
 
 ## What can I build with Federalist?
 
-Federalist provides [ready-to-use templates]({{site.baseurl}}/pages/using-federalist/#federalist-templates) for several common website types. You can also use custom website templates based on Jekyll.
+Federalist provides [ready-to-use templates]({{site.baseurl}}/pages/using-federalist/#federalist-templates) for several common website types. You can also use custom website templates based on Jekyll. 18F maintains many Jekyll-based websites that you can fork and adopt, though some must be edited directly (not via the Federalist editor).
+
+Possible sites include
+- A simple homepage for your government organization with information about personnel and contact information.
+- Data visualization sites that pull data from a separate API server (Federalist does not provide API servers)
+- A single page with information about a recently released report that may receive a lot of traffic.
 
 Here are a few examples of Federalist websites in production:
 
 ![College Scorecard]({{site.baseurl}}/uploads/college-scorecard.png)
 **[The College Scorecard](https://collegescorecard.ed.gov/)**
-
 
 ![SBST.gov]({{site.baseurl}}/uploads/sbst.png)
 **[The Social and Behavioral Sciences Team](https://sbst.gov/)**
