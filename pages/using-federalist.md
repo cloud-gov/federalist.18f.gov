@@ -4,9 +4,9 @@ title: Using Federalist
 
 ### Adding a new site
 
-After logging into Federalist, you will see a list of your sites and a button to add a new site. When adding a new site, you will see a list of available templates. Select "use this template" under a template to use it as a basis for your new website.
+Federalist shows you a list of your existing sites along with a button to add a new site. When you add a new site, Federalist offers you a list of available templates. Select "use this template" under a template to use it on your new website.
 
-After selecting a template, your new site will be available in the list. You may need to refresh the page for the site to be visible in the list and for the "view site" link to be available after the site completes building.
+After you pick a template, your new site will be built and added to your list of websites. If you don't see a new "view site" link in your list of websites, refresh the page. Sometimes there is a slight delay as your website finishes building.
 
 ## Federalist templates
 
@@ -25,26 +25,23 @@ Additionally, Federalist will build any Jekyll-based website, supporting [custom
 
 ## Editing content
 
-The Federalist web editor provides a simplified tool for editing your website content. After opening a site in the editor, you will see a list of pages in your site. Pages are nested to reflect the menu hierarchy of your site. Select any page to edit its content.
+The Federalist web editor is a simplified tool for editing your website content directly from your web browser. After opening a site in the editor, you will see all of the files that make up your website. The `pages` folder holds the content that people visiting your website will see. You can select any page in this folder to edit its content.
 
+The rich text editor gives you a toolbar for formatting options including links, lists, and header styles. Enter text in the main field. Highlight text and select a formatting option to apply it. The arrow buttons undo and redo changes. Your site should be drafted using links like this: `[Our Work]({{site.baseurl}}/work/)`. The "site.baseurl" framing allows multiple versions of the links to be built on preview copies of the site without interfering with the live site.
 
-### Main body content
-
-Edit main body content of a page using the rich text editor. This editor provides a toolbar for formatting options including links, lists, and header styles. Enter text in the main field. Highlight text and select a formatting option to apply it. The arrow buttons undo and redo changes. Your site should be drafted using links like this: `[Our Work]({{site.baseurl}}/work/)`. The "site.baseurl" framing allows multiple versions of the links to be built on preview copies of the site without interfering with the live site.
-
-The editor supports uploading images and referencing those that were uploaded previously. The image button opens a browser of past images. Selecting one adds it to the page's content.
+You can use the editor to uploaded new images and insert images that you've already uploaded. The image button opens a browser of past images. Selecting one adds it to the page's content.
 
 
 ### Page settings
 
-Page settings include additional elements of a page's design, including its title, layout, and permalink — the relative URL for the page. Additional settings may be available depending on the template. For instance, the "Modern homepage" template includes an optional `image` setting for the URL to a feature image that appears at the top of the page.
+Page settings give you control of additional elements of a page's design, including its title, layout, and permalink — the relative URL for the page. Some templates have unique settings that show up here as well. For instance, the "Modern homepage" template includes an optional `image` setting for the URL to a feature image that appears at the top of the page.
 
 
 ### Saving changes
 
 The save button will store any changes you made to content or settings on a page. There is an optional field to enter a log message describing your changes. This log message is useful for reviewing the history of changes to a page.
 
-Once you save a page, Federalist will rebuild your site with the new changes. This process may take some time, depending on your site template. By returning to the site listing page, you may view the latest version of your site or check the log to see the status of recent builds.
+When you save a page, Federalist will automatically rebuild your site to publish the new changes to the internet. This process may take some time, depending on your site template. By returning to the site listing page, you may view the latest version of your site or check the log to see the status of recent builds.
 
 If you save a page as a draft, Federalist will provide a button to view the draft page. For those making edits directly in GitHub, the drafts are available for preview (with Federalist login) at `https://federalist.18f.gov/preview/:owner/:repo/:branch/`.
 
@@ -59,7 +56,7 @@ The Federalist team also provides a [content guide specifically for Federalist w
 
 ## Managing site settings
 
-The settings option for a site lets you adjust how Federalist handles the site. These settings are generally for advanced functionality and most users will not need to change them.
+The settings option for a site lets you adjust how Federalist handles the site. These settings are for advanced functionality and most people will not need to change them.
 
 - **Default branch** This is the branch of the site's repository that is built and hosted as the production version of the site. Other branches are considered drafts. Changing this value will rebuild the site using a different branch.
 
