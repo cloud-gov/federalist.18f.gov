@@ -12,7 +12,7 @@ After you pick a template, your new site will be built and added to your list of
 
 Federalist provides templates for common websites. Here are the templates currently available:
 
-#### Modern organization home page based on the US Web Design Standards
+#### Modern organization home page based on the Draft US Web Design Standards
 ![US Web Design Standards template](https://federalist.18f.gov/images/team.thumb.png)
 
 #### Simple website for content-focused microsites
@@ -27,14 +27,16 @@ Additionally, Federalist will build any Jekyll-based website, supporting [custom
 
 The Federalist web editor is a simplified tool for editing your website content directly from your web browser. After opening a site in the editor, you will see all of the files that make up your website. The `pages` folder holds the content that people visiting your website will see. You can select any page in this folder to edit its content.
 
-The rich text editor gives you a toolbar for formatting options including links, lists, and header styles. Enter text in the main field. Highlight text and select a formatting option to apply it. The arrow buttons undo and redo changes. Your site should be drafted using links like this: `[Our Work]({{site.baseurl}}/work/)`. The "site.baseurl" framing allows multiple versions of the links to be built on preview copies of the site without interfering with the live site.
+The rich text editor gives you a toolbar for formatting options including links, lists, and header styles.
 
-You can use the editor to uploaded new images and insert images that you've already uploaded. The image button opens a browser of past images. Selecting one adds it to the page's content.
+Your site should be drafted using links like this: `[Our Work]({{site.baseurl}}/work/)`. The "site.baseurl" framing allows multiple versions of the links to be built on preview copies of the site without interfering with the live site.  Enter text in the main field. Highlight text and select a formatting option to apply it. The arrow buttons undo and redo changes. 
+
+You can use the editor to uploaded new images and insert images that you've already uploaded. The image button opens a browser of past images. Selecting one adds it to the page's content. Please note that image support is not as robust as in a full CMS.
 
 
 ### Page settings
 
-Page settings give you control of additional elements of a page's design, including its title, layout, and permalink — the relative URL for the page. Some templates have unique settings that show up here as well. For instance, the "Modern homepage" template includes an optional `image` setting for the URL to a feature image that appears at the top of the page.
+Page settings give you control of additional elements of a page's design, including its title, layout, and URL (for example, you might set the URL to /about/ in order for the page to be accessible at www.xyz.gov/about). Some templates have unique settings that show up here as well. For instance, the "modern homepage" template allows you to set a feature image for some pages within page settings.
 
 
 ### Saving changes
