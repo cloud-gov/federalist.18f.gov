@@ -67,6 +67,10 @@ navigation:
 - text: How Federalist Works
   url: pages/how-federalist-works/
   internal: true
+  children:
+  - text: How Custom URLs work
+    url: custom-urls/
+    internal: true
 
 repos:
 - name: Federalist
