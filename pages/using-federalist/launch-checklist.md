@@ -11,4 +11,4 @@ We've worked to make launching a live site on Federalist as simple as possible. 
 2. Verify that your agency accepts the risk of using Federalist.
 3. Build your site and verify that the site is ready for launch.
 4. Initiate setup of your custom URL within your agency and with the Federalist team. Federalist will set up support for your URL and provide a subdomain to which your technical staff will delegate their DNS.
-5. Alter your site's settings in the Federalist web interface to have Federalist drop your site's assets at the correct URL during build.
+5. Alter your site's settings in the Federalist web interface to have Federalist manage your site's assets correctly during build.
