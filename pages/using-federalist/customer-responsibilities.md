@@ -3,7 +3,7 @@ title: Customer Responsibilities
 parent: Using Federalist
 ---
 
-## Your Responsiibilities when using Federalist
+## Your Responsibilities when using Federalist
 
 Using Federalist places certain responsibilities on you as the governmnet user of Federalist. GSA has many internal sites running on Federalist, but GSA cannot guarantee that Federalist is compatable with your agency's specific policies. 
 
@@ -13,7 +13,7 @@ Federalist retains other responsibilities, clarified below. The intent of these 
 
 Federalist is a service that leverages GitHub repositories for publishing. Federalist elimates redundancy by allowing GitHub users with editing access to a repository to configure the site on Federalist.
 
-GitHub is used across the government (see [this dashboard](http://gsa.github.io/github-federal-stats/) from our partners in GSA's Office of Government-wide Policy), and a majority of cabinent agencies have Github presence. However, GSA does not endorse Github and there are other ways to launch static sites if your agency is not prepared to use GitHub. At this time, no propsective Federalist customer has been deterred by integration with GitHub.
+GitHub is used across the government (see [this dashboard](https://gsa.github.io/github-federal-stats/) from our partners in GSA's Office of Government-wide Policy), and a majority of cabinent agencies have Github presence. However, GSA does not endorse Github and there are other ways to launch static sites if your agency is not prepared to use GitHub. At this time, no propsective Federalist customer has been deterred by integration with GitHub.
 
 #### You own your content
 
