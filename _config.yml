@@ -42,6 +42,9 @@ navigation:
   - text: Launch Checklist
     url: launch-checklist/
     internal: true
+  - text: Customer Responsibilities
+    url: customer-responsibilities/
+    internal: true
 - text: Content Guide
   url: pages/content-guide/
   internal: true
