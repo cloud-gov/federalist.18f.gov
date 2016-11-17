@@ -15,6 +15,9 @@ Federalist provides templates for common websites. Here are the templates curren
 #### Modern organization home page based on the Draft US Web Design Standards
 ![US Web Design Standards template](https://federalist.18f.gov/images/team.thumb.png)
 
+#### Landing Page for Information about a Released Report
+![Landing Page Template](https://federalist.18f.gov/images/landing.thumb.png)
+
 #### Simple website for content-focused microsites
 ![Microsite template](https://federalist.18f.gov/images/microsite.thumb.png)
 
