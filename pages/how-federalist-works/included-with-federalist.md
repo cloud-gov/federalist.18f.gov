@@ -7,7 +7,7 @@ We've gotten several questions about the value of purchasing Federalist. Here ar
 
 ### Included with Federalist
 
-* A automatic deployment mechanism for Jekyll sites or static web assets.
+* A automatic deployment mechanism for [Jekyll sites](https://jekyllrb.com/docs/home/) or static web assets.
 * Web-based configuration and a limited content editing tool.
 * Premade templates for your sites, in addition to the many sites you can copy in creating your site.
 * Easy onboarding or offboarding: Federalist can deploy content from existing GitHub repositories used with other tools. Your Federalist site will also be easy to port to another deployment mechanism if that's ever needed.
