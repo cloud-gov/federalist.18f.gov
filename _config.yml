@@ -74,6 +74,9 @@ navigation:
   - text: How Custom URLs work
     url: custom-urls/
     internal: true
+  - text: Included with Federalist
+    url: included-with-federalist/
+    internal: true
 
 repos:
 - name: Federalist
