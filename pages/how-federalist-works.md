@@ -6,21 +6,27 @@ title: How Federalist Works
 
 Federalist is a hosted service run by [18F](https://18f.gsa.gov/) for use by US federal government agencies. The software behind this service is open source and released to the public domain for anyone to use. We also welcome your contributions.
 
-We use GitHub to manage our work on Federalist. The main code repository for the Federalist website and API is at [https://github.com/18F/federalist](https://github.com/18F/federalist). In addition to hosting code, we use the issue queue on this repository to manage our development tasks and milestones. The wiki contains our internal documentation for how we develop and operate the service. If you're interested in getting involved with this project, please see the [contributing guide](https://github.com/18F/federalist/blob/master/CONTRIBUTING.md).
+We use GitHub to manage our work on Federalist. The main code repository for the Federalist is at [https://github.com/18F/federalist](https://github.com/18F/federalist). In addition to hosting code, we use the issue queue on this repository to manage our development tasks and milestones. If you're interested in getting involved with this project, please see the [contributing guide](https://github.com/18F/federalist/blob/master/CONTRIBUTING.md). Here is a specific description of each of Federalist's modular repositories:
 
-Other components of the Federalist service are available in separate repositories:
+### Functional Repositories
 
-- **[federalist-builder](https://github.com/18F/federalist-builder)** This application is used to launch build tasks for Federalist in an AWS ECS Docker container based on messages from an AWS SQS queue
-- **[federalist-docker-build](https://github.com/18F/federalist-docker-build)** A Docker image that runs Jekyll to build a site
-- **[docker-ruby-ubuntu](https://github.com/18F/docker-ruby-ubuntu)** A base image for Docker
-- **[federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template)** This is a Jekyll site. It is a simple site to showcase the work of an organization with a few different page types.
-- **[federalist-docs](https://github.com/18F/federalist-docs)** This documentation website
+- **[federalist](https://github.com/18F/federalist)** This is the core application for Federalist and contains the frontend interface as well as the code that interacts with the GitHub API and sets up new Federalist sites, including a Github webhook that triggers messages into the build queue through the app. It has two cloud.gov service instances (redis and rds) for session storage and persistent data storage of users, sites, and logs.
+- **[federalist-builder](https://github.com/18F/federalist-builder)** This application launches build tasks for Federalist in a Linux Garden container based on messages from a queue and contains scheduling logic.
+- **[federalist-registry](https://github.com/18F/federalist-registry)** This application hosts the federalist-docker-build image for the federalist-builder application to reference. It uses an [AWS storage driver](https://docs.docker.com/registry/storage-drivers/s3/).
+- **[federalist-docker-build](https://github.com/18F/federalist-docker-build)** Pulling from docker-ruby-ubuntu, this container image adds the dependencies and scripts for a Garden Linux container to build out a Federalist site. Note that while the repo is named with "Docker," Docker is not actually used by Federalist.
+- **[docker-ruby-ubuntu](https://github.com/18F/docker-ruby-ubuntu)** Container image specification to run in a Garden Linux container.
+
+### Templates and Documentation
+
+- **[federalist-docs](https://github.com/18F/federalist-docs)** This documentation website. It also contains content from the depreciated [federalist-content-guide](https://github.com/18F/federalist-content-guide) repo.
+- **[federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template)** A simple site to showcase the work of an organization with a few different page types.
+- **[federalist-landing-page-template](https://github.com/18F/federalist-landing-page-template)** A single page meant to host information about a new initiative or report.
 
 ## Upcoming Migration
 
 Federalist is currently migrating to [cloud.gov's new GovCloud environment](https://landing.apps.cloud.gov/docs/apps/govcloud/), which is currently [undergoing FedRAMP certification](https://marketplace.fedramp.gov/index.html#/product/18f-cloudgov). The core archtecture of Federalist is changing to accomodate this move, and this page will be updated with new diagrams and documentation when possible.
 
-This page reflects the existing production archtecture of Federalist.
+This page reflects the current production archtecture of Federalist.
 
 ## Technical architecture
 
