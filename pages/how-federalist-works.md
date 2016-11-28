@@ -26,9 +26,10 @@ We use GitHub to manage our work on Federalist. The main code repository for the
 
 Federalist is currently migrating to [cloud.gov's new GovCloud environment](https://landing.apps.cloud.gov/docs/apps/govcloud/), which is currently [undergoing FedRAMP certification](https://marketplace.fedramp.gov/index.html#/product/18f-cloudgov). The core archtecture of Federalist is changing to accomodate this move, and this page will be updated with new diagrams and documentation when possible.
 
-This page reflects the current production archtecture of Federalist.
+The new diagram for Federalist's architecture is here: [![Diagram of Federalist architecture]({{site.baseurl}}/uploads/Federalist System Diagram 11-28-16.png)]({{site.baseurl}}/uploads/Federalist System Diagram 11-28-16.png)
 
-## Technical architecture
+
+## Current Technical Architecture
 
 [![Diagram of Federalist architecture, described in the following text]({{site.baseurl}}/uploads/federalist-architecture-small.png)]({{site.baseurl}}/uploads/federalist-system-architecture.pdf)
 *[Download full diagram (PDF)]({{site.baseurl}}/uploads/federalist-system-architecture.pdf)*
