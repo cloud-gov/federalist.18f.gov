@@ -281,10 +281,38 @@ DEPLOY_USER_USERNAME: <THE USERNAME OF THE FEDERALIST DEPLOY USER>
 DEPLOY_USER_PASSWORD: <THE PASSWORD OF THE FEDERALIST DEPLOY USER>
 ```
 
-The user provided services can be created with [Cloud Foundry CLI](https://docs.cloudfoundry.org/devguide/services/user-provided.html#create).
+The user provided services can be created with the [Cloud Foundry CLI](https://docs.cloudfoundry.org/devguide/services/user-provided.html#create).
 
 Once the user provided services are created deploying is a simple as running `cf push`.
 
 ## Deploying federalist
 
-TODO: Describe how to deploy federalist core
+Note: federalist-build is built to be [deployed from TravisCI](https://docs.travis-ci.com/user/deployment). The instructions for manually deploying federalist are described below and are necessary for the initial deploy, but subsequent deploys should happen on Travis.
+
+The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) or [staging_manifest.yml](https://github.com/18F/federalist-builder/blob/master/staging_manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
+
+The manifest specifies the following services which are provided by cloud.gov by cloud.gov service brokers:
+
+- `federalist-production-rds` / `federalist-staging-rds`
+- `federalist-production-rds` / `federalist-staging-redis`
+- `federalist-production-rds` / `federalist-staging-s3`
+
+In additional, there's a user provided service named `federalist-production-env` or `federalist-staging-env` depending on the environment. This user provided service should be created with the following values:
+
+```yaml
+FEDERALIST_AWS_BUILD_KEY: <THE AWS ACCESS KEY FOR THE SQS QUEUE>
+FEDERALIST_AWS_BUILD_SECRET: <THE AWS SECRET KEY FOR THE SQS QUEUE>
+FEDERALIST_BUILD_CALLBACK: <CALLBACK URL FOR WHEN BUILDS ARE COMPLETE>
+FEDERALIST_BUILD_TOKEN: <SECRET FOR AUTHENTICATING BUILD CALLBACK>
+FEDERALIST_SESSION_SECRET": <SECRET FOR THE SAILS SESSION STORE>
+FEDERALIST_SQS_QUEUE: <URL FOR SQS QUEUE>
+GITHUB_CLIENT_CALLBACK_URL: <OAUTH CALLBACK URL FOR GITHUB AUTH>
+GITHUB_CLIENT_ID: <CLIENT ID FOR GITHUB AUTH>
+GITHUB_CLIENT_SECRET" <CLIENT SECRET FOR GITHUB AUTH>
+GITHUB_WEBHOOK_SECRET: <SECRET FOR SIGNING GITHUB WEBHOOKS>
+GITHUB_WEBHOOK_URL: <URL FOR GITHUB WEBHOOKS TO CALLBACK TO>
+```
+
+The user provided service can be created with the [Cloud Foundry CLI](https://docs.cloudfoundry.org/devguide/services/user-provided.html#create).
+
+Once the user provided services are created deploying is a simple as running `cf push`.
