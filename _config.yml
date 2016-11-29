@@ -77,6 +77,9 @@ navigation:
   - text: Included with Federalist
     url: included-with-federalist/
     internal: true
+  - text: Running Federalist locally
+    url: running-federalist-locally/
+    internal: true
 
 repos:
 - name: Federalist
