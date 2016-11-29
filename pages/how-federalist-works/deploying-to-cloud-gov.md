@@ -7,7 +7,7 @@ parent: How Federalist Works
 
 Federalist is built to be deployed to the [GovCloud](https://cloud.gov/docs/apps/govcloud/) region in [cloud.gov](https://cloud.gov/docs/). This guide is targeted at anyone who wishes to deploy the entire Federalist system to cloud.gov from the ground up, or anyone who wishes to get a better grasp of how the system is architected by looking at how it is deployed.
 
-Before reading this guide, it may be helpful to refer to [How Federalist Works](http://localhost:4000/pages/how-federalist-works/) to understand what components make up the Federalist architecture and how they are interrelated.
+Before reading this guide, it may be helpful to refer to [How Federalist Works]({{site.baseurl}}/pages/how-federalist-works/) to understand what components make up the Federalist architecture and how they are interrelated.
 
 A Federalist deploy comprises of the following steps:
 
@@ -31,7 +31,7 @@ cf push federalist-registry -o library/registry:2
 The registry needs an S3 bucket in which to store images. To this end a S3 service can be created:
 
 ```shell
-cf create-service s3 basic federalist-registry-s3
+cf create-service s3 basic federalist-registry-production-s3
 ```
 
 After the registry and the S3 bucket are both up and running the registry's environment will need to be configured such that the registry uses the S3 bucket as a storage backend and is in read-only mode. This can be done by setting the registry [environment](https://docs.cloudfoundry.org/devguide/deploy-apps/environment-variable.html) as such:
@@ -203,7 +203,7 @@ Federalist's "build containers" are cloud.gov apps running with the `federalist-
 To push the app use `cf push`:
 
 ```shell
-cf push federalist-docker-build-staging-1 --no-route -u none -o "federalist-registry.fr.cloud.gov/federalist-docker-build"
+cf push federalist-docker-build-1 --no-route -u none -o "federalist-registry.fr.cloud.gov/federalist-docker-build"
 ```
 
 The first time the app is pushed it may fail to start. That is okay. The app cannot stand on its own without an environment provided by federalist / federalist-builder. It will be restarted with a valid environment when federalist-builder schedules a build on it.
@@ -216,10 +216,48 @@ The next pieces of Federalist that need to be deployed will depend on certain AW
 
 - An RDS instance for the database
 - A Redis instance for the session store
+- An S3 bucket for storing the sites' files
 - An SQS queue for build messages
-- A CloudFront distribution to serve as a CDN and provide support custom URLs.
 
-TODO: Describe how to provision each resource
+[How Federalist Works]({{site.baseurl}}/pages/how-federalist-works/) contains the details about how each of these should be configured.
+
+### Provisioning an RDS instance
+
+The RDS instance can be provisioned with cloud.gov's RDS service broker and doesn't need any special configuration:
+
+```shell
+cf create-service aws-rds shared-psql federalist-production-rds
+```
+
+### Provisioning a Redis instance
+
+The Redis instance can be provisioned with cloud.gov's Redis service broker and doesn't need any special configuration:
+
+```shell
+cf create-service redis28 standard federalist-production-redis
+```
+
+### Provisioning an S3 Bucket
+
+The S3 bucket can be provisioned with cloud.gov's S3 service broker and requires some additional configuration:
+
+```
+cf create-service s3 basic-public federalist-production-s3
+```
+
+Configuration of the S3 bucket is done with the [AWS CLI tool](https://aws.amazon.com/cli/).
+
+Once the bucket is created CORS will need to be [enabled and configured to only serve GET requests that come from the main Federalist app's domain](https://cloud.gov/docs/services/s3/#allowing-web-access-from-external-applications).
+
+Next, the AWS CLI will need to be used to enable static website hosting in the bucket:
+
+```shell
+aws s3 website s3://${BUCKET_NAME}/site --index-document index.html
+```
+
+### Provisioning an SQS queue
+
+At this time cloud.gov does not have an SQS service broker. The SQS queue will need to be configured elsewhere.
 
 ## Deploying federalist-builder
 
