@@ -198,7 +198,17 @@ docker inspect federalist-registry.fr.cloud.gov/federalist-docker-build
 
 ## Deploying build containers
 
-TODO: Describe how to deploy a build container
+Federalist's "build containers" are cloud.gov apps running with the `federalist-docker-build` image. The app needs to run without a healthcheck since it is not fitted to respond to HTTP requests.
+
+To push the app use `cf push`:
+
+```shell
+cf push federalist-docker-build-staging-1 --no-route -u none -o "federalist-registry.fr.cloud.gov/federalist-docker-build"
+```
+
+The first time the app is pushed it may fail to start. That is okay. The app cannot stand on its own without an environment provided by federalist / federalist-builder. It will be restarted with a valid environment when federalist-builder schedules a build on it.
+
+Note that it is possible to push multiple build containers, as long as they have unique names.
 
 ## Provisioning AWS resources
 
