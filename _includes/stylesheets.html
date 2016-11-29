@@ -1,0 +1,6 @@
+  <!-- site CSS -->
+{% for sheet in site.stylesheets %}
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ sheet.href | default: sheet }}"{% if sheet.media %} media="{{ sheet.media }}"{% endif %}>{% endfor %}
+  <!-- page CSS -->
+{% for sheet in page.stylesheets %}
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ sheet.href | default: sheet }}"{% if sheet.media %} media="{{ sheet.media }}"{% endif %}>{% endfor %}
