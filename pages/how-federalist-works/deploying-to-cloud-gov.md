@@ -261,7 +261,29 @@ At this time cloud.gov does not have an SQS service broker. The SQS queue will n
 
 ## Deploying federalist-builder
 
-TODO: Describe how to deploy federalist-builder
+Note: federalist-builder is built to be [deployed from TravisCI](https://docs.travis-ci.com/user/deployment). The instructions for manually deploying federalist-builder are described below and are necessary for the initial deploy, but subsequent deploys should happen on Travis.
+
+The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
+
+federalist-builder has 2 user provided services that must be created before deploying in order for the app to work.
+
+The first is `federalist-ew-sqs-user` which has the following values:
+
+```yaml
+access_key: <AWS ACCESS KEY FOR SQS QUEUE>
+secret_key: <AWS SECRET KEY FOR SQS QUEUE>
+```
+
+The second is `federalist-deploy-user` which has the following values:
+
+```yaml
+DEPLOY_USER_USERNAME: <THE USERNAME OF THE FEDERALIST DEPLOY USER>
+DEPLOY_USER_PASSWORD: <THE PASSWORD OF THE FEDERALIST DEPLOY USER>
+```
+
+The user provided services can be created with [Cloud Foundry CLI](https://docs.cloudfoundry.org/devguide/services/user-provided.html#create).
+
+Once the user provided services are created deploying is a simple as running `cf push`.
 
 ## Deploying federalist
 
