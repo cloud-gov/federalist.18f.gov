@@ -1,4 +1,4 @@
-/*! uswds v0.13.2 */
+/*! uswds v0.13.3-pre */
 html {
   box-sizing: border-box;
 }
@@ -790,12 +790,12 @@ button,
   appearance: none;
   background-color: #0071bc;
   border: 0;
-  border-radius: 0.1875rem;
+  border-radius: 0.3rem;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
   font-weight: 700;
   line-height: 1;
   outline: none;
@@ -1260,8 +1260,8 @@ select {
   box-sizing: border-box;
   color: #212121;
   display: block;
-  font-size: 1.0625rem;
-  height: 3.5rem;
+  font-size: 1.7rem;
+  height: 4.4rem;
   line-height: 1.3;
   margin: 0.2em 0;
   max-width: 46rem;
@@ -1316,14 +1316,14 @@ select.usa-input-success {
 
 .usa-input-error-label {
   display: block;
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 
 .usa-input-error-message {
   color: #cd2026;
   display: block;
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
   font-weight: 700;
   padding-bottom: 3px;
   padding-top: 3px;
@@ -1352,7 +1352,7 @@ select {
 }
 
 legend {
-  font-size: 1.875rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -1392,7 +1392,7 @@ legend {
 [type="checkbox"] + label::before,
 [type="radio"] + label::before {
   background: #ffffff;
-  border-radius: 0.1875rem;
+  border-radius: 0.3rem;
   box-shadow: 0 0 0 1px #757575;
   content: '\a0';
   display: inline-block;
@@ -1567,9 +1567,9 @@ legend {
 
 .usa-label, .usa-label-big {
   background-color: #0071bc;
-  border-radius: 0.1875rem;
+  border-radius: 0.3rem;
   color: #ffffff;
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
   margin-right: 0.5rem;
   padding: 0.1rem 0.7rem;
   text-transform: uppercase;
@@ -1580,7 +1580,7 @@ legend {
 }
 
 .usa-label-big {
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
   padding-left: 0.9rem;
   padding-right: 0.9rem;
 }
@@ -1671,11 +1671,11 @@ table td {
 
 html {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 10px;
 }
 
 body {
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
 }
 
 p {
@@ -1750,33 +1750,33 @@ h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 1.875rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 h4 {
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 
 h5 {
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 h6 {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 0.8125rem;
+  font-size: 1.3rem;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -1816,28 +1816,28 @@ dfn {
 }
 
 .usa-display {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 481px) {
   .usa-display {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
   }
 }
 
 @media screen and (min-width: 600px) {
   .usa-display {
-    font-size: 3.25rem;
+    font-size: 5.2rem;
     font-weight: 700;
   }
 }
 
 .usa-font-lead {
   font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: 1.7;
   max-width: 77rem;
 }
@@ -1880,7 +1880,7 @@ dfn {
 }
 
 .usa-text-small {
-  font-size: 0.8125rem;
+  font-size: 1.3rem;
   margin-top: 0;
 }
 
@@ -2244,7 +2244,7 @@ dfn {
 
 @media screen and (min-width: 481px) {
   .usa-banner {
-    font-size: 0.8125rem;
+    font-size: 1.3rem;
     padding-bottom: 0;
   }
 }
@@ -2254,7 +2254,7 @@ dfn {
   padding-bottom: 3px;
   padding-left: 1.5rem;
   background-color: transparent;
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
   padding-top: 2rem;
   width: 100%;
 }
@@ -2357,7 +2357,7 @@ dfn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
   min-height: 5.6rem;
   padding-right: 3rem;
 }
@@ -2636,6 +2636,7 @@ dfn {
   .usa-footer-medium .usa-footer-nav ul {
     -webkit-box-align: center;
     -ms-flex-align: center;
+    -ms-grid-row-align: center;
     align-items: center;
   }
 }
@@ -2669,6 +2670,7 @@ dfn {
   .usa-footer-slim .usa-footer-primary-section .usa-grid-full {
     -webkit-box-align: center;
     -ms-flex-align: center;
+    -ms-grid-row-align: center;
     align-items: center;
   }
 }
@@ -2988,7 +2990,7 @@ form [name="confirmPassword"] {
 .usa-form-note {
   float: right;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
   margin: 0 0 1.5rem;
 }
 
@@ -3175,7 +3177,7 @@ fieldset {
 }
 
 .usa-hero-callout .usa-button {
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   margin-top: 7rem;
   width: 100%;
 }
@@ -3297,7 +3299,7 @@ fieldset {
 .usa-sidenav-list > li {
   background-color: transparent;
   border-top: 1px solid #5b616b;
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
 }
 
 .usa-sidenav-list > li:first-child {
@@ -3347,7 +3349,7 @@ fieldset {
 
 .usa-sidenav-sub_list li {
   border: none;
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
 }
 
 .usa-sidenav-sub_list a {
@@ -3438,7 +3440,7 @@ fieldset {
 
 .usa-logo-text {
   display: block;
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   margin: 0;
@@ -3466,7 +3468,7 @@ fieldset {
   color: #ffffff;
   display: inline;
   float: right;
-  font-size: 0.8125rem;
+  font-size: 1.3rem;
   height: 4rem;
   line-height: 4rem;
   text-align: center;
@@ -3637,7 +3639,7 @@ fieldset {
 .usa-nav-primary > li {
   background-color: transparent;
   border-top: 1px solid #5b616b;
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
 }
 
 .usa-nav-primary > li:first-child {
@@ -3699,7 +3701,7 @@ fieldset {
   .usa-nav-primary > li > a {
     padding: 1.3rem 1.5rem 1.7rem;
     color: #5b616b;
-    font-size: 0.9375rem;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.2;
   }
@@ -3737,7 +3739,7 @@ fieldset {
     padding-bottom: 1.9rem;
     padding-left: 1.5rem;
     color: #5b616b;
-    font-size: 0.9375rem;
+    font-size: 1.5rem;
     font-weight: 700;
     width: initial;
   }
@@ -3956,7 +3958,7 @@ fieldset {
 .usa-nav-secondary-links .usa-header-search-button {
   color: #5b616b;
   display: inline-block;
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
@@ -4015,7 +4017,7 @@ fieldset {
 
 .usa-nav-submenu li {
   border: none;
-  font-size: 0.9375rem;
+  font-size: 1.5rem;
 }
 
 .usa-nav-submenu a {
@@ -4240,7 +4242,7 @@ fieldset {
   border-top-right-radius: 0;
   box-sizing: border-box;
   float: left;
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   height: 3.3rem;
   margin: 0;
   width: calc(100% - 4.5rem);
@@ -4288,13 +4290,13 @@ fieldset {
 @media screen and (min-width: 481px) {
   .usa-search.usa-search-big [type="search"],
   .usa-search.usa-search-big .usa-search-input {
-    font-size: 1.0625rem;
+    font-size: 1.7rem;
     height: 4.4rem;
     width: calc(100% - 11.6rem);
   }
   .usa-search.usa-search-big [type="submit"],
   .usa-search.usa-search-big .usa-search-submit {
-    font-size: 1.25rem;
+    font-size: 2rem;
     height: 4.4rem;
     width: 11.6rem;
   }
@@ -4312,6 +4314,13 @@ fieldset {
     background-position: 50%;
     background-repeat: no-repeat;
     width: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .usa-search.usa-search-small.usa-sr-only {
+    left: auto;
+    position: relative;
   }
 }
 
