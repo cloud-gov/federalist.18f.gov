@@ -34,49 +34,49 @@ logoalt: Federalist logo
 # List links that should appear in the site sidebar here
 navigation:
 - text: About Federalist
-  url: index.html
+  url: /
   internal: true
 - text: Using Federalist
-  url: pages/using-federalist/
+  url: /pages/using-federalist/
   internal: true
   children:
   - text: Launch Checklist
-    url: launch-checklist/
+    url: /pages/using-federalist/launch-checklist/
     internal: true
   - text: Customer Responsibilities
-    url: customer-responsibilities/
+    url: /pages/using-federalist/customer-responsibilities/
     internal: true
 - text: Content Guide
-  url: pages/content-guide/
+  url: /pages/content-guide/
   internal: true
   children:
   - text: Writing content for your homepage
-    url: writing-content-for-your-federalist-homepage/
+    url: /pages/content-guide/writing-content-for-your-federalist-homepage/
     internal: true
   - text: Writing about your team
-    url: best-practices-for-writing-who-we-are/
+    url: /pages/content-guide/best-practices-for-writing-who-we-are/
     internal: true
   - text: Writing about your research
-    url: best-practices-for-writing-what-we-do/
+    url: /pages/content-guide/best-practices-for-writing-what-we-do/
     internal: true
   - text: Writing clear contact forms
-    url: contact-forms/
+    url: /pages/content-guide/contact-forms/
     internal: true
   - text: Best practices for content
-    url: best-practices-for-content/
+    url: /pages/content-guide/best-practices-for-content/
     internal: true
 - text: Custom Templates
-  url: pages/custom-templates/
+  url: /pages/custom-templates/
   internal: true
 - text: How Federalist Works
-  url: pages/how-federalist-works/
+  url: /pages/how-federalist-works/
   internal: true
   children:
   - text: How Custom URLs work
-    url: custom-urls/
+    url: /pages/how-federalist-works/custom-urls/
     internal: true
   - text: Included with Federalist
-    url: included-with-federalist/
+    url: /pages/how-federalist-works/included-with-federalist/
     internal: true
   - text: Node on Federalist
     url: node-on-federalist/
@@ -88,7 +88,7 @@ navigation:
     url: cloud-gov-setup/
     internal: true
   - text: Running Federalist locally
-    url: running-federalist-locally/
+    url: /pages/how-federalist-works/running-federalist-locally/
     internal: true
 
 repos:
