@@ -1,0 +1,13 @@
+---
+# The site navigation is stored in a separate YAML file from the site
+# configuration so that you can see changes on the Jekyll server
+# without having to restart it.
+
+primary:
+  sections:
+    - title: '&laquo; Back to Federalist'
+      href: https://federalist.18f.gov
+
+secondary:
+  search: false
+  links: []
