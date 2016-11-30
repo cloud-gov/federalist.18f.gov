@@ -1,44 +1,11 @@
-GIT
-  remote: https://github.com/18F/guides-style.git
-  revision: 78dbdde247ccc7d7fb3862fd6a370db64776a20a
-  branch: uswds
-  specs:
-    guides_style_18f (0.1.6)
-      jekyll
-      rouge
-      sass
-      us_web_design_standards
-
 GEM
   remote: https://rubygems.org/
   specs:
-    actionpack (4.2.5)
-      actionview (= 4.2.5)
-      activesupport (= 4.2.5)
-      rack (~> 1.6)
-      rack-test (~> 0.6.2)
-      rails-dom-testing (~> 1.0, >= 1.0.5)
-      rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    actionview (4.2.5)
-      activesupport (= 4.2.5)
-      builder (~> 3.1)
-      erubis (~> 2.7.0)
-      rails-dom-testing (~> 1.0, >= 1.0.5)
-      rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    activesupport (4.2.5)
-      i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
-      minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
-      tzinfo (~> 1.1)
-    builder (3.2.2)
     colorator (0.1)
-    erubis (2.7.0)
     ffi (1.9.10)
     go_script (0.1.5)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    i18n (0.7.0)
     jekyll (3.0.1)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -52,36 +19,12 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.3.0)
       listen (~> 3.0)
-    json (1.8.3)
     kramdown (1.9.0)
     liquid (3.0.6)
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    loofah (2.0.3)
-      nokogiri (>= 1.5.9)
     mercenary (0.3.5)
-    mini_portile2 (2.0.0)
-    minitest (5.8.3)
-    nokogiri (1.6.7.1)
-      mini_portile2 (~> 2.0.0.rc2)
-    rack (1.6.4)
-    rack-test (0.6.3)
-      rack (>= 1.0)
-    rails-deprecated_sanitizer (1.0.3)
-      activesupport (>= 4.2.0.alpha)
-    rails-dom-testing (1.0.7)
-      activesupport (>= 4.2.0.beta, < 5.0)
-      nokogiri (~> 1.6.0)
-      rails-deprecated_sanitizer (>= 1.0.1)
-    rails-html-sanitizer (1.0.2)
-      loofah (~> 2.0)
-    railties (4.2.5)
-      actionpack (= 4.2.5)
-      activesupport (= 4.2.5)
-      rake (>= 0.8.7)
-      thor (>= 0.18.1, < 2.0)
-    rake (10.4.2)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -89,23 +32,15 @@ GEM
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.20)
-    thor (0.19.1)
-    thread_safe (0.3.5)
-    tzinfo (1.2.2)
-      thread_safe (~> 0.1)
-    us_web_design_standards (0.0.2)
-      railties
-      sass (~> 3.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   go_script
-  guides_style_18f!
   jekyll
   redcarpet
   rouge
 
 BUNDLED WITH
-   1.10.6
+   1.12.5
