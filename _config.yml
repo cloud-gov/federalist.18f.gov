@@ -8,8 +8,6 @@ exclude:
 - README.md
 - go
 - vendor
-include:
-  - _navigation.json
 
 permalink: pretty
 highlighter: rouge
