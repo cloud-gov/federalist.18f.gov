@@ -8,6 +8,7 @@
     <button class="usa-menu-btn">Menu</button>
     <div class="usa-logo" id="logo">
       <em class="usa-logo-text">
+        {% if site.logourl %}<img src="{{ site.baseurl }}{{ site.logourl }}" alt="{{ site.logoalt }}" width="40">{% endif %}
         <a href="#" accesskey="1" title="Home" aria-label="Home">{{ site.name }}</a>
       </em>
     </div>
