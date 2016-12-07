@@ -77,6 +77,12 @@ navigation:
   - text: Included with Federalist
     url: included-with-federalist/
     internal: true
+  - text: Deploying Federalist
+    url: deploying-federalist/
+    internal: true
+  - text: cloud.gov Setup
+    url: cloud-gov-setup/
+    internal: true
   - text: Running Federalist locally
     url: running-federalist-locally/
     internal: true
