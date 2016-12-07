@@ -3,9 +3,9 @@ permalink: /
 title: About Federalist
 ---
 
-Federalist is a compliant [open source](https://github.com/18F/federalist) web publishing platform for the United States federal government. It provides templates for websites, an online editor for maintaining content, cloud-based infrastructure for high-scale hosting, among [other features]({{site.baseurl}}/pages/included-with-federalist/).
+Federalist is a compliant [open source](https://github.com/18F/federalist) web publishing service for the United States federal government. It provides templates for websites, an online editor for maintaining content, and access to cloud-based infrastructure for high-scale hosting, among [other features]({{site.baseurl}}/pages/included-with-federalist/).
 
-The team at [18F](https://18f.gsa.gov/) builds and maintains it as a hosted service available to federal government agencies.
+The team at [18F](https://18f.gsa.gov/) builds and maintains it as a service available to federal government agencies. We also use Federalist to host many of our own websites.
 
 Federalist is currently under active development. We are working with a select list of partners to test the platform and launch new websites.
 
