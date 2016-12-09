@@ -97,12 +97,14 @@ services:
   postgres:
     container_name: clair_postgres
     image: postgres:latest
+    restart: unless-stopped
     environment:
       POSTGRES_PASSWORD: password
 
   clair:
     container_name: clair_clair
     image: quay.io/coreos/clair
+    restart: unless-stopped
     environment:
       - "TMPDIR=/tmp"
     depends_on:
