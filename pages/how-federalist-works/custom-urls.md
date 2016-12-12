@@ -11,6 +11,7 @@ Without explicit configuation, Federalist deploys sites to an S3 bucket such as 
 
 To get the URLs and HTTPS to work for your production site, there are a few steps:
 
+ - Confirm you are ready for your site to go-live.
  - The Federalist team uses the cloud.gov CloudFront broker to set up a distribution for a given URL.
   - If a cloud.gov customer (not required to use Federalist), you do this by navigating to your org/space and doing this command `cf create-service cdn-route cdn-route YOUR.URL.gov-route -c '{"domain": "YOUR.URL.gov", "origin": "bucketname.s3-website-us-gov-west-1.amazonaws.com", "path": "/site/org/repo-name", "insecure_origin": true}'`
  - You, our partner, set your DNS records to delegate the subdomain to a CloudFront distribution such as d2oezh1w8w4o1u.cloudfront.net provided by the route command above with a CNAME.
