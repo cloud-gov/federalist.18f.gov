@@ -77,6 +77,9 @@ navigation:
   - text: Included with Federalist
     url: included-with-federalist/
     internal: true
+  - text: Node on Federalist
+    url: node-on-federalist/
+    internal: true
   - text: Deploying Federalist
     url: deploying-federalist/
     internal: true
