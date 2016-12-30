@@ -77,13 +77,13 @@ navigation:
     url: /pages/how-federalist-works/included-with-federalist/
     internal: true
   - text: Node on Federalist
-    url: node-on-federalist/
+    url: /pages/how-federalist-works/node-on-federalist/
     internal: true
   - text: Deploying Federalist
-    url: deploying-federalist/
+    url: /pages/how-federalist-works/deploying-federalist/
     internal: true
   - text: cloud.gov Setup
-    url: cloud-gov-setup/
+    url: /pages/how-federalist-works/cloud-gov-setup/
     internal: true
   - text: Running Federalist locally
     url: /pages/how-federalist-works/running-federalist-locally/
