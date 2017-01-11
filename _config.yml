@@ -24,9 +24,10 @@ author:
   name: 18F - Federalist
   url: https://federalist.18f.gov
 
-# Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /uploads/logo.svg
-logoalt: Federalist logo
+# Point the logo URL at a file in your repo or hosted elsewhere by your
+# organization
+logo:
+  url: /uploads/logo.svg
 
 # Navigation
 # List links that should appear in the site sidebar here
