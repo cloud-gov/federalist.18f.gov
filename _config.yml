@@ -108,6 +108,7 @@ defaults:
 
 stylesheets:
 - /assets/uswds/css/uswds.css
+- /assets/css/uswds-overrides.css
 
 scripts:
 - /assets/uswds/js/uswds.js
