@@ -29,15 +29,10 @@ Federalist's site management processes do prevent any mistakes by one Federalist
 
 ## Federalist's Responsibilities
 
-#### We provide an editing tool that makes editing content easy
-
-Federalist provides a web tool that can be used to edit Markdown files, which are the "building blocks" for our static websites. Even if you are not technical, editing your content and pushing it live will be simple and safe.
-
 #### We control access to the core Federalist codebase.
 
-Access to the Federalist editor or configuration tools for your specific content does not grant you access to Federalist's "backend." No one can access Federalist's management tools in cloud.gov without FedRAMP-approved two factor authentication.
+Access to Federalist's configuration tools for your specific content does not grant you access to Federalist's "backend." Federalist's code is open source, but can only be edited by approved members of the 18F team. No one can access Federalist's management tools in cloud.gov without FedRAMP-approved two factor authentication.
 
 #### We control access to the hosting service that serves your static webpages
 
 Federalist moves content from your GitHub repositories into a secure build process and then into an "Amazon S3 Bucket" that holds your site files.
-
