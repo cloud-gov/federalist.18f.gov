@@ -39,7 +39,7 @@ You can use the editor to uploaded new images and insert images that you've alre
 
 ### Page settings
 
-Page settings give you control of additional elements of a page's design, including its title, layout, and URL (for example, you might set the URL to /about/ in order for the page to be accessible at www.xyz.gov/about). Some templates have unique settings that show up here as well. For instance, the "modern homepage" template allows you to set a feature image for some pages within page settings.
+Page settings give you control of additional elements of a page's design, including its title, layout, and URL (for example, you might set the URL to `/about/` in order for the page to be accessible at `www.xyz.gov/about`). Some templates have unique settings that show up here as well. For instance, the "modern homepage" template allows you to set a feature image for some pages within page settings.
 
 
 ### Saving changes
@@ -67,6 +67,6 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 
 - **Draft previews** By default, preview builds of a site are only visible to users who log into Federalist. You can change this setting to make preview builds available without authentication. This is useful for sharing drafts of a site with others who do not have accounts on Federalist.
 
-- **Custom domains** Enter domain (including protocol; without a trailing slash) to host your website on a custom domain. For example, `https://example.gov`. When this setting is defined, Federalist will change the "View" link for your site to use the custom domain. It will also remove the `basurl` when generating your site, so that relative links are relative to the root domain. For more about setting a custom domain, see the "[launch checklist]({{site.baseurl}}/pages/using-federalist/launch-checklist)" section.
+- **Custom domains** Enter domain (including protocol; without a trailing slash) to host your website on a custom domain. For example, `https://example.gov`. When this setting is defined, Federalist will change the "View" link for your site to use the custom domain. It will also remove the `baseurl` when generating your site, so that relative links are relative to the root domain. For more about setting a custom domain, see the "[launch checklist]({{site.baseurl}}/pages/using-federalist/launch-checklist)" section.
 
 - **Custom configuration** Enter a block of `yaml` configuration to append to your `_config.yml` configuration. This configuration is stored in Federalist, so you may use it to store settings that you don't want to commit to your GitHub repository. Federalist automatically adds a `branch` attribute with the name of the rendered branch, accessible in templates as `site.branch`.
