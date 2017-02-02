@@ -287,9 +287,22 @@ The user provided services can be created with the [Cloud Foundry CLI](https://d
 
 Once the user provided services are created deploying is a simple as running `cf push`.
 
+## Creating a GitHub OAuth Application
+
+Federalist requires a GitHub OAuth application in order to work. The OAuth
+application should be setup under the GitHub organization that is deploying Federalist (e.g., the 18F org for any instance of Federalist used by 18F).
+
+Adding an application is done within an organization's settings. Navigate to
+`Settings > Developer Settings > OAuth Applications`. Fill out all of the
+necessary fields. Make sure that the authorization URL is set to Federalist's
+OAuth authorization URL, e.g. `https://federalist.18f.gov/auth`.
+
+When the application is created, save the client and secret keys to add to the
+`federalist-<environment>-env` user provided service as described below.
+
 ## Deploying federalist
 
-Note: federalist-build is built to be [deployed from TravisCI](https://docs.travis-ci.com/user/deployment). The instructions for manually deploying federalist are described below and are necessary for the initial deploy, but subsequent deploys should happen on Travis.
+Note: federalist is built to be [deployed from TravisCI](https://docs.travis-ci.com/user/deployment). The instructions for manually deploying federalist are described below and are necessary for the initial deploy, but subsequent deploys should happen on Travis.
 
 The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) or [staging_manifest.yml](https://github.com/18F/federalist-builder/blob/master/staging_manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
 
