@@ -290,7 +290,7 @@ Once the user provided services are created deploying is a simple as running `cf
 ## Creating a GitHub OAuth Application
 
 Federalist requires a GitHub OAuth application in order to work. The OAuth
-application should be setup under the 18F GitHub organization.
+application should be setup under the GitHub organization that is deploying Federalist (e.g., the 18F org for any instance of Federalist used by 18F).
 
 Adding an application is done within an organization's settings. Navigate to
 `Settings > Developer Settings > OAuth Applications`. Fill out all of the
