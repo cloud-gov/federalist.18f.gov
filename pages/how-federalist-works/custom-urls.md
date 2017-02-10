@@ -15,7 +15,7 @@ To get the URLs and HTTPS to work for your production site, there are a few tech
 
  - Confirm you are ready for your site to go-live at its permanent URL (this process should not be abandoned while incomplete).
  - The Federalist team uses the cloud.gov CloudFront broker to begin set up for a distribution for a given URL.
-  - If you are also a cloud.gov customer (which isn't required Federalist), you can do this by navigating to your org/space and doing this command `cf create-service cdn-route cdn-route YOUR.URL.gov-route -c '{"domain": "YOUR.URL.gov", "origin": "bucketname.s3-website-us-gov-west-1.amazonaws.com", "path": "/site/org/repo-name", "insecure_origin": true}'`. Otherwise, we're happy to take care of it.
+  - If you are also a cloud.gov customer (which isn't required Federalist), you can do this by navigating to your org/space and doing this command `cf create-service cdn-route cdn-route YOUR.URL.gov-route -c '{"domain": "YOUR.URL.gov", "origin": "federalist-proxy.app.cloud.gov", "path": "/site/org/repo-name"}'`. Otherwise, we're happy to take care of it.
  - After running the command above, the command `cf service YOUR.URL.gov-route` is used to retrieve the CloudFront URL to be used in DNS changes. We'll communicate that URL to you as needed.
  - You, our partner, set your DNS records with a CNAME to delegate the subdomain (e.g. yourprogram.youragency.gov) to the CloudFront distribution URL (e.g. d2oezh1w8w4o1u.cloudfront.net).
    - It takes roughly 30 minutes for the d2oezh1w8w4o1u.cloudfront.net-style URL to start pointing at your specified origin/path. Once yourprogram.youragency.gov shows your site content (perhaps without images or CSS) under the correct HTTPS certificate, you'll know the CloudFront delegation process is complete.
