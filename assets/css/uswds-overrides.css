@@ -1,6 +1,6 @@
 ---
 # build this file as raw CSS
-layout: none
+layout: null
 ---
 {% if site.logo.url %}
 .usa-logo-text {
@@ -11,3 +11,11 @@ layout: none
   background-size: 1em;
 }
 {% endif %}
+
+.usa-content {
+
+  ul,
+  ol {
+    max-width: 53rem;
+  }
+}
