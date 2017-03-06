@@ -4,7 +4,7 @@ title: How Federalist Works
 
 ## Open source
 
-Federalist is a hosted service run by [18F](https://18f.gsa.gov/) for use by US federal government agencies. The software behind this service is open source and released to the public domain for anyone to use. We also welcome your contributions.
+Federalist is a hosted service run by [18F](https://18f.gsa.gov/) for use by US federal government agencies. The software behind this service is open source and released to the public domain for anyone to use. We also welcome your contributions and ideas.
 
 We use GitHub to manage our work on Federalist. The main code repository for the Federalist is at [https://github.com/18F/federalist](https://github.com/18F/federalist). In addition to hosting code, we use the issue queue on this repository to manage our development tasks and milestones. If you're interested in getting involved with this project, please see the [contributing guide](https://github.com/18F/federalist/blob/master/CONTRIBUTING.md). Here is a specific description of each of Federalist's modular repositories:
 
