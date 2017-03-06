@@ -2,6 +2,15 @@
 # build this file as raw CSS
 layout: null
 ---
+
+.usa-content ul {
+  max-width: 53rem;
+}
+
+.usa-content ol {
+  max-width: 53rem;
+}
+
 {% if site.logo.url %}
 .usa-logo-text {
   padding-left: 1.25em;
@@ -11,11 +20,3 @@ layout: null
   background-size: 1em;
 }
 {% endif %}
-
-.usa-content {
-
-  ul,
-  ol {
-    max-width: 53rem;
-  }
-}
