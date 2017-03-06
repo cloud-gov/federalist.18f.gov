@@ -1,0 +1,22 @@
+---
+# build this file as raw CSS
+layout: null
+---
+
+.usa-content ul {
+  max-width: 53rem;
+}
+
+.usa-content ol {
+  max-width: 53rem;
+}
+
+{% if site.logo.url %}
+.usa-logo-text {
+  padding-left: 1.25em;
+  background-image: url({{ site.baseurl }}{{ site.logo.url }});
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 1em;
+}
+{% endif %}

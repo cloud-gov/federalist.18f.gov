@@ -1,4 +1,5 @@
 name: Federalist Documentation
+
 exclude:
 - CONTRIBUTING.md
 - Gemfile
@@ -7,8 +8,6 @@ exclude:
 - README.md
 - go
 - vendor
-include:
-  - _navigation.json
 
 permalink: pretty
 highlighter: rouge
@@ -25,69 +24,70 @@ author:
   name: 18F - Federalist
   url: https://federalist.18f.gov
 
-# Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /uploads/logo.svg
-logoalt: Federalist logo
+# Point the logo URL at a file in your repo or hosted elsewhere by your
+# organization
+logo:
+  url: /uploads/logo.svg
 
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
 - text: About Federalist
-  url: index.html
+  url: /
   internal: true
 - text: Using Federalist
-  url: pages/using-federalist/
+  url: /pages/using-federalist/
   internal: true
   children:
   - text: Launch Checklist
-    url: launch-checklist/
+    url: /pages/using-federalist/launch-checklist/
     internal: true
   - text: Customer Responsibilities
-    url: customer-responsibilities/
+    url: /pages/using-federalist/customer-responsibilities/
     internal: true
 - text: Content Guide
-  url: pages/content-guide/
+  url: /pages/content-guide/
   internal: true
   children:
   - text: Writing content for your homepage
-    url: writing-content-for-your-federalist-homepage/
+    url: /pages/content-guide/writing-content-for-your-federalist-homepage/
     internal: true
   - text: Writing about your team
-    url: best-practices-for-writing-who-we-are/
+    url: /pages/content-guide/best-practices-for-writing-who-we-are/
     internal: true
   - text: Writing about your research
-    url: best-practices-for-writing-what-we-do/
+    url: /pages/content-guide/best-practices-for-writing-what-we-do/
     internal: true
   - text: Writing clear contact forms
-    url: contact-forms/
+    url: /pages/content-guide/contact-forms/
     internal: true
   - text: Best practices for content
-    url: best-practices-for-content/
+    url: /pages/content-guide/best-practices-for-content/
     internal: true
 - text: Custom Templates
-  url: pages/custom-templates/
+  url: /pages/custom-templates/
   internal: true
 - text: How Federalist Works
-  url: pages/how-federalist-works/
+  url: /pages/how-federalist-works/
   internal: true
   children:
   - text: How Custom URLs work
-    url: custom-urls/
+    url: /pages/how-federalist-works/custom-urls/
     internal: true
   - text: Included with Federalist
-    url: included-with-federalist/
+    url: /pages/how-federalist-works/included-with-federalist/
     internal: true
   - text: Node on Federalist
-    url: node-on-federalist/
+    url: /pages/how-federalist-works/node-on-federalist/
     internal: true
   - text: Deploying Federalist
-    url: deploying-federalist/
+    url: /pages/how-federalist-works/deploying-federalist/
     internal: true
   - text: cloud.gov Setup
-    url: cloud-gov-setup/
+    url: /pages/how-federalist-works/cloud-gov-setup/
     internal: true
   - text: Running Federalist locally
-    url: running-federalist-locally/
+    url: /pages/how-federalist-works/running-federalist-locally/
     internal: true
 
 repos:
@@ -105,4 +105,12 @@ defaults:
 - scope:
     path: ""
   values:
-    layout: "guides_style_18f_default"
+    layout: "docs"
+
+stylesheets:
+- /assets/uswds/css/uswds.css
+- /assets/css/uswds-overrides.css
+
+scripts:
+- /assets/uswds/js/uswds.js
+

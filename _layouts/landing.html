@@ -1,0 +1,62 @@
+---
+layout: base
+---
+{% include header.html %}
+
+<main id="main-content">
+{% assign hero = page.hero | default: site.hero %}
+{% if hero %}
+  <section class="usa-hero">
+    <div class="usa-grid">
+      <div class="usa-hero-callout usa-section-dark">
+        <h2>
+          {% if hero.callout %}<span class="usa-hero-callout-alt">{{ hero.callout }}</span>{% endif %}
+          {{ hero.title | default: 'You can set <code>hero.title</code> in your page or site metadata' }}
+        </h2>
+        {% if page.hero.link %}
+        <a class="usa-hero-link" href="{{ hero.link.href }}">{{ hero.link.text }}</a>
+        {% endif %}
+        {% if hero.link_button %}
+        <a class="usa-button usa-button-big usa-button-secondary" href="{{ hero.link_button.href }}">{{ hero.link_button.text }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% assign intro = page.intro | default: site.intro %}
+{% if intro %}
+  <section class="usa-grid usa-section">
+    <div class="usa-width-one-third">
+      <h2>{{ intro.tagline | default: page.tagline | default: 'Your page should have a <code>tagline</code> or <code>intro.tagline</code>' }}</h2>
+    </div>
+    <div class="usa-width-two-thirds">
+      {{ intro.text | default: 'You can set <code>intro</code> in your page or site metadata' | markdownify }}
+    </div>
+  </section>
+{% endif %}
+
+{% if page.graphics %}
+  <section class="usa-section usa-section-dark usa-graphic_list">
+    <div class="usa-grid usa-graphic_list-row">
+      {% for graphic in page.graphics %}
+      <div class="usa-width-one-half usa-media_block">
+        <img class="usa-media_block-img"  src="{{ site.baseurl }}{{ graphic.image.src }}" alt="{{ graphic.image.alt }}">
+        <div class="usa-media_block-body">
+          <h3>{{ graphic.title }}</h3>
+          {{ graphic.text | markdownify }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+  <section class="usa-section">
+    <div class="usa-grid">
+      {{ content }}
+    </div>
+  </section>
+</main>
+
+{% include footer.html %}
