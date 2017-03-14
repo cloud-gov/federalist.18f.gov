@@ -8,14 +8,15 @@ We've gotten several questions about the value of purchasing Federalist. Here ar
 ### Included with Federalist
 
 * A automatic deployment mechanism for [Jekyll sites](https://jekyllrb.com/docs/home/) or static web assets.
-* Web-based configuration and a limited content editing tool.
+* Web-based configuration and access to preview builds.
+* 18F's work to complete and maintain an agency Authority to Operate (ATO) for Federalist's hosting, leveraging the cloud.gov System Security Plan (SSP), with a short process to add new sites to the ATO documentation.
 * Premade templates for your sites, in addition to the many sites you can copy in creating your site.
 * Easy onboarding or offboarding: Federalist can deploy content from existing GitHub repositories used with other tools. Your Federalist site will also be easy to port to another deployment mechanism if that's ever needed.
-* GSA's previous work to procure cloud Infrastructure as a Service with extrodinary uptime so your static sites don't go down once deployed.
-* GSA's previous work to build a [robust and secure platform as a service](https://cloud.gov) with upcoming FedRAMP approval so that Federalist is secure.
 * User research with people across government that helped us plan the archtecture and core features of Federalist.
 * A user community across agencies and vendors using Federalist.
 * A permanent team to maintain and patch Federalist as needed.
+* GSA's previous work to procure cloud Infrastructure as a Service with extraordinary uptime so your static sites don't go down once deployed.
+* GSA's previous work to build a [robust and secure platform as a service](https://cloud.gov), recognized with a FedRAMP Moderate PATO, so that Federalist underlying technology is secure.
 
 ### Not included with Federalist
 
