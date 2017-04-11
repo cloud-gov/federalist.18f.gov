@@ -5,7 +5,7 @@ parent: Using Federalist
 
 ## Your Responsibilities when using Federalist
 
-Using Federalist places certain responsibilities on you as the government user of Federalist. GSA has many internal sites running on Federalist, but GSA cannot guarantee that Federalist is compatable with your agency's specific policies. 
+Using Federalist places certain responsibilities on you as the government user of Federalist. GSA has many internal sites running on Federalist, but GSA cannot guarantee that Federalist is compatable with your agency's specific policies.
 
 Federalist retains other responsibilities, clarified below. The intent of these policies is to empower you to use Federalist to its full potential with awareness of your responsibilities when using advanced features.
 
@@ -17,7 +17,7 @@ GitHub is used across the government (see [this dashboard](https://gsa.github.io
 
 #### You own your content
 
-Federalist provides templates for you to start with in configuring your sites, but is not responsible for editing or updating the content or local configuration of your site. The Federalist team ensures that the publishing mechanism and editor remain available to you so that your content edits can be published immediately.
+Federalist provides templates for you to start with in configuring your sites, but is not responsible for editing or updating the content or local configuration of your site. The Federalist team ensures that the publishing mechanism remain available to you so that your content edits can be published immediately.
 
 Federalist suggests that you add your 18F point of contact to your repo with editing rights for troubleshooting purposes, but this is not required.
 
