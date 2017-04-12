@@ -5,7 +5,7 @@ Federalist is a continuous deployment-like build environment for static sites. I
 
 If you don't want to use the Federalist templates, you can add your own GitHub repository to build a completely custom site. When you add a repository-based site, you can choose your build engine: Jekyll, Hugo (not yet implemented), or static, which simply pushes the files in your repository. You can also specify a default branch of your repository to serve as the "production" version of the site.
 
-Federalist is designed to be a modular service. Some people customize their sites by creating new templates that work with the Federalist web editor. Others only use the Federalist build process, managing their content with GitHub. When used this way Federalist acts a no-configuration, production-ready hosting solution for GitHub-based static websites on 18F infrastructure with a custom domain. 
+Federalist is designed to be a modular service. Some people customize their sites by creating new templates that work with the Federalist web editor. Others only use the Federalist build process, managing their content with GitHub. When used this way Federalist acts a no-configuration, production-ready hosting solution for GitHub-based static websites on 18F infrastructure with a custom domain.
 
 ## Jekyll resources
 
@@ -22,8 +22,6 @@ Federalist provides features beyond just generating Jekyll sites. The steps belo
 ### Configuration
 
 Federalist adds a `site.branch` attribute to your global site object with the value of the current branch name. You can access this value in your templates and content and use it to style builds based on the working branch.
-
-Federalist also adds information about the git commit at which the site was built. Access this information through `site.commit`. The commit object includes `site.commit.commit` (the SHA), `site.commit.author`, `site.commit.date`, and `site.commit.message`.
 
 ### Content editor
 
