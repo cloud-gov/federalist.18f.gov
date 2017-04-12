@@ -15,7 +15,7 @@ Federalist generates static websites instead of using a more complex content man
 
 - **Less complexity and vulnerability** Avoiding CMSs means avoiding problems like maintaining dynamic server applications (no PHP or Apache / IIS) and database scaling and redundancy. Production-level static sites generally require one simple static file server or service as opposed to dozens. This means that the whole website is easier to maintain and has fewer vulnerabilities.
 
-- **Update content without writing code** Static websites store content in simple text files that anyone on the team can edit. The Federalist editor provides a way for basic editing of these files without needing to write code.
+- **Update content without writing code** Static websites store content in simple text files that anyone on the team can edit. The GitHub editor provides a way for basic editing of these files without needing to write code.
 
 - **Easy to host and maintain** It’s very easy to host static website files. You can easily take advantage of scaling services like Amazon S3 where you pay only for what you use.
 
@@ -23,7 +23,7 @@ Federalist generates static websites instead of using a more complex content man
 
 ## What can I build with Federalist?
 
-Federalist provides [ready-to-use templates]({{site.baseurl}}/pages/using-federalist/#federalist-templates) for several common website types. You can also use custom website templates based on Jekyll. 18F maintains many Jekyll-based websites that you can fork and adopt, though some must be edited directly (not via the Federalist editor).
+Federalist provides [ready-to-use templates]({{site.baseurl}}/pages/using-federalist/#federalist-templates) for several common website types. You can also use custom website templates based on Jekyll. 18F maintains many Jekyll-based websites that you can fork and adopt.
 
 Possible sites include:
 
