@@ -26,30 +26,6 @@ Federalist provides templates for common websites. Here are the templates curren
 
 Additionally, Federalist will build any Jekyll-based website, supporting [custom website templates]({{site.baseurl}}/pages/custom-templates/).
 
-## Editing content
-
-The Federalist web editor is a simplified tool for editing your website content directly from your web browser. After opening a site in the editor, you will see all of the files that make up your website. The `pages` folder holds the content that people visiting your website will see. You can select any page in this folder to edit its content.
-
-The rich text editor gives you a toolbar for formatting options including links, lists, and header styles.
-
-Your site should be drafted using links like this: `[Our Work]({{site.baseurl}}/work/)`. The "site.baseurl" framing allows multiple versions of the links to be built on preview copies of the site without interfering with the live site.  Enter text in the main field. Highlight text and select a formatting option to apply it. The arrow buttons undo and redo changes. 
-
-You can use the editor to uploaded new images and insert images that you've already uploaded. The image button opens a browser of past images. Selecting one adds it to the page's content. Please note that image support is not as robust as in a full CMS.
-
-
-### Page settings
-
-Page settings give you control of additional elements of a page's design, including its title, layout, and URL (for example, you might set the URL to `/about/` in order for the page to be accessible at `www.xyz.gov/about`). Some templates have unique settings that show up here as well. For instance, the "modern homepage" template allows you to set a feature image for some pages within page settings.
-
-
-### Saving changes
-
-The save button will store any changes you made to content or settings on a page. There is an optional field to enter a log message describing your changes. This log message is useful for reviewing the history of changes to a page.
-
-When you save a page, Federalist will automatically rebuild your site to publish the new changes to the internet. This process may take some time, depending on your site template. By returning to the site listing page, you may view the latest version of your site or check the log to see the status of recent builds.
-
-If you save a page as a draft, Federalist will provide a button to view the draft page. For those making edits directly in GitHub, the drafts are available for preview (with Federalist login) at `https://federalist.18f.gov/preview/:owner/:repo/:branch/`.
-
 ## Content strategy
 
 The first step to building a new site is to map a strategy for the site's content. 18F provides several resources to assist with this process.
