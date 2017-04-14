@@ -14,6 +14,7 @@ The Federalist Proxy fronts sites on the S3 URL at URLs such as [https://federal
 Partners point yourprogram.youragency.gov at a CloudFront service created by a cloud.gov broker, which is pointed to the proxy, which completes a technical connection to the S3 bucket contents that leverages a a scalable content delivery network and provides automatic HTTPS certificate renewal.
 
 Here's a full example chain:
+
  - https://federalist-modern-team-template.18f.gov/ is CNAME'd to https://d2xyasfn4889hb.cloudfront.net/
  - https://d2xyasfn4889hb.cloudfront.net/ is set to load from [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/)
  - [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/) proxies [http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/](http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/)
