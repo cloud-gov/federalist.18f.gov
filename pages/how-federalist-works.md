@@ -22,26 +22,20 @@ We use GitHub to manage our work on Federalist. The main code repository for the
 - **[federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template)** A simple site to showcase the work of an organization with a few different page types.
 - **[federalist-landing-page-template](https://github.com/18F/federalist-landing-page-template)** A single page meant to host information about a new initiative or report.
 
-## Upcoming Migration
+## New Architecture
 
-Federalist is currently migrating to [cloud.gov's new GovCloud environment](https://landing.apps.cloud.gov/docs/apps/govcloud/), which is currently [undergoing FedRAMP certification](https://marketplace.fedramp.gov/index.html#/product/18f-cloudgov). The core archtecture of Federalist is changing to accomodate this move, and this page will be updated with new diagrams and documentation when possible.
+Federalist is currently migrating all sites to [cloud.gov's GovCloud environment](https://landing.apps.cloud.gov/docs/apps/govcloud/), which has [received FedRAMP certification](https://marketplace.fedramp.gov/index.html#/product/18f-cloudgov). [This blog post](https://18f.gsa.gov/2017/02/02/cloud-gov-is-now-fedramp-authorized/) explains more about FedRAMP.
 
 The new diagram for Federalist's architecture is here: [![Diagram of Federalist architecture]({{site.baseurl}}/uploads/Federalist System Diagram 11-28-16.png)]({{site.baseurl}}/uploads/Federalist System Diagram 11-28-16.png)
 
 
-## Current Technical Architecture
+## Legacy Technical Architecture
 
 [![Diagram of Federalist architecture, described in the following text]({{site.baseurl}}/uploads/federalist-architecture-small.png)]({{site.baseurl}}/uploads/federalist-system-architecture.pdf)
 *[Download full diagram (PDF)]({{site.baseurl}}/uploads/federalist-system-architecture.pdf)*
 
-### Site Editors
 
-Users manage content with a web- based editor
-
-- federalist.18f.gov
-
-
-### https://federalist.18f.gov
+### https://federalist.fr.cloud.gov
 
 Main application server providing an API and front-end website load balanced across at least two instances
 
