@@ -17,8 +17,8 @@ All of these sites are currently hosted on Federalist. Their source code is also
 **[18F Handbook](https://handbook.18f.gov)**
 ![18F Handbook]({{site.baseurl}}uploads/partner-sites/handbook-gsa-gov.png)
 
-![18f.gsa.gov]({{site.baseurl}}/uploads/partner-sites/18f-gsa-gov.png)
 **[18F Homepage](https://18f.gsa.gov/)**
+![18f.gsa.gov]({{site.baseurl}}/uploads/partner-sites/18f-gsa-gov.png)
 
 **[login.gov](https://login.gov)**
 ![login.gov]({{site.baseurl}}uploads/partner-sites/login-gov.png)
