@@ -35,6 +35,10 @@ navigation:
 - text: About Federalist
   url: /
   internal: true
+  children:
+  - text: Example Sites
+    url: /pages/about-federalist/example-sites/
+    internal: true
 - text: Using Federalist
   url: /pages/using-federalist/
   internal: true
