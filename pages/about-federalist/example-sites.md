@@ -31,3 +31,6 @@ All of these sites are currently hosted on Federalist. Their source code is also
 
 **[US Web Design Standards](https://standards.usa.gov/)**
 ![US Web Design Standards]({{site.baseurl}}/uploads/partner-sites/standards-usa-gov.png)
+
+**[vote.gov](https://vote.gov/)**
+![vote.gov]({{site.baseurl}}/uploads/partner-sites/vote-gov.png)
