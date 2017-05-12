@@ -38,8 +38,8 @@ Here are a few examples of Federalist websites in production:
 ![College Scorecard]({{site.baseurl}}/uploads/college-scorecard.png)
 **[The College Scorecard](https://collegescorecard.ed.gov/)**
 
-![SBST.gov]({{site.baseurl}}/uploads/sbst.png)
-**[The Social and Behavioral Sciences Team](https://sbst.gov/)**
+![18f.gsa.gov]({{site.baseurl}}/uploads/partner-sites/18f-gsa-gov.png)
+**[18F Homepage](https://18f.gsa.gov/)**
 
 ## Getting started
 
