@@ -331,3 +331,13 @@ GITHUB_WEBHOOK_URL: <URL FOR GITHUB WEBHOOKS TO CALLBACK TO>
 The user provided service can be created with the [Cloud Foundry CLI](https://docs.cloudfoundry.org/devguide/services/user-provided.html#create).
 
 Once the user provided services are created deploying is a simple as running `cf push`.
+
+## Rotating credentials
+
+Federalist uses cloud.gov's [space deployer](https://cloud.gov/docs/services/cloud-gov-service-account/#plans) service to deploy using CI. Additionally, the credentials for these deployer accounts are used by Federalist Builder to deploy build containers.
+
+Occasionally, these credentials expire. When they do, it is necessary to regenerate the space deployer services and update the credentials. The credentials need to be updated in the user provided service and in Travis.
+
+To update the credentials in Travis, go to the settings for [federalist](https://travis-ci.org/18F/federalist/settings) and [federalist-builder](https://travis-ci.org/18F/federalist-builder/settings). There the `CF_USERNAME_STAGING`, `CF_USERNAME_PRODUCTION`, `CF_PASSWORD_STAGING`, and `CF_PASSWORD_PRODUCTION` environment variables can be set to the correct values. This needs to be done for each app.
+
+After the credentials are updated in CI, they need to be updated for the builder in `staging` and in `production`. The credentials live in a user provided service named `federalist-deploy-user`. That needs to be updated with new values for `DEPLOY_USER_USERNAME` and `DEPLOY_USER_PASSWORD`. To do that, see the docs on [updating user provided services](https://docs.cloudfoundry.org/devguide/services/user-provided.html#update).
