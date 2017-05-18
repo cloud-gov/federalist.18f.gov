@@ -84,6 +84,9 @@ navigation:
   - text: Node on Federalist
     url: /pages/how-federalist-works/node-on-federalist/
     internal: true
+  - text: RVM on Federalist
+    url: /pages/how-federalist-works/rvm-on-federalist/
+    internal: true
   - text: Deploying Federalist
     url: /pages/how-federalist-works/deploying-federalist/
     internal: true
