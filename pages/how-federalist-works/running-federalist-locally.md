@@ -28,10 +28,20 @@ The Federalist app uses GitHub for authentication. You will need to create a [Gi
 
 Optionally, you are able to create a new GitHub team, add yourself to that team, and then add the team's ID to the `organizations` array in `config/local.js`. If you are on the 18F GitHub team that should not be necessary since the 18F GitHub team is included by default in `config/passport.js`.
 
-Once the local config is setup and ready to go the app can be started:
+Federalist needs a Postgres database from which to read and write data. By default, it looks for a database on the localhost named `federalist`. Additionally, the tests look for a database named `federalist-test`.
+
+To create the databases, run the following:
+
+```
+createdb federalist
+createdb federalist-test
+```
+
+Once the local config and the database is setup and ready to go the app can be started:
 
 ```
 npm install
+npm run build
 npm start
 ```
 
