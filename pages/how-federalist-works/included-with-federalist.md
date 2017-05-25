@@ -20,4 +20,4 @@ We've gotten several questions about the value of purchasing Federalist. Here ar
 
 ### Not included with Federalist
 
-* A fully featured CMS. Federalist is not Wordpress, Drupal or one of their competitors (see a list of government-used CMS's [here](https://www.digitalgov.gov/resources/content-management-systems-used-by-government-agencies/)). This means that we have fewer features but also a smaller security profile.
+* A fully featured content management system (CMS). Federalist is not Wordpress, Drupal, or one of their competitors (see a list of government-used CMS's [here](https://www.digitalgov.gov/resources/content-management-systems-used-by-government-agencies/)). This means that we have fewer features but also a smaller security profile.
