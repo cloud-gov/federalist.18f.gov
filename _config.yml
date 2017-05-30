@@ -43,11 +43,14 @@ navigation:
   url: /pages/using-federalist/
   internal: true
   children:
-  - text: Launch Checklist
-    url: /pages/using-federalist/launch-checklist/
-    internal: true
   - text: Customer Responsibilities
     url: /pages/using-federalist/customer-responsibilities/
+    internal: true
+  - Instructional Demos
+    url: /pages/using-federalist/instructional-demos/
+    internal: true
+  - text: Launch Checklist
+    url: /pages/using-federalist/launch-checklist/
     internal: true
 - text: Content Guide
   url: /pages/content-guide/
