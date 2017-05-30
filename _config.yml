@@ -46,7 +46,7 @@ navigation:
   - text: Customer Responsibilities
     url: /pages/using-federalist/customer-responsibilities/
     internal: true
-  - Instructional Demos
+  - text: Instructional Demos
     url: /pages/using-federalist/instructional-demos/
     internal: true
   - text: Launch Checklist
