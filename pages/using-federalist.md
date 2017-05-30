@@ -12,17 +12,14 @@ After you pick a template, your new site will be built and added to your list of
 
 Federalist provides templates for common websites. Here are the templates currently available:
 
-#### Modern organization home page based on the Draft US Web Design Standards
-![US Web Design Standards template](https://federalist.18f.gov/images/team.thumb.png)
+#### U.S. Web Design Standards Landing and Docs Template
+![US Web Design Standards template](https://federalist.18f.gov/images/uswds.thumb.png)
 
-#### Landing Page for Information about a Released Report
-![Landing Page template](https://github.com/18F/federalist/raw/master/assets/images/landing.thumb.png)
+#### Multi Page Template
+![Multi Page Template](https://federalist.18f.gov/images/team.thumb.png)
 
-#### Simple website for content-focused microsites
-![Microsite template](https://federalist.18f.gov/images/microsite.thumb.png)
-
-#### Documentation for an API and developer resources
-![Developer hub](https://federalist.18f.gov/images/developer.thumb.png)
+#### Single Page Template
+![Single Page Template](https://federalist.18f.gov/images/landing.thumb.png)
 
 Additionally, Federalist will build any Jekyll-based website, supporting [custom website templates]({{site.baseurl}}/pages/custom-templates/).
 
@@ -41,8 +38,10 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 
 - **Default branch** This is the branch of the site's repository that is built and hosted as the production version of the site. Other branches are considered drafts. Changing this value will rebuild the site using a different branch.
 
-- **Draft previews** By default, preview builds of a site are only visible to users who log into Federalist. You can change this setting to make preview builds available without authentication. This is useful for sharing drafts of a site with others who do not have accounts on Federalist.
+- **Static Site Engine** This controls if Federalist builds your site using Jekyll then hosts it, or simply hosts content you've already generated. If using a template, this should always be "Jekyll."
 
 - **Custom domains** Enter domain (including protocol; without a trailing slash) to host your website on a custom domain. For example, `https://example.gov`. When this setting is defined, Federalist will change the "View" link for your site to use the custom domain. It will also remove the `baseurl` when generating your site, so that relative links are relative to the root domain. For more about setting a custom domain, see the "[launch checklist]({{site.baseurl}}/pages/using-federalist/launch-checklist)" section.
 
-- **Custom configuration** Enter a block of `yaml` configuration to append to your `_config.yml` configuration. This configuration is stored in Federalist, so you may use it to store settings that you don't want to commit to your GitHub repository. Federalist automatically adds a `branch` attribute with the name of the rendered branch, accessible in templates as `site.branch`.
+- **Demo Site** Federalist allows you to specify a different branch and domain for a "demo site" that can be used to publicly preview your content at a URL of your choice, such as "preview.login.gov." Launch of a demo URL works just like a live URL from a security standpoint.
+
+- **Custom configuration (site and preview)** For advanced Jekyll users, you can append different settings to your `_config.yml` configuration during build. This configuration is stored in Federalist, so you may use it to store settings that you don't want to commit to your GitHub repository. Federalist automatically adds a `branch` attribute with the name of the rendered branch, accessible in templates as `site.branch`.
