@@ -21,7 +21,8 @@ Here's a full example chain:
 
 ### Technical Steps to set up a new site
 
- - The partner confirms readiness for the site to go-live at its permanent URL (this URL process needs to happen within a few hours timespan when started).
+ - The partner confirms the site is ready for an initial scan; the Federalist team scans the site and sends to GSA IT for initial approval.
+ - After initial scans, the partner confirms readiness for the site to go-live at a specific permanent URL (this URL process needs to happen within a few hours timespan when started).
  - The Federalist team uses the cloud.gov CloudFront broker to begin set up for a distribution for a given URL.
   - We do this by accessing our org in cloud.gov and running the command `cf create-service cdn-route cdn-route YOUR.URL.gov-route -c '{"domain": "YOUR.URL.gov", "origin": "federalist-proxy.app.cloud.gov", "path": "/site/<org>/<repo-name>"}'`. Note that the path argument here does not have a trailing slash.
  - After running the command above, the command `cf service YOUR.URL.gov-route` is used to retrieve the CloudFront URL to be used in DNS changes. We communicate that URL to whoever sets the DNS records.
