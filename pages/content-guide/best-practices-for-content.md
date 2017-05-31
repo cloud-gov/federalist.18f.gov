@@ -29,7 +29,7 @@ The guide contains sections on:
 
 * [Optimizing headlines and titles](https://pages.18f.gov/content-guide/optimize-headings-and-titles/)
 
-* [Using FAQs](https://pages.18f.gov/content-guide/faqs/)
+* [Using FAQs](https://content-guide.18f.gov/structure-the-content/#dont-use-faqs)
 
 * [Trademarks and brands](https://pages.18f.gov/content-guide/trademarks-and-brands/)
 
