@@ -7,17 +7,20 @@ parent: How Federalist Works
 
 This is technical documentation about how custom domains work on Federalist. It is not required reading to use Federalist and only provided for background; instructions for our partners are [here](/pages/using-federalist/launch-checklist/).
 
-Federalist deploys sites to S3 bucket, which is available at a .com URL such as [http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/](http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/) (broken CSS on the page is known and explained below). These web addresses are public and useful for testing, but the URLs are not useful and there's no HTTPS.
+All Federalist deploys are rendered via S3 at a .com URL such as [http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/](http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/) (broken CSS on the page is known and explained below). These web addresses are public and useful for testing, but the URLs are not useful and there's no HTTPS.
 
-The Federalist Proxy fronts sites on the S3 URL at URLs such as [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/) (broken CSS on the page is known and explained below). The proxy adds some required headers.
+Luckily, Federalist also proxies — that is, creates a forwarding address — for those S3 URLs at URLs such as [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/) (broken CSS on the page is known and explained below). The proxy adds some required headers and is much cleaner for sending preview links around.
 
-Partners point yourprogram.youragency.gov at a CloudFront service created by a cloud.gov broker, which is pointed to the proxy, which completes a technical connection to the S3 bucket contents that leverages a a scalable content delivery network and provides automatic HTTPS certificate renewal.
+When ready to go live at their own .gov URL, partners point DNS for sampleprogram.sampleagency.gov at a CloudFront CDN service created by a cloud.gov broker. The Federalist team directs the CDN service to load from the proxy URL, and since the proxy is loading from S3, that completes a technical connection from the live URL to the S3 bucket contents.
 
 Here's a full example chain:
 
  - https://federalist-modern-team-template.18f.gov/ is CNAME'd to https://d2xyasfn4889hb.cloudfront.net/
  - https://d2xyasfn4889hb.cloudfront.net/ is set to load from [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/)
  - [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/) proxies [http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/](http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/)
+ 
+The URLs above have broken CSS and assets because published Federalist sites on their own URLs don't publish to a "/site/18f" directory. The above links are showing HTML content that is published at [https://federalist-modern-team-template.18f.gov/](https://federalist-modern-team-template.18f.gov/). The assets for this site are at addresses like [https://federalist-modern-team-template.18f.gov/assets/img/logo-main.gif](https://federalist-modern-team-template.18f.gov/assets/img/logo-main.gif) - whereas to display properly on the proxy or S3 buckets the assets would need to be published at https://federalist-modern-team-template.18f.gov/site/18f/assets/img/logo-main.gif. See the "/site/18f/" in the second link?
+
 
 ### Technical Steps to set up a new site
 
