@@ -96,6 +96,9 @@ navigation:
   - text: cloud.gov Setup
     url: /pages/how-federalist-works/cloud-gov-setup/
     internal: true
+  - text: Site Wide Alert
+    url: /pages/how-federalist-works/site-wide-alert/
+    internal: true
   - text: Running Federalist locally
     url: /pages/how-federalist-works/running-federalist-locally/
     internal: true
