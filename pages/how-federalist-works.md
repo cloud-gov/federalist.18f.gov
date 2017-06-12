@@ -19,8 +19,12 @@ We use GitHub to manage our work on Federalist. The main code repository for the
 ### Templates and Documentation
 
 - **[federalist-docs](https://github.com/18F/federalist-docs)** This documentation website. It also contains content from the depreciated [federalist-content-guide](https://github.com/18F/federalist-content-guide) repo.
-- **[federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template)** A simple site to showcase the work of an organization with a few different page types.
 - **[federalist-landing-page-template](https://github.com/18F/federalist-landing-page-template)** A single page meant to host information about a new initiative or report.
+- **[federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template)** A simple site to showcase the work of an organization with a few different page types.
+- **[federalist-uswds-template](https://github.com/18f/federalist-uswds-template/)** A Federalist template that uses the U.S. Web Design Standards Jekyll theme.
+
+
+
 
 ## Architecture
 
