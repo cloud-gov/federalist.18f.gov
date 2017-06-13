@@ -332,6 +332,21 @@ The user provided service can be created with the [Cloud Foundry CLI](https://do
 
 Once the user provided services are created deploying is a simple as running `cf push`.
 
+### Federalist CDN Route
+
+Federalist uses a CDN route service provided by cloud.gov to route traffic from the public domain to the application. To create such a service, run the following while targeting the appropriate space in cloud.gov:
+
+```shell
+cf create-user-provided-service cdn-route cdn-route federalist-route -c '{
+  "domain": "federalist.18f.gov",
+  "origin": "<URL WHERE FEDERALIST IS HOSTED>"
+}'
+```
+
+Once this is done, running `cf service federalist-route` should give you a CloudFront domain name. Next, [open a PR against the DNS repo to add a CNAME record for federalist.18f.gov with the CloudFront URL](https://github.com/18F/dns/commit/403f67db920e629c73bd7e2c43fbb367514af8cf). Once the DNS changes propagate, Federalist should be available at [federalist.18f.gov](https://federalist.18f.gov).
+
+By default, the CDN caches error responses, so you will also need to work with cloud.gov support to [change the mimimum error caching TTL to 0](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HTTPStatusCodes.html).
+
 ## Rotating credentials
 
 Federalist uses cloud.gov's [space deployer](https://cloud.gov/docs/services/cloud-gov-service-account/#plans) service to deploy using CI. Additionally, the credentials for these deployer accounts are used by Federalist Builder to deploy build containers.
