@@ -9,6 +9,7 @@ Before you start, ensure you have the following installed:
 
 - [node](https://nodejs.org/en/download/package-manager/#osx)
 - [nvm](https://github.com/creationix/nvm#installation) or [n](https://github.com/tj/n#installation)
+- [yarn](https://yarnpkg.com/)
 - [Postgres](https://www.postgresql.org/)
 - [Docker](https://docs.docker.com/engine/installation/mac/)
 - [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html)
@@ -40,26 +41,26 @@ createdb federalist-test
 Once the local config and the database is setup and ready to go the app can be started:
 
 ```
-npm install
-npm run build
-npm start
+yarn
+yarn build
+yarn start
 ```
 
 If everything works as expected you should be able to see the app running at [http://localhost:1337/](http://localhost:1337/).
 
-Note that if you are working on the frontend you can use `npm run watch` to have browserify rebuild the frontend as you make changes.
+Note that if you are working on the frontend you can use `yarn watch` to have browserify rebuild the frontend as you make changes.
 
 If everything is setup correctly you should also be able to run the tests:
 
 ```
-npm test
+yarn test
 ```
 
 ## Running federalist-builder
 
 The Federalist build scheduler's code lives in the [18F/federalist-builder](https://github.com/18F/federalist-builder) repository on GitHub.
 
-federalist-builder is not designed to be run locally. Due to its tight coupling with the build process and it's dependence on the Cloud Foundry environment, running it locally has the potential to create a race condition between builds running in Cloud Foundry and builds that were scheduled locally.
+federalist-builder is not designed to be run locally. Due to its tight coupling with the build process and its dependence on the Cloud Foundry environment, running it locally has the potential to create a race condition between builds running in Cloud Foundry and builds that were scheduled locally.
 
 To check the behavior of federalist builder you can run its test suite:
 
