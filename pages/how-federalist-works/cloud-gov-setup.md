@@ -12,7 +12,7 @@ Before reading this guide, it may be helpful to refer to [How Federalist Works](
 A Federalist deploy comprises of the following steps:
 
 - Deploy a private registry
-- Pushing a federalist-docker-build image to the registry
+- Pushing a federalist-garden-build image to the registry
 - Deploying build containers
 - Provisioning AWS resources
 - Deploying federalist-builder
@@ -51,20 +51,20 @@ After setting the environment, the registry will need to be restaged to use the 
 cf restage federalist-registry
 ```
 
-## Pushing a federalist-docker-build image to the registry
+## Pushing a federalist-garden-build image to the registry
 
 Unfortunately pushing an image to the private registry is not as simple as building the image and pushing it to the registry. To push an image you must follow the following steps:
 
-- Build the federalist-docker-build image
-- Scan the federalist-docker-build image
-- Push the federalist-docker-build image
+- Build the federalist-garden-build image
+- Scan the federalist-garden-build image
+- Push the federalist-garden-build image
 
 ### Building the image
 
-The federalist-docker-build image can be built with docker. Clone the repo, cd into it and run `docker build`.
+The federalist-garden-build image can be built with docker. Clone the repo, cd into it and run `docker build`.
 
 ```shell
-docker build --no-cache --tag federalist-docker-build .
+docker build --no-cache --tag federalist-garden-build .
 ```
 
 The image should now appear in the list when you run `docker images`.
@@ -89,7 +89,7 @@ Additionally, if you do not have your `GOPATH` set, you'll need to set that. [He
 
 #### Start up Clair with Docker and wait for vulnerability updates
 
-We recommend starting Clair with [Docker Compose](https://docs.docker.com/compose/). Here is an example `docker-compose.yml` for preparing Clair to scan `federalist-docker-build`:
+We recommend starting Clair with [Docker Compose](https://docs.docker.com/compose/). Here is an example `docker-compose.yml` for preparing Clair to scan `federalist-garden-build`:
 
 ``` yaml
 version: '2'
@@ -143,7 +143,7 @@ First install the CLI tool:
 go get -u github.com/coreos/clair/contrib/analyze-local-images
 ```
 
-Then use it to scan your image. Here `<IMAGE ID>` is the image ID for `federalist-docker-build` found by running `docker images`:
+Then use it to scan your image. Here `<IMAGE ID>` is the image ID for `federalist-garden-build` found by running `docker images`:
 
 ``` shell
 analyze-local-images <IMAGE ID>
@@ -180,32 +180,32 @@ docker-compose up
 By default the registry runs at `localhost:5000`. To push an image to the registry it will need to be tagged it with the URL for the local registry:
 
 ```shell
-docker tag federalist-docker-build localhost:5000/federalist-docker-build
+docker tag federalist-garden-build localhost:5000/federalist-garden-build
 ```
 
 Finally, the image can be pushed to the local registry:
 
 ```
-docker push localhost:5000/federalist-docker-build
+docker push localhost:5000/federalist-garden-build
 ```
 
-Now the image should be available from the remote registry as `<remote-registry-url>/federalist-docker-build`.
+Now the image should be available from the remote registry as `<remote-registry-url>/federalist-garden-build`.
 
 To confirm that this worked you can pull the image from the remote registry and inspect it:
 
 ```shell
-docker pull federalist-registry.fr.cloud.gov/federalist-docker-build
-docker inspect federalist-registry.fr.cloud.gov/federalist-docker-build
+docker pull federalist-registry.fr.cloud.gov/federalist-garden-build
+docker inspect federalist-registry.fr.cloud.gov/federalist-garden-build
 ```
 
 ## Deploying build containers
 
-Federalist's "build containers" are cloud.gov apps running with the `federalist-docker-build` image. The app needs to run without a healthcheck since it is not fitted to respond to HTTP requests.
+Federalist's "build containers" are cloud.gov apps running with the `federalist-garden-build` image. The app needs to run without a healthcheck since it is not fitted to respond to HTTP requests.
 
 To push the app use `cf push`:
 
 ```shell
-cf push federalist-docker-build-1 --no-route -u none -o "federalist-registry.fr.cloud.gov/federalist-docker-build"
+cf push federalist-garden-build-1 --no-route -u none -o "federalist-registry.fr.cloud.gov/federalist-garden-build"
 ```
 
 The first time the app is pushed it may fail to start. That is okay. The app cannot stand on its own without an environment provided by federalist / federalist-builder. It will be restarted with a valid environment when federalist-builder schedules a build on it.

@@ -69,18 +69,18 @@ npm install
 npm test
 ```
 
-## Running federalist-docker-build
+## Running federalist-garden-build
 
-The Federalist build container's image specification lives in the [18F/federalist-docker-build](https://github.com/18F/federalist-docker-build) repository on GitHub.
+The Federalist build container's image specification lives in the [18F/federalist-garden-build](https://github.com/18F/federalist-garden-build) repository on GitHub.
 
 The image can be built with docker:
 
 ```
-docker build --tag federalist-docker-build .
+docker build --tag federalist-garden-build .
 ```
 
 Once the image is built, it is possible to shell into a container running it and run commands in the container. In order to get closer parody with the build containers running in cloud.gov use the `--login` option with `/bin/bash`:
 
 ```
-docker run -it federalist-docker-build /bin/bash --login
+docker run -it federalist-garden-build /bin/bash --login
 ```
