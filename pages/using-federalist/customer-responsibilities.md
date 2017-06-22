@@ -35,4 +35,4 @@ Access to Federalist's configuration tools for your specific content does not gr
 
 #### We control access to the hosting service that serves your static webpages
 
-Federalist moves content from your GitHub repositories into a secure build process and then into an "Amazon S3 Bucket" that holds your site files.
+Federalist moves content from your GitHub repositories into a secure build process and then into a file storage system that holds your site files. The credentials for the file storage system (Amazon S3 for those familiar) are secured within cloud.gov.
