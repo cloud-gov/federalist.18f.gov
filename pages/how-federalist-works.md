@@ -71,7 +71,7 @@ Message queue for handling build requests
 - federalist-builds
 
 
-### https://federalist-builder.18f.gov
+### https://federalist-builder.fr.cloud.gov
 
 Processes build requests from a queue and launches build tasks
 
