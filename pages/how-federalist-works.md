@@ -33,7 +33,7 @@ Federalist is located on [cloud.gov's GovCloud environment](https://landing.apps
 The diagram for Federalist's architecture is here: [![Diagram of Federalist architecture]({{site.baseurl}}/uploads/Federalist System Diagram 11-28-16.png)]({{site.baseurl}}/uploads/Federalist System Diagram 11-28-16.png)
 
 
-### https://federalist.fr.cloud.gov
+### https://federalist.18f.gov
 
 Main application server providing an API and front-end website load balanced across at least two instances
 
@@ -50,18 +50,11 @@ Changes from the editor are committed to repositories
 
 Commits POST webhook PUSH events to the API
 
-### federalist-database
+### federalist-production-rds
 
 General application database for the API
 
-- rds shared-psql
-
-
-### federalist-redis
-
-Session store for user sessions
-
-- redis28 standard
+- aws-rds shared-psql
 
 
 ### Simple Queue Service (SQS)
