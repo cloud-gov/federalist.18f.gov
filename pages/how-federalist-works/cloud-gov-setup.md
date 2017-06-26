@@ -79,53 +79,12 @@ Before the image can be pushed to the registry, it will need to be scanned by [C
 
 #### Set some shell variables
 
-Clair's CLI tool copies the image to a `tmp` directory where Clair picks it up. In order for this to work, you need to change the value of the `TMPDIR` variable to `/tmp`
-
-``` shell
-export TMPDIR=/tmp
-```
-
 Additionally, if you do not have your `GOPATH` set, you'll need to set that. [Here is some documentation on how to set `GOPATH`](https://golang.org/doc/code.html#GOPATH).
 
 #### Start up Clair with Docker and wait for vulnerability updates
 
-We recommend starting Clair with [Docker Compose](https://docs.docker.com/compose/). Here is an example `docker-compose.yml` for preparing Clair to scan `federalist-docker-build`:
-
-``` yaml
-version: '2'
-services:
-  postgres:
-    container_name: clair_postgres
-    image: postgres:latest
-    restart: unless-stopped
-    environment:
-      POSTGRES_PASSWORD: password
-
-  clair:
-    container_name: clair_clair
-    image: quay.io/coreos/clair
-    restart: unless-stopped
-    environment:
-      - "TMPDIR=/tmp"
-    depends_on:
-      - postgres
-    ports:
-      - "6060-6061:6060-6061"
-    links:
-      - postgres
-    volumes:
-      - /tmp:/tmp
-      - ./clair_config:/config
-    command: [-config, /config/config.yaml]
-```
-
-Clair will look for a config file in `./clair_config/config`. We recommend using [Clair's example config](https://github.com/coreos/clair/blob/master/config.example.yaml):
-
-``` shell
-curl -L https://raw.githubusercontent.com/coreos/clair/v1.2.2/config.example.yaml -o ./config/config.yaml
-```
-
-Once those parts are in place. Clair can be started with Docker Compose. It takes Clair a while to update it's vulnerability definitions. Give it a few hours or your scan results will come up empty.
+We recommend starting Clair with [Docker Compose](https://docs.docker.com/compose/).
+See the instructions at https://github.com/coreos/clair#docker-compose for how to set this up.
 
 To start:
 
@@ -133,23 +92,30 @@ To start:
 docker-compose up
 ```
 
+It takes Clair a while (several hours) to update its vulnerability definitions and you might think it is being unresponsive.
+It is not finished updating until you see a message that looks something like:
+
+```json
+{"Event":"adding metadata to vulnerabilities","Level":"info","Location":"updater.go:253","Time":"2017-06-23 19:46:09.100571"}
+```
+
 #### Use Clair CLI tool to scan the image
 
-To actually scan the image we'll use the [Cliar CLI Tool](https://github.com/coreos/clair/tree/master/contrib/analyze-local-images).
+To actually scan the image we'll use the [Clair analyze-local-images CLI tool](https://github.com/coreos/analyze-local-images).
 
-First install the CLI tool:
+First install the CLI tool according to the instructions at https://github.com/coreos/analyze-local-images#install
 
-``` shell
-go get -u github.com/coreos/clair/contrib/analyze-local-images
+Clair's CLI tool copies the image to a `tmp` directory where Clair picks it up. In order for this to work, you need to change the value of the `TMPDIR` variable to `/tmp`: `export TMPDIR=/tmp`
+
+Now, scan your image with `analyze-local-images`:
+
+```sh
+analyze-local-images <IMAGE_ID> > scan_<IMAGE_ID>_<DATE>.txt
 ```
 
-Then use it to scan your image. Here `<IMAGE ID>` is the image ID for `federalist-docker-build` found by running `docker images`:
+where `<IMAGE_ID>` is the image ID for `federalist-docker-build` found by running `docker images`.
 
-``` shell
-analyze-local-images <IMAGE ID>
-```
-
-It can take a while, but it should get back to you with a report about whatever vulnerabilities it finds. Cross-reference the list of vulnerabilities with the list in the POAM and add any vulnerabilities that are missing from the POAM.
+It can take a few minutes, but it should get back to you with a report about whatever vulnerabilities it finds. Save the results of the scan to the [Federalist Clair Scans folder](https://drive.google.com/drive/folders/0B3FBmDcqOZB5MHJncXVYQXJ0Wnc) in Google Drive.
 
 ### Pushing the image
 
