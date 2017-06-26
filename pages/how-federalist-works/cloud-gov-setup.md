@@ -107,9 +107,15 @@ First install the CLI tool according to the instructions at https://github.com/c
 
 Clair's CLI tool copies the image to a `tmp` directory where Clair picks it up. In order for this to work, you need to change the value of the `TMPDIR` variable to `/tmp`: `export TMPDIR=/tmp`
 
-Now, scan your image with `analyze-local-images <IMAGE ID>`, where `<IMAGE_ID>` is the image ID for `federalist-docker-build` found by running `docker images`
+Now, scan your image with `analyze-local-images`:
 
-It can take a few minutes, but it should get back to you with a report about whatever vulnerabilities it finds. Cross-reference the list of vulnerabilities with the list in the POAM and add any vulnerabilities that are missing from the POAM.
+```sh
+analyze-local-images <IMAGE_ID> > scan_<IMAGE_ID>_<DATE>.txt
+```
+
+where `<IMAGE_ID>` is the image ID for `federalist-docker-build` found by running `docker images`.
+
+It can take a few minutes, but it should get back to you with a report about whatever vulnerabilities it finds. Save the results of the scan to the [Federalist Clair Scans folder](https://drive.google.com/drive/folders/0B3FBmDcqOZB5MHJncXVYQXJ0Wnc) in Google Drive.
 
 ### Pushing the image
 
