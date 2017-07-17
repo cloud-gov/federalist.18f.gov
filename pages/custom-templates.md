@@ -7,13 +7,19 @@ If you don't want to use the Federalist templates, you can add your own GitHub r
 
 Federalist is designed to be a modular service. Some people customize their sites by creating new templates. Others use a default template content, editing with GitHub. When used this way Federalist acts a no-configuration, production-ready hosting solution for GitHub-based static websites, hosted using cloud.gov tooling, with a custom domain.
 
-## Jekyll resources
+## Build engine resources
+
+All government websites must meet section 508 accessibility standards. 18F provides [guidance for building accessible websites](https://pages.18f.gov/accessibility/).
+
+### Jekyll resources
 
 Federalist can generate any Jekyll website, which lets you build custom websites hosted on Federalist. For documentation on getting started with Jekyll, see [jekyllrb.com](http://jekyllrb.com/).
 
 For an example of a Jekyll site optimized for Federalist, see the [federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template).
 
-All government websites must meet section 508 accessibility standards. 18F provides [guidance for building accessible websites](https://pages.18f.gov/accessibility/).
+### Hugo resources (experimental)
+
+Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-based static site generator. See the [Hugo Docs](https://gohugo.io/documentation/) for getting started with Hugo.
 
 ## Federalist features
 
