@@ -13,15 +13,18 @@ After you pick a template, your new site will be built and added to your list of
 Federalist provides templates for common websites. Here are the templates currently available:
 
 #### U.S. Web Design Standards Landing and Docs Template
+
 ![US Web Design Standards template](https://federalist.18f.gov/images/uswds.thumb.png)
 
 #### Multi Page Template
+
 ![Multi Page Template](https://federalist.18f.gov/images/team.thumb.png)
 
 #### Single Page Template
+
 ![Single Page Template](https://federalist.18f.gov/images/landing.thumb.png)
 
-Additionally, Federalist will build any Jekyll-based website, supporting [custom website templates]({{site.baseurl}}/pages/custom-templates/).
+Additionally, Federalist will build any Jekyll or Hugo website, supporting [custom website templates]({{site.baseurl}}/pages/custom-templates/). Hugo support is currently experimental.
 
 ## Content strategy
 
@@ -31,14 +34,13 @@ The [18F method cards](https://methods.18f.gov/) are an overview of several diff
 
 The Federalist team also provides a [content guide specifically for Federalist websites]({{site.baseurl}}/pages/content-guide/). This guide will help you "convey what your team does, using language and tone that a general audience will understand, or how to think about what to write in each section of your new website."
 
-
 ## Managing site settings
 
 The settings option for a site lets you adjust how Federalist handles the site. These settings are for advanced functionality and most people will not need to change them.
 
 - **Default branch** This is the branch of the site's repository that is built and hosted as the production version of the site. Other branches are considered drafts. Changing this value will rebuild the site using a different branch.
 
-- **Static Site Engine** This controls if Federalist builds your site using Jekyll then hosts it, or simply hosts content you've already generated. If using a template, this should always be "Jekyll."
+- **Static Site Engine** This controls if Federalist builds your site using Jekyll or Hugo, or simply hosts content you've already generated. If using a template, this should always be "Jekyll." The site engine should not be altered once your site is live. Contact the Federalist team for additional support.
 
 - **Custom domains** Enter domain (including protocol; without a trailing slash) to host your website on a custom domain. For example, `https://example.gov`. When this setting is defined, Federalist will change the "View" link for your site to use the custom domain. It will also remove the `baseurl` when generating your site, so that relative links are relative to the root domain. For more about setting a custom domain, see the "[launch checklist]({{site.baseurl}}/pages/using-federalist/launch-checklist)" section.
 
