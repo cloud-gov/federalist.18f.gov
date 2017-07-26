@@ -14,9 +14,6 @@ All of these sites are currently hosted on Federalist. Their source code is also
 **[FICAM Architecture](https://arch.idmanagement.gov)**
 ![FICAM Architecture]({{site.baseurl}}/uploads/partner-sites/arch-idmanagement-gov.png)
 
-**[18F Handbook](https://handbook.18f.gov)**
-![18F Handbook]({{site.baseurl}}/uploads/partner-sites/handbook-gsa-gov.png)
-
 **[18F Homepage](https://18f.gsa.gov/)**
 ![18f.gsa.gov]({{site.baseurl}}/uploads/partner-sites/18f-gsa-gov.png)
 
@@ -26,8 +23,12 @@ All of these sites are currently hosted on Federalist. Their source code is also
 **[Office of Evaluative Sciences](https://oes.gsa.gov/)**
 ![Office of Evaluative Sciences]({{site.baseurl}}/uploads/partner-sites/oes-gsa-gov.png)
 
+
+**[18F Method Cards](https://methods.18f.gov/)**
+![18F Method Cards]({{site.baseurl}}/uploads/partner-sites/method-cards.png)
+
 **[Tech at GSA](https://tech.gsa.gov/)**
-![Tech at GSA]({{site.baseurl}}/uploads/partner-sites/tech-gsa-gov.png)
+![Tech at GSA page by GSA IT]({{site.baseurl}}/uploads/partner-sites/tech-gsa-gov.png)
 
 **[US Web Design Standards](https://standards.usa.gov/)**
 ![US Web Design Standards]({{site.baseurl}}/uploads/partner-sites/standards-usa-gov.png)
