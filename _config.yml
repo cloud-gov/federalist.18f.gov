@@ -52,6 +52,9 @@ navigation:
   - text: Launch Checklist
     url: /pages/using-federalist/launch-checklist/
     internal: true
+  - text: Templates
+    url: /pages/using-federalist/templates/
+    internal: true
 - text: Content Guide
   url: /pages/content-guide/
   internal: true
