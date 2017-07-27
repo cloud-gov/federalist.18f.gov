@@ -27,7 +27,7 @@ All of these sites are currently hosted on Federalist. Their source code is also
 ![18F Method Cards]({{site.baseurl}}/uploads/partner-sites/method-cards.png)
 
 **[Tech at GSA (GSA IT)](https://tech.gsa.gov/)**
-![Tech at GSA page(GSA IT)]({{site.baseurl}}/uploads/partner-sites/tech-gsa-gov.png)
+![Tech at GSA page (GSA IT)]({{site.baseurl}}/uploads/partner-sites/tech-gsa-gov.png)
 
 **[US Web Design Standards](https://standards.usa.gov/)**
 ![US Web Design Standards]({{site.baseurl}}/uploads/partner-sites/standards-usa-gov.png)
