@@ -7,9 +7,9 @@ Before you start using Federalist, the Federalist team needs to authorize you to
 
 ### Adding a new site
 
-Federalist shows you a list of your existing sites along with a button to add a new site. When you add a new site, Federalist offers you a list of [available templates](https://federalist-docs.18f.gov/pages/using-federalist/templates/). Select "use this template" under a template to use it on your new website. Additionally, Federalist will build any Jekyll or Hugo website, supporting [custom website templates]({{site.baseurl}}/pages/custom-templates/). Hugo support is currently experimental.
+Federalist shows you a list of your existing sites along with a button to add a new site. When you add a new site, Federalist offers you a list of [available templates]({{site.baseurl}}/pages/using-federalist/templates/). Select "use this template" under a template to use it on your new website. Additionally, Federalist will build any Jekyll or Hugo website, supporting [custom website templates]({{site.baseurl}}/pages/custom-templates/). Hugo support is currently experimental.
 
-After you pick a template or an existing repo to add to Federalist, your new site will be built and added to your list of websites. If you don't see a new "view site" link in your list of websites, refresh the page. Sometimes there is a slight delay as your website finishes building.
+After you pick a template or an existing repo to add to Federalist, your new site will be built and added to your list of websites. If you don't see the new site in your list of websites, refresh the page. Sometimes there is a slight delay as your website finishes building.
 
 ## Content strategy
 
