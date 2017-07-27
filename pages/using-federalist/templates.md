@@ -3,7 +3,7 @@ title: Templates
 parent: Using Federalist
 ---
 
-Federalist provides templates for common websites. Here are the templates currently available:
+Federalist provides templates for common website types. Here are the templates currently available:
 
 #### U.S. Web Design Standards Landing and Docs Template
 
