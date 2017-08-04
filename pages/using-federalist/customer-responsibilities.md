@@ -23,7 +23,7 @@ Federalist suggests that you add your 18F point of contact to your repo with edi
 
 #### You own your URL
 
-To put a site live on Federalist, you must direct DNS for your URL to a custom address provided by the Federalist team (meaning, that visitors to that address will be pointed at Federalist so they can load your site from us). SEtting DNS for a new or existing URL may involve working with other offices at your agency; these processes typically vary.
+To put a site live on Federalist, you must direct DNS for your URL to a custom address provided by the Federalist team (meaning, that visitors to that address will be pointed at Federalist so they can load your site from us). Setting DNS for a new or existing URL may involve working with other offices at your agency; these processes typically vary.
 
 #### You own any custom code on your static webpages
 
