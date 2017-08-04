@@ -84,7 +84,7 @@ Additionally, if you do not have your `GOPATH` set, you'll need to set that. [He
 #### Start up Clair with Docker and wait for vulnerability updates
 
 We recommend starting Clair with [Docker Compose](https://docs.docker.com/compose/).
-See the instructions at https://github.com/coreos/clair#docker-compose for how to set this up.
+See the instructions at [https://github.com/coreos/clair#docker-compose](https://github.com/coreos/clair#docker-compose) for how to set this up.
 
 To start:
 
@@ -103,7 +103,7 @@ It is not finished updating until you see a message that looks something like:
 
 To actually scan the image we'll use the [Clair analyze-local-images CLI tool](https://github.com/coreos/analyze-local-images).
 
-First install the CLI tool according to the instructions at https://github.com/coreos/analyze-local-images#install
+First install the CLI tool according to the instructions at [https://github.com/coreos/analyze-local-images#install](https://github.com/coreos/analyze-local-images#install)
 
 Clair's CLI tool copies the image to a `tmp` directory where Clair picks it up. In order for this to work, you need to change the value of the `TMPDIR` variable to `/tmp`: `export TMPDIR=/tmp`
 
