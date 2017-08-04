@@ -21,6 +21,10 @@ Federalist provides templates for you to start with in configuring your sites, b
 
 Federalist suggests that you add your 18F point of contact to your repo with editing rights for troubleshooting purposes, but this is not required.
 
+#### You own your URL
+
+To put a site live on Federalist, you must direct DNS for your URL to a custom address provided by the Federalist team (meaning, that visitors to that address will be pointed at Federalist so they can load your site from us). Setting DNS for a new or existing URL may involve working with other offices at your agency; these processes typically vary.
+
 #### You own any custom code on your static webpages
 
 You may wish to use custom Jekyll plugins, Google Analytics from GSA's [Digital Analytics Program](https://www.digitalgov.gov/services/dap/) using embedded Javascript, or other code on your site. Federalist makes this possible - we use analytics extensively on our sites - but you are responsible for the security and stability of any custom code.
