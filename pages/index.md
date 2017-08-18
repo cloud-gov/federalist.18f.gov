@@ -29,7 +29,7 @@ Possible sites include:
 
 - A simple homepage for your government organization with information about personnel and contact information.
 
-- Data visualization sites that pull data from a separate API server (Federalist does not provide API servers)
+- Data visualization sites that pull data from a separate API server (Federalist does not provide API servers).
 
 - A single page with information about a recently released report that may receive a lot of traffic.
 
