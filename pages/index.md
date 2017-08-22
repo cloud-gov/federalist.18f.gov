@@ -7,7 +7,7 @@ Federalist is a compliant [open source](https://github.com/18F/federalist) [stat
 
 The team at [18F](https://18f.gsa.gov/) builds and maintains it as a service available to federal government agencies. We also use Federalist to host many of our own websites.
 
-Federalist is currently under active development. We are working with a select list of partners to test the platform and launch new websites. If you are interested in more information [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform) - or reach out to federalist-inquiries@gsa.gov if you can't access the GSA google form.
+Federalist is [out of beta and open for business](https://18f.gsa.gov/2017/06/01/federalist-is-out-of-beta-and-open-for-business/)! If you are interested in more information [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform) - or reach out to federalist-inquiries@gsa.gov if you can't access the GSA google form.
 
 ## Why static websites?
 
