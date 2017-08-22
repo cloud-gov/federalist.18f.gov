@@ -26,7 +26,7 @@ Here's an example package.json for a site that uses Webpack:
   "scripts": {
     "build": "`npm bin`/webpack",
     "federalist": "npm run build",
-    "start": "`npm bin`/webpack-dev-server" 
+    "start": "`npm bin`/webpack-dev-server"
   },
   "author": "Jonathan Hooper",
   "license": "ISC",
@@ -44,3 +44,16 @@ Here's an example package.json for a site that uses Webpack:
 Federalist uses [Node Version Manager](https://github.com/creationix/nvm) to track the node version your site is meant to use.
 Before running any npm commands, Federalist checks for a file named `.nvmrc`.
 If it finds one, it will use NVM to install and use the desired node version before continuing.
+
+## Excluding node modules
+
+When Federalist runs `npm install` it will create a directory named `node_modules`. This is where it saves the downloaded dependencies. These will be built into a site if the build is not configured to ignore them, causing them to be uploaded. This can cause the time it takes to upload a site increase significantly.
+
+To ignore the node modules for a jekyll site, add the following to the site's `_config.yml`:
+
+```jekyll
+exclude:
+  - node_modules
+```
+
+After adding that, jekyll will ignore the `node_modules` directory when building the site.
