@@ -112,7 +112,7 @@ These buckets *should* be active and properly configured, but there may be times
 Buckets intended to serve websites will need to be created using the `basic-public` plan. Once the bucket is created, the developer must enable CORS access, typically only allowing GET requests to come from the Federalist application the bucket serves.
 An example configuration can be found in the [here](https://cloud.gov/docs/apps/s3/#allowing-access-from-other-applications).
 
-Finally, the developer will need to enable the website hosting using [the AWS CLI's `s3 website` commnad](http://docs.aws.amazon.com/cli/latest/reference/s3/website.html). These commands expects the developer's local directory to contain a generic 404 page named `404.html`:
+Finally, the developer will need to enable the website hosting using [the AWS CLI's `s3 website` command](http://docs.aws.amazon.com/cli/latest/reference/s3/website.html). These commands expects the developer's local directory to contain a generic 404 page named `404.html`:
 
 ```shell
 aws s3 cp ./404.html s3://${BUCKET_NAME}/404.html
