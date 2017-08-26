@@ -41,6 +41,6 @@ Here are a few examples of Federalist websites in production:
 ![18f.gsa.gov]({{site.baseurl}}/uploads/partner-sites/18f-gsa-gov.png)
 **[18F Homepage](https://18f.gsa.gov/)**
 
-## Getting started
+## Purchasing Federalist access for your office
 
-If you have a project that you think would be a good fit for Federalist, [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform).
+If you have a project that you think would be a good fit for Federalist, [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform). (not for bug bounty participants)
