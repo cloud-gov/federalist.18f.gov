@@ -31,7 +31,7 @@ Possible sites include:
 
 - A single page with information about a recently released report that may receive a lot of traffic.
 
-For real world examples, see these [ten example sites]({{site.baseurl}}/pages/about-federalist/example-sites/) of the 79 sites currently live on Federaist.
+For real world examples, see these [ten example sites]({{site.baseurl}}/pages/about-federalist/example-sites/) of the 79 sites currently live on Federalist.
 
 ## Evaluating Federalist for your office or agency
 
