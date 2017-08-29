@@ -7,8 +7,6 @@ Federalist is a compliant [open source](https://github.com/18F/federalist) [stat
 
 The team at [18F](https://18f.gsa.gov/) builds and maintains it as a service available to federal government agencies. We also use Federalist to host many of our own websites.
 
-Federalist is [out of beta and open for business](https://18f.gsa.gov/2017/06/01/federalist-is-out-of-beta-and-open-for-business/)! If you work for a federal agency and are interested in buying Federalist [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform) - or reach out to federalist-inquiries@gsa.gov if you can't access the GSA google form.
-
 ## Why static websites?
 
 Federalist generates static websites instead of using a more complex content management system (CMS) like Drupal or Wordpress. There are several advantages to static websites:
@@ -33,14 +31,8 @@ Possible sites include:
 
 - A single page with information about a recently released report that may receive a lot of traffic.
 
-Here are a few examples of Federalist websites in production:
+For real world examples, see these [ten example sites]({{site.baseurl}}/pages/about-federalist/example-sites/) of the 79 sites currently live on Federaist.
 
-![College Scorecard]({{site.baseurl}}/uploads/college-scorecard.png)
-**[The College Scorecard](https://collegescorecard.ed.gov/)**
+## Evaluating Federalist for your office or agency
 
-![18f.gsa.gov]({{site.baseurl}}/uploads/partner-sites/18f-gsa-gov.png)
-**[18F Homepage](https://18f.gsa.gov/)**
-
-## Purchasing Federalist access for your office
-
-If you have a project that you think would be a good fit for Federalist, [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform). (not for bug bounty participants)
+Federalist is [out of beta and open for business](https://18f.gsa.gov/2017/06/01/federalist-is-out-of-beta-and-open-for-business/)! If you work for a federal agency and are interested in buying Federalist [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform) (note to TTS bug bounty participants: this form is out of scope). If you can't access the GSA Google Form, please reach out to federalist-inquiries@gsa.gov.
