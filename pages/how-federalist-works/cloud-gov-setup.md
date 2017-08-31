@@ -229,7 +229,7 @@ At this time cloud.gov does not have an SQS service broker. The SQS queue will n
 
 ## Deploying federalist-builder
 
-Note: federalist-builder is built to be [deployed from TravisCI](https://docs.travis-ci.com/user/deployment). The instructions for manually deploying federalist-builder are described below and are necessary for the initial deploy, but subsequent deploys should happen on Travis.
+Note: federalist-builder is built to be [deployed from CircleCI](https://circleci.com/docs/2.0/deployment_integrations/). The instructions for manually deploying federalist-builder are described below and are necessary for the initial deploy, but subsequent deploys should happen on CircleCI.
 
 The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
 
@@ -268,7 +268,7 @@ When the application is created, save the client and secret keys to add to the
 
 ## Deploying federalist
 
-Note: federalist is built to be [deployed from TravisCI](https://docs.travis-ci.com/user/deployment). The instructions for manually deploying federalist are described below and are necessary for the initial deploy, but subsequent deploys should happen on Travis.
+Note: federalist is built to be [deployed from CircleCI](https://circleci.com/docs/2.0/deployment_integrations/). The instructions for manually deploying federalist are described below and are necessary for the initial deploy, but subsequent deploys should happen on CircleCI.
 
 The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) or [staging_manifest.yml](https://github.com/18F/federalist-builder/blob/master/staging_manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
 
@@ -317,8 +317,8 @@ By default, the CDN caches error responses, so you will also need to work with c
 
 Federalist uses cloud.gov's [space deployer](https://cloud.gov/docs/services/cloud-gov-service-account/#plans) service to deploy using CI. Additionally, the credentials for these deployer accounts are used by Federalist Builder to deploy build containers.
 
-Occasionally, these credentials expire. When they do, it is necessary to regenerate the space deployer services and update the credentials. The credentials need to be updated in the user provided service and in Travis.
+Occasionally, these credentials expire. When they do, it is necessary to regenerate the space deployer services and update the credentials. The credentials need to be updated in the user provided service and in CircleCI.
 
-To update the credentials in Travis, go to the settings for [federalist](https://travis-ci.org/18F/federalist/settings) and [federalist-builder](https://travis-ci.org/18F/federalist-builder/settings). There the `CF_USERNAME_STAGING`, `CF_USERNAME_PRODUCTION`, `CF_PASSWORD_STAGING`, and `CF_PASSWORD_PRODUCTION` environment variables can be set to the correct values. This needs to be done for each app.
+To update the credentials in CircleCI, go to the settings for [federalist](https://circleci.com/gh/18F/federalist/edit#env-vars) and [federalist-builder](https://circleci.com/gh/18F/federalist-builder/edit#env-vars). There the `CF_USERNAME_STAGING`, `CF_USERNAME_PRODUCTION`, `CF_PASSWORD_STAGING`, and `CF_PASSWORD_PRODUCTION` environment variables can be set to the correct values. This needs to be done for each app.
 
 After the credentials are updated in CI, they need to be updated for the builder in `staging` and in `production`. The credentials live in a user provided service named `federalist-deploy-user`. That needs to be updated with new values for `DEPLOY_USER_USERNAME` and `DEPLOY_USER_PASSWORD`. To do that, see the docs on [updating user provided services](https://docs.cloudfoundry.org/devguide/services/user-provided.html#update).
