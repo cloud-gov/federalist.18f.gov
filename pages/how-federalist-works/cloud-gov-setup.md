@@ -69,54 +69,6 @@ docker build --no-cache --tag federalist-garden-build .
 
 The image should now appear in the list when you run `docker images`.
 
-### Scanning the image
-
-Before the image can be pushed to the registry, it will need to be scanned by [Clair](https://github.com/coreos/clair). The steps to do this are:
-
-- Set some shell variables
-- Start up Clair with Docker and wait for vulnerability updates
-- Use Clair CLI tool to scan the image
-
-#### Set some shell variables
-
-Additionally, if you do not have your `GOPATH` set, you'll need to set that. [Here is some documentation on how to set `GOPATH`](https://golang.org/doc/code.html#GOPATH).
-
-#### Start up Clair with Docker and wait for vulnerability updates
-
-We recommend starting Clair with [Docker Compose](https://docs.docker.com/compose/).
-See the instructions at [https://github.com/coreos/clair#docker-compose](https://github.com/coreos/clair#docker-compose) for how to set this up.
-
-To start:
-
-``` shell
-docker-compose up
-```
-
-It takes Clair a while (several hours) to update its vulnerability definitions and you might think it is being unresponsive.
-It is not finished updating until you see a message that looks something like:
-
-```json
-{"Event":"adding metadata to vulnerabilities","Level":"info","Location":"updater.go:253","Time":"2017-06-23 19:46:09.100571"}
-```
-
-#### Use Clair CLI tool to scan the image
-
-To actually scan the image we'll use the [Clair analyze-local-images CLI tool](https://github.com/coreos/analyze-local-images).
-
-First install the CLI tool according to the instructions at [https://github.com/coreos/analyze-local-images#install](https://github.com/coreos/analyze-local-images#install)
-
-Clair's CLI tool copies the image to a `tmp` directory where Clair picks it up. In order for this to work, you need to change the value of the `TMPDIR` variable to `/tmp`: `export TMPDIR=/tmp`
-
-Now, scan your image with `analyze-local-images`:
-
-```sh
-analyze-local-images <IMAGE_ID> > scan_<IMAGE_ID>_<DATE>.txt
-```
-
-where `<IMAGE_ID>` is the image ID for `federalist-garden-build` found by running `docker images`.
-
-It can take a few minutes, but it should get back to you with a report about whatever vulnerabilities it finds. Save the results of the scan to the [Federalist Clair Scans folder](https://drive.google.com/drive/folders/0B3FBmDcqOZB5MHJncXVYQXJ0Wnc) in Google Drive.
-
 ### Pushing the image
 
 Since the registry in cloud.gov is in read-only mode, it is not possible to push an image to it directly. In order to push an image to the registry a local registry with the same S3 storage driver is started and the image is pushed to that. The image is then saved in the S3 bucket where it is available to the remote registry.
