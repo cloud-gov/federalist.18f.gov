@@ -11,7 +11,7 @@ Federalist retains other responsibilities, clarified below. The intent of these 
 
 #### You must use a GitHub account to log onto Federalist.
 
-Federalist is a service that leverages GitHub repositories for publishing. Federalist elimates redundancy by allowing GitHub users with editing access to a repository to configure the site on Federalist. This requires Federalist users to authorize the Federalist application on their GitHub account **and** for Federalist to by approved by the parent organizations of repos that are hosted with Federalist.
+Federalist is a service that leverages GitHub repositories for publishing. Federalist eliminates redundancy by allowing GitHub users with editing access to a repository to configure the site on Federalist. This requires Federalist users to authorize the Federalist application on their GitHub account **and** for Federalist to be approved by the parent organizations of repos that are hosted with Federalist. Federalist users must also have two factor authentication enabled for their GitHub accounts in order to be given access.
 
 GitHub is used across the government (see [this dashboard](https://gsa.github.io/github-federal-stats/) from our partners in GSA's Office of Government-wide Policy), and a majority of cabinet agencies have a GitHub presence. However, GSA does not endorse Github and there are other ways to launch static sites if your agency is not prepared to use GitHub. At this time, no prospective Federalist customer has been deterred by integration with GitHub.
 
