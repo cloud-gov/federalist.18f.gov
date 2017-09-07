@@ -74,6 +74,9 @@ navigation:
   - text: Best practices for content
     url: /pages/content-guide/best-practices-for-content/
     internal: true
+  - text: Adding search to your site
+    url: /pages/content-guide/adding-search/
+    internal: true
 - text: Custom Templates
   url: /pages/custom-templates/
   internal: true
