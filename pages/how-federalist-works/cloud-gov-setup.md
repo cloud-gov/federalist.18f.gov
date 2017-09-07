@@ -267,9 +267,11 @@ By default, the CDN caches error responses, so you will also need to work with c
 
 ## Rotating credentials
 
-Federalist uses cloud.gov's [space deployer](https://cloud.gov/docs/services/cloud-gov-service-account/#plans) service to deploy using CI. Additionally, the credentials for these deployer accounts are used by Federalist Builder to deploy build containers.
+Federalist uses cloud.gov's [space deployer](https://cloud.gov/docs/services/cloud-gov-service-account/#plans) service to commission separate deployer account credentials for CI (for automated deployments) and for Federalist Builder (so that it can deploy garden build containers).
 
-Occasionally, these credentials expire. When they do, it is necessary to regenerate the space deployer services and update the credentials. The credentials need to be updated in the user provided service and in CircleCI.
+The space deployer services are called `federalist-[SPACE NAME]-deployer-circle` for the credentials used in CircleCI, and `federalist-[SPACE NAME]-deployer-build` for the credentials in the `federalist-deploy-user` user-provided service that is used by Federalist Builder. `[SPACE NAME]` is either `production` or `staging`.
+
+Occasionally, these credentials expire or otherwise need to be changed. When they do, it is necessary to regenerate the space deployer services by following the cloud.gov [space deployer documentation](https://cloud.gov/docs/services/cloud-gov-service-account/#plans). The new credentials then need to be updated in the `federalist-deploy-user` user-provided service and/or in CircleCI.
 
 To update the credentials in CircleCI, go to the settings for [federalist](https://circleci.com/gh/18F/federalist/edit#env-vars) and [federalist-builder](https://circleci.com/gh/18F/federalist-builder/edit#env-vars). There the `CF_USERNAME_STAGING`, `CF_USERNAME_PRODUCTION`, `CF_PASSWORD_STAGING`, and `CF_PASSWORD_PRODUCTION` environment variables can be set to the correct values. This needs to be done for each app.
 
