@@ -267,8 +267,7 @@ By default, the CDN caches error responses, so you will also need to work with c
 
 ## Rotating credentials
 
-Federalist uses cloud.gov's [space deployer](https://cloud.gov/docs/services/cloud-gov-service-account/#plans) service to commission
-separate deployer account credentials for CI (for automated deployments) and for Federalist Builder (so that it can deploy garden build containers).
+Federalist uses cloud.gov's [space deployer](https://cloud.gov/docs/services/cloud-gov-service-account/#plans) service to commission separate deployer account credentials for CI (for automated deployments) and for Federalist Builder (so that it can deploy garden build containers).
 
 The space deployer services are called `federalist-[SPACE NAME]-deployer-circle` for the credentials used in CircleCI, and `federalist-[SPACE NAME]-deployer-build` for the credentials in the `federalist-deploy-user` user-provided service that is used by Federalist Builder. `[SPACE NAME]` is either `production` or `staging`.
 
