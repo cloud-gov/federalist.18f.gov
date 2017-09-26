@@ -3,7 +3,7 @@ title: Example Sites
 parent: About Federalist
 ---
 
-All of these sites are currently hosted on Federalist. Their source code is also available for your reuse.
+Federalist currently hosts 83 websites, including these 10 examples. Their source code is also available for your reuse. Please contact us with questions at federalist-inquiries@gsa.gov.
 
 **[College Scorecard](https://collegescorecard.ed.gov/)**
 ![College Scorecard]({{site.baseurl}}/uploads/partner-sites/collegescorecard-ed-gov.png)
