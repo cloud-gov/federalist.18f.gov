@@ -25,4 +25,5 @@ layout: null
   border: 1px solid #5b616b;
   border-radius: 3px;
   margin-bottom: 16px;
+  display: block;
 }
