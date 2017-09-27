@@ -36,7 +36,7 @@ examples:
 Federalist currently hosts 83 websites, including these 10 examples. Their source code is also available for your reuse. Please contact us with questions at federalist-inquiries@gsa.gov.
 
 {% for ex in page.examples %}
-    <a class='screenshot' href='{{ ex.url }}'>
-        <img src='{{site.baseurl}}{{ ex.img }}' alt='{{ ex.title }}'>
-    </a>
+  <a class='screenshot' href='{{ ex.url }}'>
+    <img src='{{site.baseurl}}{{ ex.img }}' alt='{{ ex.title }}'>
+  </a>
 {% endfor %}
