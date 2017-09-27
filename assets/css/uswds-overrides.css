@@ -20,3 +20,9 @@ layout: null
   background-size: 1em;
 }
 {% endif %}
+
+.screenshot {
+  border: 1px solid #5b616b;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
