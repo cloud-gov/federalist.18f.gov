@@ -1,36 +1,42 @@
 ---
 title: Example Sites
 parent: About Federalist
+examples:
+- title: College Scorecard
+  url: https://collegescorecard.ed.gov/
+  img: /uploads/partner-sites/collegescorecard-ed-gov.png
+- title: Extractive Industries Transparency Initiative
+  url: https://useiti.doi.gov/
+  img: /uploads/partner-sites/useiti-doi-gov.png
+- title: FICAM Architecture
+  url: https://arch.idmanagement.gov
+  img: /uploads/partner-sites/arch-idmanagement-gov.png
+- title: 18F Homepage
+  url: https://18f.gsa.gov/
+  img: /uploads/partner-sites/18f-gsa-gov.png
+- title: login.gov
+  url: https://login.gov
+  img: /uploads/partner-sites/login-gov.png
+- title: Office of Evaluative Sciences
+  url: https://oes.gsa.gov/
+  img: /uploads/partner-sites/oes-gsa-gov.png
+- title: 18F Method Cards
+  url: https://methods.18f.gov/
+  img: /uploads/partner-sites/method-cards.png
+- title: Tech at GSA (GSA IT)
+  url: https://tech.gsa.gov/
+  img: /uploads/partner-sites/tech-gsa-gov.png
+- title: US Web Design Standards
+  url: https://standards.usa.gov/
+  img: /uploads/partner-sites/standards-usa-gov.png
+- title: vote.gov
+  url: https://vote.gov/
+  img: /uploads/partner-sites/vote-gov.png
 ---
-
 Federalist currently hosts 83 websites, including these 10 examples. Their source code is also available for your reuse. Please contact us with questions at federalist-inquiries@gsa.gov.
 
-**[College Scorecard](https://collegescorecard.ed.gov/)**
-![College Scorecard]({{site.baseurl}}/uploads/partner-sites/collegescorecard-ed-gov.png)
-
-**[Extractive Industries Transparency Initiative](https://useiti.doi.gov/)**
-![Extractive Industries Transparency Initiative]({{site.baseurl}}/uploads/partner-sites/useiti-doi-gov.png)
-
-**[FICAM Architecture](https://arch.idmanagement.gov)**
-![FICAM Architecture]({{site.baseurl}}/uploads/partner-sites/arch-idmanagement-gov.png)
-
-**[18F Homepage](https://18f.gsa.gov/)**
-![18f.gsa.gov]({{site.baseurl}}/uploads/partner-sites/18f-gsa-gov.png)
-
-**[login.gov](https://login.gov)**
-![login.gov]({{site.baseurl}}/uploads/partner-sites/login-gov.png)
-
-**[Office of Evaluative Sciences](https://oes.gsa.gov/)**
-![Office of Evaluative Sciences]({{site.baseurl}}/uploads/partner-sites/oes-gsa-gov.png)
-
-**[18F Method Cards](https://methods.18f.gov/)**
-![18F Method Cards]({{site.baseurl}}/uploads/partner-sites/method-cards.png)
-
-**[Tech at GSA (GSA IT)](https://tech.gsa.gov/)**
-![Tech at GSA page (GSA IT)]({{site.baseurl}}/uploads/partner-sites/tech-gsa-gov.png)
-
-**[US Web Design Standards](https://standards.usa.gov/)**
-![US Web Design Standards]({{site.baseurl}}/uploads/partner-sites/standards-usa-gov.png)
-
-**[vote.gov](https://vote.gov/)**
-![vote.gov]({{site.baseurl}}/uploads/partner-sites/vote-gov.png)
+{% for ex in page.examples %}
+  <a class='screenshot' href='{{ ex.url }}'>
+    <img src='{{site.baseurl}}{{ ex.img }}' alt='{{ ex.title }}'>
+  </a>
+{% endfor %}
