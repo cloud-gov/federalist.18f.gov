@@ -25,6 +25,8 @@ Federalist suggests that you add your 18F point of contact to your repo with edi
 
 To put a site live on Federalist, you must direct DNS for your URL to a custom address provided by the Federalist team (meaning, that visitors to that address will be pointed at Federalist so they can load your site from us). Setting DNS for a new or existing URL may involve working with other offices at your agency; these processes typically vary.
 
+If your site is at a top level .gov domain, the process may be more challenging than for a subdomain as some DNS providers are less flexible for top level domain settings.
+
 #### You own any custom code on your static webpages
 
 You may wish to use custom Jekyll plugins, Google Analytics from GSA's [Digital Analytics Program](https://www.digitalgov.gov/services/dap/) using embedded Javascript, or other code on your site. Federalist makes this possible - we use analytics extensively on our sites - but you are responsible for the security and stability of any custom code.
