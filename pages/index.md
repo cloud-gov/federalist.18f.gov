@@ -12,7 +12,7 @@ The team at [18F](https://18f.gsa.gov/) builds and maintains Federalist as a ser
 Federalist is [out of beta and open for business](https://18f.gsa.gov/2017/06/01/federalist-is-out-of-beta-and-open-for-business/)! We've produced some materials that may be useful for your office's review of Federalist.
 
   * [Compliance Memo]({{site.baseurl}}/assets/Federalist-Compliance-Memo.pdf)
-  * [One Pager]({{site.baseurl}}/pages/Federalist-One-Pager.pdf)
+  * [One Pager]({{site.baseurl}}/assets/Federalist-One-Pager.pdf)
 
 If you work for a federal agency and are interested in buying Federalist [please let us know](https://docs.google.com/forms/d/1iB8aW7c9r1QH3s8XElQCrnXRGjAiPUYpWG1CMeEqGIo/viewform) (note to TTS bug bounty participants: this form is out of scope). If you can't access the GSA Google Form, please reach out to federalist-inquiries@gsa.gov.
 
