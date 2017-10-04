@@ -1,6 +1,8 @@
 ---
 title: Using Federalist
 ---
+![US Web Design Standards template]({{site.baseurl}}/images/uswds.thumb.png)
+
 ### Getting Authorized to use Federalist
 
 Before you start using Federalist, the Federalist team needs to authorize you to use Federalist, either for a live site or for testing during the sales process. This will happen as part of business development conversations with the Federalist team or upon agreement execution.
