@@ -1,7 +1,7 @@
 ---
 title: Using Federalist
 ---
-![US Web Design Standards template]({{site.baseurl}}/images/uswds.thumb.png)
+![Federalist Sitelist Screenshot]({{site.baseurl}}/assets/federalist-sitelist.png)
 
 ### Getting Authorized to use Federalist
 
