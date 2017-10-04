@@ -16,7 +16,7 @@ templates:
 Federalist provides templates for common website types. Here are the templates currently available:
 
 {% for tem in page.templates %}
-  <h3>'{{ tem.title }}'</h3>
+  <h3>{{ tem.title }}</h3>
   <a class='screenshot' href='{{ tem.url }}'>
     <img src='{{ tem.img }}' alt='{{ tem.title }}'>
   </a>
