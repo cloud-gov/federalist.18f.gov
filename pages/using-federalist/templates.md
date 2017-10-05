@@ -24,6 +24,6 @@ Federalist provides templates for common website types. Here are the templates c
   </p>
 {% endfor %}
 
-As time allows, we hope to add other templates based on existing Federlaist sites.
+As time allows, we hope to add other templates based on existing Federalist sites.
 
 Additionally, Federalist will build any Jekyll or Hugo website, supporting [custom website templates]({{site.baseurl}}/pages/custom-templates/). Hugo support is currently experimental.
