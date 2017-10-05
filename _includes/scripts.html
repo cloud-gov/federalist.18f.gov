@@ -1,4 +1,3 @@
 {% for script in site.scripts %}
-    <script src="{{ site.baseurl }}{{ script.src | default: script }}"{% if script.async %} async{% endif %}></script>{% endfor %}
-{% for script in page.scripts %}
-    <script src="{{ site.baseurl }}{{ script.src | default: script }}"{% if script.async %} async{% endif %}></script>{% endfor %}
+    <script src="{{ site.baseurl }}{{ script.src | default: script }}"{% if script.async %} async{% endif %}></script>
+{% endfor %}
