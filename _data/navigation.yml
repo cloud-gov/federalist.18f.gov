@@ -9,5 +9,6 @@ primary:
       href: https://federalist.18f.gov
 
 secondary:
-  search: false
+  search:
+    affiliate_id: federalist-docs
   links: []

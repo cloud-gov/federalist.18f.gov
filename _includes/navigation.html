@@ -57,14 +57,15 @@
 
       {% if secondary %}
       <div class="usa-nav-secondary">
-
         {% if secondary.search %}
-        <form class="usa-search usa-search-small js-search-form"
-          {% if secondary.search.action %}action="{{ secondary.search.action }}"{% endif %}>
+        <form class="usa-search usa-search-small js-search-form" accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get">
+          <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+          <input id="affiliate" name="affiliate" type="hidden" value="{{ secondary.search.affiliate_id }}" />
+
           <div role="search">
             <label class="usa-sr-only" for="search-field-small">Search for:</label>
-            <input id="search-field-small" type="search" name="{{ secondary.search.param | default: 'search' }}">
-            <button type="submit">
+            <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="search" />
+            <button name="commit" type="submit" value="search">
               <span class="usa-sr-only">Search</span>
             </button>
           </div>

@@ -1,3 +1,13 @@
 {% for script in site.scripts %}
     <script src="{{ site.baseurl }}{{ script.src | default: script }}"{% if script.async %} async{% endif %}></script>
 {% endfor %}
+
+{% if navigation.secondary.search %}
+<script>
+    var usasearch_config = { siteHandle: "{{ navigation.secondary.search.affiliate_id }}" };
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//search.usa.gov/javascripts/remote.loader.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+{% endif %}
