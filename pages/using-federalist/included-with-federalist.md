@@ -1,6 +1,6 @@
 ---
 title: Included with Federalist
-parent: How Federalist Works
+parent: Using Federalist
 ---
 ## What you get with Federalist
 

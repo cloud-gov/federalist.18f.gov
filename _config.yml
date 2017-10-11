@@ -47,6 +47,9 @@ navigation:
   - text: Customer Responsibilities
     url: /pages/using-federalist/customer-responsibilities/
     internal: true
+  - text: Included with Federalist
+    url: /pages/using-federalist/included-with-federalist/
+    internal: true
   - text: Instructional Demos
     url: /pages/using-federalist/instructional-demos/
     internal: true
@@ -87,9 +90,6 @@ navigation:
   children:
   - text: How Custom URLs work
     url: /pages/how-federalist-works/custom-urls/
-    internal: true
-  - text: Included with Federalist
-    url: /pages/how-federalist-works/included-with-federalist/
     internal: true
   - text: Node on Federalist
     url: /pages/how-federalist-works/node-on-federalist/
