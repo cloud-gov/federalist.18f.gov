@@ -17,7 +17,7 @@ GitHub is used across the government (see [this dashboard](https://gsa.github.io
 
 #### You own your content
 
-Federalist provides templates for you to start with in configuring your sites, but is not responsible for editing or updating the content or local configuration of your site. The Federalist team ensures that the publishing mechanism remain available to you so that your content edits can be published immediately. Your content must be low impact according to [FIPS 199](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf) and each brnach on GitHub is published publicly by Federalist.
+Federalist provides templates for you to start with in configuring your sites, but is not responsible for editing or updating the content or local configuration of your site. The Federalist team ensures that the publishing mechanism remain available to you so that your content edits can be published immediately. Your content must be low impact according to [FIPS 199](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf) and each branch on GitHub is published publicly by Federalist. Federalist is not for content that requires authorization to view.
 
 Federalist suggests that you add your 18F point of contact to your repo with editing rights for troubleshooting purposes, but this is not required.
 
