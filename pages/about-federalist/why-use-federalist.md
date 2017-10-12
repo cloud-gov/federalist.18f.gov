@@ -6,6 +6,17 @@ If you’re a program manager or a federal web developer you’ve probably been 
 
 It shouldn’t be that way.
 
+## Why Federalist?
+
+Federalist serves our fellow federal employees by expertly managing the backend and compliance work to launch and manage a website, allowing you to focus your expertise on your content.
+
+- **FedRAMP Certified Platform** Federalist is hosted on cloud.gov, a platform with security and compliance verified by the FedRAMP Joint Authorization Board, which means you can trust that your site will be fast, reliable, and ready for unexpected surges in traffic.
+
+- **Compliance out of the box** Federalist’s specific implementation of cloud.gov’s services to host static sites carries a GSA Agency ATO. If your agency accepts this ATO, you can host Federalist sites without running your own compliance process. We understand those processes cost around $95,000 per site, and $135,000 when including a pentest. Using Federalist allows you to leverage our compliance work, saving you time and money.
+
+- **Easy previews and content approvals** Federalist builds out draft updates to your site at a special preview URL. This enables your team to know their changes will show up correctly when pushed to the main site, and makes it easy to get signoff on content updates from stakeholders.
+
+
 ## Why static websites?
 
 Federalist generates static websites instead of using a more complex content management system (CMS) like Drupal or Wordpress. There are several advantages to static websites:
