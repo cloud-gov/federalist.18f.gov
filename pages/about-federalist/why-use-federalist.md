@@ -12,7 +12,7 @@ Federalist serves our fellow federal employees by expertly managing the backend 
 
 - **FedRAMP Certified Platform** Federalist is hosted on cloud.gov, a platform with security and compliance verified by the FedRAMP Joint Authorization Board, which means you can trust that your site will be fast, reliable, and ready for unexpected surges in traffic.
 
-- **Compliance out of the box** Federalist’s specific implementation of cloud.gov’s services to host static sites carries a GSA Agency ATO. If your agency accepts this ATO, you can host Federalist sites without running your own compliance process. We understand those processes cost around $95,000 per site, and $135,000 when including a pentest. Using Federalist allows you to leverage our compliance work, saving you time and money.
+- **Compliance out of the box** Federalist’s specific implementation of cloud.gov’s services to host static sites carries a [GSA Agency ATO](https://federalist-docs.18f.gov/assets/Federalist-Compliance-Memo.pdf). If your agency accepts this ATO, you can host Federalist sites without running your own compliance process. We understand those processes cost around $95,000 per site, and $135,000 when including a pentest. Using Federalist allows you to leverage our compliance work, saving you time and money.
 
 - **Easy previews and content approvals** Federalist builds out draft updates to your site at a special preview URL. This enables your team to know their changes will show up correctly when pushed to the main site, and makes it easy to get signoff on content updates from stakeholders.
 
