@@ -40,6 +40,9 @@ navigation:
   - text: Example Sites
     url: /pages/about-federalist/example-sites/
     internal: true
+  - text: Why Use Federalist?
+    url: /pages/about-federalist/why-use-federalist/
+    internal: true
 - text: Using Federalist
   url: /pages/using-federalist/
   internal: true
