@@ -32,13 +32,3 @@ Federalist generates static websites instead of using a more complex content man
 ## What can I build with Federalist?
 
 Federalist provides [ready-to-use templates]({{site.baseurl}}/pages/using-federalist/#federalist-templates) for several common website types. You can also use custom website templates based on Jekyll or Hugo (Hugo use is still in beta). 18F maintains many Jekyll-based websites that you can fork and adopt.
-
-Possible sites include:
-
-- A simple homepage for your government organization with information about personnel, meetings, and contact information.
-
-- Data visualization sites that pull data from a separate API server (Federalist does not provide API servers).
-
-- A single page with information about a recently released report that may receive a lot of traffic.
-
-For real world examples, see these [ten existing sites]({{site.baseurl}}/pages/about-federalist/example-sites/) out of the 89 sites currently live on Federalist.
