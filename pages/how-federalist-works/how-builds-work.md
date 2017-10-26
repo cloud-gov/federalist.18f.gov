@@ -14,7 +14,7 @@ When building our your sites, please remember that all government websites must 
 
 Federalist can generate any Jekyll website, which lets you build custom websites hosted on Federalist. For documentation on getting started with Jekyll, see [jekyllrb.com](http://jekyllrb.com/).
 
-For an example of a Jekyll site optimized for Federalist, see our [templates]({{site.baseurl}}/pages/using-federalist/templates/)
+For an example of a Jekyll site optimized for Federalist, see our [templates]({{site.baseurl}}/pages/using-federalist/templates/).
 
 ## Jekyll build features
 
