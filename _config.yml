@@ -84,27 +84,27 @@ navigation:
   - text: Adding search to your site
     url: /pages/content-guide/adding-search/
     internal: true
-- text: Custom Templates
-  url: /pages/custom-templates/
-  internal: true
 - text: How Federalist Works
   url: /pages/how-federalist-works/
   internal: true
   children:
+  - text: How Builds work
+    url: /pages/how-federalist-works/how-builds-work/
+    internal: true
   - text: How Custom URLs work
     url: /pages/how-federalist-works/custom-urls/
+    internal: true
+  - text: cloud.gov Setup
+    url: /pages/how-federalist-works/cloud-gov-setup/
+    internal: true
+  - text: Deploying Federalist
+    url: /pages/how-federalist-works/deploying-federalist/
     internal: true
   - text: Node on Federalist
     url: /pages/how-federalist-works/node-on-federalist/
     internal: true
   - text: RVM on Federalist
     url: /pages/how-federalist-works/rvm-on-federalist/
-    internal: true
-  - text: Deploying Federalist
-    url: /pages/how-federalist-works/deploying-federalist/
-    internal: true
-  - text: cloud.gov Setup
-    url: /pages/how-federalist-works/cloud-gov-setup/
     internal: true
   - text: Site Wide Alert
     url: /pages/how-federalist-works/site-wide-alert/
