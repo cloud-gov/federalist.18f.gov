@@ -37,32 +37,32 @@ navigation:
   url: /
   internal: true
   children:
-  - text: Example Sites
+  - text: Example sites
     url: /pages/about-federalist/example-sites/
     internal: true
-  - text: Why Use Federalist?
+  - text: Why use Federalist?
     url: /pages/about-federalist/why-use-federalist/
     internal: true
 - text: Using Federalist
   url: /pages/using-federalist/
   internal: true
   children:
-  - text: Customer Responsibilities
+  - text: Customer responsibilities
     url: /pages/using-federalist/customer-responsibilities/
     internal: true
   - text: Included with Federalist
     url: /pages/using-federalist/included-with-federalist/
     internal: true
-  - text: Instructional Demos
+  - text: Instructional demos
     url: /pages/using-federalist/instructional-demos/
     internal: true
-  - text: Launch Checklist
+  - text: Launch checklist
     url: /pages/using-federalist/launch-checklist/
     internal: true
   - text: Templates
     url: /pages/using-federalist/templates/
     internal: true
-- text: Content Guide
+- text: Content guide
   url: /pages/content-guide/
   internal: true
   children:
@@ -84,14 +84,14 @@ navigation:
   - text: Adding search to your site
     url: /pages/content-guide/adding-search/
     internal: true
-- text: How Federalist Works
+- text: How Federalist works
   url: /pages/how-federalist-works/
   internal: true
   children:
-  - text: How Builds work
+  - text: How builds work
     url: /pages/how-federalist-works/how-builds-work/
     internal: true
-  - text: How Custom URLs work
+  - text: How custom URLs work
     url: /pages/how-federalist-works/custom-urls/
     internal: true
   - text: Node on Federalist
@@ -100,14 +100,14 @@ navigation:
   - text: RVM on Federalist
     url: /pages/how-federalist-works/rvm-on-federalist/
     internal: true
-- text: For Federalist Developers
+- text: For Federalist developers
   url: /pages/how-federalist-works/deploying-federalist/
   internal: true
   children:
-  - text: cloud.gov Setup
+  - text: cloud.gov setup
     url: /pages/how-federalist-works/cloud-gov-setup/
     internal: true
-  - text: Site Wide Alert
+  - text: Site wide alerts
     url: /pages/how-federalist-works/site-wide-alert/
     internal: true
   - text: Running Federalist locally
