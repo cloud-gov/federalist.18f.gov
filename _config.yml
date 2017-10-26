@@ -84,7 +84,7 @@ navigation:
   - text: Adding search to your site
     url: /pages/content-guide/adding-search/
     internal: true
-- text: Technical Background
+- text: How Federalist Works
   url: /pages/how-federalist-works/
   internal: true
   children:
