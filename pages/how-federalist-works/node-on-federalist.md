@@ -3,7 +3,7 @@ title: Node on Federalist
 parent: How Federalist Works
 ---
 
-*Note that the features described in this document are experimental and are only available in Federalist's GovCloud environment.*
+*Note that the features described in this document are experimental.*
 
 Federalist supports using node and npm to build parts of your site before the build engine starts its work.
 This is helpful for doing things like compiling a site's assets, or employing a build tool such as [Fractal](https://github.com/frctl/fractal).
