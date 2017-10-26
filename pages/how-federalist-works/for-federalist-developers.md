@@ -1,5 +1,5 @@
 ---
-title: Deploying Federalist
+title: For Federalist Developers
 parent: How Federalist Works
 ---
 
