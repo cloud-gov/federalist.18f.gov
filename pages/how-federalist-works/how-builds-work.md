@@ -1,27 +1,22 @@
 ---
-title: Custom Templates
+title: How Builds Work
+parent: How Federalist Works
 ---
-Federalist is a continuous deployment-like build environment for static sites. It works by setting a webhook on your site's GitHub repository and generates your site on each `push` event to that repository. Changes made to the site's content and files in its repository through the GitHub web editor or otherwise launch rebuild tasks of the site in a build environment container.
+Federalist is a continuous deployment-like build environment for static sites. It works by setting a webhook on your site's GitHub repository and generates your site on each `push` event to that repository, then uploads your site files to S3. Changes made to the site's content and files in its repository through the GitHub web editor or otherwise launch rebuild tasks of the site in a build environment container.
 
-If you don't want to use the Federalist templates, you can add your own GitHub repository to build a completely custom site. When you add a repository-based site, you can choose your build engine: Jekyll, Hugo (not yet implemented), or static, which simply pushes the files in your repository. You can also specify a default branch of your repository to serve as the "production" version of the site.
+If you don't want to use the Federalist templates, you can add your own GitHub repository to build a completely custom site. When you add a repository-based site, you can choose your build engine: Jekyll, Hugo (experimental), or static, which simply pushes the files in your repository to S3. You can also specify a default branch of your repository to serve as the "production" version of the site.
 
 Federalist is designed to be a modular service. Some people customize their sites by creating new templates. Others use a default template content, editing with GitHub. When used this way Federalist acts a no-configuration, production-ready hosting solution for GitHub-based static websites, hosted using cloud.gov tooling, with a custom domain.
 
-## Build engine resources
+When building our your sites, please remember that all government websites must meet section 508 accessibility standards. 18F provides [guidance for building accessible websites](https://accessibility.18f.gov/).
 
-All government websites must meet section 508 accessibility standards. 18F provides [guidance for building accessible websites](https://pages.18f.gov/accessibility/).
-
-### Jekyll resources
+## Jekyll resources
 
 Federalist can generate any Jekyll website, which lets you build custom websites hosted on Federalist. For documentation on getting started with Jekyll, see [jekyllrb.com](http://jekyllrb.com/).
 
-For an example of a Jekyll site optimized for Federalist, see the [federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template).
+For an example of a Jekyll site optimized for Federalist, see our [templates]({{site.baseurl}}/pages/using-federalist/templates/).
 
-### Hugo resources (experimental)
-
-Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-based static site generator. See the [Hugo Docs](https://gohugo.io/documentation/) for getting started with Hugo.
-
-## Federalist features
+## Jekyll build features
 
 Federalist provides features beyond just generating Jekyll sites. The steps below outline how to set up custom websites that best take advantage of these features.
 
@@ -54,3 +49,7 @@ Several dependencies are already available for use in the building environment. 
 To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-garden-build/blob/master/Dockerfile) and [base image `Dockerfile`](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile).
 
 **Note:** using `Gemfile` may considerably slow down the generation of your website, depending on how long the `bundle install` step takes to complete.
+
+## Hugo resources (experimental)
+
+Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-based static site generator. See the [Hugo Docs](https://gohugo.io/documentation/) for getting started with Hugo.
