@@ -101,7 +101,7 @@ navigation:
     url: /pages/how-federalist-works/rvm-on-federalist/
     internal: true
 - text: For Federalist developers
-  url: /pages/how-federalist-works/deploying-federalist/
+  url: /pages/how-federalist-works/for-federalist-developers/
   internal: true
   children:
   - text: cloud.gov setup
