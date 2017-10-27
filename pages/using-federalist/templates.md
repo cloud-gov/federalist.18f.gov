@@ -11,6 +11,9 @@ templates:
 - title: Single Page Template
   url: https://github.com/18F/federalist-landing-page-template
   img: https://federalist.18f.gov/images/landing.thumb.png
+- title: Basic Report Template
+  url: https://github.com/18F/federalist-report-template
+  img: https://federalist.18f.gov/images/report.thumb.png
 ---
 
 Federalist provides templates for common website types. Here are the templates currently available:
