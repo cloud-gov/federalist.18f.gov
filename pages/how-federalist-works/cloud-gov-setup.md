@@ -172,7 +172,7 @@ Once the bucket is created CORS will need to be [enabled and configured to only 
 Next, the AWS CLI will need to be used to enable static website hosting in the bucket:
 
 ```shell
-aws s3 website s3://${BUCKET_NAME}/site --index-document index.html
+aws s3 website s3://${BUCKET_NAME} --index-document index.html
 ```
 
 ### Provisioning an SQS queue
