@@ -5,10 +5,10 @@ templates:
 - title: U.S. Web Design Standards Landing and Docs Template
   url: https://github.com/18f/federalist-uswds-template/
   img: https://federalist.18f.gov/images/uswds.thumb.png
-- title: Multi Page Template
+- title: Modern Team Template
   url: https://github.com/18f/federalist-modern-team-template
   img: https://federalist.18f.gov/images/team.thumb.png
-- title: Single Page Template
+- title: Landing Page Template
   url: https://github.com/18F/federalist-landing-page-template
   img: https://federalist.18f.gov/images/landing.thumb.png
 - title: Basic Report Template
