@@ -70,7 +70,7 @@ Message is deleted after a task is initiated
 - CF: -o federalist -s prod -n federalist-builder
 
 
-### cloud.gov Build Container Orcestration
+### cloud.gov Build Container Orchestration
 
 Runs docker container tasks.
 
