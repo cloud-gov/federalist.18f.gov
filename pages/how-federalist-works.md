@@ -70,9 +70,9 @@ Message is deleted after a task is initiated
 - CF: -o federalist -s prod -n federalist-builder
 
 
-### Diego Container Orcestration
+### cloud.gov Build Container Orcestration
 
-Runs docker container tasks on in cloud.gov
+Runs docker container tasks.
 
 Build status sent back to API over HTTP POST
 
