@@ -13,6 +13,7 @@ We've gotten several questions about the value of purchasing Federalist. Here ar
 * 18F's work to complete and maintain an agency Authority to Operate (ATO) for Federalist's hosting, leveraging the cloud.gov System Security Plan (SSP), with a short process to add new sites to the ATO documentation.
 * Premade templates for your sites, in addition to the many sites you can copy in creating your site.
 * Easy on-boarding or off-boarding: Federalist can deploy content from existing GitHub repositories used with other tools. Your Federalist site will also be easy to port to another deployment mechanism if that's ever needed.
+* 404 page support via a support ticket to the Federalist team.
 * User research with people across government that helped us plan the architecture and core features of Federalist.
 * A user community across agencies and vendors using Federalist.
 * A permanent team to maintain and patch Federalist as needed.
