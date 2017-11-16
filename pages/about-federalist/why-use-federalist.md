@@ -19,7 +19,7 @@ Federalist serves our fellow federal employees by expertly managing the backend 
 
 ## Why static websites?
 
-Federalist generates static websites instead of using a more complex content management system (CMS) like Drupal or Wordpress. There are several advantages to static websites:
+Federalist generates static websites instead of using a more complex content management system (CMS) like Drupal or WordPress. There are several advantages to static websites:
 
 - **Less complexity and vulnerability:** Avoiding the use of a traditional CMS means avoiding problems like maintaining dynamic server applications (no PHP or Apache / IIS) in addition to database scaling and redundancy. Production-level static sites generally require one simple static file server or service as opposed to dozens. This means that the whole website is easier to maintain and has fewer vulnerabilities.
 
