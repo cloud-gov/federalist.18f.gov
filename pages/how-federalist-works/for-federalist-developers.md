@@ -4,13 +4,10 @@ parent: How Federalist Works
 ---
 
 ## Running Federalist locally
-See the [Federalist GitHub repo README](https://github.com/18F/federalist#running-locally-development) for instructions.
-
-## Running federalist-builder locally
-See the [Federalist-builder GitHub repo README](https://github.com/18F/federalist-builder#running-locally) for instructions.
-
-## Running federalist-garden-build locally
-See the [Federalist-garden-build GitHub repo README](https://github.com/18F/federalist-garden-build#development--making-changes) for instructions.
+Instructions for running Federalist components locally are in in each code repository README:
+- [Federalist README](https://github.com/18F/federalist#running-locally-development)
+- [Federalist-builder README](https://github.com/18F/federalist-builder#running-locally)
+- [Federalist-garden-build README](https://github.com/18F/federalist-garden-build#development--making-changes)
 
 ## Deploying Federalist from CircleCI
 
