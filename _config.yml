@@ -110,9 +110,6 @@ navigation:
   - text: Site wide alerts
     url: /pages/how-federalist-works/site-wide-alert/
     internal: true
-  - text: Running Federalist locally
-    url: /pages/how-federalist-works/running-federalist-locally/
-    internal: true
 
 repos:
 - name: Federalist

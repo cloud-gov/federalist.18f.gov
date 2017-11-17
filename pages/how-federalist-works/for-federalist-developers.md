@@ -3,6 +3,12 @@ title: For Federalist Developers
 parent: How Federalist Works
 ---
 
+## Running Federalist locally
+Instructions for running Federalist components locally are in in each code repository README:
+- [Federalist README](https://github.com/18F/federalist#running-locally-development)
+- [Federalist-builder README](https://github.com/18F/federalist-builder#running-locally)
+- [Federalist-garden-build README](https://github.com/18F/federalist-garden-build#development--making-changes)
+
 ## Deploying Federalist from CircleCI
 
 This guide covers how the deployment process for Federalist and Federalist Builder works.
