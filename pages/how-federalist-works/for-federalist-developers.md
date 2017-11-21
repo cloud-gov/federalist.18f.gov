@@ -8,7 +8,7 @@ Instructions for running Federalist components locally are in in each code repos
 
 - [Federalist README](https://github.com/18F/federalist#running-locally-development)
 - [Federalist-builder README](https://github.com/18F/federalist-builder#running-locally)
-- [Federalist-garden-build README](https://github.com/18F/federalist-garden-build#development--making-changes)
+- [Federalist-garden-build README](https://github.com/18F/federalist-garden-build#development)
 
 ## Deploying Federalist from CircleCI
 
