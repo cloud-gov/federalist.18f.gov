@@ -4,16 +4,16 @@ parent: Using Federalist
 templates:
 - title: U.S. Web Design Standards Landing and Docs Template
   url: https://github.com/18f/federalist-uswds-template/
-  img: https://federalist.18f.gov/images/uswds.thumb.png
+  img: /images/templates/federalist-uswds-template.png
 - title: Modern Team Template
   url: https://github.com/18f/federalist-modern-team-template
-  img: https://federalist.18f.gov/images/team.thumb.png
+  img: /images/templates/federalist-modern-team-template.png
 - title: Landing Page Template
   url: https://github.com/18F/federalist-landing-page-template
-  img: https://federalist.18f.gov/images/landing.thumb.png
+  img: /images/templates/federalist-landing-template.png
 - title: Basic Report Template
   url: https://github.com/18F/federalist-report-template
-  img: https://federalist.18f.gov/images/report.thumb.png
+  img: /images/templates/federalist-report-template.png
 ---
 
 Federalist provides templates for common website types. Here are the templates currently available:
@@ -22,7 +22,7 @@ Federalist provides templates for common website types. Here are the templates c
   <h3>{{ tem.title }}</h3>
   <p>
     <a class='screenshot' href='{{ tem.url }}'>
-      <img src='{{ tem.img }}' alt='{{ tem.title }}'>
+      <img src='{{ site.baseurl }}{{ tem.img }}' alt='{{ tem.title }}'>
     </a>
   </p>
 {% endfor %}
