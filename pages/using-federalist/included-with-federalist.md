@@ -18,7 +18,7 @@ We've gotten several questions about the value of purchasing Federalist. Here ar
 * A user community across agencies and vendors using Federalist.
 * A permanent team to maintain and patch Federalist as needed.
 * GSA's previous work to procure cloud Infrastructure as a Service with extraordinary uptime so your static sites don't go down once deployed.
-* GSA's previous work to build a [robust and secure platform as a service](https://cloud.gov), recognized with a FedRAMP Moderate PATO, so that Federalist underlying technology is secure.
+* GSA's previous work to build a [robust and secure platform as a service](https://cloud.gov), recognized with a FedRAMP Moderate (DISA Level 2) PATO, that ensures Federalist's underlying technology is secure.
 
 ### Not included with Federalist
 
