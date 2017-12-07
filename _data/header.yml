@@ -5,13 +5,15 @@
 # _config.yml).
 # title: Header title
 
-primary:
-  # this is a key into _data/navigation.yml
-  links: primary
+type: extended
+
+# primary:
+#   # this is a key into _data/navigation.yml
+#   links: primary
 
 secondary:
   # this is a key into _data/navigation.yml
-  links:
+  links: secondary
 
   # to enable search, change this to an object with 'action' and
   # 'query' keys, e.g.

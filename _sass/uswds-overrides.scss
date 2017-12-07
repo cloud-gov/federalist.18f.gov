@@ -1,0 +1,47 @@
+.usa-content {
+  ul,
+  ol,
+  .language-shell {
+  max-width: 53rem;
+}
+}
+
+.screenshot {
+  border: 1px solid #5b616b;
+  border-radius: 3px;
+  display: block;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.screenshot img {
+  vertical-align: middle;
+}
+
+.usa-header-extended .usa-nav {
+  border-bottom: none;
+}
+
+.usa-header {
+  background-color: #2d476a;
+  border-bottom: none;
+  .usa-logo a {
+    color: #fff;
+    background-image: url('/assets/images/federalist-logo.svg');
+    text-indent: -1000rem;
+    display:inline-block;
+    background-repeat:no-repeat;
+  }
+  .usa-nav-secondary-links a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.7rem;
+  }
+  .usa-nav-secondary-links li:not(:last-child)::after {
+    content: none;
+  }
+  .usa-nav-secondary-links .usa-header-search-button {
+    color: #fff;
+    background-image: url('uswds/img/search.svg');
+  }
+}

@@ -3,6 +3,8 @@ title: Writing clear contact forms
 parent: Content Guide
 ---
 
+# Writing clear contact forms
+
 It's important to have a contact form so that people know how to get in touch with your team.
 
 Before constructing a contact form, it's helpful to answer the following questions.

@@ -3,6 +3,8 @@ title: Best practices for content
 parent: Content Guide
 ---
 
+# Best practices for content
+
 18F maintains [a content guide](https://pages.18f.gov/content-guide/) that helps writers create clear, accessible, and user-friendly content.
 
 The guide contains sections on:

@@ -2,6 +2,9 @@
 title: Included with Federalist
 parent: Using Federalist
 ---
+
+# Included with Federalist
+
 ## What you get with Federalist
 
 We've gotten several questions about the value of purchasing Federalist. Here are some of the work efforts that you benefit from:

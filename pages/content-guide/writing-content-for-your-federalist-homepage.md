@@ -3,6 +3,8 @@ title: Writing content for your homepage
 parent: Content Guide
 ---
 
+# Writing content for your homepage
+
 We have compiled a series of tips for writing different sections of your Federalist homepage. The homepage is partioned into four sections: mission statement, announcements, the carousel of facts, and a contact form. We explain what content goes in each section below.
 
 ## Mission Statement Section
