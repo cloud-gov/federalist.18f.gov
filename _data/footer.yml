@@ -1,0 +1,26 @@
+# Whether to show the "Return to top" link; can also be
+# configured as an object with 'text' and 'href' properties.
+top: true
+
+# Which links to show at the top of the footer.
+# This can key into _data/navigation.yml or a list of link objects
+# with 'text' and 'href' properties.
+links: footer
+
+# The optional heading for the footer.
+heading: Name of agency
+
+# An array of agency logos to show, side by side, in the lower left
+# of the footer on large screens.
+logos:
+  - src: /assets/img/us_seal.png
+    alt: Your agency name
+
+contact:
+  heading: Contact us
+  address: |
+    This is formatted as **markdown**.
+
+    Lines separated by an empty line will each be marked up as paragraphs.
+
+    You can make links [like this](https://usa.gov).

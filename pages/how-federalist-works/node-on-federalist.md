@@ -3,6 +3,8 @@ title: Node on Federalist
 parent: How Federalist Works
 ---
 
+# Node on Federalist
+
 *Note that the features described in this document are experimental.*
 
 Federalist supports using node and npm to build parts of your site before the build engine starts its work.

@@ -1,14 +1,69 @@
----
-# The site navigation is stored in a separate YAML file from the site
-# configuration so that you can see changes on the Jekyll server
-# without having to restart it.
-
-primary:
-  sections:
-    - title: '&laquo; Back to Federalist'
-      href: https://federalist.18f.gov
+# primary:
 
 secondary:
-  search:
-    affiliate_id: federalist-docs
-  links: []
+  - text: About
+    href: /
+  - text: Using Federalist
+    href: /pages/using-federalist/
+  - text: Content guide
+    href: /pages/content-guide/
+  - text: How Federalist works
+    href: /pages/how-federalist-works/
+  - text: For developers
+    href: /pages/for-federalist-developers/
+
+about_links:
+  - text: Example sites
+    href: /pages/about-federalist/example-sites/
+  - text: Why use Federalist?
+    href: /pages/about-federalist/why-use-federalist/
+
+using_federalist_links:
+  - text: Customer responsibilities
+    href: /pages/using-federalist/customer-responsibilities/
+  - text: Included with Federalist
+    href: /pages/using-federalist/included-with-federalist/
+  - text: Instructional demos
+    href: /pages/using-federalist/instructional-demos/
+  - text: Launch checklist
+    href: /pages/using-federalist/launch-checklist/
+  - text: Templates
+    href: /pages/using-federalist/templates/
+
+content_guide_links:
+  - text: Writing content for your homepage
+    href: /pages/content-guide/writing-content-for-your-federalist-homepage/
+  - text: Writing about your team
+    href: /pages/content-guide/best-practices-for-writing-who-we-are/
+  - text: Writing about your research
+    href: /pages/content-guide/best-practices-for-writing-what-we-do/
+  - text: Writing clear contact forms
+    href: /pages/content-guide/contact-forms/
+  - text: Best practices for content
+    href: /pages/content-guide/best-practices-for-content/
+  - text: Adding search to your site
+    href: /pages/content-guide/adding-search/
+
+how_federalist_works_links:
+  - text: How builds work
+    href: /pages/how-federalist-works/how-builds-work/
+  - text: How custom URLs work
+    href: /pages/how-federalist-works/custom-urls/
+  - text: Node on Federalist
+    href: /pages/how-federalist-works/node-on-federalist/
+  - text: RVM on Federalist
+    href: /pages/how-federalist-works/rvm-on-federalist/
+
+for_federalist_developers_links:
+  - text: cloud.gov setup
+    href: /pages/for-federalist-developers/cloud-gov-setup/
+  - text: Site wide alerts
+    href: /pages/for-federalist-developers/site-wide-alert/
+
+footer:
+  - text: Documentation
+    href: /docs/
+  - text: Demo link one
+    href: /one/
+  - text: Demo link two
+    href: /two/

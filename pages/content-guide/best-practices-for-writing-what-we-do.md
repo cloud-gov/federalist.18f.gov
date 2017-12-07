@@ -3,6 +3,8 @@ title: Writing about your research
 parent: Content Guide
 ---
 
+# Writing about your research
+
 Writing about your research for a lay audience can be challenging. It helps to break your research down into the following questions:
 
 * Why does this research matter?

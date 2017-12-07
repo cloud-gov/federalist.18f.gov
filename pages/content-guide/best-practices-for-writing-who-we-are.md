@@ -3,6 +3,8 @@ title: Writing about your team
 parent: Content Guide
 ---
 
+# Writing about your team
+
 The About section of your website should state what your team does in a clear and user-friendly way.
 
 ## This section does not have to be long, but it should address:

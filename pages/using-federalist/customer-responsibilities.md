@@ -3,6 +3,8 @@ title: Customer Responsibilities
 parent: Using Federalist
 ---
 
+# Customer Responsibilities
+
 ## Your Responsibilities when using Federalist
 
 Using Federalist places certain responsibilities on you as the government user of Federalist. GSA has many internal sites running on Federalist, but GSA cannot guarantee that Federalist is compatable with your agency's specific policies.
