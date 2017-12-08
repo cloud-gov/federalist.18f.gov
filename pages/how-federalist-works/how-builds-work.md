@@ -53,3 +53,9 @@ To see the exact configuration of the build environment, see the [build environm
 ## Hugo resources (experimental)
 
 Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-based static site generator. See the [Hugo Docs](https://gohugo.io/documentation/) for getting started with Hugo.
+
+## Build environment variables
+
+At the time your site is built with either Jekyll or Hugo, a number of special environment variables are exposed. You can access these environment variables with your build engine to customize your build (for instance, to add some special text to your site to show which branch has been built).
+
+See the [federalist-garden-build README](https://github.com/18f/federalist-garden-build#variables-exposed-during-builds) for information on the environment variables that your site build can access.
