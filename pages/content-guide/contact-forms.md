@@ -1,6 +1,5 @@
 ---
 title: Writing clear contact forms
-parent: Content Guide
 ---
 
 # Writing clear contact forms

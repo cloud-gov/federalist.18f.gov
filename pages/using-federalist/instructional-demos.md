@@ -1,6 +1,5 @@
 ---
 title: Instructional Demos
-parent: Using Federalist
 ---
 
 # Instructional Demos

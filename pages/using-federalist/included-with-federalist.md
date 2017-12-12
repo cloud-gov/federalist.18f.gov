@@ -1,6 +1,5 @@
 ---
 title: Included with Federalist
-parent: Using Federalist
 ---
 
 # Included with Federalist

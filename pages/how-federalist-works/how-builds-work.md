@@ -1,6 +1,5 @@
 ---
 title: How Builds Work
-parent: How Federalist Works
 ---
 
 # How Builds Work

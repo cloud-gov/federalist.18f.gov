@@ -1,6 +1,5 @@
 ---
 title: RVM on Federalist
-parent: How Federalist Works
 ---
 
 # VM on Federalist

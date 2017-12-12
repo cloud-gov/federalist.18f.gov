@@ -1,6 +1,5 @@
 ---
 title: Custom URLs
-parent: How Federalist Works
 ---
 
 # Custom URLs

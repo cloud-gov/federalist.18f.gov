@@ -5,22 +5,27 @@ top: true
 # Which links to show at the top of the footer.
 # This can key into _data/navigation.yml or a list of link objects
 # with 'text' and 'href' properties.
-links: footer
+links:
 
 # The optional heading for the footer.
-heading: Name of agency
+heading: Federalist
 
 # An array of agency logos to show, side by side, in the lower left
 # of the footer on large screens.
+# If the logo is external add external: true
 logos:
-  - src: /assets/img/us_seal.png
-    alt: Your agency name
+  - src: /assets/images/federalist-logo.png
+    alt: Federalist logo
+    external: true
 
 contact:
-  heading: Contact us
-  address: |
-    This is formatted as **markdown**.
+  heading:
 
-    Lines separated by an empty line will each be marked up as paragraphs.
-
-    You can make links [like this](https://usa.gov).
+  links:
+    - text: Example sites
+      href: https://federalist.18f.gov/content/examples/
+      external: true
+    - text: Contact us
+      href: mailto:federalist-inquiries@gsa.gov
+      external: true
+  address:
