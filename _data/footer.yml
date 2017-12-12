@@ -16,7 +16,6 @@ heading: Federalist
 logos:
   - src: /assets/images/federalist-logo.png
     alt: Federalist logo
-    external: true
 
 contact:
   heading:
