@@ -23,4 +23,4 @@ We've gotten several questions about the value of purchasing Federalist. Here ar
 ### Not included with Federalist
 
 * A fully featured content management system (CMS). Federalist is not WordPress, Drupal, or one of their competitors (see a list of government-used CMS's [here](https://www.digitalgov.gov/resources/content-management-systems-used-by-government-agencies/)). This means that we have fewer features but also a smaller security profile.
-* A large file hosting system. GitHub isn't generally set up to host more than a gigabyte of file content and Federalist's build container can't accomodate extremely large repositories in the build process. Instead, you should store very large files separately and link to them from your Federalist site.
+* A large file hosting system. GitHub isn't generally set up to host more than a gigabyte of file content and Federalist's build container can't accommodate extremely large repositories in the build process. Instead, you should store very large files separately and link to them from your Federalist site.
