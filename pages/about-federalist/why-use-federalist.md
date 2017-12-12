@@ -1,5 +1,6 @@
 ---
 title: Why Use Federalist?
+permalink: /pages/about-federalist/why-use-federalist/
 ---
 
 # Why Use Federalist?
