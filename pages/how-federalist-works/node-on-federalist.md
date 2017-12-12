@@ -1,6 +1,5 @@
 ---
 title: Node on Federalist
-parent: How Federalist Works
 ---
 
 # Node on Federalist

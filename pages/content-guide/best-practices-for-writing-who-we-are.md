@@ -1,6 +1,5 @@
 ---
 title: Writing about your team
-parent: Content Guide
 ---
 
 # Writing about your team

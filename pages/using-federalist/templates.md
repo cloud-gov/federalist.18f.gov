@@ -1,6 +1,5 @@
 ---
 title: Templates
-parent: Using Federalist
 templates:
 - title: U.S. Web Design Standards Landing and Docs Template
   url: https://github.com/18f/federalist-uswds-template/

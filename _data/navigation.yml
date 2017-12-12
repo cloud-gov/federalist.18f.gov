@@ -1,69 +1,105 @@
-# primary:
+primary:
+
 
 secondary:
+  - text: Example sites
+    href: https://federalist.18f.gov/content/examples/
+    external: true
+  - text: Documentation
+    href: /
+  - text: Get started
+    href: https://docs.google.com/forms/d/e/1FAIpQLSesNI1qlov7Ec_1u2FralYWg9hV4WsB-3FyAHPXc1pRT6In7w/viewform
+    external: true
+
+# sidenav:
+#   - text: Group 1
+#     href: link.html
+#     subfolderitems:
+#       - text: Thing 1
+#         href: /thing1.html
+#       - text: Thing 2
+#         href: /thing2.html
+#         subsubfolderitems:
+#           - text: Subthing 1
+#             href: /subthing1.html
+#           - text: Subthing 2
+#             href: /subthing2.html
+#       - text: Thing 3
+#         href: /thing3.html
+#   - text: Group 2
+#     href: link.html
+#     subfolderitems:
+#       - text: Piece 1
+#         href: /piece1.html
+#         subsubfolderitems:
+#           - text: Subpiece 1
+#             href: /subpiece1.html
+#           - text: Subpiece2
+#             href: /subpiece2.html
+#   - text: Group 3
+#     href: link.html
+#     subfolderitems:
+#       - text: Widget 1
+#         href: /widget1.html
+#         subsubfolderitems:
+#           - text: Subwidget 1
+#             href: /subwidget1.html
+#           - text: Subwidget 2
+#             href: /subwidget2.html
+#       - text: Widget 2
+#         href: /widget2.html
+
+
+
+sidenav:
   - text: About
     href: /
+    subfolderitems:
+      - text: Why use Federalist?
+        href: /pages/about-federalist/why-use-federalist/
   - text: Using Federalist
     href: /pages/using-federalist/
+    subfolderitems:
+      - text: Customer responsibilities
+        href: /pages/using-federalist/customer-responsibilities/
+      - text: Included with Federalist
+        href: /pages/using-federalist/included-with-federalist/
+      - text: Instructional demos
+        href: /pages/using-federalist/instructional-demos/
+      - text: Launch checklist
+        href: /pages/using-federalist/launch-checklist/
+      - text: Templates
+        href: /pages/using-federalist/templates/
   - text: Content guide
     href: /pages/content-guide/
+    subfolderitems:
+      - text: Writing content for your homepage
+        href: /pages/content-guide/writing-content-for-your-federalist-homepage/
+      - text: Writing about your team
+        href: /pages/content-guide/best-practices-for-writing-who-we-are/
+      - text: Writing about your research
+        href: /pages/content-guide/best-practices-for-writing-what-we-do/
+      - text: Writing clear contact forms
+        href: /pages/content-guide/contact-forms/
+      - text: Best practices for content
+        href: /pages/content-guide/best-practices-for-content/
+      - text: Adding search to your site
+        href: /pages/content-guide/adding-search/
   - text: How Federalist works
     href: /pages/how-federalist-works/
+    subfolderitems:
+      - text: How builds work
+        href: /pages/how-federalist-works/how-builds-work/
+      - text: How custom URLs work
+        href: /pages/how-federalist-works/custom-urls/
+      - text: Node on Federalist
+        href: /pages/how-federalist-works/node-on-federalist/
+      - text: RVM on Federalist
+        href: /pages/how-federalist-works/rvm-on-federalist/
   - text: For developers
     href: /pages/for-federalist-developers/
-
-about_links:
-  - text: Example sites
-    href: /pages/about-federalist/example-sites/
-  - text: Why use Federalist?
-    href: /pages/about-federalist/why-use-federalist/
-
-using_federalist_links:
-  - text: Customer responsibilities
-    href: /pages/using-federalist/customer-responsibilities/
-  - text: Included with Federalist
-    href: /pages/using-federalist/included-with-federalist/
-  - text: Instructional demos
-    href: /pages/using-federalist/instructional-demos/
-  - text: Launch checklist
-    href: /pages/using-federalist/launch-checklist/
-  - text: Templates
-    href: /pages/using-federalist/templates/
-
-content_guide_links:
-  - text: Writing content for your homepage
-    href: /pages/content-guide/writing-content-for-your-federalist-homepage/
-  - text: Writing about your team
-    href: /pages/content-guide/best-practices-for-writing-who-we-are/
-  - text: Writing about your research
-    href: /pages/content-guide/best-practices-for-writing-what-we-do/
-  - text: Writing clear contact forms
-    href: /pages/content-guide/contact-forms/
-  - text: Best practices for content
-    href: /pages/content-guide/best-practices-for-content/
-  - text: Adding search to your site
-    href: /pages/content-guide/adding-search/
-
-how_federalist_works_links:
-  - text: How builds work
-    href: /pages/how-federalist-works/how-builds-work/
-  - text: How custom URLs work
-    href: /pages/how-federalist-works/custom-urls/
-  - text: Node on Federalist
-    href: /pages/how-federalist-works/node-on-federalist/
-  - text: RVM on Federalist
-    href: /pages/how-federalist-works/rvm-on-federalist/
-
-for_federalist_developers_links:
-  - text: cloud.gov setup
-    href: /pages/for-federalist-developers/cloud-gov-setup/
-  - text: Site wide alerts
-    href: /pages/for-federalist-developers/site-wide-alert/
-
-footer:
-  - text: Documentation
-    href: /docs/
-  - text: Demo link one
-    href: /one/
-  - text: Demo link two
-    href: /two/
+    subfolderitems:
+      - text: cloud.gov setup
+        href: /pages/for-federalist-developers/cloud-gov-setup/
+      - text: Site wide alerts
+        href: /pages/for-federalist-developers/site-wide-alert/

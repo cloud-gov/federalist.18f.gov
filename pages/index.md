@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: About Federalist
-sidenav: about_links
 ---
 # About Federalist
 

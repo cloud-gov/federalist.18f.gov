@@ -1,6 +1,5 @@
 ---
 title: Adding search to your site
-parent: Content Guide
 ---
 
 # Adding search to your site

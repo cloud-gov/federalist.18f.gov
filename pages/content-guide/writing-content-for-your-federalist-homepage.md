@@ -1,6 +1,5 @@
 ---
 title: Writing content for your homepage
-parent: Content Guide
 ---
 
 # Writing content for your homepage

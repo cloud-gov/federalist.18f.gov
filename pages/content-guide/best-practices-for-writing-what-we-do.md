@@ -1,6 +1,5 @@
 ---
 title: Writing about your research
-parent: Content Guide
 ---
 
 # Writing about your research

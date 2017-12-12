@@ -1,6 +1,5 @@
 ---
 title: Why Use Federalist?
-parent: About Federalist
 ---
 
 # Why Use Federalist?

@@ -7,9 +7,9 @@
 
 type: extended
 
-# primary:
+primary:
 #   # this is a key into _data/navigation.yml
-#   links: primary
+  links:
 
 secondary:
   # this is a key into _data/navigation.yml
@@ -19,5 +19,8 @@ secondary:
   # 'query' keys, e.g.
   #
   search:
-    action: /search/
+  # search types can be 'jekyll' or 'digitalgov'
+    type: digitalgov
+    site_handle: federalist-docs
+    action: https://search.usa.gov/search
     query: q

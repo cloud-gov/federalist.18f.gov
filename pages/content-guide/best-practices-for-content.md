@@ -1,6 +1,5 @@
 ---
 title: Best practices for content
-parent: Content Guide
 ---
 
 # Best practices for content

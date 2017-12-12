@@ -11,26 +11,7 @@ defaults:
       path: ""
     values:
       layout: "page"
-  - scope:
-      path: "pages/about-federalist"
-    values:
-      sidenav: "about_links"
-  - scope:
-      path: "pages/using-federalist"
-    values:
-      sidenav: "using_federalist_links"
-  - scope:
-      path: "pages/content-guide"
-    values:
-      sidenav: "content_guide_links"
-  - scope:
-      path: "pages/how-federalist-works"
-    values:
-      sidenav: "how_federalist_works_links"
-  - scope:
-      path: "pages/for-federalist-developers"
-    values:
-      sidenav: "for_federalist_developers_links"
+      sidenav: "sidenav"
 
 styles:
   - /assets/main.css
