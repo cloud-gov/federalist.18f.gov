@@ -1,5 +1,7 @@
 ---
 title: Adding search to your site
+permalink: /pages/content-guide/adding-search/
+
 ---
 
 # Adding search to your site

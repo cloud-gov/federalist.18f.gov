@@ -1,5 +1,6 @@
 ---
 title: Writing about your team
+permalink: /pages/content-guide/best-practices-for-writing-who-we-are/
 ---
 
 # Writing about your team

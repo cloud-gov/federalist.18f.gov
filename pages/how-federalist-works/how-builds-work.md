@@ -1,5 +1,6 @@
 ---
 title: How Builds Work
+permalink: /pages/how-federalist-works/how-builds-work/
 ---
 
 # How Builds Work

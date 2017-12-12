@@ -1,5 +1,6 @@
 ---
 title: RVM on Federalist
+permalink: /pages/how-federalist-works/rvm-on-federalist/
 ---
 
 # VM on Federalist

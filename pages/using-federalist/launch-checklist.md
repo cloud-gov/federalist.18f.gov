@@ -1,5 +1,6 @@
 ---
 title: Launch checklist
+permalink: /pages/using-federalist/launch-checklist/
 ---
 
 # Launch checklist

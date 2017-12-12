@@ -1,5 +1,6 @@
 ---
 title: Content Guide
+permalink: /pages/content-guide/
 ---
 
 # Content Guide

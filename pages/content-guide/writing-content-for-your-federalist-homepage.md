@@ -1,5 +1,6 @@
 ---
 title: Writing content for your homepage
+permalink: /pages/content-guide/writing-content-for-your-federalist-homepage/
 ---
 
 # Writing content for your homepage

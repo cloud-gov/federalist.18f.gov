@@ -1,5 +1,6 @@
 ---
 title: Writing clear contact forms
+permalink: /pages/content-guide/contact-forms/
 ---
 
 # Writing clear contact forms

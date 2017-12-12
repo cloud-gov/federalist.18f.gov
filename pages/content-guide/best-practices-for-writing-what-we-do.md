@@ -1,5 +1,6 @@
 ---
 title: Writing about your research
+permalink: /pages/content-guide/best-practices-for-writing-what-we-do/
 ---
 
 # Writing about your research

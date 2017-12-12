@@ -1,5 +1,6 @@
 ---
 title: Using Federalist
+permalink: /pages/using-federalist/
 ---
 
 # Using Federalist
