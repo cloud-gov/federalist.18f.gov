@@ -1,6 +1,8 @@
 ---
 title: cloud.gov Setup
 permalink: /pages/for-federalist-developers/cloud-gov-setup/
+redirect_from:
+  - /pages/how-federalist-works/cloud-gov-setup/
 ---
 
 # cloud.gov Setup

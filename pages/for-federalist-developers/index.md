@@ -1,6 +1,8 @@
 ---
 title: For Federalist Developers
 permalink: /pages/for-federalist-developers/
+redirect_from:
+  - /pages/how-federalist-works/for-federalist-developers/
 ---
 
 # For Federalist Developers
