@@ -31,6 +31,8 @@ sidenav:
         href: /pages/using-federalist/launch-checklist/
       - text: Search on Federalist sites
         href: /pages/using-federalist/search/
+      - text: Viewing site previews
+        href: /pages/using-federalist/previews/
       - text: Templates
         href: /pages/using-federalist/templates/
   - text: Content guide
