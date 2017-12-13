@@ -18,6 +18,8 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
+    jekyll-redirect-from (0.13.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
     jekyll-watch (1.5.1)
@@ -56,6 +58,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll-redirect-from
   jekyll_pages_api_search
   uswds-jekyll (~> 2.0, >= 2.0.1)
 
