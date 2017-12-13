@@ -1,6 +1,6 @@
 ---
 title: Search on Federalist Sites
-parent: Using Federalist
+permalink: /pages/using-federalist/search/
 ---
 
 It's easy to add search functionality to a static site.
