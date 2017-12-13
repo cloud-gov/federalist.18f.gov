@@ -2,6 +2,7 @@
 title: Search on Federalist Sites
 permalink: /pages/using-federalist/search/
 ---
+## Search on Federalist Sites
 
 It's easy to add search functionality to a static site.
 
