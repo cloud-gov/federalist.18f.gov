@@ -1,5 +1,6 @@
 ---
 title: Node on Federalist
+permalink: /pages/how-federalist-works/node-on-federalist/
 ---
 
 # Node on Federalist

@@ -1,5 +1,6 @@
 ---
 title: Custom URLs
+permalink: /pages/how-federalist-works/custom-urls/
 ---
 
 # Custom URLs

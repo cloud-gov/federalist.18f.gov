@@ -1,5 +1,6 @@
 ---
 title: Best practices for content
+permalink: /pages/content-guide/best-practices-for-content/
 ---
 
 # Best practices for content

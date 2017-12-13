@@ -1,6 +1,6 @@
 ---
 title: cloud.gov Setup
-parent: How Federalist Works
+permalink: /pages/for-federalist-developers/cloud-gov-setup/
 ---
 
 # cloud.gov Setup

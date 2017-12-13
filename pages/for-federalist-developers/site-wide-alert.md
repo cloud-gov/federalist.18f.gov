@@ -1,6 +1,6 @@
 ---
 title: Site Wide Alert
-parent: How Federalist Works
+permalink: /pages/for-federalist-developers/site-wide-alert/
 ---
 
 # Site Wide Alert

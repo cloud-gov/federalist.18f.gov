@@ -1,5 +1,6 @@
 ---
 title: Instructional Demos
+permalink: /pages/using-federalist/instructional-demos/
 ---
 
 # Instructional Demos

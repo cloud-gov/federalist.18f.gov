@@ -1,6 +1,6 @@
 ---
 title: For Federalist Developers
-parent: How Federalist Works
+permalink: /pages/for-federalist-developers/
 ---
 
 # For Federalist Developers

@@ -1,5 +1,6 @@
 ---
 title: Templates
+permalink: /pages/using-federalist/templates/
 templates:
 - title: U.S. Web Design Standards Landing and Docs Template
   url: https://github.com/18f/federalist-uswds-template/
