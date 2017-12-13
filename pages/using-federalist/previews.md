@@ -13,3 +13,5 @@ Here's how the URLs work:
 - for branch previews:  `https://federalist-proxy.app.cloud.gov/preview/<OWNER>/<REPOSITORY>/<BRANCH>`.
 
 You can find links to previews in the "GitHub Branches" page after logging into Federalist. Preview links also auto-generate in pull requests; to see them, click on "details" after a build reports completion.
+
+![Federalist Preview Screenshot]({{site.baseurl}}/assets/images/federalist-preview.png)
