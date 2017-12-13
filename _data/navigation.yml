@@ -1,14 +1,53 @@
----
-# The site navigation is stored in a separate YAML file from the site
-# configuration so that you can see changes on the Jekyll server
-# without having to restart it.
-
 primary:
-  sections:
-    - title: '&laquo; Back to Federalist'
-      href: https://federalist.18f.gov
+
 
 secondary:
-  search:
-    affiliate_id: federalist-docs
-  links: []
+  - text: Example sites
+    href: https://federalist.18f.gov/content/examples/
+    external: true
+  - text: Documentation
+    href: /
+  - text: Get started
+    href: https://docs.google.com/forms/d/e/1FAIpQLSesNI1qlov7Ec_1u2FralYWg9hV4WsB-3FyAHPXc1pRT6In7w/viewform
+    external: true
+
+
+sidenav:
+  - text: About
+    href: /
+    subfolderitems:
+      - text: Why use Federalist?
+        href: /pages/about-federalist/why-use-federalist/
+  - text: Using Federalist
+    href: /pages/using-federalist/
+    subfolderitems:
+      - text: Customer responsibilities
+        href: /pages/using-federalist/customer-responsibilities/
+      - text: Included with Federalist
+        href: /pages/using-federalist/included-with-federalist/
+      - text: Instructional demos
+        href: /pages/using-federalist/instructional-demos/
+      - text: Launch checklist
+        href: /pages/using-federalist/launch-checklist/
+      - text: Templates
+        href: /pages/using-federalist/templates/
+  - text: Content guide
+    href: /pages/content-guide/
+  - text: How Federalist works
+    href: /pages/how-federalist-works/
+    subfolderitems:
+      - text: How builds work
+        href: /pages/how-federalist-works/how-builds-work/
+      - text: How custom URLs work
+        href: /pages/how-federalist-works/custom-urls/
+      - text: Node on Federalist
+        href: /pages/how-federalist-works/node-on-federalist/
+      - text: RVM on Federalist
+        href: /pages/how-federalist-works/rvm-on-federalist/
+  - text: For developers
+    href: /pages/for-federalist-developers/
+    subfolderitems:
+      - text: cloud.gov setup
+        href: /pages/for-federalist-developers/cloud-gov-setup/
+      - text: Site wide alerts
+        href: /pages/for-federalist-developers/site-wide-alert/

@@ -1,7 +1,9 @@
 ---
 title: Launch checklist
-parent: Using Federalist
+permalink: /pages/using-federalist/launch-checklist/
 ---
+
+# Launch checklist
 
 ## Launching a site with Federalist
 

@@ -1,0 +1,6 @@
+- rel: shortcut icon
+  type: image/ico
+  href: /assets/favicons/favicon.ico
+- rel: icon
+  type: image/png
+  href: /assets/favicons/favicon.png

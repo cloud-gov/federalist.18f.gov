@@ -1,20 +1,22 @@
 ---
 title: Templates
-parent: Using Federalist
+permalink: /pages/using-federalist/templates/
 templates:
 - title: U.S. Web Design Standards Landing and Docs Template
   url: https://github.com/18f/federalist-uswds-template/
-  img: /images/templates/federalist-uswds-template.png
+  img: /assets/images/templates/federalist-uswds-template.png
 - title: Modern Team Template
   url: https://github.com/18f/federalist-modern-team-template
-  img: /images/templates/federalist-modern-team-template.png
+  img: /assets/images/templates/federalist-modern-team-template.png
 - title: Landing Page Template
   url: https://github.com/18F/federalist-landing-page-template
-  img: /images/templates/federalist-landing-template.png
+  img: /assets/images/templates/federalist-landing-template.png
 - title: Basic Report Template
   url: https://github.com/18F/federalist-report-template
-  img: /images/templates/federalist-report-template.png
+  img: /assets/images/templates/federalist-report-template.png
 ---
+
+# Templates
 
 Federalist provides templates for common website types. Here are the templates currently available:
 

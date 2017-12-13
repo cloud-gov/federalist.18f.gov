@@ -1,7 +1,10 @@
 ---
 title: Why Use Federalist?
-parent: About Federalist
+permalink: /pages/about-federalist/why-use-federalist/
 ---
+
+# Why Use Federalist?
+
 If you’re a program manager or a federal web developer you’ve probably been given a seemingly simple task: Create a basic website as part of a new initiative at your agency. The hardest part is often not crafting the content or designing the prototype, but getting the security and privacy compliance in order to launch and maintain the actual website. For that work, you might have to hire a contractor or put extra strain on your agency’s web team.
 
 It shouldn’t be that way.
@@ -12,7 +15,7 @@ Federalist serves our fellow federal employees by expertly managing the backend 
 
 - **FedRAMP Certified Platform** Federalist is hosted on cloud.gov, a platform with security and compliance verified by the FedRAMP Joint Authorization Board, which means you can trust that your site will be fast, reliable, and ready for unexpected surges in traffic.
 
-- **Compliance out of the box** Federalist’s specific implementation of cloud.gov’s services to host static sites carries a [GSA Agency ATO](https://federalist-docs.18f.gov/assets/Federalist-Compliance-Memo.pdf). If your agency accepts this ATO, you can host Federalist sites without running your own compliance process. We understand those processes cost around $95,000 per site, and $135,000 when including a pentest. Using Federalist allows you to leverage our compliance work, saving you time and money.
+- **Compliance out of the box** Federalist’s specific implementation of cloud.gov’s services to host static sites carries a [GSA Agency ATO]({{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf). If your agency accepts this ATO, you can host Federalist sites without running your own compliance process. We understand those processes cost around $95,000 per site, and $135,000 when including a pentest. Using Federalist allows you to leverage our compliance work, saving you time and money.
 
 - **Easy previews and content approvals** Federalist builds out draft updates to your site at a special preview URL. This enables your team to know their changes will show up correctly when pushed to the main site, and makes it easy to get signoff on content updates from stakeholders.
 
@@ -31,7 +34,7 @@ Federalist generates static websites instead of using a more complex content man
 
 ## What can I build with Federalist?
 
-Federalist provides [ready-to-use templates]({{site.baseurl}}/pages/using-federalist/#federalist-templates) for several common website types. You can also use custom website templates based on Jekyll or Hugo (Hugo use is still in beta). 18F maintains many Jekyll-based websites that you can fork and adopt.
+Federalist provides [ready-to-use templates]({{site.baseurl}}/pages/using-federalist/templates/) for several common website types. You can also use custom website templates based on Jekyll or Hugo (Hugo use is still in beta). 18F maintains many Jekyll-based websites that you can fork and adopt.
 
 Possible sites include:
 
@@ -41,4 +44,4 @@ Possible sites include:
 
 - A single page with information about a recently released report that may receive a lot of traffic.
 
-For real world examples, see these [ten existing sites]({{site.baseurl}}/pages/about-federalist/example-sites/) out of the 89 sites currently live on Federalist.
+For real world examples, see these [ten existing sites](https://federalist.18f.gov/content/examples/) out of the 89 sites currently live on Federalist.

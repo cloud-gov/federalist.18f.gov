@@ -1,136 +1,17 @@
 name: Federalist Documentation
 
-exclude:
-- CONTRIBUTING.md
-- Gemfile
-- Gemfile.lock
-- LICENSE.md
-- README.md
-- go
-- vendor
-
-permalink: pretty
-highlighter: rouge
-markdown: redcarpet
-redcarpet:
-  extensions: [with_toc_data]
-
-sass:
-  style: :compressed
-
-# Author/Organization info to be displayed in the templates
-author:
-  name: 18F - Federalist
-  url: https://federalist.18f.gov
-
-# Point the logo URL at a file in your repo or hosted elsewhere by your
-# organization
-logo:
-  url: /uploads/logo.svg
+theme: uswds-jekyll
 
 title: Federalist Docs
-
-# Navigation
-# List links that should appear in the site sidebar here
-navigation:
-- text: About Federalist
-  url: /
-  internal: true
-  children:
-  - text: Example sites
-    url: /pages/about-federalist/example-sites/
-    internal: true
-  - text: Why use Federalist?
-    url: /pages/about-federalist/why-use-federalist/
-    internal: true
-- text: Using Federalist
-  url: /pages/using-federalist/
-  internal: true
-  children:
-  - text: Customer responsibilities
-    url: /pages/using-federalist/customer-responsibilities/
-    internal: true
-  - text: Included with Federalist
-    url: /pages/using-federalist/included-with-federalist/
-    internal: true
-  - text: Instructional demos
-    url: /pages/using-federalist/instructional-demos/
-    internal: true
-  - text: Launch checklist
-    url: /pages/using-federalist/launch-checklist/
-    internal: true
-  - text: Templates
-    url: /pages/using-federalist/templates/
-    internal: true
-- text: Content guide
-  url: /pages/content-guide/
-  internal: true
-  children:
-  - text: Writing content for your homepage
-    url: /pages/content-guide/writing-content-for-your-federalist-homepage/
-    internal: true
-  - text: Writing about your team
-    url: /pages/content-guide/best-practices-for-writing-who-we-are/
-    internal: true
-  - text: Writing about your research
-    url: /pages/content-guide/best-practices-for-writing-what-we-do/
-    internal: true
-  - text: Writing clear contact forms
-    url: /pages/content-guide/contact-forms/
-    internal: true
-  - text: Best practices for content
-    url: /pages/content-guide/best-practices-for-content/
-    internal: true
-  - text: Adding search to your site
-    url: /pages/content-guide/adding-search/
-    internal: true
-- text: How Federalist works
-  url: /pages/how-federalist-works/
-  internal: true
-  children:
-  - text: How builds work
-    url: /pages/how-federalist-works/how-builds-work/
-    internal: true
-  - text: How custom URLs work
-    url: /pages/how-federalist-works/custom-urls/
-    internal: true
-  - text: Node on Federalist
-    url: /pages/how-federalist-works/node-on-federalist/
-    internal: true
-  - text: RVM on Federalist
-    url: /pages/how-federalist-works/rvm-on-federalist/
-    internal: true
-- text: For Federalist developers
-  url: /pages/how-federalist-works/for-federalist-developers/
-  internal: true
-  children:
-  - text: cloud.gov setup
-    url: /pages/how-federalist-works/cloud-gov-setup/
-    internal: true
-  - text: Site wide alerts
-    url: /pages/how-federalist-works/site-wide-alert/
-    internal: true
-
-repos:
-- name: Federalist
-  description: Documentation repository
-  url: https://github.com/18F/federalist-docs
-
-back_link:
-  url: "https://federalist.18f.gov/"
-  text: Back to Federalist
 
 google_analytics_ua: UA-48605964-19
 
 defaults:
-- scope:
-    path: ""
-  values:
-    layout: "docs"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+      sidenav: "sidenav"
 
-stylesheets:
-- /assets/uswds/css/uswds.css
-- /assets/css/uswds-overrides.css
-
-scripts:
-- /assets/uswds/js/uswds.js
+styles:
+  - /assets/main.css

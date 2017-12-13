@@ -1,14 +1,17 @@
 ---
 title: Included with Federalist
-parent: Using Federalist
+permalink: /pages/using-federalist/included-with-federalist/
 ---
+
+# Included with Federalist
+
 ## What you get with Federalist
 
 We've gotten several questions about the value of purchasing Federalist. Here are some of the work efforts that you benefit from:
 
 ### Included with Federalist
 
-* An automatic deployment mechanism for [Jekyll sites](https://jekyllrb.com/docs/home/) (deploying the contents of the `_site` folder), [Hugo sites](http://gohugo.io/), or static web assets. 
+* An automatic deployment mechanism for [Jekyll sites](https://jekyllrb.com/docs/home/) (deploying the contents of the `_site` folder), [Hugo sites](http://gohugo.io/), or static web assets.
 * Web-based configuration and access to preview builds.
 * 18F's work to complete and maintain an agency Authority to Operate (ATO) for Federalist's hosting, leveraging the cloud.gov System Security Plan (SSP), with a short process to add new sites to the ATO documentation.
 * Premade templates for your sites, in addition to the many sites you can copy in creating your site.

@@ -1,7 +1,9 @@
 ---
 title: Node on Federalist
-parent: How Federalist Works
+permalink: /pages/how-federalist-works/node-on-federalist/
 ---
+
+# Node on Federalist
 
 *Note that the features described in this document are experimental.*
 

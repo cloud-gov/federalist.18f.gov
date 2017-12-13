@@ -1,7 +1,10 @@
 ---
 title: How Builds Work
-parent: How Federalist Works
+permalink: /pages/how-federalist-works/how-builds-work/
 ---
+
+# How Builds Work
+
 Federalist is a continuous deployment-like build environment for static sites. It works by setting a webhook on your site's GitHub repository and generates your site on each `push` event to that repository, then uploads your site files to S3. Changes made to the site's content and files in its repository through the GitHub web editor or otherwise launch rebuild tasks of the site in a build environment container.
 
 If you don't want to use the Federalist templates, you can add your own GitHub repository to build a completely custom site. When you add a repository-based site, you can choose your build engine: Jekyll, Hugo (experimental), or static, which simply pushes the files in your repository to S3. You can also specify a default branch of your repository to serve as the "production" version of the site.

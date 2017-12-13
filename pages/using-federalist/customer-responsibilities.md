@@ -1,7 +1,9 @@
 ---
 title: Customer Responsibilities
-parent: Using Federalist
+permalink: /pages/using-federalist/customer-responsibilities/
 ---
+
+# Customer Responsibilities
 
 ## Your Responsibilities when using Federalist
 
