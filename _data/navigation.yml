@@ -40,6 +40,8 @@ sidenav:
   - text: How Federalist works
     href: /pages/how-federalist-works/
     subfolderitems:
+      - text: Federalist and cloud.gov
+        href: /pages/how-federalist-works/cloud-gov/
       - text: How builds work
         href: /pages/how-federalist-works/how-builds-work/
       - text: How custom URLs work
