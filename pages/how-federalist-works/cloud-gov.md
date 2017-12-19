@@ -5,9 +5,7 @@ permalink: /pages/how-federalist-works/cloud-gov/
 
 # Federalist and cloud.gov
 
-How they use the other, how much they appreciate the other, why you should look at the other.
-
-As mentioned elsewhere, Federalist is build on top of the cloud.gov platform-as-a-service (PaaS). cloud.gov takes care of the vast majority of the systems functionality that enables Federalist, especially by maintaining a FedRAMP certification. cloud.gov also provides security, logging, authentication, cryptographic protection, monitoring, and provisioning services that Federalist consumes. Federalist's [compliance memo]({{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf) explains the technical relationship in detail.
+As mentioned elsewhere, Federalist is built on top of the [cloud.gov platform-as-a-service](https://cloud.gov) (PaaS). cloud.gov takes care of the vast majority of the systems functionality that enables Federalist, especially by maintaining a FedRAMP certification. cloud.gov also provides security, logging, authentication, cryptographic protection, monitoring, and provisioning services that Federalist consumes. Federalist's [compliance memo]({{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf) explains the technical relationship in detail.
 
 ## How Federalist and cloud.gov collaborate
 
@@ -19,4 +17,4 @@ cloud.gov, in turn, can refer potential customers to Federalist and enable them 
 
 Sometimes, customer needs may justify using both a cloud.gov system and Federalist site, espeically when showing data visualizations sourced from an API. Working together, a API server and Federalist site can provide all of the functionality of a web server with a much smaller attack surface. You should consider using cloud.gov with Federalist when you need to receive/store information from site users in a custom system, or when you want your Federalist site to work together with an API.
 
-If your site involves content that shouldn't be public, or primarily involves complex user interactions, it may be better to directly leverage cloud.gov. 
+If your site involves content that shouldn't be public, or primarily involves complex user interactions, it may be better to directly leverage cloud.gov. You can find detailed contact help at [their site](https://cloud.gov/docs/help/).
