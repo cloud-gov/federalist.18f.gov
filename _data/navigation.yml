@@ -21,6 +21,8 @@ sidenav:
   - text: Using Federalist
     href: /pages/using-federalist/
     subfolderitems:
+      - text: Builds and Previews
+        href: /pages/using-federalist/previews/
       - text: Customer responsibilities
         href: /pages/using-federalist/customer-responsibilities/
       - text: Included with Federalist
@@ -31,10 +33,10 @@ sidenav:
         href: /pages/using-federalist/launch-checklist/
       - text: Search on Federalist sites
         href: /pages/using-federalist/search/
-      - text: Viewing site previews
-        href: /pages/using-federalist/previews/
-      - text: Templates
+      - text: Site Templates
         href: /pages/using-federalist/templates/
+      - text: Support
+        href: /pages/using-federalist/support/
   - text: Content guide
     href: /pages/content-guide/
   - text: How Federalist works
