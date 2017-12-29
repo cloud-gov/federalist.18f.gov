@@ -33,7 +33,7 @@ If your site is at a top level .gov domain, the process may be more challenging 
 
 You may wish to use custom Jekyll plugins, Google Analytics from GSA's [Digital Analytics Program](https://www.digitalgov.gov/services/dap/) using embedded Javascript, or other code on your site. Federalist makes this possible - we use analytics extensively on our sites - but you are responsible for the security and stability of any custom code.
 
-Federalist's site management processes prevent any mistakes by one Federalist customer from interfering with the build process of another Federalist customer.
+Federalist's site management processes prevent any mistakes by one Federalist customer from interfering with the build process of another Federalist customer. An individual site's build process is constrained to 1GB of memory. If your site's build attempts to use more than that limit (such as from a complex npm install), the build will not succeed.
 
 ## Federalist's Responsibilities
 
