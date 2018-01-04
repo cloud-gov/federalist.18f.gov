@@ -47,9 +47,9 @@ Jekyll has a plugin system for adding custom features to the build process of yo
 
 Federalist supports Jekyll plugins, enabling any plugins in a site's `_plugins` directory. If the site includes a `Gemfile`, Federalist will also run `bundle install && bundle exec jekyll build` to install required Ruby gems and generate the site with those libraries available for use in plugins. You can also use a `Gemfile` to change the version of Jekyll used to build the site.
 
-Several dependencies are already available for use in the building environment. These include `ruby`, `python`, and `node.js`, as well as the [`github-pages` gem](https://pages.github.com/versions/), which includes several common gems used for building sites. You can write plugins that take advantage of these without needing a `Gemfile`.
+Several dependencies are already available for use in the building environment. These include `ruby`, `python`, and `node.js`. You can write plugins that take advantage of these without needing a `Gemfile`.
 
-To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-garden-build/blob/master/Dockerfile) and [base image `Dockerfile`](https://github.com/18F/docker-ruby-ubuntu/blob/master/Dockerfile).
+To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-garden-build/blob/master/Dockerfile).
 
 **Note:** using `Gemfile` may considerably slow down the generation of your website, depending on how long the `bundle install` step takes to complete.
 
