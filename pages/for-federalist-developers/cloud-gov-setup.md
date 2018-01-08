@@ -122,12 +122,12 @@ docker inspect federalist-registry.fr.cloud.gov/federalist-garden-build
 
 ## Deploying build containers
 
-Federalist's "build containers" are cloud.gov apps running with the `federalist-garden-build` image. The app needs to run without a healthcheck since it is not fitted to respond to HTTP requests.
+Federalist's "build containers" are cloud.gov apps running with the `federalist-garden-build` image. The app needs to run without a healthcheck since it is not fitted to respond to HTTP requests. The build containers are set to have 1500 MB of memory and 2 GB of disk space.
 
 To push the app use `cf push`:
 
 ```shell
-cf push federalist-garden-build-1 --no-route -u none -m 1G -k 2G -o "federalist-registry.fr.cloud.gov/federalist-garden-build"
+cf push federalist-garden-build-1 --no-route -u none -m 1500G -k 2G -o "federalist-registry.fr.cloud.gov/federalist-garden-build"
 ```
 
 The first time the app is pushed it may fail to start. That is okay. The app cannot stand on its own without an environment provided by federalist / federalist-builder. It will be restarted with a valid environment when federalist-builder schedules a build on it.
