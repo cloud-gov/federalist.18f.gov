@@ -139,7 +139,6 @@ Note that it is possible to push multiple build containers, as long as they have
 The next pieces of Federalist that need to be deployed will depend on certain AWS resources. That makes this a good time to provision the AWS resources that are needed:
 
 - An RDS instance for the database
-- A Redis instance for the session store
 - An S3 bucket for storing the sites' files
 - An SQS queue for build messages
 
@@ -151,14 +150,6 @@ The RDS instance can be provisioned with cloud.gov's RDS service broker and does
 
 ```shell
 cf create-service aws-rds shared-psql federalist-production-rds
-```
-
-### Provisioning a Redis instance
-
-The Redis instance can be provisioned with cloud.gov's Redis service broker and doesn't need any special configuration:
-
-```shell
-cf create-service redis28 standard federalist-production-redis
 ```
 
 ### Provisioning an S3 Bucket
@@ -231,8 +222,7 @@ The first step to deploy federalist-builder is to configure the environment. The
 The manifest specifies the following services which are provided by cloud.gov by cloud.gov service brokers:
 
 - `federalist-production-rds` / `federalist-staging-rds`
-- `federalist-production-rds` / `federalist-staging-redis`
-- `federalist-production-rds` / `federalist-staging-s3`
+- `federalist-production-s3` / `federalist-staging-s3`
 
 In additional, there's a user provided service named `federalist-production-env` or `federalist-staging-env` depending on the environment. This user provided service should be created with the following values:
 

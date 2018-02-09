@@ -11,7 +11,7 @@ We use GitHub to manage our work on Federalist. The main code repository for the
 
 ### Functional Repositories
 
-- **[federalist](https://github.com/18F/federalist)** This is the core application for Federalist and contains the frontend interface as well as the code that interacts with the GitHub API and sets up new Federalist sites, including a Github webhook that triggers messages into the build queue through the app. It has two cloud.gov service instances (redis and rds) for session storage and persistent data storage of users, sites, and logs.
+- **[federalist](https://github.com/18F/federalist)** This is the core application for Federalist and contains the frontend interface as well as the code that interacts with the GitHub API and sets up new Federalist sites, including a GitHub webhook that triggers messages into the build queue through the app. It has a cloud.gov PostgreSQL database service instance for session storage and persistent data storage of users, sites, and logs.
 - **[federalist-builder](https://github.com/18F/federalist-builder)** This application launches build tasks for Federalist in a Linux Garden container based on messages from a queue and contains scheduling logic.
 - **[federalist-proxy](https://github.com/18F/federalist-proxy)** This application serves as a proxy for the S3 bucket to which Federalist deploys static content. It adds some required headers for compliance.
 - **[federalist-garden-build](https://github.com/18F/federalist-garden-build)** This container image contains the code to build Federalist sites in Garden Linux containers.
