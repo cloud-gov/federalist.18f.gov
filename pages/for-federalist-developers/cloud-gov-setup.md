@@ -162,9 +162,39 @@ cf create-service s3 basic-public federalist-production-s3
 
 Configuration of the S3 bucket is done with the [AWS CLI tool](https://aws.amazon.com/cli/).
 
-Once the bucket is created CORS will need to be [enabled and configured to only serve GET requests that come from the main Federalist app's domain](https://cloud.gov/docs/services/s3/#allowing-web-access-from-external-applications).
+Once the bucket is created CORS will need to be [enabled and configured to only serve GET or HEAD requests that come from a specific whitelist](https://cloud.gov/docs/services/s3/#allowing-client-side-web-access-from-external-applications).
 
-Next, the AWS CLI will need to be used to enable static website hosting in the bucket:
+First save the following snippet as `cors.json`:
+
+```json
+{
+  "CORSRules": [
+    {
+      "AllowedOrigins": [
+        "https://s.codepen.io"
+      ],
+      "AllowedHeaders": [
+        "*"
+      ],
+      "AllowedMethods": [
+        "HEAD",
+        "GET"
+      ],
+      "ExposeHeaders": [
+        "ETag"
+      ]
+    }
+  ]
+}
+```
+
+Then, run:
+
+```sh
+aws s3api put-bucket-cors --bucket $BUCKET_NAME --cors-configuration file://cors.json
+```
+
+Next, enable static website hosting in the bucket:
 
 ```shell
 aws s3 website s3://${BUCKET_NAME} --index-document index.html
