@@ -19,6 +19,7 @@ Federalist serves our fellow federal employees by expertly managing the backend 
 
 - **Easy previews and content approvals** Federalist builds out draft updates to your site at a special preview URL. This enables your team to know their changes will show up correctly when pushed to the main site, and makes it easy to get signoff on content updates from stakeholders.
 
+[![Diagram of Federalist architecture]({{site.baseurl}}/assets/documents/how-federalist-works-diagram-v1.0.pdf)]({{site.baseurl}}/assets/documents/how-federalist-works-diagram-v1.0.pdf)
 
 ## Why static websites?
 
@@ -31,6 +32,7 @@ Federalist generates static websites instead of using a more complex content man
 - **Easy to host and maintain:** It’s very easy to host static website files on Federalist. You can easily take advantage of scaling services like Amazon S3 through Federalist where you pay only for what you use.
 
 - **Fully customizable:** Designers and developers can customize static websites into whatever form they want without having to strip away CMS-provided features and defaults. Static sites can be used to build many different types of sites, from organization homepages or intranets to pre-generated web application program interfaces that display data from a separate server.
+
 
 ## What can I build with Federalist?
 
