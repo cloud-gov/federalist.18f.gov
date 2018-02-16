@@ -19,7 +19,7 @@ Federalist serves our fellow federal employees by expertly managing the backend 
 
 - **Easy previews and content approvals** Federalist builds out draft updates to your site at a special preview URL. This enables your team to know their changes will show up correctly when pushed to the main site, and makes it easy to get signoff on content updates from stakeholders.
 
-[![Diagram of Federalist architecture]({{site.baseurl}}/assets/images/how-federalist-works-diagram.png)]({{site.baseurl}}/assets/images/how-federalist-works-diagram.png)
+[![Diagram of Federalist architecture]({{site.baseurl}}/assets/documents/how-federalist-works-diagram.pdf)]({{site.baseurl}}/assets/images/how-federalist-works-diagram.png)
 
 ## Why static websites?
 
