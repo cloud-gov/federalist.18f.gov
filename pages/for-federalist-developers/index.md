@@ -7,6 +7,8 @@ redirect_from:
 
 # For Federalist Developers
 
+This page is for people who are developing the Federalist application, including the webapp and build system. It it not for site developers that use Federalist for publishing.
+
 ## Running Federalist locally
 Instructions for running Federalist components locally are in in each code repository README:
 
