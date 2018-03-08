@@ -28,7 +28,7 @@ We use GitHub to manage our work on Federalist. The main code repository for the
 
 Federalist is located on [cloud.gov's GovCloud environment](https://landing.apps.cloud.gov/docs/apps/govcloud/), which has [received FedRAMP certification](https://marketplace.fedramp.gov/index.html#/product/18f-cloudgov). [This blog post](https://18f.gsa.gov/2017/02/02/cloud-gov-is-now-fedramp-authorized/) explains more about FedRAMP.
 
-The diagram for Federalist's architecture is here: [![Diagram of Federalist architecture]({{site.baseurl}}/assets/images/Federalist System Diagram 11-28-16.png)]({{site.baseurl}}/assets/images/Federalist System Diagram 11-28-16.png)
+The diagram for Federalist's architecture is here: [![Diagram of Federalist architecture]({{site.baseurl}}/assets/images/Federalist System Diagram 11-28-16.png)]({{site.baseurl}}/assets/images/Federalist System Diagram 3-8-18.png)
 
 
 ### https://federalist.18f.gov
