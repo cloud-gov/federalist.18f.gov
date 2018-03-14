@@ -75,7 +75,7 @@ The image should now appear in the list when you run `docker images`.
 
 ### Pushing the image
 
-Since the registry in cloud.gov is in read-only mode, it is not possible to push an image to it directly. In order to push an image to the registry a local registry with the same S3 storage driver is started and the image is pushed to that. The image is then saved in the S3 bucket where it is available to the remote registry.
+Since the registry in cloud.gov is in read-only mode, it is not possible to push an image to it directly. In order to push an image to the registry, a local registry with the same S3 storage driver is started and the image is pushed to that. The image is then saved in the S3 bucket where it is available to the remote registry.
 
 We recommend using [Docker Compose](https://docs.docker.com/compose/) to run the local registry. To use Docker Compose you'll need to create a `docker-compose.yml` file. Here is an example of what a `docker-compose.yml` file would look like for a local registry:
 
