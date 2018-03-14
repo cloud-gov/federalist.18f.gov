@@ -31,12 +31,15 @@ sidenav:
         href: /pages/using-federalist/instructional-demos/
       - text: Launch checklist
         href: /pages/using-federalist/launch-checklist/
+      - text: Migration guide
+        href: /pages/using-federalist/migration-guide/
       - text: Search on Federalist sites
         href: /pages/using-federalist/search/
       - text: Site templates
         href: /pages/using-federalist/templates/
       - text: Support
         href: /pages/using-federalist/support/
+
   - text: Content guide
     href: /pages/content-guide/
   - text: How Federalist works
