@@ -5,37 +5,37 @@ permalink: /pages/using-federalist/migration-guide/
 
 # Migration Guide
 
-Welcome to the beginning of your migrating journey! This process may be difficult. 18F cannot provide support for migration work beyond general guidance, but if you are in a situation where you need a lot of help please contact us for a path analysis from our Custom Partner Solutions team.
+Welcome to your migrating journey onto Federalist! This process may be difficult. 18F generally cannot provide support for migration work beyond general guidance under a standard Federalist agreement, but if you are in a situation where you need a lot of help, please [contact us](mailto:inquiries18F@gsa.gov) for a path analysis from our Custom Partner Solutions team.
 
 ## Before you start
 
 Get a sense of how big your migration is before you start. How many pages does your site have? This will help you estimate how long it will reasonably take to migrate your content.
 
-- To find this out, you could try Googling for “site:[your domain]”
+- To find this out, try searching with the query “site:[your domain]” and seeing how many pages are found
 - Example: “site:18f.gsa.gov” shows that there are about 722 pages on 18F’s website
-- Note that blog tags pages will show up as individual pages
+  - Note that blog tags pages or others may show up as individual pages, skewing the count
 
 ## Federalist’s role
 
-Federalist is primarily a backend hosting service that enables lots of flexibility with the look and feel of a hosted website. Federalist is opinionated about the back end hosting of a site, so your code needs to be in a form that Federalist can host.
+Federalist is a backend hosting service that enables lots of flexibility with the look and feel of a hosted website. Federalist is opinionated about the back end hosting of a site, so your code needs to be in a form that Federalist can host.
 
 Federalist supports the following:
 - [Jekyll](https://jekyllrb.com/)
 - [Hugo](http://gohugo.io/)
-- Static files
+- Static HTML/CSS files
 
-In general, we’d expect getting your site up as static files to be the quickest option, but static html can be very difficult to edit and maintain. Even though it takes more effort to initially convert your site content to be published using jekyll or hugo, maintaining your site in the long-term will be easy. Jekyll or Hugo can update all pages with one setting change. For example, If you want to add an item to a menu then you only need to adjust one file with Jekyll or Hugo. If you want to make that same change on static files, then you would need to change every single page.
+In general, we expect getting your site up as static files to be the quickest option, but static html can be very difficult to edit and maintain. Even though it takes more effort to initially convert your site content to a new format, to be published using Jekyll or Hugo, maintaining your site in the long-term will be easier. Jekyll or Hugo can update all pages with one setting change. For example, If you want to add an item to a menu then you only need to adjust one file with Jekyll or Hugo. If you want to make that same change on static files, then you would need to change every single page.
 
 ## Planning the move
 
-You should plan to take everything from your existing site into a format that Federalist can publish. For larger sites, getting an export of the source of your old site might be essential.
+You should plan to move everything from your existing site into a format that Federalist can publish, though. For larger sites, getting an export of the source of your old site might be essential.
 
-List out your options for exporting, which could include:
+Working with your current hosting provider, list out your options for exporting, which could include:
 - Access to the source code
 - Access to an export of the site
 - Scraping your current site. (most difficult)
 
-Ideally, you can get your content in one bucket and html look/feel in another bucket when running the export, to align with how Jekyll and Hugo work.
+Ideally, to align with how Jekyll and Hugo work, the export will have your content in one set of files and the frontend html/css look/feel in another set of files.
 
 ## Building a Timeline
 
@@ -43,19 +43,17 @@ You should create a timeline for the site migration. This may be an opportunity 
 
 You should plan a stopgap measure into your migration timeline. This could be a basic Federalist setup with a landing page that provides information to key stakeholders or notifies visitors that work is in progress.
 
-Ideal stopgap options to include:
-- [Open Foia](https://github.com/18F/open-foia-redirect/tree/be69f7ba1b9433f33c35d271d4b0d665f07d0b13)
-- [GSA 10x](https://github.com/GSA/10x/tree/fa7007ff3d881b80348dfb0d3161b8f9d84dc3d2)
+Possible stopgap pages you could emulate include:
+- [Open Foia](https://open.foia.gov/) ([Code](github.com/18f/open-foia-redirect/))
+- [GSA 10x](10x.gsa.gov)([Code](https://github.com/GSA/10x/tree/fa7007ff3d881b80348dfb0d3161b8f9d84dc3d2))
 
-For these pages you can simply fork them on Github and reword the content in order to have it based on your website. There are other options as well, and these are two examples.
-
-18F can help you with your stopgap measure if you have a signed IAA.
+For these pages you can simply fork them on Github and reword the content in order to have it based on your website, or create your own static page to note the workd in process. 18F can help you with your stopgap measure if you have a signed IAA.
 
 ## Testing the Plan
 
-Test your migration concept by first making one page and learning how to work with Federalist. Try using setting up layouts and content separately. Once the first page is migrated then migrate other pages.
+Test your migration concept by first making one page and learning how to work with Federalist. Try using setting up layouts and content separately. Once the first page is live on a prototype site, you can migrate other pages, but focus on completing one first so that you have a good sense of the effort required.
 
-You should create a staging branch in your Github repo and create a pull request from that branch to your master branch. Then migrate to the staging branch and push to master once you’ve confirmed everything is working correctly in staging. This will help you keep track of changes and provide and easy way to identify what is causing issues. You should push to master everyday.
+You should create a staging branch in your Github repo and create a pull request from that branch to your master branch. Then, migrate to the staging branch and push to master once you’ve confirmed everything is working correctly in staging. This will help you keep track of changes and provide and easy way to identify what is causing issues. You should push to master everyday.
 - You may want to consider creating separate staging branches for content and for settings
 
 Reserve time for the go live process. Plan few days before live launch to do a soft launch for stakeholders at a different URL.
@@ -64,10 +62,10 @@ Reserve time for the go live process. Plan few days before live launch to do a s
 
 Who you need in your migration team is based on the work involved in your specific migration. Generally, a migration PM is probably not necessary unless you are managing against a timeline.
 
-- If you are just migrating your site then you will probably only need front end developers depending on the complexity of your backend
-- If you are also doing a site redesign and/or restricting content then you may need to bring on user experience designers, visual designers, content designers or more depending on your situation
-- For high complexity migrations, 18F offers a path analysis for different technical options, which is not exclusive to a migration to federalist
-- If you are planning on bringing on extra developers for the migration let them know how your site is configured - Jekyll or Hugo
+- Basic migrations will probably only need front end developers if you can pull a good export of content. If you can't, you may need staff to help convert content.
+- If you are also doing a site redesign and/or restricting content then you may need to bring on user experience designers, visual designers, content designers or more.
+- For high complexity migrations, 18F offers a path analysis to provide you with different technical options, which is not exclusive to a migration to federalist
+- If you are planning on bringing on extra developers for the migration, talk about the technologies you plan to use before bringing on contractors.
 
 Your team will need the following access to get started:
 - Access to Federalist for each GitHub account involved in the migration
