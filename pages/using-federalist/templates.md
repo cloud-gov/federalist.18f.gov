@@ -12,7 +12,7 @@ templates:
   url: https://github.com/18F/federalist-landing-page-template
   img: /assets/images/templates/federalist-landing-template.png
 - title: Basic Report Template
-  url: https://github.com/18F/federalist-report-template
+  url: https://github.com/18F/federalist-uswds-template/tree/report-config
   img: /assets/images/templates/federalist-report-template.png
 ---
 
