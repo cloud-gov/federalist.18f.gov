@@ -212,11 +212,13 @@ The first step to deploy federalist-builder is to configure the environment. The
 
 federalist-builder has 2 user provided services that must be created before deploying in order for the app to work.
 
-The first is `federalist-ew-sqs-user` which has the following values:
+The first is `federalist-production-sqs-creds` which has the following values:
 
 ```yaml
 access_key: <AWS ACCESS KEY FOR SQS QUEUE>
 secret_key: <AWS SECRET KEY FOR SQS QUEUE>
+region: <AWS REGION>
+sqs_url: <AWS SQS QUEUE URL>
 ```
 
 The second is `federalist-deploy-user` which has the following values:
@@ -257,15 +259,9 @@ The manifest specifies the following services which are provided by cloud.gov by
 In additional, there's a user provided service named `federalist-production-env` or `federalist-staging-env` depending on the environment. This user provided service should be created with the following values:
 
 ```yaml
-FEDERALIST_AWS_BUILD_KEY: <THE AWS ACCESS KEY FOR THE SQS QUEUE>
-FEDERALIST_AWS_BUILD_SECRET: <THE AWS SECRET KEY FOR THE SQS QUEUE>
-FEDERALIST_BUILD_CALLBACK: <CALLBACK URL FOR WHEN BUILDS ARE COMPLETE>
-FEDERALIST_BUILD_TOKEN: <SECRET FOR AUTHENTICATING BUILD CALLBACK>
-FEDERALIST_SESSION_SECRET": <SECRET FOR THE SAILS SESSION STORE>
-FEDERALIST_SQS_QUEUE: <URL FOR SQS QUEUE>
-GITHUB_CLIENT_CALLBACK_URL: <OAUTH CALLBACK URL FOR GITHUB AUTH>
+FEDERALIST_SESSION_SECRET: <SECRET FOR THE SESSION STORE>
 GITHUB_CLIENT_ID: <CLIENT ID FOR GITHUB AUTH>
-GITHUB_CLIENT_SECRET" <CLIENT SECRET FOR GITHUB AUTH>
+GITHUB_CLIENT_SECRET: <CLIENT SECRET FOR GITHUB AUTH>
 GITHUB_WEBHOOK_SECRET: <SECRET FOR SIGNING GITHUB WEBHOOKS>
 GITHUB_WEBHOOK_URL: <URL FOR GITHUB WEBHOOKS TO CALLBACK TO>
 ```
