@@ -212,7 +212,7 @@ The first step to deploy federalist-builder is to configure the environment. The
 
 federalist-builder has 2 user provided services that must be created before deploying in order for the app to work.
 
-The first is named `federalist-production-sqs-creds` or `federalist-development-sqs-creds` depending on the environment. This user provided service should be created with the following values:
+The first is named `federalist-production-sqs-creds` or `federalist-staging-sqs-creds` depending on the environment. This user provided service should be created with the following values:
 
 ```yaml
 access_key: <AWS ACCESS KEY FOR SQS QUEUE>
