@@ -14,7 +14,7 @@ Here are the templates currently available:
   <h3>{{ tem.title }}</h3>
   <p>
     <a class='screenshot' href='{{ tem.preview_url }}'>
-      <img src='{{ site.baseurl }}{{ tem.img }}' alt='{{ tem.title }}'>
+      <img src='{{ site.baseurl }}{{ tem.img }}' alt='Screenshot of the {{ tem.title }}'>
     </a>
   </p>
   <p>
