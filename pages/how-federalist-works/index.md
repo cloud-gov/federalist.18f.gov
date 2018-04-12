@@ -16,13 +16,13 @@ We use GitHub to manage our work on Federalist. The main code repository for the
 - **[federalist-proxy](https://github.com/18F/federalist-proxy)** This application serves as a proxy for the S3 bucket to which Federalist deploys static content. It adds some required headers for compliance.
 - **[federalist-garden-build](https://github.com/18F/federalist-garden-build)** This container image contains the code to build Federalist sites in Garden Linux containers.
 
+### Templates
+- **[federalist-docs](https://github.com/18f/federalist-docs/)** This documentation website.
 
-### Templates and Documentation
+### Templates
 
 - **[federalist-uswds-template](https://github.com/18f/federalist-uswds-template/)** A Federalist template that uses the U.S. Web Design Standards Jekyll theme.
-
 - **[federalist-report-template](https://github.com/18F/federalist-uswds-template/tree/report-config)** A Federalist template that offers an easy to use setup for hosting multiple pages about a recent report or order. This template code can be found in the report-config branch under the [federalist-uswds-template](https://github.com/18f/federalist-uswds-template/) repo.
-
 - **[federalist-landing-page-template](https://github.com/18F/federalist-landing-page-template)** A single page meant to host information about a new initiative or report.
 - **[federalist-modern-team-template](https://github.com/18F/federalist-modern-team-template)** A simple site to showcase the work of an organization with a few different page types.
 
