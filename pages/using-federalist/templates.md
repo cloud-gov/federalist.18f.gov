@@ -23,7 +23,8 @@ Here are the templates currently available:
       If the docs live outside of federalist docs, use docs_url, otherwise use
       the url for the template's docs page.
     {% endcomment %}
-    <a href="{{ tem.docs_url | default: tem.url }}">Read the template documentation.</a>
+    {% assign default_docs_url = tem.url | prepend: site.baseurl %}
+    <a href="{{ tem.docs_url | default: default_docs_url }}">Read the template documentation.</a>
   </p>
 {% endfor %}
 
