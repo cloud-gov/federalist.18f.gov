@@ -15,12 +15,22 @@ dap_agency: GSA
 
 search_site_handle: federalist-docs
 
+collections:
+  templates:
+    output: true
+    permalink: /pages/using-federalist/templates/:name/
+
 defaults:
   - scope:
       path: ""
     values:
       layout: "page"
       sidenav: "sidenav"
+  - scope:
+      path: ""
+      type: templates
+    values:
+      layout: "template"
 
 styles:
   - /assets/css/site.css
