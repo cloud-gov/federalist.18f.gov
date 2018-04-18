@@ -45,7 +45,7 @@ You should plan a stopgap measure into your migration timeline. This could be a 
 
 Possible stopgap pages you could emulate include:
 - [Open Foia](https://open.foia.gov/) ([Code](github.com/18f/open-foia-redirect/))
-- [GSA 10x](10x.gsa.gov)([Code](https://github.com/GSA/10x/tree/fa7007ff3d881b80348dfb0d3161b8f9d84dc3d2))
+- [GSA 10x](https://10x.gsa.gov/)([Code](https://github.com/GSA/10x/tree/fa7007ff3d881b80348dfb0d3161b8f9d84dc3d2))
 
 For these pages you can simply fork them on Github and reword the content in order to have it based on your website, or create your own static page to note the work in process. 18F can help you with your stopgap measure if you have a signed IAA.
 
