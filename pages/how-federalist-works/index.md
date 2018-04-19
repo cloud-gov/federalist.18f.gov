@@ -16,7 +16,7 @@ We use GitHub to manage our work on Federalist. The main code repository for the
 - **[federalist-proxy](https://github.com/18F/federalist-proxy)** This application serves as a proxy for the S3 bucket to which Federalist deploys static content. It adds some required headers for compliance.
 - **[federalist-garden-build](https://github.com/18F/federalist-garden-build)** This container image contains the code to build Federalist sites in Garden Linux containers.
 
-### Templates
+### Documentation
 - **[federalist-docs](https://github.com/18f/federalist-docs/)** This documentation website.
 
 ### Templates
