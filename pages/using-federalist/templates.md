@@ -1,31 +1,30 @@
 ---
 title: Templates
 permalink: /pages/using-federalist/templates/
-templates:
-- title: U.S. Web Design Standards Landing and Docs Template
-  url: https://github.com/18f/federalist-uswds-template/
-  img: /assets/images/templates/federalist-uswds-template.png
-- title: Modern Team Template
-  url: https://github.com/18f/federalist-modern-team-template
-  img: /assets/images/templates/federalist-modern-team-template.png
-- title: Landing Page Template
-  url: https://github.com/18F/federalist-landing-page-template
-  img: /assets/images/templates/federalist-landing-template.png
-- title: Basic Report Template
-  url: https://github.com/18F/federalist-uswds-template/tree/report-config
-  img: /assets/images/templates/federalist-report-template.png
 ---
+{% assign templates = site.templates | sort: 'order' %}
 
 # Templates
 
-Federalist provides templates for common website types. Here are the templates currently available:
+Federalist offers several templates for common website types that are meant to serve as a starting point for you. These templates show what’s possible and can even be the basis for your site if your needs are closely aligned to the formatting of the template. Federalist templates are not built to serve as final work products, nor are they like templates that you might typically find in a content management system. Instead, templates serve as a “starter kit.” Substantial configuration of a Federalist template requires technical knowledge and know-how.
 
-{% for tem in page.templates %}
+Here are the templates currently available:
+
+{% for tem in templates %}
   <h3>{{ tem.title }}</h3>
   <p>
-    <a class='screenshot' href='{{ tem.url }}'>
-      <img src='{{ site.baseurl }}{{ tem.img }}' alt='{{ tem.title }}'>
+    <a class='screenshot' href='{{ tem.preview_url }}'>
+      <img src='{{ site.baseurl }}{{ tem.img }}' alt='Screenshot of the {{ tem.title }}'>
     </a>
+  </p>
+  <p>
+    {% comment %}
+      TODO: move all the template docs that we support to federalist-docs.
+      If the docs live outside of federalist docs, use docs_url, otherwise use
+      the url for the template's docs page.
+    {% endcomment %}
+    {% assign default_docs_url = tem.url | prepend: site.baseurl %}
+    <a href="{{ tem.docs_url | default: default_docs_url }}">Read the template documentation.</a>
   </p>
 {% endfor %}
 

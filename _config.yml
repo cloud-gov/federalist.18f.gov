@@ -8,7 +8,17 @@ google_analytics_ua: UA-48605964-31
 # Configuration for DAP, add your agency ID here:
 dap_agency: GSA
 
+# To enable search, uncomment the search section
+# You will need to setup a search account with search.gov
+# https://search.usa.gov/signup
+# Your search_site_handle value is from the search.gov settings page.
 
+search_site_handle: federalist-docs
+
+collections:
+  templates:
+    output: true
+    permalink: /pages/using-federalist/templates/:name/
 
 defaults:
   - scope:
@@ -16,9 +26,14 @@ defaults:
     values:
       layout: "page"
       sidenav: "sidenav"
+  - scope:
+      path: ""
+      type: templates
+    values:
+      layout: "template"
 
 styles:
-  - /assets/main.css
+  - /assets/css/site.css
 
 plugins:
   - jekyll-redirect-from
