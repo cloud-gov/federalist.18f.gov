@@ -8,6 +8,9 @@ google_analytics_ua: UA-48605964-31
 # Configuration for DAP, add your agency ID here:
 dap_agency: GSA
 
+edit_page:
+  text: Edit this page
+
 # To enable search, uncomment the search section
 # You will need to setup a search account with search.gov
 # https://search.usa.gov/signup
