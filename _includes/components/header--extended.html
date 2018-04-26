@@ -50,7 +50,6 @@
       {% assign _secondary = header.secondary %}
       {% if _secondary %}
       <div class="usa-nav-secondary">
-        {% include components/glossary.html %}
         {% if site.search_site_handle  %}
           <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" class="usa-search usa-search-small js-search-form usa-sr-only">
             <div style="margin:0;padding:0;display:inline">
@@ -90,3 +89,5 @@
 </header>
 <div class="usa-overlay"></div>
 {% endif %}
+
+{% include components/glossary.html %}

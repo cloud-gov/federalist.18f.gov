@@ -2,6 +2,10 @@ primary:
 
 
 secondary:
+  - text: Glossary
+    external: false
+    href: "#"
+    class: 'glossary__toggle js-glossary-toggle'
   - text: Example sites
     href: https://federalist.18f.gov/content/examples/
     external: true

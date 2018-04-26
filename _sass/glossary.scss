@@ -2,12 +2,13 @@
 //
 
 $white: #fff;
-$color-gray-darker: #bebebe;
-$color-gray: #999;
+$color-blue-darker: #2d476a;
+$color-gray-darker: #2c3e50;
+$color-gray: #526577;
 $sans-serif: Helvetica, Arial, sans-serif;
 
 .accordion__button {
-  background-image: url(/images/icons/plus-circle.svg);
+  background-image: url('../../assets/images/icons/plus-circle.svg');
   background-size: 2rem;
   background-position: 95% 50%;
   background-repeat: no-repeat;
@@ -23,7 +24,7 @@ $sans-serif: Helvetica, Arial, sans-serif;
   width: 100%;
 
   &[aria-expanded='true'] {
-    background-image: url(/images/icons/minus-circle.svg);
+    background-image: url('../../assets/images/icons/minus-circle.svg');
     border-bottom: none;
   }
 }
@@ -147,7 +148,7 @@ $sans-serif: Helvetica, Arial, sans-serif;
 }
 
 .glossary__toggle {
-  background-image: url(/images/icons/icon-glossary.svg);
+  background-image: url('../../assets/images/icons/icon-glossary.svg');
   background-repeat: no-repeat;
   background-position: 0% 50%;
   background-size: 1em;
@@ -161,7 +162,6 @@ $sans-serif: Helvetica, Arial, sans-serif;
 
 // standard class, adds the book icon
 .term {
-  //@include u-icon-bg($book, $primary);
   transition: background-color, .2s, box-shadow, .2s, color, .2s;
   background-size: .6em;
   background-position: 100% 50%;
@@ -169,15 +169,14 @@ $sans-serif: Helvetica, Arial, sans-serif;
   box-shadow: 0 0 0 4px transparent;
   border-bottom: none;
   cursor: pointer;
-  margin-right: 2px;
-  padding-right: .9em;
+  border-bottom: 1px dotted $color-gray-darker;
 
 
   &:focus,
   &:hover {
-    box-shadow: 0 0 0 4px rgba($color-gray, .7);
-    background-color: rgba($color-gray, .7);
-    //color: $primary;
+    box-shadow: 0 0 0 4px $color-blue-darker;
+    background-color: $color-blue-darker;
+    color: $white;
   }
 }
 
