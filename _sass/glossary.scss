@@ -153,6 +153,11 @@ $sans-serif: Helvetica, Arial, sans-serif;
   background-position: 0% 50%;
   background-size: 1em;
   padding-left: 1.5em !important;
+
+  @media screen and (max-width: 949px) {
+    background-image: none;
+    padding-left: 0px !important;
+  }
 }
 
 
