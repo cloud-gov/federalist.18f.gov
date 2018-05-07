@@ -1,11 +1,30 @@
 // Glossary
 //
-
 $white: #fff;
 $color-blue-darker: #2d476a;
 $color-gray-darker: #2c3e50;
 $color-gray: #526577;
 $sans-serif: Helvetica, Arial, sans-serif;
+
+// TODO: Remove when glossary flag is removed from _data/flags
+.no-glossary {
+  .glossary__toggle, .glossary {
+    display: none;
+  }
+
+  .term {
+    border-bottom: 0;
+
+    &:hover {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      color: inherit;
+      cursor: inherit;
+      transition: none;
+    }
+  }
+}
 
 .accordion__button {
   background-image: url('../../assets/images/icons/plus-circle.svg');

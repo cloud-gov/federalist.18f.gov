@@ -72,12 +72,15 @@ var definitions = [
     definition: "Amazon’s Simple Storage Service (S3) is a web service offered by Amazon Web Services (AWS). S3 buckets are units of storage used to store objects, which consist of data and metadata that describes the data."
   }
 ];
-Federalist.Glossary.create(definitions);
 
-// We need to do this because uswds-jekyll doesn't allow for
-// a tags without an `href` property, or for tags with a '#'
-// as the `href`
-const glossaryBtn = document.querySelector('.js-glossary-toggle');
-glossaryBtn.addEventListener('click', function(event) {
-  event.preventDefault()
-});
+if (!(/no-glossary/.test(document.body.className))) {
+  Federalist.Glossary.create(definitions);
+
+  // We need to do this because uswds-jekyll doesn't allow for
+  // a tags without an `href` property, or for tags with a '#'
+  // as the `href`
+  const glossaryBtn = document.querySelector('.js-glossary-toggle');
+  glossaryBtn.addEventListener('click', function(event) {
+    event.preventDefault()
+  });
+}

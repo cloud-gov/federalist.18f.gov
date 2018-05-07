@@ -90,4 +90,6 @@
 <div class="usa-overlay"></div>
 {% endif %}
 
-{% include components/glossary.html %}
+{% if site.data.flags.glossary %}
+  {% include components/glossary.html %}
+{% endif %}
