@@ -35,6 +35,11 @@ defaults:
     values:
       layout: "template"
 
+scripts:
+  - /assets/js/glossary.js
+  - /assets/js/index.js
+  - /assets/uswds/js/uswds.min.js
+
 styles:
   - /assets/css/site.css
 
