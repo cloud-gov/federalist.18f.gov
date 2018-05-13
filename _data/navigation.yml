@@ -30,6 +30,8 @@ sidenav:
     subfolderitems:
       - text: Access and Permissions
         href: /pages/using-federalist/access-permissions/
+      - text: Getting started
+        href: /pages/using-federalist/getting-started/
       - text: Builds and previews
         href: /pages/using-federalist/previews/
       - text: Customer responsibilities
