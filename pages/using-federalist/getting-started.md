@@ -58,10 +58,10 @@ of the page. Front matter is used to configure the page and provide additional
 data. Learn more about [front matter]({{ site.baseurl }}{% link pages/using-federalist/front-matter.md %}).
 
 The content of your page starts below the second set of three dashes `---`. The
-content is all in markdown format, a plain-text simple markup language designed
+content is all in Markdown format, a plain-text simple markup language designed
 to be readable for content editors. Try editing your heading by replacing the
 text “Welcome to the Federalist Report Template” with “Hello world!”. Learn
-more about [markdown]({{ site.baseurl }}{% link pages/using-federalist/markdown.md %}).
+more about [Markdown]({{ site.baseurl }}{% link pages/using-federalist/markdown.md %}).
 
 Once you’re finished making content changes, scroll to the bottom of the page
 and click “Commit changes.” Federalist will automatically detect your changes
