@@ -30,7 +30,7 @@ nesting configuration options. Learn more about [working with YAML]({{
 
 Here's an example `_config.yml` snippet:
 
-```
+```yaml
 title: This is the site title
 
 theme: uswds-jekyll
