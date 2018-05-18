@@ -33,8 +33,7 @@ you’ll need to edit the configuration options in `_config.yml`. Keep in mind
 that this file is a special type, called "YAML", that requires specific
 formatting, so indentation is important to keep related
 options together. We recommend using space characters instead of tabs for
-nesting configuration options. Learn more about [working with YAML]({{
-  site.baseurl }}{% link pages/using-federalist/yaml.md %}).
+nesting configuration options. Learn more about [working with YAML][resources-yaml].
 
 Here's an example `_config.yml` snippet:
 
@@ -63,13 +62,13 @@ content window to edit the page.
 The three dashes `---` separate the “front matter” of the page from the content
 of the page. Front matter is used to instruct the build system about how to
 build the page and provide additional data. Learn more about
-[front matter]({{ site.baseurl }}{% link pages/using-federalist/front-matter.md %}).
+[front matter][resources-front-matter].
 
 The content of your page starts below the second set of three dashes `---`. The
 content is all in Markdown format, a plain-text simple markup language designed
 to be readable for content editors. Try editing your heading by replacing the
 text “Welcome to the Federalist Report Template” with “Hello world!”. Learn
-more about [Markdown]({{ site.baseurl }}{% link pages/using-federalist/markdown.md %}).
+more about [Markdown][resources-markdown].
 
 Once you’re finished making content changes, scroll to the bottom of the page
 and click “Commit changes.” Federalist will automatically detect your changes
@@ -154,3 +153,6 @@ some more details on how to customize your site.
 
 [Federalist]: https://federalist.18f.gov/
 [federalist-sites]: https://federalist.18f.gov/sites
+[resources-front-matter]: {{ site.baseurl }}{% link pages/using-federalist/resources.md %}#working-with-front-matter
+[resources-markdown]: {{ site.baseurl }}{% link pages/using-federalist/resources.md %}#working-with-markdown
+[resources-yaml]: {{ site.baseurl }}{% link pages/using-federalist/resources.md %}#working-with-yaml
