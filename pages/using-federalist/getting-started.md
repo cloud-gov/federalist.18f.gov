@@ -147,6 +147,10 @@ which features a downloadable PDF report. You’ll want to refer to the [templat
 specific documentation](https://federalist-docs.18f.gov/pages/using-federalist/templates/)
 to learn how to configure your template beyond what is covered in this guide.
 
+Once you've got the basics down, we recommend that you check out our [customization
+guide]({{ site.baseurl }}{% link pages/using-federalist/customization.md %}) for
+some more details on how to customize your site.
+
 
 [Federalist]: https://federalist.18f.gov/
 [federalist-sites]: https://federalist.18f.gov/sites
