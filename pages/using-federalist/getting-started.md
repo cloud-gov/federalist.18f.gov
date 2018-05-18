@@ -4,6 +4,13 @@ permalink: /pages/using-federalist/getting-started/
 ---
 # {{ page.title }}
 
+
+_Welcome! This guide should be general and should eventually work across the
+available Federalist templates and themes. The intended audience is content
+creators who have limited technical knowledge and no HTML, CSS, or YAML
+experience. Keep in mind that each template and theme is a little different. If
+you get stuck, don't hesitate to [reach out](mailto:{{ site.support_email }})._
+
 Federalist monitors your site’s GitHub repository (or repo) for changes you
 make. It will automatically build a new version of your site in a few minutes.
 You can view the live site [from Federalist][federalist-sites] and clicking
@@ -21,9 +28,10 @@ before continuing through this guide.
 ## Getting Started
 
 Immediately after building a new site, you need to customize the general content
-on your site, including your site name and contact information. To do that,
+on your site, including your site title and office's contact information. To do that,
 you’ll need to edit the configuration options in `_config.yml`. Keep in mind
-that this is a YAML-formatted file, so indentation is important to keep related
+that this file is a special type, called "YAML", that requires specific
+formatting, so indentation is important to keep related
 options together. We recommend using space characters instead of tabs for
 nesting configuration options. Learn more about [working with YAML]({{
   site.baseurl }}{% link pages/using-federalist/yaml.md %}).
@@ -43,10 +51,9 @@ github:
   organization: 18F
   repository: federalist-uswds-template
   default_branch: report-config
+# Notice how two space characters are used to indent the properties. This means
+# they are all children of the “github” property.
 ```
-
-To customize your site’s URL or repo options, edit the configuration in
-[Federalist][federalist-sites].
 
 Your content lives in the pages/ directory. Click the pages/ directory in
 GitHub to see your existing pages. Select “page.md” from the list of options.
@@ -54,8 +61,9 @@ Once you’re on page.md, look for the pencil icon near the top right of the
 content window to edit the page.
 
 The three dashes `---` separate the “front matter” of the page from the content
-of the page. Front matter is used to configure the page and provide additional
-data. Learn more about [front matter]({{ site.baseurl }}{% link pages/using-federalist/front-matter.md %}).
+of the page. Front matter is used to instruct the build system about how to
+build the page and provide additional data. Learn more about
+[front matter]({{ site.baseurl }}{% link pages/using-federalist/front-matter.md %}).
 
 The content of your page starts below the second set of three dashes `---`. The
 content is all in Markdown format, a plain-text simple markup language designed
@@ -114,19 +122,20 @@ for a page containing your agency’s open source policy.
 You’ll want to include some basic front matter. Copy and paste this example to
 start:
 
-```
+```yaml
 ---
-title: “Your new page”
+title: "Your new content page"
 layout: page
-permalink: /link/to/your-new-page/
+permalink: /link/to/your-new-content-page/
 ---
-## Your new page heading
+## Your new content page heading
 
 And your content goes here.
 ```
 
 `title` is the title of your page. `layout` specifies which layout to use. This
-is usually `page`. `permalink` is the URL to your new page. Don’t forget to
+is usually `page`, meaning that your content is going to be put onto the default
+"page" HTML layout. `permalink` is the URL to your new page. Don’t forget to
 commit your changes when you’re done.
 
 
@@ -135,8 +144,8 @@ commit your changes when you’re done.
 Some templates are geared toward a specific task, like the [Basic Report
 template](https://federalist-docs.18f.gov/pages/using-federalist/templates/basic-report/),
 which features a downloadable PDF report. You’ll want to refer to the [template
-specific documentation](https://federalist-docs.18f.gov/pages/using-federalist/templates/) to learn how to configure your template beyond what is
-covered in this guide.
+specific documentation](https://federalist-docs.18f.gov/pages/using-federalist/templates/)
+to learn how to configure your template beyond what is covered in this guide.
 
 
 [Federalist]: https://federalist.18f.gov/

@@ -15,6 +15,9 @@ dap_agency: GSA
 
 search_site_handle: federalist-docs
 
+# TODO get the correct support email
+support_email: support@federalist.18f.gov
+
 collections:
   templates:
     output: true
