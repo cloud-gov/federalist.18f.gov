@@ -6,9 +6,33 @@ permalink: /pages/using-federalist/resources/
 
 ## Working with YAML
 
-YAML is a markup language. Comments are ignored.  Indentation is important to
-keep related options together. We recommend using space characters instead of
-tabs for nesting configuration options.
+YAML is a markup language used for configuration of your Federalist site.
+Variables defined in your YAML configuration can be used within your site.
+Comments are ignored by Federalist. Indentation is important to keep related
+options together. We recommend using space characters instead of tabs for
+nesting configuration options.
+
+
+```
+# This is a YAML comment. It is ignored by Federalist.
+
+# This is a variable "title" and can be referenced in your site as:
+# {{ title }}
+title: "This is the title of your site"
+
+# This is an object "author" with properties "name" and "email".
+# You can use it in your site like:
+# {{ author.name }}
+author:
+  name: George Washington
+  email: george.washington@example.com
+
+# This is a list
+list_of_departments:
+- "Department of A"
+- "Bureau of B"
+- "C Administration"
+```
 
 
 ## Working with markdown
