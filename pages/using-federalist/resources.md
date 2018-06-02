@@ -66,16 +66,19 @@ nesting configuration options.
 # This is a variable "title".
 title: "This could be the title of your site"
 
-# This is an object "agency_contact" with properties "phone" and "email".
+# This is an object "agency_contact" with
+# properties "phone" and "email".
 agency_contact:
-  phone: 202-555-5555
-  email: info@agency.gov
+  phone: "202-555-5555"
+  email: "info@agency.gov"
 
 # This is a list
 list_of_departments:
 - "Department of A"
 - "Bureau of B"
 - "C Administration"
+
+# You can define any variables you like with YAML.
 ```
 
 
@@ -88,17 +91,18 @@ layouts. Learn more about [Jekyll front matter](https://jekyllrb.com/docs/frontm
 
 ```
 ---
-# This is the front matter of your page.
+# Front matter is always at the top of your page fenced by the
+# three dashes (---).
 
-title: The page title
+title: "The page title"
 author:
-  name: George Washington
-  email: george.washington@example.com
+  name: "George Washington"
+  email: "george.washington@example.com"
 ---
 
 You can reference page variables like this:
 
-The title of the page is {{ page.title }}.
+The title of the page is {% raw %}{{ page.title }}{% endraw %}.
 ```
 
 
@@ -108,4 +112,5 @@ The site configuration lives in `_config.yml`. Some variables have special
 meaning that tell Federalist how to build your site. All variables can be used
 throughout your site like this:
 
-    Contact our agency by email at {{ agency_contact.email }} or by phone {{ agency_contact.phone }}
+    Contact our agency by email at {% raw %}{{ site.agency_contact.email }}{% endraw %}
+    or by phone {% raw %}{{ site.agency_contact.phone }}{% endraw %}.
