@@ -36,7 +36,8 @@ formatting. Learn more about [working with YAML][resources-yaml].
 Here's an example `_config.yml` snippet:
 
 ```yaml
-# This is a YAML comment. A comment starts with the # character. Comments are
+# This is a YAML comment. A comment starts
+# with the # character. Comments are
 # ignored by Federalist.
 title: This is the site title
 
@@ -45,13 +46,15 @@ theme: uswds-jekyll
 site_width: wide
 
 # GitHub information
-# This is used for adding an edit this page link to the footer
+# This is used for adding an edit this page link
+# to the footer
 github:
   organization: 18F
   repository: federalist-uswds-template
   default_branch: report-config
-# Notice how two space characters are used to indent the properties. This means
-# they are all children of the “github” property.
+# Notice how two space characters are used to
+# indent the properties. This means they are
+# all children of the “github” property.
 ```
 
 Your content lives in the pages/ directory. Click the pages/ directory in
