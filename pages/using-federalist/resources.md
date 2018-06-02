@@ -6,11 +6,14 @@ permalink: /pages/using-federalist/resources/
 
 ## Working with YAML
 
-YAML is a markup language. Comments are ignored. Indentation is important, so
-use spaces instead of tabs.
+YAML is a markup language. Comments are ignored.  Indentation is important to
+keep related options together. We recommend using space characters instead of
+tabs for nesting configuration options.
 
 
 ## Working with markdown
+
+https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
 
 You can practice with the [Markdown helper](https://markdown-helper.18f.gov/).
 

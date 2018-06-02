@@ -28,16 +28,16 @@ before continuing through this guide.
 ## Getting Started
 
 Immediately after building a new site, you need to customize the general content
-on your site, including your site title and office's contact information. To do that,
-you’ll need to edit the configuration options in `_config.yml`. Keep in mind
-that this file is a special type, called "YAML", that requires specific
-formatting, so indentation is important to keep related
-options together. We recommend using space characters instead of tabs for
-nesting configuration options. Learn more about [working with YAML][resources-yaml].
+on your site, including your site title and office’s contact information. To do
+that, you’ll need to edit the configuration options in `_config.yml`. Keep in
+mind that this file is a special file type called “YAML” that requires specific
+formatting. Learn more about [working with YAML][resources-yaml].
 
 Here's an example `_config.yml` snippet:
 
 ```yaml
+# This is a YAML comment. A comment starts with the # character. Comments are
+# ignored by Federalist.
 title: This is the site title
 
 theme: uswds-jekyll
@@ -59,16 +59,27 @@ GitHub to see your existing pages. Select “page.md” from the list of options
 Once you’re on page.md, look for the pencil icon near the top right of the
 content window to edit the page.
 
+![Screenshot showing a site page on GitHub and the edit page pencil icon](assets/images/getting-started--edit-page-pencil-icon.png)
+
 The three dashes `---` separate the “front matter” of the page from the content
 of the page. Front matter is used to instruct the build system about how to
 build the page and provide additional data. Learn more about
 [front matter][resources-front-matter].
 
-The content of your page starts below the second set of three dashes `---`. The
-content is all in Markdown format, a plain-text simple markup language designed
-to be readable for content editors. Try editing your heading by replacing the
-text “Welcome to the Federalist Report Template” with “Hello world!”. Learn
-more about [Markdown][resources-markdown].
+```yaml
+---
+# This is front matter.
+title: Title of your page
+---
+
+Content for your page goes here.
+```
+
+The content of your page starts below the second set of three dashes `---` that
+end the front matter section. The content is all in markdown format,
+a plain-text simple markup language designed to be readable for content editors.
+Try editing your heading by replacing the text “Welcome to the Federalist Report
+Template” with “Hello world!”. Learn more about [Markdown][resources-markdown].
 
 Once you’re finished making content changes, scroll to the bottom of the page
 and click “Commit changes.” Federalist will automatically detect your changes
@@ -101,7 +112,7 @@ directories like `assets/images` for images or `assets/css` for CSS files.
 Go to the assets/ directory on GitHub. Then click “Upload files”. This will
 allow you to upload files like your agency logo to your repo. You’ll then be
 able to reference the asset by using a path like `/assets/agency-logo.png` in
-your content and \_config.yml.
+your content and in `_config.yml`.
 
 
 ## Create a new page
@@ -121,12 +132,13 @@ for a page containing your agency’s open source policy.
 You’ll want to include some basic front matter. Copy and paste this example to
 start:
 
-```yaml
+```markdown
 ---
 title: "Your new content page"
 layout: page
 permalink: /link/to/your-new-content-page/
 ---
+
 ## Your new content page heading
 
 And your content goes here.
@@ -134,7 +146,7 @@ And your content goes here.
 
 `title` is the title of your page. `layout` specifies which layout to use. This
 is usually `page`, meaning that your content is going to be put onto the default
-"page" HTML layout. `permalink` is the URL to your new page. Don’t forget to
+“page” HTML layout. `permalink` is the URL to your new page. Don’t forget to
 commit your changes when you’re done.
 
 
