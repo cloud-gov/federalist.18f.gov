@@ -4,37 +4,6 @@ permalink: /pages/using-federalist/resources/
 ---
 # {{ page.title }}
 
-## Working with YAML
-
-YAML is a markup language used for configuration of your Federalist site.
-Variables defined in your YAML configuration can be used within your site.
-Comments are ignored by Federalist. Indentation is important to keep related
-options together. We recommend using space characters instead of tabs for
-nesting configuration options.
-
-
-```
-# This is a YAML comment. It is ignored by Federalist.
-
-# This is a variable "title" and can be referenced in your site as:
-# {{ title }}
-title: "This is the title of your site"
-
-# This is an object "author" with properties "name" and "email".
-# You can use it in your site like:
-# {{ author.name }}
-author:
-  name: George Washington
-  email: george.washington@example.com
-
-# This is a list
-list_of_departments:
-- "Department of A"
-- "Bureau of B"
-- "C Administration"
-```
-
-
 ## Working with markdown
 
 Markdown is a plain-text simple markup language designed to be readable for
@@ -80,6 +49,34 @@ And this is what the above markup looks like when it is rendered on a web page:
 > _You **can** combine them._
 
 You can practice with the [Markdown helper](https://markdown-helper.18f.gov/).
+
+
+## Working with YAML
+
+YAML is a markup language used for configuration of your Federalist site.
+Variables defined in your YAML configuration can be used within your site.
+Comments are ignored by Federalist. Indentation is important to keep related
+options together. We recommend using space characters instead of tabs for
+nesting configuration options.
+
+
+```
+# This is a YAML comment. It is ignored by Federalist.
+
+# This is a variable "title".
+title: "This could be the title of your site"
+
+# This is an object "agency_contact" with properties "phone" and "email".
+agency_contact:
+  phone: 202-555-5555
+  email: info@agency.gov
+
+# This is a list
+list_of_departments:
+- "Department of A"
+- "Bureau of B"
+- "C Administration"
+```
 
 
 ## Working with front matter
