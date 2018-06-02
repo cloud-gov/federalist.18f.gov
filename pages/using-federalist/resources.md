@@ -13,7 +13,47 @@ tabs for nesting configuration options.
 
 ## Working with markdown
 
-https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
+Markdown is a plain-text simple markup language designed to be readable for
+content editors. The syntax is easy to learn and is also used on GitHub.
+Markdown is used to format the content on your website without having to read or
+write HTML.
+
+GitHub has an excellent guide for [mastering
+markdown](https://guides.github.com/features/mastering-markdown/). Here's
+a sample of what it looks like:
+
+```
+# This is a top-level h1 heading
+
+This is just a normal introductory paragraph.
+
+## This is a second-level h2 heading
+
+*This text will be italic.*
+_This will also be italic._
+
+**This text will be bold.**
+__This will also be bold.__
+
+_You **can** combine them._
+```
+
+And this is what the above markup looks like when it is rendered on a web page:
+
+
+> # This is a top-level h1 heading
+> 
+> This is just a normal introductory paragraph.
+> 
+> ## This is a second-level h2 heading
+> 
+> *This text will be italic.*
+> _This will also be italic._
+> 
+> **This text will be bold.**
+> __This will also be bold.__
+> 
+> _You **can** combine them._
 
 You can practice with the [Markdown helper](https://markdown-helper.18f.gov/).
 

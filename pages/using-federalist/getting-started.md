@@ -77,9 +77,10 @@ Content for your page goes here.
 
 The content of your page starts below the second set of three dashes `---` that
 end the front matter section. The content is all in markdown format,
-a plain-text simple markup language designed to be readable for content editors.
-Try editing your heading by replacing the text “Welcome to the Federalist Report
-Template” with “Hello world!”. Learn more about [Markdown][resources-markdown].
+a plain-text simple [markup language](https://en.wikipedia.org/wiki/Markup_language)
+designed to be readable for content editors. Try editing your heading by
+replacing the text “Welcome to the Federalist Report Template” with “Hello
+world!”. Learn more about [Markdown][resources-markdown].
 
 Once you’re finished making content changes, scroll to the bottom of the page
 and click “Commit changes.” Federalist will automatically detect your changes
