@@ -81,7 +81,31 @@ list_of_departments:
 
 ## Working with front matter
 
-Front matter contains configuration variables on a per-page basis. Some
+Front matter contains YAML configuration variables on a per-page basis. Some
 variables are important to Jekyll like `layout` or `permalink`. You can also
 include your own variables that can be referenced in your page content and
 layouts. Learn more about [Jekyll front matter](https://jekyllrb.com/docs/frontmatter/).
+
+```
+---
+# This is the front matter of your page.
+
+title: The page title
+author:
+  name: George Washington
+  email: george.washington@example.com
+---
+
+You can reference page variables like this:
+
+The title of the page is {{ page.title }}.
+```
+
+
+## Site configuration
+
+The site configuration lives in `_config.yml`. Some variables have special
+meaning that tell Federalist how to build your site. All variables can be used
+throughout your site like this:
+
+    Contact our agency by email at {{ agency_contact.email }} or by phone {{ agency_contact.phone }}
