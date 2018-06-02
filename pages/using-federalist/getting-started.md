@@ -5,11 +5,10 @@ permalink: /pages/using-federalist/getting-started/
 # {{ page.title }}
 
 
-_Welcome! This guide should be general and should eventually work across the
-available Federalist templates and themes. The intended audience is content
-creators who have limited technical knowledge and no HTML, CSS, or YAML
-experience. Keep in mind that each template and theme is a little different. If
-you get stuck, don't hesitate to [reach out](mailto:{{ site.support_email }})._
+_Welcome! The intended audience of this guide is content creators who have
+limited technical knowledge and no HTML, CSS, or YAML experience. Keep in mind
+that each template and theme is a little different. If you get stuck, don't
+hesitate to [reach out](mailto:{{ site.support_email }})._
 
 Federalist monitors your site’s GitHub repository (or repo) for changes you
 make. It will automatically build a new version of your site in a few minutes.
