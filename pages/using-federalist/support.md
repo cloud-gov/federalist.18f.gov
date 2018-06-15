@@ -15,3 +15,8 @@ In general, when helping out with support requests, it is always helpful for use
 
 When these points of information are not included, we often end up having to track them down, which slows down the debugging process. We may also ask you to to add Federalist staff to your repo with `write` privileges so that we can more quickly debug.
 
+### Specific Failure Causes
+
+The following is a non-exhausitve list of commmon issues we see partners run into:
+
+1. Trying to deploy code that uses the `github-pages` gem interferes with the Federalist build process to specific URLs. Users should always remove that gem from their repos.
