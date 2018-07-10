@@ -105,11 +105,11 @@ Website bucket for hosting generated static website files
 *The following guide is intended for use with the new [cloud.gov](https://cloud.gov), hosted on the GovCloud AWS region.*
 
 There are two buckets, one for each of Federalist's environments (**production** and **staging**).
-These buckets *should* be active and properly configured, but there may be times when a developer needs to create a new one. To accomplish this, he developer should follow the [documentation on cloud.gov](https://cloud.gov/docs/apps/s3/#add-s3-to-an-application).
+These buckets *should* be active and properly configured, but there may be times when a developer needs to create a new one. To accomplish this, the developer should follow the [documentation on cloud.gov](https://cloud.gov/docs/apps/s3/#add-s3-to-an-application).
 
 
 Buckets intended to serve websites will need to be created using the `basic-public` plan. Once the bucket is created, the developer must enable CORS access, typically only allowing GET requests to come from the Federalist application the bucket serves.
-An example configuration can be found in the [here](https://cloud.gov/docs/apps/s3/#allowing-access-from-other-applications).
+An example configuration can be found [here](https://cloud.gov/docs/apps/s3/#allowing-access-from-other-applications).
 
 Finally, the developer will need to enable the website hosting using [the AWS CLI's `s3 website` command](http://docs.aws.amazon.com/cli/latest/reference/s3/website.html). These commands expects the developer's local directory to contain a generic 404 page named `404.html`:
 
