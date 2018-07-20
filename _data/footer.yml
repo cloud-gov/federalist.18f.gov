@@ -16,7 +16,7 @@ heading: Federalist
 logos:
   - src: /assets/images/federalist-logo.png
     alt: Federalist logo
-    url: https://federalist-staging.18f.gov
+    url: https://federalist.18f.gov
 
 contact:
   heading:
