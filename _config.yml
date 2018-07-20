@@ -45,3 +45,10 @@ styles:
 
 plugins:
   - jekyll-redirect-from
+
+# GitHub information
+# This is used for adding an edit this page link to the footer
+github:
+  organization: 18F
+  repository: federalist-docs
+  default_branch: master
