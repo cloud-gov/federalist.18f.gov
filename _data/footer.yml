@@ -30,4 +30,5 @@ contact:
       external: true
   address:
 
-edit_page: true
+edit_page:
+  text: Edit this page
