@@ -4,6 +4,12 @@ permalink: /pages/using-federalist/customization/
 ---
 # {{ page.title }}
 
+{% capture content %}
+This page describes some more advanced features of Federalist and introduces
+[Jekyll](https://jekyllrb.com/), one of the technologies behind Federalist.
+{% endcapture %}
+{% include components/alert--note.html content=content %}
+
 You may have realized that Federalist is based on several technologies. One of
 the most important is [Jekyll](https://jekyllrb.com/), a static site generator.
 Federalist uses Jekyll to build your site, so anything you can do with Jekyll,
