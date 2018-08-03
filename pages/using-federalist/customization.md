@@ -18,9 +18,8 @@ customize all aspects of your entire site.
 
 The Federalist templates are all configured to use a theme which houses all the
 HTML, CSS, and other web assets for your site. You can override everything on
-a per-file basis by including your own version in your repo with the same file
-path and name. Learn more about [Jekyll
-themes](https://jekyllrb.com/docs/themes/).
+a per-file basis by including your own version of the file in your repo. Learn
+more about [Jekyll themes](https://jekyllrb.com/docs/themes/).
 
 
 ## Layouts and includes
