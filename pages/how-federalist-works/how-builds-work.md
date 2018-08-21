@@ -7,7 +7,16 @@ permalink: /pages/how-federalist-works/how-builds-work/
 
 Federalist is a continuous deployment-like build environment for static sites. It works by setting a webhook on your site's GitHub repository and generates your site on each `push` event to that repository, then uploads your site files to S3. Changes made to the site's content and files in its repository through the GitHub web editor or otherwise launch rebuild tasks of the site in a build environment container.
 
-If you don't want to use the Federalist templates, you can add your own GitHub repository to build a completely custom site. When you add a repository-based site, you can choose your build engine: Jekyll, Hugo (experimental), or static, which simply pushes the files in your repository to S3. You can also specify a default branch of your repository to serve as the "production" version of the site.
+If you don't want to use the Federalist templates, you can add your own GitHub repository to build a completely custom site. When you add an existing repository, you specify a default branch of your repository to serve as the "production" version of the site and choose your build engine.
+
+## Static Site Engine Options
+
+ - Jekyll
+ - Hugo (experimental)
+ - Script only (experimental)
+   - This build choice runs a portion of a Jekyll or Hugo build, including an NPM script, but does not actually run Jekyll or Hugo. All pages must be built into the `_sites` folder for Federalist to deploy to S3. This option is generally only useful for advanced users.
+ - Static
+   - This option pushes the files in your repository to S3 without modifying them. Useful for exports from content management systems or web development tools.
 
 Federalist is designed to be a modular service. Some people customize their sites by creating new templates. Others use a default template content, editing with GitHub. When used this way Federalist acts a no-configuration, production-ready hosting solution for GitHub-based static websites, hosted using cloud.gov tooling, with a custom domain.
 
@@ -19,7 +28,7 @@ Federalist can generate any Jekyll website, which lets you build custom websites
 
 For an example of a Jekyll site optimized for Federalist, see our [templates]({{site.baseurl}}/pages/using-federalist/templates/).
 
-## Jekyll build features
+### Jekyll build features
 
 Federalist provides features beyond just generating Jekyll sites. The steps below outline how to set up custom websites that best take advantage of these features.
 
@@ -53,7 +62,7 @@ To see the exact configuration of the build environment, see the [build environm
 
 **Note:** using `Gemfile` may considerably slow down the generation of your website, depending on how long the `bundle install` step takes to complete.
 
-## Hugo resources (experimental)
+## Hugo (experimental)
 
 Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-based static site generator. See the [Hugo Docs](https://gohugo.io/documentation/) for getting started with Hugo.
 
