@@ -14,7 +14,7 @@ If you don't want to use the Federalist templates, you can add your own GitHub r
  - Jekyll
  - Hugo (experimental)
  - Script only (experimental)
-   - This build choice runs a portion of a Jekyll or Hugo build, including an NPM script, but does not actually run Jekyll or Hugo. All pages must be built into the `_sites` folder for Federalist to deploy to S3. This option is generally only useful for advanced users.
+   - Federalist's Jekyll and Hugo build options run a npm script before running Jekyll or Hugo to build out the site. This build choice runs that script but nothing else as needed for some advanced users. After the script runs, all pages must be built into the `_site` folder for Federalist to deploy to S3.
  - Static
    - This option pushes the files in your repository to S3 without modifying them. Useful for exports from content management systems or web development tools.
 
