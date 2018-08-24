@@ -6,7 +6,7 @@ secondary:
     external: false
     href: "#"
     class: 'glossary__toggle js-glossary-toggle'
-  - text: Features & pricing
+  - text: Features
     href: https://federalist.18f.gov/features/
     external: true
   - text: Example sites
