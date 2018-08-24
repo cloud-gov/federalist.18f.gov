@@ -6,13 +6,16 @@ secondary:
     external: false
     href: "#"
     class: 'glossary__toggle js-glossary-toggle'
+  - text: Features & pricing
+    href: https://federalist.18f.gov/features/
+    external: true
   - text: Example sites
     href: https://federalist.18f.gov/content/examples/
     external: true
-  - text: Documentation
+  - text: Support
     href: /
-  - text: Get started
-    href: https://docs.google.com/forms/d/e/1FAIpQLSesNI1qlov7Ec_1u2FralYWg9hV4WsB-3FyAHPXc1pRT6In7w/viewform
+  - text: Contact
+    href: https://federalist.18f.gov/contact/
     external: true
 
 
@@ -65,3 +68,16 @@ sidenav:
         href: /pages/for-federalist-developers/cloud-gov-setup/
       - text: Site wide alerts
         href: /pages/for-federalist-developers/site-wide-alert/
+
+footer:
+  - text: Features & pricing
+    href: https://federalist.18f.gov/features/
+    external: true
+  - text: Example sites
+    href: https://federalist.18f.gov/content/examples/
+    external: true
+  - text: Support
+    href: /
+  - text: Contact
+    href: https://federalist.18f.gov/contact/
+    external: true
