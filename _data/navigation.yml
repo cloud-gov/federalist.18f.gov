@@ -70,7 +70,7 @@ sidenav:
         href: /pages/for-federalist-developers/site-wide-alert/
 
 footer:
-  - text: Features & pricing
+  - text: Features
     href: https://federalist.18f.gov/features/
     external: true
   - text: Example sites
