@@ -5,7 +5,7 @@ top: true
 # Which links to show at the top of the footer.
 # This can key into _data/navigation.yml or a list of link objects
 # with 'text' and 'href' properties.
-links:
+links: footer
 
 # The optional heading for the footer.
 heading: Federalist
@@ -20,15 +20,6 @@ logos:
 
 contact:
   heading:
-
-  links:
-    - text: Example sites
-      href: https://federalist.18f.gov/content/examples/
-      external: true
-    - text: Contact us
-      href: mailto:federalist-inquiries@gsa.gov
-      external: true
-  address:
 
 edit_page:
   text: Edit this page
