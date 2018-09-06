@@ -52,7 +52,7 @@ Image: `{% raw %}![18F]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
 
 ### Conditionally set robots
 
-To instruct search engines to not index the `preview` builds of your site, try adding the following code in your template's head.html or meta.html file:
+To instruct search engines not to index the `preview` builds of your site, try adding the following code within your site's `<head>` tags which are most likely found in your template's head.html or meta.html file:
 {% raw %}
 ```markdown
 {% unless site.branch == "master" %}
@@ -60,7 +60,7 @@ To instruct search engines to not index the `preview` builds of your site, try a
 {% endunless %}
 ```
 {% endraw %}
-***Note:*** This code sample assumes the live version of your site's code is maintained in the master branch of your site's code repository.
+***Note:*** This code sample assumes the live version of your site's code is maintained in the `master` branch of your site's code repository.
 
 ### Jekyll Plugins
 
