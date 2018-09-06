@@ -3,7 +3,7 @@ title: RVM on Federalist
 permalink: /pages/how-federalist-works/rvm-on-federalist/
 ---
 
-# VM on Federalist
+# RVM on Federalist
 
 Federalist uses [RVM](https://rvm.io/) to select which ruby version to use to build a Federalist site.
 
