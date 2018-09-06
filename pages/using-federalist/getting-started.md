@@ -28,7 +28,13 @@ before continuing through this guide.
 
 Immediately after building a new site, you need to customize the general content
 on your site, including your site title and office’s contact information. To do
-that, you’ll need to edit the configuration options in `_config.yml`. Keep in mind that this file is a special file type called “YAML” that requires specific formatting. Indentation is important to keep related options together — i. In order for Jekyll to successfully read the configuration file so that the site will build with the proper settings, the correct indentation must be used. We recommend using space characters instead of tabs for nesting configuration options. Learn more about [working with YAML][resources-yaml].
+that, you’ll need to edit the configuration options in `_config.yml`. Keep in
+mind that this file is a special file type called “YAML” that requires specific
+formatting. Indentation is important to keep related options together — in order
+for Jekyll to successfully read the configuration file so that the site will
+build with the proper settings, the correct indentation must be used. We
+recommend using space characters instead of tabs for nesting configuration
+options. Learn more about [working with YAML][resources-yaml].
 
 Here's an example `_config.yml` snippet:
 
