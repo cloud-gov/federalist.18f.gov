@@ -13,7 +13,7 @@ Users login to Federaist using GitHub OAuth.  Please ask your site's primary con
 
 Administrators of a site's repository are permissioned to:
 * add/remove the site
-* add/remove sites collaborators
+* add/remove site collaborators
 
 ### Collaborator
 
