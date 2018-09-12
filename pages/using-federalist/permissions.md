@@ -18,7 +18,7 @@ Administrators of a site's repository are permissioned to:
 ### Collaborator
 
 Collaborators with write access to a site's repository are permissioned to:
-- add the site (already existing on Federalist) to their sites list
+- add the site to their sites list
 - trigger site rebuilds
 - view site build history and build logs
 - view site collaborator lists
