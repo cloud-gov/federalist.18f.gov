@@ -3,7 +3,9 @@ title: Access and Permissions
 permalink: /pages/using-federalist/access-permissions/
 ---
 
-# Accessing Federalist
+# Access and Permissions
+
+## Accessing Federalist
 
 Users login to Federaist using GitHub OAuth.  Please ask your team's primary contact for Federalist to submit a request to federalist-support@gsa.gov to permission access for your GitHub username.
 
