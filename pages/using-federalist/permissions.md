@@ -21,6 +21,6 @@ Collaborators with write access to a site's repository are permissioned to:
 - add the site to their sites list
 - trigger site rebuilds
 - view site build history and build logs
-- view site collaborator lists
+- view site collaborator list
 - view and update site settings
 - view site branches, branch previews and uploaded files
