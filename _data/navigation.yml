@@ -28,6 +28,8 @@ sidenav:
   - text: Using Federalist
     href: /pages/using-federalist/
     subfolderitems:
+      - text: Access and Permissions
+        href: /pages/using-federalist/access-permissions/
       - text: Builds and previews
         href: /pages/using-federalist/previews/
       - text: Customer responsibilities
