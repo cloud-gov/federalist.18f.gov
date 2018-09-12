@@ -7,15 +7,15 @@ permalink: /pages/using-federalist/access-permissions/
 
 Users login to Federaist using GitHub OAuth.  Please ask your site's primary contact to submit a request to federalist-support@gsa.gov to permission access for your GitHub username.
 
-# Permissions by site repository roles
+## Permissions by site repository roles
 
-## Administrator
+### Administrator
 
 Administrators of a site's repository are permissioned to:
 * add/remove the site
 * add/remove the sites's collaborators
 
-## Collaborator (write access)
+### Collaborator (write access)
 
 Collaborators of a site's repository are permissioned to:
 - add the already existing site to their sites list
