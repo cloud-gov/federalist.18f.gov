@@ -13,12 +13,12 @@ Users login to Federaist using GitHub OAuth.  Please ask your site's primary con
 
 Administrators of a site's repository are permissioned to:
 * add/remove the site
-* add/remove the sites's collaborators
+* add/remove sites collaborators
 
 ### Collaborator (write access)
 
 Collaborators of a site's repository are permissioned to:
-- add the already existing site to their sites list
+- add the site (already existing on Federalist) to their sites list
 - trigger site rebuilds
 - view site build history and build logs
 - view site collaborator lists
