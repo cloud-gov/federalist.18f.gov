@@ -68,7 +68,7 @@ Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-bas
 
 ### Hugo version
 
-When building a Federalist site using Hugo, the version of Hugo for building your site must be specified in a `.hugo-verson` file located in your repository's root directory.
+When building a Federalist site using Hugo, the desired version of Hugo for building your site must be specified in a `.hugo-verson` file located in your repository's root directory.
 ```markdown
 .hugo-version:
 
