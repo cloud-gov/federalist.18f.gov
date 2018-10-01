@@ -10,6 +10,9 @@
     {% if site.google_analytics_ua or site.dap_agency %}
       {% include analytics.html %}
     {% endif %}
+    {% unless site.branch == "master" %}
+      <meta name="robots" content="noindex, nofollow">
+    {% endunless %}
   </head>
   <body class="{{ glossary }} {{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
 

@@ -50,6 +50,18 @@ Link: `{% raw %}[About Us]({{site.baseurl}}/about-us){% endraw %}`
 
 Image: `{% raw %}![18F]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
 
+### Conditionally set robots
+
+To instruct search engines not to index the `preview` builds of your site, try adding the following code within your site's `<head>` tags which are most likely found in your template's head.html or meta.html file:
+{% raw %}
+```markdown
+{% unless site.branch == "master" %}
+  <meta name="robots" content="noindex, nofollow">
+{% endunless %}
+```
+{% endraw %}
+***Note:*** This code sample assumes the live version of your site's code is maintained in the `master` branch of your site's code repository.
+
 ### Jekyll Plugins
 
 Jekyll has a plugin system for adding custom features to the build process of your website. Use-cases for plugins include automatically generating new pages or templates, fetching data or content from external resources, and CCS or JavaScript compilation. [Learn more about Jekyll plugins](http://jekyllrb.com/docs/plugins/).
