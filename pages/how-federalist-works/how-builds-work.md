@@ -62,7 +62,7 @@ To instruct search engines not to index the `preview` builds of your site, try a
 {% endraw %}
 ***Note:*** This code sample assumes the live version of your site's code is maintained in the `master` branch of your site's code repository.
 
-For all versions of your site that aren't built from `master`, the source code of the site will contain the code above. For an example, see [here](https://federalist-proxy.app.cloud.gov/preview/18f/federalist-docs/wslack-patch-1/), view source, and jump to line 57. Users on Chrome can click [this link](view-source:https://federalist-proxy.app.cloud.gov/preview/18f/federalist-docs/wslack-patch-1/) for a shortcut.
+For all versions of your site that aren't built from `master`, the source code of the site will contain the code above. For an example, see [here](https://federalist-proxy.app.cloud.gov/preview/18f/federalist-docs/wslack-patch-1/), view source, and jump to line 57.
 
 ### Jekyll Plugins
 
