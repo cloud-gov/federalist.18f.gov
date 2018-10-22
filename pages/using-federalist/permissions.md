@@ -7,7 +7,7 @@ permalink: /pages/using-federalist/access-permissions/
 
 ## Initial access to Federalist
 
-Basic access to federalist is authenticated using GitHub OAuth.  Please ask your team's primary contact for Federalist to request access to Federalist by e-mailing federalist-support@gsa.gov.
+Basic access to federalist is authenticated using GitHub OAuth.  Please ask your team's primary contact for Federalist to request access to Federalist by e-mailing federalist-support@gsa.gov with the GitHub usernames of those that should have access. Primary contacts should also let us know when to remove access as part of offboarding.
 
 ## Site permissions
 
