@@ -1,6 +1,18 @@
-## federalist-docs
+# Federalist documentation
 
-This is a informational site with background on Federalist, a compliant static site publishing service for the federal government.
+This is an informational site with background on [Federalist](https://federalist-docs.18f.gov/), a compliant static site publishing service for the federal government.
+
+## Setup
+
+Install the dependencies.
+
+    $ bundle install
+
+Run the site locally for development.
+
+    $ bundle exec jekyll serve
+
+Open your web browser to [localhost:4000](http://localhost:4000/).
 
 ### Public domain
 
