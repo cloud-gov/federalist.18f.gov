@@ -7,27 +7,24 @@ secondary:
     href: "#"
     class: 'glossary__toggle js-glossary-toggle'
   - text: Features
-    href: https://federalist.18f.gov/features/
+    href: /features/
     external: true
   - text: Example sites
-    href: https://federalist.18f.gov/content/examples/
+    href: /examples/
     external: true
   - text: Support
-    href: /
+    href: /pages/using-federalist/
   - text: Contact
-    href: https://federalist.18f.gov/contact/
+    href: /contact/
     external: true
 
 
 sidenav:
-  - text: About
-    href: /
-    subfolderitems:
-      - text: Why use Federalist?
-        href: /pages/about-federalist/why-use-federalist/
   - text: Using Federalist
     href: /pages/using-federalist/
     subfolderitems:
+      - text: Why use Federalist?
+        href: /pages/about-federalist/why-use-federalist/
       - text: Access and Permissions
         href: /pages/using-federalist/access-permissions/
       - text: Getting started
@@ -52,7 +49,7 @@ sidenav:
         href: /pages/using-federalist/customization/
       - text: Additional resources
         href: /pages/using-federalist/resources/
-      - text: Support
+      - text: Getting Support
         href: /pages/using-federalist/support/
   - text: Content guide
     href: /pages/content-guide/
@@ -79,13 +76,13 @@ sidenav:
 
 footer:
   - text: Features
-    href: https://federalist.18f.gov/features/
+    href: /features/
     external: true
   - text: Example sites
-    href: https://federalist.18f.gov/content/examples/
+    href: /examples/
     external: true
   - text: Support
-    href: /
+    href: /pages/using-federalist/
   - text: Contact
-    href: https://federalist.18f.gov/contact/
+    href: /contact/
     external: true
