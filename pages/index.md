@@ -22,9 +22,9 @@ layout: home
         </div>
       </div>
     </div>
-
     <div class="usa-grid info-block">
-     <h2><a id="page-body"></a>Rely on Federalist for the heavy lifting.</h2>
+      <hr class="hr-light">
+      <h2><a id="page-body"></a>Rely on Federalist for the heavy lifting.</h2>
       <section class="features">
         <div class="feature-group">
           <div class="usa-width-one-sixth">
@@ -37,7 +37,6 @@ layout: home
             <p>You don't have to be a programmer or spend months working on compliance to get started. We’ve taken care of it using popular and easy-to-use open source tools so you can get right to work.</p>
           </div>
         </div>
-
         <div class="feature-group">
           <div class="usa-width-one-sixth">
             <div class="feature-image">
@@ -46,10 +45,9 @@ layout: home
           </div>
           <div class="usa-width-three-fourths feature-text">
             <h3>Fully customizable</h3>
-            <p>Have a design team? They can deploy custom sites that use Federalist’s scalable architecture.</p>
+            <p>Have a design team? They can deploy custom sites that use Federalist’s scalable architecture.<br><br></p>
           </div>
         </div>
-
         <div class="feature-group">
           <div class="usa-width-one-sixth">
             <div class="feature-image">
@@ -63,65 +61,68 @@ layout: home
         </div>
       </section>
     </div>
-
     <div class="usa-grid">
       <hr class="hr-light">
       <section class="info-block">
-        <div class="usa-width-two-thirds description">
+        <div class="description">
           <h2>Kickstart your website with one of our templates.</h2>
           <p class="copy">
             Our accessible, customizable templates let you spend more time on your content.
           </p>
-
           <div class="figure-group">
             <h4>A few websites built with our templates</h4>
             <ul class="figure-list mobile-center">
               <li>
-                <figure class="figure">
+                <a href="https://www.citizenscience.gov">
+                <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="/assets/images/www.citizenscience.gov.jpg" alt="A screenshot of the Citizen Science website" height="90" width="120">
+                    <img src="/assets/images/www.citizenscience.gov.jpg" alt="A screenshot of the Citizen Science website">
                   </div>
-                  <figcaption><a href="https://www.citizenscience.gov">citizenscience.gov</a></figcaption>
+                  <figcaption>citizenscience.gov</figcaption>
                 </figure>
+                </a>
               </li>
               <li>
-                <figure class="figure">
+                <a href="https://cyber.dhs.gov">
+                <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="/assets/images/cyber.dhs.gov.jpg" height="90" alt="A screenshot of the DHS Bindingn Operational Directives website" width="120">
+                    <img src="/assets/images/cyber.dhs.gov.jpg"  alt="A screenshot of the DHS Bindingn Operational Directives website">
                   </div>
-                  <figcaption><a href="https://cyber.dhs.gov">DHS Binding Operational Directives</a></figcaption>
+                  <figcaption>DHS Binding Operational Directives</figcaption>
                 </figure>
+                </a>
               </li>
               <li>
-                <figure class="figure">
+                <a href="https://fedramp.gov">
+                <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="/assets/images/www.fedramp.gov.jpg" height="90" alt="A screenshot of the FedRAMP website" width="120">
+                    <img src="/assets/images/www.fedramp.gov.jpg" alt="A screenshot of the FedRAMP website">
                   </div>
-                  <figcaption><a href="https://fedramp.gov">FedRAMP Homepage</a></figcaption>
+                  <figcaption>FedRAMP Homepage</figcaption>
                 </figure>
+                </a>
               </li>
               <li>
-                <figure class="figure">
-                  <div class="tint">
-                    <img src="/assets/images/www.pclob.gov.jpg" height="90" alt="A screenshot of the Privacy an Civil Liberties Oversight Board website" width="120">
-                  </div>
-                  <figcaption><a href="https://pclob.gov">Privacy and Civil Liberties Oversight Board</a></figcaption>
-                </figure>
+                <a href="https://pclob.gov">
+                  <figure class="figure figure-seal">
+                    <div class="tint">
+                      <img src="/assets/images/www.pclob.gov.jpg"  alt="A screenshot of the Privacy an Civil Liberties Oversight Board website">
+                    </div>
+                    <figcaption>Privacy and Civil Liberties Oversight Board</figcaption>
+                  </figure>
+                </a>
               </li>
             </ul>
           </div>
         </div>
-
-        <div class="usa-width-one-third info-image">
-          <img src="/images/graphic-template.svg">
-        </div>
+        <!-- <div class="usa-width-one-third info-image">
+          <img src="/assets/images/graphic-template.svg">
+        </div> -->
       </section></div>
-    
-
     <div class="usa-grid">
       <hr class="hr-light">
       <section class="info-block">
-        <div class="usa-width-two-thirds description">
+        <div class="description">
           <h2>Launch your site in minutes.</h2>
           <p class="copy">
             Federalist uses a <a href="https://github.com/">public code hosting service</a> to load and store code for your site. If your code is already on GitHub, Federalist can securely deploy a static website from your repository in minutes.
@@ -130,57 +131,55 @@ layout: home
             <h4>Agencies using Federalist</h4>
             <ul class="figure-list mobile-center">
               <li>
-                <figure class="figure">
-                  <img src="/images/logos/partners/500px-Education.png" alt="Seal of the Department of Education" height="64" width="64">
+                <figure class="figure figure-seal">
+                  <img src="/assets/images/logos/partners/500px-Education.png" alt="Seal of the Department of Education" height="64" width="64">
                   <figcaption>Department of Education</figcaption>
                 </figure>
               </li>
               <li>
-                <figure class="figure">
-                  <img src="/images/logos/partners/500px-DHS.png" alt="Seal of the Department of Homeland Security" height="64" width="64">
+                <figure class="figure figure-seal">
+                  <img src="/assets/images/logos/partners/500px-DHS.png" alt="Seal of the Department of Homeland Security" height="64" width="64">
                   <figcaption>Department of Homeland Security</figcaption>
                 </figure>
               </li>
               <li>
-                <figure class="figure">
-                  <img src="/images/logos/partners/500px-DOI.png" alt="Seal of the Department of the Interior" height="64" width="64">
+                <figure class="figure figure-seal">
+                  <img src="/assets/images/logos/partners/500px-DOI.png" alt="Seal of the Department of the Interior" height="64" width="64">
                   <figcaption>Department of the Interior</figcaption>
                 </figure>
               </li>
               <li>
-                <figure class="figure">
-                  <img src="/images/logos/partners/500px-treasury.png" alt="Seal of the Department of the Treasury" height="64" width="64">
+                <figure class="figure figure-seal">
+                  <img src="/assets/images/logos/partners/500px-treasury.png" alt="Seal of the Department of the Treasury" height="64" width="64">
                   <figcaption>Department of the Treasury</figcaption>
                 </figure>
               </li>
               <li>
-                <figure class="figure">
-                  <img src="/images/logos/partners/500px-GSA.png" alt="Seal of the General Services Adminstration" height="64" width="64">
+                <figure class="figure figure-seal">
+                  <img src="/assets/images/logos/partners/500px-GSA.png" alt="Seal of the General Services Adminstration" height="64" width="64">
                   <figcaption>General Services Administration</figcaption>
                 </figure>
               </li>
               <li>
-                <figure class="figure">
-                  <img src="/images/logos/partners/500px-NSF.png" alt="Seal of the National Science Foundation" height="64" width="64">
+                <figure class="figure figure-seal">
+                  <img src="/assets/images/logos/partners/500px-NSF.png" alt="Seal of the National Science Foundation" height="64" width="64">
                   <figcaption>National Science Foundation</figcaption>
                 </figure>
               </li>
               <li>
-                <figure class="figure">
-                  <img src="/images/logos/partners/500px-OPM.png" alt="Seal of the Office of Personnel Management" height="64" width="64">
+                <figure class="figure figure-seal">
+                  <img src="/assets/images/logos/partners/500px-OPM.png" alt="Seal of the Office of Personnel Management" height="64" width="64">
                   <figcaption>Office of Personnel Management</figcaption>
                 </figure>
               </li>
             </ul>
           </div>
         </div>
-
-        <div class="usa-width-one-third info-image">
-          <img src="/images/graphic-git-to-website.svg">
-        </div>
+        <!-- <div class="usa-width-one-third info-image">
+          <img src="/assets/images/graphic-git-to-website.svg">
+        </div> -->
       </section>
     </div>
-
     <div class="usa-grid">
       <hr class="hr-light">
       <section class="info-block">
@@ -195,7 +194,7 @@ layout: home
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="/images/home-page/Federalist-Proposal-Thumbnail.jpg">
+                  <img src="/assets/images/home-page/Federalist-Proposal-Thumbnail.jpg">
                 </div>
                 <figcaption>
                   <h6>Federalist proposal</h6>
@@ -207,7 +206,7 @@ layout: home
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="/images/home-page/how-federalist-works-diagram-Thumbnail.jpg">
+                  <img src="/assets/images/home-page/how-federalist-works-diagram-Thumbnail.jpg">
                 </div>
                 <figcaption>
                   <h6>Federalist basic diagram</h6>
@@ -219,7 +218,7 @@ layout: home
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="/images/home-page/Federalist-Compliance-Memo-Thumbnail.jpg">
+                  <img src="/assets/images/home-page/Federalist-Compliance-Memo-Thumbnail.jpg">
                 </div>
                 <figcaption>
                   <h6>Compliance memo</h6>
@@ -232,13 +231,13 @@ layout: home
         </div>
       </section>
     </div>
-
-    <div class="well">
+    <div class="well usa-grid">
+      <hr class="hr-light">      
       <div class="usa-grid federalist-hero">
         <div class="feature-group large">
           <div class="usa-width-one-sixth flex-center">
             <div class="feature-image light">
-              <img src="/images/graphic-speech-bubbles.svg" width="110" height="93">
+              <img src="/assets/images/graphic-speech-bubbles.svg" width="110" height="93">
             </div>
           </div>
           <div class="usa-width-two-thirds feature-text">

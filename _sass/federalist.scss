@@ -1,5 +1,5 @@
 .federalist-hero{
-  padding-bottom: 100px;
+//  padding-bottom: 100px;
 }
 
 .usa-hero-callout{
@@ -11,3 +11,70 @@
     border: 1px solid #ddd;
   }
 }
+
+#home{
+  .info-image{
+    text-align: center;
+    img{
+      width: 80%;
+    }
+  }
+}
+.example-sites-list{
+  img{
+    border: 1px solid #ddd;    
+  }
+  .usa-width-one-third{
+    margin-right: 1.3%
+  }
+  
+  .case-study{
+    p{
+      text-align: center;
+    }
+  }
+}
+
+#main-content{
+  .feature-group{
+    .feature-image{
+      text-align: center;
+    }
+    p{
+      margin-bottom: 3%;      
+    }
+  }
+}
+
+.figure-seal{
+  text-align: center;
+}
+
+.figure-list {
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.figure-list .list-item, .figure-list li {
+    padding-right: 20px;
+    width: 33%;
+}
+.figure {
+    margin: 0;
+}
+
+.figure figcaption {
+    margin-bottom: 6px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tint {
+  img{
+    border: 1px solid #ddd;
+  }
+}
+
