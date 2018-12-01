@@ -25,6 +25,7 @@ layout: home
     <div class="usa-grid info-block">
       <hr class="hr-light">
       <h2><a id="page-body"></a>Rely on Federalist for the heavy lifting.</h2>
+      <br>
       <section class="features">
         <div class="feature-group">
           <div class="usa-width-one-sixth">
@@ -172,6 +173,14 @@ layout: home
                   <figcaption>Office of Personnel Management</figcaption>
                 </figure>
               </li>
+              <li>
+                <figure class="figure figure-seal">
+                  <img src="https://dod.defense.gov/Portals/1/Images/service_seals/DODc.gif" alt="Seal of the Office of Personnel Management" height="64" width="64">
+                  <figcaption>Department of Defense</figcaption>
+                </figure>
+              </li>
+              
+              
             </ul>
           </div>
         </div>

@@ -22,72 +22,15 @@ layout: home
     </div>
   </div>
 
-  <div class="usa-grid">
+ 
+
+  <!-- <div class="usa-grid">
     <br>
-    <hr class="hr-light">    
-    <br>
-  </div>
-  
-  <div class="usa-grid">
-    
-    <section class="info-block">
-      <a id="page-body"></a>
-      <div class="usa-grid-full feature-group">
-        <div class="usa-width-one-half">
-          
-          <h3>Federalist features:</h3>
-
-          <div class="criteria-list">
-            <h5 class="criteria-list-heading">Federally compliant from the start</h5>
-            <ul>
-              <li>Hosted on the FedRAMP-certified cloud.gov platform and Amazon Web Services GovCloud infrastructure.</li>
-              <li>3-year Authority to Operate (low impact level) granted by GSA.</li>
-            </ul>
-
-            <h5 class="criteria-list-heading">Reliable and secure</h5>
-            <ul>
-              <li>Protected against attack by multiple levels of authentication.</li>
-              <li>Federalist’s content delivery network seamlessly supports your site to keep it up and running even when traffic spikes.</li>
-            </ul>
-            <h5 class="criteria-list-heading">Easy to change content and code</h5>
-            <ul>
-              <li>Deploy content and code quickly and safely, all while under your control.</li>
-              <li>Move your sites on or off of Federalist at any time.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="usa-width-one-half">
-          <h3>Drawbacks of other site publishers:</h3>
-
-          <div class="criteria-list criteria-list--clock">
-            <h5 class="criteria-list-heading">Extensive security and compliance evaluations</h5>
-            <ul>
-              <li>Federal regulations demand an impact level assessment, system security plan, additional monitoring setup, vulnerability scanning, privacy threshold analysis, documentation review, penetration testing, and more to obtain an Authority to Operate.</li>
-            </ul>
-            <h5 class="criteria-list-heading">Additional plugins required</h5>
-            <ul>
-              <li>You may need plug-ins to get features like simple editorial and development workflows or real-time publishing — and each plug-ins will need its own security evaluation.</li>
-            </ul>
-
-            <h5 class="criteria-list-heading">Less collaboration and reuse</h5>
-
-            <ul>
-              <li>Closed-source software may require expensive training to learn.</li>
-              <li>You don’t benefit from reusing the open-work of other federal agencies using Federalist.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <div class="usa-grid">
-    <br>
-    <hr class="hr-light">    
+    <hr class="hr-light">
     <br>
   </div>
-  
-  
+
+
   <div class="usa-grid">
     <section class="info-block">
       <div class="usa-width-one-whole">
@@ -102,7 +45,7 @@ layout: home
       </div>
     </section>
   </div>
-  
+   -->
   <div class="usa-grid">
     <br>
     <hr class="hr-light">    
@@ -113,7 +56,8 @@ layout: home
   <div class="usa-grid">
     <section class="info-block">
       <div class="usa-width-one-whole">
-        <h3>You don’t need to start from scratch with Federalist:</h3>
+        <h1>Features</h1>
+        <br>
         <div class="usa-grid-full">
           <div class="usa-width-one-third">
             <div class="feature-group vertical">
@@ -177,25 +121,77 @@ layout: home
     </section>
   </div>
   
+  
   <div class="usa-grid">
     <br>
     <hr class="hr-light">    
-    <br>
-  </div>
-
-  <div class="usa-grid">
-    <section class="info-block">
-      <h2>It’s easy to get started.</h2>
-      <p class="medium-copy">We’ve streamlined our onboarding process to get you working quickly:</p>
-      <ul>
-        <li>No hidden charges.</li>
-        <li>All the storage and bandwidth you need.</li>
-        <li>Unlimited additional sites for your team or office.</li>
-        <li>Weeks to execute a typical agreement.</li>
-      </ul>
-    </section>
   </div>
   
+  <div class="usa-grid">
+    
+    <section class="info-block">
+      <a id="page-body"></a>
+      <h1>It’s easy to get started.</h1>
+      <div class="usa-grid-full feature-group">
+        <div class="usa-width-one-half">
+          <div class="criteria-list">
+            
+            <h5 class="criteria-list-heading">We’ve streamlined our onboarding process.</h5>
+            <ul class="checklist copy">
+              <li>Execute an Interagency Agreement in weeks.</li>
+              <li>Unlimited storage and bandwidth for your sites.</li>
+              <li>Unlimited sites for your team.</li>
+              <li>Federalist’s content delivery network seamlessly keeps your site up and running even when traffic spikes.</li>
+              <li>No hidden charges.</li>
+            </ul>
+
+            
+            <h5 class="criteria-list-heading">Customize and publish your site with confidence.</h5>
+            <ul class="checklist copy">
+              
+              <li>Ensure that content is tested and reviewed before publication.</li>
+              <li>Preview site changes before making them live.</li>
+              <li>Collaborate with colleagues to edit and review your site.</li>
+              <li>Make site updates quickly.</li>
+              
+            </ul>
+
+
+
+
+
+            
+
+          </div>
+        </div>
+
+        <div class="usa-width-one-half">          <!-- <h3>Drawbacks of other site publishers:</h3> -->
+
+          <div class="criteria-list">
+            
+            <h5 class="criteria-list-heading">Federally compliant from the start</h5>
+            <ul class="checklist copy">
+              <li>We are built on the FedRAMP-certified cloud.gov platform and Amazon Web Services GovCloud infrastructure.</li>
+              <li>Your agency can use our Authority to Operate (ATO).</li>
+              <li>Protected by multiple levels of authentication.</li>
+              <li>We handle vulnerability scanning and penetration testing for you.</li>
+            </ul>
+
+            <h5 class="criteria-list-heading">Easy to change content and code</h5>
+            <ul class="checklist copy">
+              <li>Deploy content and code quickly and safely, all while under your control.</li>
+              <li>Move your sites on or off of Federalist at any time.</li>
+              <li>Closed-source software may require expensive training to learn.</li>
+            </ul>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
   <div class="usa-grid">
     <br>
     <hr class="hr-light">    

@@ -40,8 +40,17 @@
   }
 }
 
+.features-page{
+  .feature-group{
+    .feature-text{
+      text-align: center;
+    }
+  }  
+}
+
 #main-content{
   .feature-group{
+    margin-bottom: 40px;
     .feature-image{
       text-align: center;
     }
@@ -75,7 +84,7 @@
 
 .figure figcaption {
     margin-bottom: 6px;
-    margin-top: 20px;
+    margin-top: inherit;
     text-align: center;
 }
 

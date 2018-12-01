@@ -107,7 +107,6 @@ redirect_from: /examples/
 <div class="usa-grid">
   <br/>
   <hr class="hr-light">
-  <br/>
 </div>    
 
 <section class="well example-sites">
@@ -117,7 +116,7 @@ redirect_from: /examples/
         See more sites powered by Federalist.
       </h1>
       <p class="example-sites-copy">
-        Eight agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
+        Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
       </p>
     </div>
     <div class="usa-width-one-full flexbox-grid example-sites-list">
