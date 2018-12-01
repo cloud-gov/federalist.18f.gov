@@ -1,5 +1,5 @@
 ---
-permalink: /features
+permalink: /features/
 title: Features
 layout: home
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /about
+permalink: /about/
 title: About Federalist
 ---
 # About Federalist

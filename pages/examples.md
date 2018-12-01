@@ -1,8 +1,8 @@
 ---
-permalink: /case-studies
+permalink: /case-studies/
 title: Case Studies
 layout: home
-redirect_from: /examples
+redirect_from: /examples/
 
 
 ---

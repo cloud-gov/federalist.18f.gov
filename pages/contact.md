@@ -1,5 +1,5 @@
 ---
-permalink: /contact
+permalink: /contact/
 title: Contact
 layout: home
 ---
