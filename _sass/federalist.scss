@@ -1,9 +1,13 @@
+.usa-nav-secondary-links li{
+  padding-left: 1.5rem;
+}
 .federalist-hero{
 //  padding-bottom: 100px;
 }
 
 .usa-hero-callout{
   color: white;
+  padding: 2rem;
 }
 
 .usa-layout-docs-main_content {
@@ -11,6 +15,7 @@
     border: 1px solid #ddd;
   }
 }
+
 
 #home{
   .info-image{
@@ -44,6 +49,8 @@
       margin-bottom: 3%;      
     }
   }
+  
+
 }
 
 .figure-seal{

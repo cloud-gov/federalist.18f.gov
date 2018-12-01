@@ -13,12 +13,12 @@ layout: home
         </div>
         <div class="usa-width-one-third usa-hero-callout">
           <h5 class="contrast-heading">Federalist stats:</h5>
-          <div class="usa-hero-callout-stats">
-            <p>127 live .gov sites supported</p>
-            <p>9 federal agency customers</p>
-            <p>404 prototypes tested</p>
-            <p>639 site updates this week</p>
-          </div>
+          <ul>
+            <li>127 live .gov sites supported</li>
+            <li>9 federal agency customers</li>
+            <li>404 prototypes tested</li>
+            <li>639 site updates this week</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@ layout: home
         <div class="feature-group">
           <div class="usa-width-one-sixth">
             <div class="feature-image">
-              <img src="/assets/images/icons/icon-lock-color.svg">
+              <img src="{{site.baseurl}}/assets/images/icons/icon-lock-color.svg">
             </div>
           </div>
           <div class="usa-width-three-fourths feature-text">
@@ -76,7 +76,7 @@ layout: home
                 <a href="https://www.citizenscience.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="/assets/images/www.citizenscience.gov.jpg" alt="A screenshot of the Citizen Science website">
+                    <img src="{{site.baseurl}}/assets/images/www.citizenscience.gov.jpg" alt="A screenshot of the Citizen Science website">
                   </div>
                   <figcaption>citizenscience.gov</figcaption>
                 </figure>
@@ -86,7 +86,7 @@ layout: home
                 <a href="https://cyber.dhs.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="/assets/images/cyber.dhs.gov.jpg"  alt="A screenshot of the DHS Bindingn Operational Directives website">
+                    <img src="{{site.baseurl}}/assets/images/cyber.dhs.gov.jpg"  alt="A screenshot of the DHS Bindingn Operational Directives website">
                   </div>
                   <figcaption>DHS Binding Operational Directives</figcaption>
                 </figure>
@@ -96,7 +96,7 @@ layout: home
                 <a href="https://fedramp.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="/assets/images/www.fedramp.gov.jpg" alt="A screenshot of the FedRAMP website">
+                    <img src="{{site.baseurl}}/assets/images/www.fedramp.gov.jpg" alt="A screenshot of the FedRAMP website">
                   </div>
                   <figcaption>FedRAMP Homepage</figcaption>
                 </figure>
@@ -106,7 +106,7 @@ layout: home
                 <a href="https://pclob.gov">
                   <figure class="figure figure-seal">
                     <div class="tint">
-                      <img src="/assets/images/www.pclob.gov.jpg"  alt="A screenshot of the Privacy an Civil Liberties Oversight Board website">
+                      <img src="{{site.baseurl}}/assets/images/www.pclob.gov.jpg"  alt="A screenshot of the Privacy an Civil Liberties Oversight Board website">
                     </div>
                     <figcaption>Privacy and Civil Liberties Oversight Board</figcaption>
                   </figure>
@@ -125,44 +125,44 @@ layout: home
         <div class="description">
           <h2>Launch your site in minutes.</h2>
           <p class="copy">
-            Federalist uses a <a href="https://github.com/">public code hosting service</a> to load and store code for your site. If your code is already on GitHub, Federalist can securely deploy a static website from your repository in minutes.
+            Federalist uses a <a href="https://github.com/">public code hosting service</a> to load and store code for your site. If your code is already on GitHub, Federalist can securely deploy a website from your repository in minutes.
           </p>
           <div class="figure-group">
             <h4>Agencies using Federalist</h4>
             <ul class="figure-list mobile-center">
               <li>
                 <figure class="figure figure-seal">
-                  <img src="/assets/images/logos/partners/500px-Education.png" alt="Seal of the Department of Education" height="64" width="64">
+                  <img src="{{site.baseurl}}/assets/images/logos/partners/500px-Education.png" alt="Seal of the Department of Education" height="64" width="64">
                   <figcaption>Department of Education</figcaption>
                 </figure>
               </li>
               <li>
                 <figure class="figure figure-seal">
-                  <img src="/assets/images/logos/partners/500px-DHS.png" alt="Seal of the Department of Homeland Security" height="64" width="64">
+                  <img src="{{site.baseurl}}/assets/images/logos/partners/500px-DHS.png" alt="Seal of the Department of Homeland Security" height="64" width="64">
                   <figcaption>Department of Homeland Security</figcaption>
                 </figure>
               </li>
               <li>
                 <figure class="figure figure-seal">
-                  <img src="/assets/images/logos/partners/500px-DOI.png" alt="Seal of the Department of the Interior" height="64" width="64">
+                  <img src="{{site.baseurl}}/assets/images/logos/partners/500px-DOI.png" alt="Seal of the Department of the Interior" height="64" width="64">
                   <figcaption>Department of the Interior</figcaption>
                 </figure>
               </li>
               <li>
                 <figure class="figure figure-seal">
-                  <img src="/assets/images/logos/partners/500px-treasury.png" alt="Seal of the Department of the Treasury" height="64" width="64">
+                  <img src="{{site.baseurl}}/assets/images/logos/partners/500px-treasury.png" alt="Seal of the Department of the Treasury" height="64" width="64">
                   <figcaption>Department of the Treasury</figcaption>
                 </figure>
               </li>
               <li>
                 <figure class="figure figure-seal">
-                  <img src="/assets/images/logos/partners/500px-GSA.png" alt="Seal of the General Services Adminstration" height="64" width="64">
+                  <img src="{{site.baseurl}}/assets/images/logos/partners/500px-GSA.png" alt="Seal of the General Services Adminstration" height="64" width="64">
                   <figcaption>General Services Administration</figcaption>
                 </figure>
               </li>
               <li>
                 <figure class="figure figure-seal">
-                  <img src="/assets/images/logos/partners/500px-NSF.png" alt="Seal of the National Science Foundation" height="64" width="64">
+                  <img src="{{site.baseurl}}/assets/images/logos/partners/500px-NSF.png" alt="Seal of the National Science Foundation" height="64" width="64">
                   <figcaption>National Science Foundation</figcaption>
                 </figure>
               </li>
@@ -194,19 +194,19 @@ layout: home
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="/assets/images/home-page/Federalist-Proposal-Thumbnail.jpg">
+                  <img src="{{site.baseurl}}/assets/images/home-page/Federalist-Proposal-Thumbnail.jpg">
                 </div>
                 <figcaption>
                   <h6>Federalist proposal</h6>
                   <p class="small">A two page overview about Federalist for stakeholder briefings.</p>
-                  <a href="https://federalist-docs.18f.gov/assets/documents/Federalist-Proposal.pdf">Download PDF</a>
+                  <a href="{{site.baseurl}}/assets/documents/Federalist-Proposal.pdf">Download PDF</a>
                 </figcaption>
               </figure>
             </li>
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="/assets/images/home-page/how-federalist-works-diagram-Thumbnail.jpg">
+                  <img src="{{site.baseurl}}/assets/images/home-page/how-federalist-works-diagram-Thumbnail.jpg">
                 </div>
                 <figcaption>
                   <h6>Federalist basic diagram</h6>
@@ -218,12 +218,12 @@ layout: home
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="/assets/images/home-page/Federalist-Compliance-Memo-Thumbnail.jpg">
+                  <img src="{{site.baseurl}}/assets/images/home-page/Federalist-Compliance-Memo-Thumbnail.jpg">
                 </div>
                 <figcaption>
                   <h6>Compliance memo</h6>
                   <p class="small">Details about Federalist’s compliance and Authority to Operate.</p>
-                  <a href="https://federalist-docs.18f.gov/assets/documents/Federalist-Compliance-Memo.pdf">Download PDF</a>
+                  <a href="{{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf">Download PDF</a>
                 </figcaption>
               </figure>
             </li>
@@ -245,7 +245,7 @@ layout: home
                 Want to talk about what Federalist can do for your agency? Questions about compliance? Want to try it out for yourself?
               </p>
               <p>
-                <a class="usa-button" href="https://federalist.18f.gov/contact/">Get in touch</a>
+                <a class="usa-button" href="{{site.baseurl}}/contact/">Get in touch</a>
               </p>
               <p>Federalist is a product of the <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">General Services Administration</a>.</p>
           </div>

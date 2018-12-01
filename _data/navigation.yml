@@ -6,11 +6,13 @@ secondary:
     external: false
     href: "#"
     class: 'glossary__toggle js-glossary-toggle'
+  - text: Home
+    href: /
   - text: Features
     href: /features/
     external: true
-  - text: Example sites
-    href: /examples/
+  - text: Case Studies
+    href: /case-studies/
     external: true
   - text: Support
     href: /pages/using-federalist/
@@ -75,11 +77,13 @@ sidenav:
         href: /pages/for-federalist-developers/site-wide-alert/
 
 footer:
+  - text: Home
+    href: /
   - text: Features
     href: /features/
     external: true
-  - text: Example sites
-    href: /examples/
+  - text: Case Studies
+    href: /case-studies/
     external: true
   - text: Support
     href: /pages/using-federalist/

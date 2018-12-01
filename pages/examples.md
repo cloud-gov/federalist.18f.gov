@@ -1,7 +1,10 @@
 ---
-permalink: /examples
-title: About Federalist
+permalink: /case-studies
+title: Case Studies
 layout: home
+redirect_from: /examples
+
+
 ---
 
 <div id="home">
