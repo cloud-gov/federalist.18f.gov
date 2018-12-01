@@ -17,6 +17,9 @@ logos:
   - src: /assets/images/federalist-logo.png
     alt: Federalist logo
     url: https://federalist.18f.gov
+  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+    alt: 18F logo
+    url: https://18f.gov
 
 contact:
   heading:
