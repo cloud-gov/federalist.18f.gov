@@ -103,7 +103,12 @@ redirect_from: /examples/
   </div>
 </div>
 
-    
+
+<div class="usa-grid">
+  <br/>
+  <hr class="hr-light">
+  <br/>
+</div>    
 
 <section class="well example-sites">
   <div class="usa-grid federalist-hero">
