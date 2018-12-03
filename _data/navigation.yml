@@ -10,14 +10,14 @@ secondary:
     href: /
   - text: Features
     href: /features/
-    external: true
   - text: Case Studies
     href: /case-studies/
-    external: true
   - text: Support
     href: /pages/using-federalist/
   - text: Contact
     href: /contact/
+  - text: Login
+    href: https://federalistapp.18f.gov/auth/github
     external: true
 
 
@@ -81,12 +81,12 @@ footer:
     href: /
   - text: Features
     href: /features/
-    external: true
   - text: Case Studies
     href: /case-studies/
-    external: true
   - text: Support
     href: /pages/using-federalist/
   - text: Contact
     href: /contact/
+  - text: Login
+    href: https://federalistapp.18f.gov/auth/github
     external: true
