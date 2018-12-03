@@ -220,7 +220,7 @@ layout: home
                 <figcaption>
                   <h6>Federalist basic diagram</h6>
                   <p class="small">An outline of how all of Federalist’s parts work together.</p>
-                  <a href="https://federalist-docs.18f.gov/assets/documents/how-federalist-works-diagram.pdf">Download PDF</a>
+                  <a href="{{site.baseurl}}/assets/documents/how-federalist-works-diagram.pdf">Download PDF</a>
                 </figcaption>
               </figure>
             </li>
