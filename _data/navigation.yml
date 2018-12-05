@@ -17,7 +17,7 @@ secondary:
   - text: Contact
     href: /contact/
   - text: Login
-    href: https://federalistapp.18f.gov/auth/github
+    href: https://federalist.18f.gov/auth/github
     external: true
 
 
@@ -88,5 +88,5 @@ footer:
   - text: Contact
     href: /contact/
   - text: Login
-    href: https://federalistapp.18f.gov/auth/github
+    href: https://federalist.18f.gov/auth/github
     external: true
