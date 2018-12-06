@@ -16,8 +16,9 @@ secondary:
     href: /pages/using-federalist/
   - text: Contact
     href: /contact/
-  - text: Login
-    href: https://federalist.18f.gov/auth/github
+    # Look inside assets/js/index.js to see that how this url changes depending on enviroment
+  - text: Manage Sites
+    href: https://federalist.18f.gov/
     external: true
 
 
@@ -87,6 +88,6 @@ footer:
     href: /pages/using-federalist/
   - text: Contact
     href: /contact/
-  - text: Login
-    href: https://federalist.18f.gov/auth/github
+  - text: Manage Sites
+    href: https://federalist.18f.gov/
     external: true
