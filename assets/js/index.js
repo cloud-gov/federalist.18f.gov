@@ -92,6 +92,7 @@ switch (window.location.hostname){
   case 'federalistapp.18f.gov':
     // do nothing. we keep as the first match so it's fastest in production
   break;
+  case 'federalist-proxy-staging.app.cloud.gov':
   case 'federalist-staging.18f.gov':
     document.querySelector('.usa-nav-secondary-links li:last-child a').href = 'https://federalist-staging.18f.gov';
   break;
