@@ -1,6 +1,9 @@
 ---
 title: Using Federalist
 permalink: /pages/using-federalist/
+redirect_from: 
+  - /support
+  - /documentation
 ---
 
 # Using Federalist

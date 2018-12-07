@@ -1,0 +1,100 @@
+.usa-nav-secondary-links li{
+  padding-left: 1.5rem;
+}
+.federalist-hero{
+//  padding-bottom: 100px;
+}
+
+.usa-hero-callout{
+  color: white;
+  padding: 2rem;
+}
+
+.usa-layout-docs-main_content {
+  img{
+    border: 1px solid #ddd;
+  }
+}
+
+
+#home{
+  .info-image{
+    text-align: center;
+    img{
+      width: 80%;
+    }
+  }
+}
+.example-sites-list{
+  img{
+    border: 1px solid #ddd;    
+  }
+  .usa-width-one-third{
+    margin-right: 1.3%
+  }
+  
+  .case-study{
+    p{
+      text-align: center;
+    }
+  }
+}
+
+.features-page{
+  .feature-group{
+    .feature-text{
+      text-align: center;
+    }
+  }  
+}
+
+#main-content{
+  .feature-group{
+    margin-bottom: 40px;
+    .feature-image{
+      text-align: center;
+    }
+    p{
+      margin-bottom: 3%;      
+    }
+  }
+  
+
+}
+
+.figure-seal{
+  text-align: center;
+}
+
+.figure-list {
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.figure-list .list-item, .figure-list li {
+    padding-right: 20px;
+    width: 33%;
+}
+.figure {
+    margin: 0;
+}
+
+.figure figcaption {
+    margin-bottom: 6px;
+    margin-top: inherit;
+    text-align: center;
+}
+
+.tint {
+  img{
+    border: 1px solid #ddd;
+  }
+}
+
+
+.usa-footer-logo-img{
+  margin-right: 10px;
+}

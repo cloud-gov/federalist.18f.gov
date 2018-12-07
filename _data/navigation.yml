@@ -6,28 +6,28 @@ secondary:
     external: false
     href: "#"
     class: 'glossary__toggle js-glossary-toggle'
-  - text: Features
-    href: https://federalist.18f.gov/features/
-    external: true
-  - text: Example sites
-    href: https://federalist.18f.gov/content/examples/
-    external: true
-  - text: Support
+  - text: Home
     href: /
+  - text: Features
+    href: /features/
+  - text: Case Studies
+    href: /case-studies/
+  - text: Support
+    href: /pages/using-federalist/
   - text: Contact
-    href: https://federalist.18f.gov/contact/
+    href: /contact/
+    # Look inside assets/js/index.js to see that how this url changes depending on enviroment
+  - text: Manage Sites
+    href: https://federalist.18f.gov/
     external: true
 
 
 sidenav:
-  - text: About
-    href: /
-    subfolderitems:
-      - text: Why use Federalist?
-        href: /pages/about-federalist/why-use-federalist/
   - text: Using Federalist
     href: /pages/using-federalist/
     subfolderitems:
+      - text: Why use Federalist?
+        href: /pages/about-federalist/why-use-federalist/
       - text: Access and Permissions
         href: /pages/using-federalist/access-permissions/
       - text: Getting started
@@ -52,7 +52,7 @@ sidenav:
         href: /pages/using-federalist/customization/
       - text: Additional resources
         href: /pages/using-federalist/resources/
-      - text: Support
+      - text: Getting Support
         href: /pages/using-federalist/support/
   - text: Content guide
     href: /pages/content-guide/
@@ -78,14 +78,16 @@ sidenav:
         href: /pages/for-federalist-developers/site-wide-alert/
 
 footer:
-  - text: Features
-    href: https://federalist.18f.gov/features/
-    external: true
-  - text: Example sites
-    href: https://federalist.18f.gov/content/examples/
-    external: true
-  - text: Support
+  - text: Home
     href: /
+  - text: Features
+    href: /features/
+  - text: Case Studies
+    href: /case-studies/
+  - text: Support
+    href: /pages/using-federalist/
   - text: Contact
-    href: https://federalist.18f.gov/contact/
+    href: /contact/
+  - text: Manage Sites
+    href: https://federalist.18f.gov/
     external: true
