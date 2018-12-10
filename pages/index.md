@@ -169,18 +169,16 @@ layout: home
               </li>
               <li>
                 <figure class="figure figure-seal">
-                  <img src="/assets/images/logos/partners/500px-OPM.png" alt="Seal of the Office of Personnel Management" height="64" width="64">
+                  <img src="{{site.baseurl}}/assets/images/logos/partners/500px-OPM.png" alt="Seal of the Office of Personnel Management" height="64" width="64">
                   <figcaption>Office of Personnel Management</figcaption>
                 </figure>
               </li>
               <li>
                 <figure class="figure figure-seal">
-                  <img src="https://dod.defense.gov/Portals/1/Images/service_seals/DODc.gif" alt="Seal of the Office of Personnel Management" height="64" width="64">
+                  <img src="{{site.baseurl}}/assets/images/logos/partners/DODc.gif" alt="Seal of the Department of Defense" height="64" width="64">
                   <figcaption>Department of Defense</figcaption>
                 </figure>
               </li>
-              
-              
             </ul>
           </div>
         </div>
