@@ -24,7 +24,7 @@ before continuing through this guide.
 {% include components/alert--note.html content=content %}
 
 
-## Getting Started
+## Getting Started with Jekyll
 
 Immediately after building a new site, you need to customize the general content
 on your site, including your site title and office’s contact information. To do

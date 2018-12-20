@@ -5,17 +5,27 @@ permalink: /pages/using-federalist/
 
 # Using Federalist
 
-![Federalist Sitelist Screenshot]({{site.baseurl}}/assets/images/federalist-sitelist.png)
 
 ### Getting Authorized to use Federalist
 
 Before you start using Federalist, the Federalist team needs to authorize you to use Federalist, either for a live site or for testing during the sales process. This will happen as part of business development conversations with the Federalist team or upon agreement execution.
 
 ### Adding a new site
-![Federalist Sitelist Screenshot]({{site.baseurl}}/assets/images/federalist-makesite.png)
-Federalist shows you a list of your existing sites along with a button to add a new site. When you add a new site, Federalist offers you a list of [available templates]({{site.baseurl}}/pages/using-federalist/templates/). Select "use this template" under a template to use it on your new website. Additionally, Federalist will build any Jekyll or Hugo website, supporting custom website templates. Hugo support is currently experimental.
 
-After you pick a template or an existing repo to add to Federalist, your new site will be built and added to your list of websites. If you don't see the new site in your list of websites, refresh the page. Sometimes there is a slight delay as your website finishes building.
+When logging into Federalist you will see a list of your existing sites along with a button to add a new site.
+
+
+![Federalist Sitelist Screenshot]({{site.baseurl}}/assets/images/federalist-sitelist.png)
+
+
+To add a new site, click the `+ Add Site` button and you will be prompted to either:
+1. Create a site from existing Github repository by entering the repository URL
+2. Choose an existing template from [available templates]({{site.baseurl}}/pages/using-federalist/templates/) by clicking 'Use this template' under a template.
+
+
+![Federalist Sitelist Screenshot]({{site.baseurl}}/assets/images/federalist-makesite2.png)
+
+After you pick a template or an existing repository to add to Federalist, your new site will be built and added to your list of websites. If you don't see the new site in your list of websites, refresh the page. Sometimes there is a slight delay as your website finishes building.
 
 ## Content strategy
 
@@ -38,6 +48,12 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 - **Demo Site** Federalist allows you to specify a different branch and domain for a "demo site" that can be used to publicly preview your content at a URL of your choice, such as "preview.login.gov." Launch of a demo URL works just like a live URL from a security standpoint.
 
 #### Advanced Settings
-- **Static Site Engine** This controls if Federalist builds your site using Jekyll or Hugo, or simply hosts content you've already generated. If using one of the Federalist provided templates, this should always be "Jekyll." The site engine should not be altered once your site is live. Contact the Federalist team for additional support.
+- **Static Site Engine** This controls if and how Federalist builds your site. Currently, the following options are supported:
+  - **Hugo** - builds your site with [Hugo](https://gohugo.io/)
+  - **Jekyll** - builds your site with [Jekyll](http://jekyllrb.com)
+  - **Script only** - runs a [Node](https://nodejs.org) script
+  - **Static** - serves pre-generated content
+
+If using one of the Federalist provided templates, this should always be "**Jekyll**." The site engine should not be altered once your site is live. Contact the Federalist team for additional support. More information on these options can be found [TODO]().
 
 - **Custom configuration (site and preview)** For advanced Jekyll users, you can append different settings to your `_config.yml` configuration during build. This configuration is stored in Federalist, so you may use it to store settings that you don't want to commit to your GitHub repository. Federalist automatically adds a `branch` attribute with the name of the rendered branch, accessible in templates as `site.branch`.

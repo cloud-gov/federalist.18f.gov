@@ -25,18 +25,17 @@ Federalist serves our fellow federal employees by expertly managing the backend 
 
 Federalist generates static websites instead of using a more complex content management system (CMS) like Drupal or WordPress. There are several advantages to static websites:
 
-- **Less complexity and vulnerability:** Avoiding the use of a traditional CMS means avoiding problems like maintaining dynamic server applications (no PHP or Apache / IIS) in addition to database scaling and redundancy. Production-level static sites generally require one simple static file server or service as opposed to dozens. This means that the whole website is easier to maintain and has fewer vulnerabilities.
+- **Less complexity and vulnerability:** Avoiding the use of a traditional CMS means avoiding problems like maintaining  server applications (no PHP or Apache / IIS) in addition to database scaling and redundancy. Production-level static sites generally require one simple static file server or service as opposed to dozens. This means that the whole website is easier to maintain and has fewer vulnerabilities.
 
-- **Update content without writing code:** Static websites store content in simple text files that anyone on the team can edit. The GitHub editor enables any team member to complete basic edits to their text files regardless of their experience writing code.
+- **Update content without writing code:** Static websites often store content in simple text files that anyone on the team can edit. The GitHub editor enables any team member to complete basic edits to their text files regardless of their experience writing code.
 
 - **Easy to host and maintain:** It’s very easy to host static website files on Federalist. You can easily take advantage of scaling services like Amazon S3 through Federalist where you pay only for what you use.
 
 - **Fully customizable:** Designers and developers can customize static websites into whatever form they want without having to strip away CMS-provided features and defaults. Static sites can be used to build many different types of sites, from organization homepages or intranets to pre-generated web application program interfaces that display data from a separate server.
 
-
 ## What can I build with Federalist?
 
-Federalist provides [ready-to-use templates]({{site.baseurl}}/pages/using-federalist/templates/) for several common website types. You can also use custom website templates based on Jekyll or Hugo (Hugo use is still in beta). 18F maintains many Jekyll-based websites that you can fork and adopt.
+Federalist supports plain files and certain [static site generators](../using-federalist/supported-static-site-engines), and provides [ready-to-use Jekyll templates]({{site.baseurl}}/pages/using-federalist/templates/) for several common website types.
 
 Possible sites include:
 

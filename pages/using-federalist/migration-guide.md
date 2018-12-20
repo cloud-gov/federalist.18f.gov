@@ -17,14 +17,9 @@ Get a sense of how big your migration is before you start. How many pages does y
 
 ## Federalist’s role
 
-Federalist is a backend hosting service that enables lots of flexibility with the look and feel of a hosted website. Federalist is opinionated about the back end hosting of a site, so your code needs to be in a form that Federalist can host.
+Federalist is a backend hosting service that enables lots of flexibility with the look and feel of a hosted website. Federalist is opinionated about the back end hosting of a site, so your code needs to be in a form that Federalist can host, this can be static HTML/CSS/JS files or [supported static site engines](supported-static-site-engines).
 
-Federalist supports the following:
-- [Jekyll](https://jekyllrb.com/)
-- [Hugo](http://gohugo.io/)
-- Static HTML/CSS files
-
-In general, we expect getting your site up as static files to be the quickest option, but static html can be very difficult to edit and maintain. Even though it takes more effort to initially convert your site content to a new format, to be published using Jekyll or Hugo, maintaining your site in the long-term will be easier. Jekyll or Hugo can update all pages with one setting change. For example, If you want to add an item to a menu then you only need to adjust one file with Jekyll or Hugo. If you want to make that same change on static files, then you would need to change every single page.
+In general, we expect getting your site up as static files to be the quickest option, but static html can be very difficult to edit and maintain. Even though it takes more effort to initially convert your site content to a new format, using a static site generator, such as Jekyll or Hugo, can ease the long-term maintenance burden of your site. For example, Jekyll and Hugo use templates to manage common content, so adding an item to a global menu can be done in one file instead of many.
 
 ## Planning the move
 
@@ -35,7 +30,7 @@ Working with your current hosting provider, list out your options for exporting,
 - Access to an export of the site
 - Scraping your current site. (most difficult)
 
-Ideally, to align with how Jekyll and Hugo work, the export will have your content in one set of files and the frontend html/css look/feel in another set of files.
+Ideally, to align with how most static site generators work, the export will have your content in one set of files and the frontend html/css look/feel in another set of files.
 
 ## Building a Timeline
 
