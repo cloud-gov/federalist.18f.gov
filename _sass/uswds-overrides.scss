@@ -46,8 +46,7 @@
   }
   .usa-nav-secondary-links a {
     color: #fff;
-    text-decoration: underline;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .usa-nav-secondary-links li:not(:last-child)::after {
     content: none;
@@ -62,20 +61,25 @@
 }
 
 @media screen and (max-width: 951px) {
-.usa-header {
-
-.usa-logo {
-  padding-top: 1rem;
-  margin-bottom: 0;
-  margin-top:0;
-  line-height: initial;
-  .usa-logo-text {
-    font-size: 2rem;
+  .usa-header {
+    .usa-logo {
+      padding-top: 1rem;
+      margin-bottom: 0;
+      margin-top:0;
+      line-height: initial;
+      .usa-logo-text {
+        font-size: 2rem;
+      }
+    }
+    .usa-nav-secondary-links a {
+      color: inherit;
+    }
   }
-}
-.usa-nav-secondary-links a {
-  color: inherit;
-}
+
 }
 
+#home{
+  .hr-light{
+    margin: 30px 0 40px !important;
+  }  
 }

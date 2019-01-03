@@ -1,5 +1,5 @@
 ---
-title: Getting started with Federalist
+title: Getting started
 permalink: /pages/using-federalist/getting-started/
 ---
 # {{ page.title }}
@@ -24,7 +24,7 @@ before continuing through this guide.
 {% include components/alert--note.html content=content %}
 
 
-## Getting Started
+## Configuring your site
 
 Immediately after building a new site, you need to customize the general content
 on your site, including your site title and office’s contact information. To do
