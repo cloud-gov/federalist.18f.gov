@@ -1,9 +1,9 @@
 ---
-title: Supported Static Site Engines
-permalink: /pages/using-federalist/supported-static-site-engines/
+title: Supported Site Engines
+permalink: /pages/using-federalist/supported-site-engines/
 ---
 
-# Supported Static Site Engines
+# Supported Site Engines
 
 ## Current Support
 - [Jekyll](http://jekyllrb.com)
@@ -12,12 +12,12 @@ permalink: /pages/using-federalist/supported-static-site-engines/
 - Static - Pushes the files in your repository to S3 without modifying them, useful for exports from content management systems or web development tools.
 
 ## Requirements
-Federalist will serve whatever is in the `_site` folder so you should either:
+For all engines **except Static** Federalist will serve whatever is in the `_site` folder so you should either:
 - configure the generator to produce output in the `_site` folder OR
 - create a symlink from `_site` to whatever folder will contain the generator's output
 
 ### Node
-A Node script can be run to generate a static site OR as a preliminary step to generating with Jekyll or Hugo. To use a Node script as the generator, choose **Static only** as the **Static Site Engine** in the Advanced Settings configuration for your site.
+A Node script can be run to generate a site OR as a preliminary step to generating one with Jekyll or Hugo. To use a Node script as the generator, choose **Script only** as the **Static Site Engine** in the Advanced Settings configuration for your site.
 
 For more details on using Node see [node on federalist](../../how-federalist-works/node-on-federalist).
 

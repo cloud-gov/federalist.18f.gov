@@ -48,8 +48,8 @@ sidenav:
         href: /pages/using-federalist/search/
       - text: Site templates
         href: /pages/using-federalist/templates/
-      - text: Supported Static Site Generators
-        href: /pages/using-federalist/supported-static-site-engines/
+      - text: Supported Site Engines
+        href: /pages/using-federalist/supported-site-engines/
       - text: Support
         href: /pages/using-federalist/support/
   - text: Content guide
