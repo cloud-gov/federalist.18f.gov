@@ -18,7 +18,7 @@ secondary:
     href: /contact/
     # Look inside assets/js/index.js to see that how this url changes depending on enviroment
   - text: Manage Sites
-    href: https://federalist.18f.gov/
+    href: https://federalistapp.18f.gov
     external: true
 
 
@@ -89,5 +89,5 @@ footer:
   - text: Contact
     href: /contact/
   - text: Manage Sites
-    href: https://federalist.18f.gov/
+    href: https://federalistapp.18f.gov/
     external: true
