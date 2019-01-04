@@ -1,6 +1,9 @@
 ---
 title: Using Federalist
 permalink: /pages/using-federalist/
+redirect_from:
+  - /support
+  - /documentation
 ---
 
 # Using Federalist
@@ -48,7 +51,7 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 - **Demo Site** Federalist allows you to specify a different branch and domain for a "demo site" that can be used to publicly preview your content at a URL of your choice, such as "preview.login.gov." Launch of a demo URL works just like a live URL from a security standpoint.
 
 #### Advanced Settings
-- **Static Site Engine** This controls if and how Federalist builds your site. Currently, the following options are supported:
+- **Site Engine** This controls if and how Federalist builds your site. Currently, the following options are supported:
   - **Hugo** - builds your site with [Hugo](https://gohugo.io/)
   - **Jekyll** - builds your site with [Jekyll](http://jekyllrb.com)
   - **Script only** - runs a [Node](https://nodejs.org) script

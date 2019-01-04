@@ -49,5 +49,5 @@ plugins:
 # This is used for adding an edit this page link to the footer
 github:
   organization: 18F
-  repository: federalist-docs
+  repository: federalist.18f.gov
   default_branch: master

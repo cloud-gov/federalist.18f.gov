@@ -5,7 +5,7 @@ redirect_from:
   - /pages/how-federalist-works/cloud-gov-setup/
 ---
 
-# cloud.gov Setup
+# Cloud.gov Setup
 
 ## Configuring Federalist in cloud.gov's GovCloud environment
 
@@ -75,7 +75,7 @@ The image should now appear in the list when you run `docker images`.
 
 ### Pushing the image
 
-Since the registry in cloud.gov is in read-only mode, it is not possible to push an image to it directly. In order to push an image to the registry, a local registry with the same S3 storage driver is started and the image is pushed to that. The image is then saved in the S3 bucket where it is available to the remote registry.
+Since the registry in Cloud.gov is in read-only mode, it is not possible to push an image to it directly. In order to push an image to the registry, a local registry with the same S3 storage driver is started and the image is pushed to that. The image is then saved in the S3 bucket where it is available to the remote registry.
 
 We recommend using [Docker Compose](https://docs.docker.com/compose/) to run the local registry. To use Docker Compose you'll need to create a `docker-compose.yml` file. Here is an example of what a `docker-compose.yml` file would look like for a local registry:
 
@@ -206,7 +206,7 @@ At this time cloud.gov does not have an SQS service broker. The SQS queue will n
 
 ## Deploying federalist-builder
 
-Note: federalist-builder is built to be [deployed from CircleCI](https://circleci.com/docs/2.0/deployment_integrations/). The instructions for manually deploying federalist-builder are described below and are necessary for the initial deploy, but subsequent deploys should happen on CircleCI.
+Note: `federalist-builder` is built to be [deployed from CircleCI](https://circleci.com/docs/2.0/deployment_integrations/). The instructions for manually deploying federalist-builder are described below and are necessary for the initial deploy, but subsequent deploys should happen on CircleCI.
 
 The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
 

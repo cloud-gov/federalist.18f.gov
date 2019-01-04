@@ -4,7 +4,7 @@ permalink: /pages/using-federalist/search/
 ---
 ## Search on Federalist Sites
 
-It's easy to add search functionality to a static site.
+It's easy to add search functionality to a site.
 
 We recommend using [Search.gov][], a free site search and search analytics service for federal web sites. You will need to [register](https://search.usa.gov/signup) for Search.gov and follow their [instructions](https://search.gov/blog/go-live.html) to integrate this service with your Federalist site. For full details, visit [Search.gov][]. 
 
