@@ -76,7 +76,7 @@ To see the exact configuration of the build environment, see the [build environm
 
 ## Hugo Resources (experimental)
 
-Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-based static site generator. See the [Hugo Docs](https://gohugo.io/documentation/) for getting started with Hugo.
+Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-based site generator. See the [Hugo Docs](https://gohugo.io/documentation/) for getting started with Hugo.
 
 ### Hugo version
 

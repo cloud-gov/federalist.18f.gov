@@ -35,7 +35,7 @@ Federalist generates static websites instead of using a more complex content man
 
 ## What can I build with Federalist?
 
-Federalist supports plain files and certain [static site generators](../using-federalist/supported-site-engines), and provides [ready-to-use Jekyll templates]({{site.baseurl}}/pages/using-federalist/templates/) for several common website types.
+Federalist supports plain files and certain [site engines](../using-federalist/supported-site-engines), and provides [ready-to-use Jekyll templates]({{site.baseurl}}/pages/using-federalist/templates/) for several common website types.
 
 Possible sites include:
 

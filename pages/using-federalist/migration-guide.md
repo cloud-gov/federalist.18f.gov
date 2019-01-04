@@ -30,7 +30,7 @@ Working with your current hosting provider, list out your options for exporting,
 - Access to an export of the site
 - Scraping your current site. (most difficult)
 
-Ideally, to align with how most static site generators work, the export will have your content in one set of files and the frontend html/css look/feel in another set of files.
+Ideally, to align with how most site generators work, the export will have your content in one set of files and the frontend html/css look/feel in another set of files.
 
 ## Building a Timeline
 
