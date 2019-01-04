@@ -17,7 +17,7 @@ For all engines **except Static** Federalist will serve whatever is in the `_sit
 - create a symlink from `_site` to whatever folder will contain the generator's output
 
 ### Node
-A Node script can be run to generate a site OR as a preliminary step to generating one with Jekyll or Hugo. To use a Node script as the generator, choose **Script only** as the **Static Site Engine** in the Advanced Settings configuration for your site.
+A Node script can be run to generate a site OR as a preliminary step to generating one with Jekyll or Hugo. To use a Node script as the generator, choose **Script only** as the **Site Engine** in the Advanced Settings configuration for your site.
 
 For more details on using Node see [node on federalist](../../how-federalist-works/node-on-federalist).
 

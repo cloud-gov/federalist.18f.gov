@@ -30,8 +30,8 @@ sidenav:
     subfolderitems:
       - text: Access and Permissions
         href: /pages/using-federalist/access-permissions/
-      - text: Getting started
-        href: /pages/using-federalist/getting-started/
+      - text: Getting started with Jekyll
+        href: /pages/using-federalist/getting-started-with-jekyll/
       - text: Builds and previews
         href: /pages/using-federalist/previews/
       - text: Customer responsibilities

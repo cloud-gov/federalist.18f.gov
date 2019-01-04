@@ -12,7 +12,7 @@ This is helpful for doing things like compiling a site's assets, or employing a 
 
 ## The Federalist NPM script
 
-Before running any other generator, the Federalist build engine will check for a package.json file. If it finds one, it will run `npm install`. Additionally, if the package.json provides a script named `federalist`, the build engine will run this script. This enables Federalist users to add Javascript dependencies to their site, and run a script to prepare the site for the build engine. If **Script only** is the configured **Static Site Engine**, no other steps are run.
+Before running any other generator, the Federalist build engine will check for a package.json file. If it finds one, it will run `npm install`. Additionally, if the package.json provides a script named `federalist`, the build engine will run this script. This enables Federalist users to add Javascript dependencies to their site, and run a script to prepare the site for the build engine. If **Script only** is the configured **Site Engine**, no other steps are run.
 
 For more details see [package.json examples](examples).
 

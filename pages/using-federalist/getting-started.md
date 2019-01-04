@@ -1,6 +1,6 @@
 ---
-title: Getting started with Federalist
-permalink: /pages/using-federalist/getting-started/
+title: Getting started with Jekyll
+permalink: /pages/using-federalist/getting-started-with-jekyll/
 ---
 # {{ page.title }}
 
