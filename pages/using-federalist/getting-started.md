@@ -18,7 +18,7 @@ You can view the live site [from Federalist][federalist-sites] and clicking
 {% capture content %}
 If you’re unfamiliar with GitHub, the Federalist team recommends that you
 [familiarize
-yourself](https://federalist-docs.18f.gov/pages/using-federalist/instructional-demos/#introduction-to-github-for-newcomers)
+yourself](https://federalist.18f.gov/pages/using-federalist/instructional-demos/#introduction-to-github-for-newcomers)
 before continuing through this guide.
 {% endcapture %}
 {% include components/alert--note.html content=content %}
@@ -160,9 +160,9 @@ commit your changes when you’re done.
 ## Template-specific customization
 
 Some templates are geared toward a specific task, like the [Basic Report
-template](https://federalist-docs.18f.gov/pages/using-federalist/templates/basic-report/),
+template](https://federalist.18f.gov/pages/using-federalist/templates/basic-report/),
 which features a downloadable PDF report. You’ll want to refer to the [template
-specific documentation](https://federalist-docs.18f.gov/pages/using-federalist/templates/)
+specific documentation](https://federalist.18f.gov/pages/using-federalist/templates/)
 to learn how to configure your template beyond what is covered in this guide.
 
 Once you've got the basics down, we recommend that you check out our [customization

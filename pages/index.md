@@ -193,7 +193,7 @@ layout: home
         <h3>Federalist fact sheets</h3>
         <div class="usa-width-one-third full-width">
           <p class="copy">
-            Need more details about Federalist? Need help convincing your executive team? The Federalist team has developed these resources to help. See more on the <a href="https://federalist-docs.18f.gov/">Federalist support site</a>.
+            Need more details about Federalist? Need help convincing your executive team? The Federalist team has developed these resources to help. See more on the <a href="https://federalist.18f.gov/">Federalist support site</a>.
           </p>
         </div>
         <div class="usa-width-two-thirds figure-group">

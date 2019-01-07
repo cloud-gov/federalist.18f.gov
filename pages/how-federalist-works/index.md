@@ -17,7 +17,7 @@ We use GitHub to manage our work on Federalist. The main code repository for the
 - **[federalist-garden-build](https://github.com/18F/federalist-garden-build)** This container image contains the code to build Federalist sites in Garden Linux containers.
 
 ### Documentation
-- **[federalist-docs](https://github.com/18f/federalist-docs/)** This documentation website.
+- **[federalist.18f.gov](https://github.com/18f/federalist.18f.gov/)** The documentation website.
 
 ### Templates
 

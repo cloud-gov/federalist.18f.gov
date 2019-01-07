@@ -1,6 +1,6 @@
 # Federalist documentation
 
-This is an informational site with background on [Federalist](https://federalist-docs.18f.gov/), a compliant static site publishing service for the federal government.
+This is an informational site with background on [Federalist](https://federalist.18f.gov/), a compliant static site publishing service for the federal government.
 
 ## Setup
 
