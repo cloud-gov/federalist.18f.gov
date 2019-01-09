@@ -1,6 +1,6 @@
 ---
-title: Getting started
-permalink: /pages/using-federalist/getting-started/
+title: Getting started with Jekyll
+permalink: /pages/using-federalist/getting-started-with-jekyll/
 ---
 # {{ page.title }}
 
@@ -24,7 +24,7 @@ before continuing through this guide.
 {% include components/alert--note.html content=content %}
 
 
-## Configuring your site
+## Getting Started with Jekyll
 
 Immediately after building a new site, you need to customize the general content
 on your site, including your site title and office’s contact information. To do
