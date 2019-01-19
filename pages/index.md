@@ -14,10 +14,11 @@ layout: home
         <div class="usa-width-one-third usa-hero-callout">
           <h5 class="contrast-heading">Federalist stats:</h5>
           <ul>
-            <li>127 live .gov sites supported</li>
-            <li>9 federal agency customers</li>
-            <li>404 prototypes tested</li>
-            <li>639 site updates this week</li>
+            <li><b>127</b> production .gov sites</li>
+            <li><b>9</b> federal agencies</li>
+            <li><b>51</b> million visitors per year</li>
+            <li><b>400</b> prototypes developed</li>
+            <li><b>639</b> updates per week</li>
           </ul>
         </div>
       </div>
@@ -74,32 +75,12 @@ layout: home
             <h4>A few websites built with our templates</h4>
             <ul class="figure-list mobile-center">
               <li>
-                <a href="https://www.citizenscience.gov">
+                <a href="https://performance.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="{{site.baseurl}}/assets/images/www.citizenscience.gov.jpg" alt="A screenshot of the Citizen Science website">
+                    <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/performance.gov.png"  alt="A screenshot of the Performance.gov website">
                   </div>
-                  <figcaption>citizenscience.gov</figcaption>
-                </figure>
-                </a>
-              </li>
-              <li>
-                <a href="https://cyber.dhs.gov">
-                <figure class="figure figure-seal">
-                  <div class="tint">
-                    <img src="{{site.baseurl}}/assets/images/cyber.dhs.gov.jpg"  alt="A screenshot of the DHS Bindingn Operational Directives website">
-                  </div>
-                  <figcaption>DHS Binding Operational Directives</figcaption>
-                </figure>
-                </a>
-              </li>
-              <li>
-                <a href="https://fedramp.gov">
-                <figure class="figure figure-seal">
-                  <div class="tint">
-                    <img src="{{site.baseurl}}/assets/images/www.fedramp.gov.jpg" alt="A screenshot of the FedRAMP website">
-                  </div>
-                  <figcaption>FedRAMP Homepage</figcaption>
+                  <figcaption>Performance.gov</figcaption>
                 </figure>
                 </a>
               </li>
@@ -107,9 +88,104 @@ layout: home
                 <a href="https://pclob.gov">
                   <figure class="figure figure-seal">
                     <div class="tint">
-                      <img src="{{site.baseurl}}/assets/images/www.pclob.gov.jpg"  alt="A screenshot of the Privacy an Civil Liberties Oversight Board website">
+                      <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/pclob.gov.png"  alt="A screenshot of the Privacy an Civil Liberties Oversight Board website">
                     </div>
                     <figcaption>Privacy and Civil Liberties Oversight Board</figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+            <ul class="figure-list mobile-center">
+              <li>
+                <a href="https://fedramp.gov">
+                <figure class="figure figure-seal">
+                  <div class="tint">
+                    <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/fedramp.gov.png" alt="A screenshot of the FedRAMP website">
+                  </div>
+                  <figcaption>FedRAMP</figcaption>
+                </figure>
+                </a>
+              </li>
+              <li>
+                <a href="https://fedramp.gov">
+                <figure class="figure figure-seal">
+                  <div class="tint">
+                    <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/cio.gov.png" alt="A screenshot of the CIO.gov website">
+                  </div>
+                  <figcaption>CIO.gov</figcaption>
+                </figure>
+                </a>
+              </li>
+              <li>
+                <a href="https://coe.gsa.gov">
+                <figure class="figure figure-seal">
+                  <div class="tint">
+                    <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/coe.gsa.gov.png" alt="A screenshot of the Centers of Excellence website">
+                  </div>
+                  <figcaption>Centers of Excellence</figcaption>
+                </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="description">
+          <h2>Build your own look</h2>
+          <p class="copy">
+            We think our templates are great, but you can always use completely custom designs.
+          </p>
+          <div class="figure-group">
+            <h4>A few websites with custom themes</h4>
+            <ul class="figure-list mobile-center">
+              <li>
+                <a href="https://afwerx.af.mil">
+                <figure class="figure figure-seal">
+                  <div class="tint">
+                    <img src="{{site.baseurl}}/assets/images/partner-sites/afwerx.af.mil.png" alt="A screenshot of the AFWERX website">
+                  </div>
+                  <figcaption>AFWERX</figcaption>
+                </figure>
+                </a>
+              </li>
+              <li>
+                <a href="https://cyber.dhs.gov">
+                <figure class="figure figure-seal">
+                  <div class="tint">
+                    <img src="{{site.baseurl}}/assets/images/partner-sites/revenuedata.doi.gov.png"  alt="A screenshot of the Department of the Interior Natural Resources Revenue Data website">
+                  </div>
+                  <figcaption>Natural Resources Revenue Data</figcaption>
+                </figure>
+                </a>
+              </li>
+            </ul>
+            <ul class="figure-list mobile-center">
+              <li>
+                <a href="https://login.gov">
+                <figure class="figure figure-seal">
+                  <div class="tint">
+                    <img src="{{site.baseurl}}/assets/images/partner-sites/login.gov.png" alt="A screenshot of the Login.gov website">
+                  </div>
+                  <figcaption>Login.gov</figcaption>
+                </figure>
+                </a>
+              </li>
+              <li>
+                <a href="https://designsystem.digital.gov">
+                  <figure class="figure figure-seal">
+                    <div class="tint">
+                      <img src="{{site.baseurl}}/assets/images/partner-sites/uswds.png"  alt="A screenshot of the U.S Web Design System website">
+                    </div>
+                    <figcaption>U.S Web Design System Homepage</figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="https://handbook.18f.gov">
+                  <figure class="figure figure-seal">
+                    <div class="tint">
+                      <img src="{{site.baseurl}}/assets/images/partner-sites/handbook.gsa.gov.png"  alt="A screenshot of the TTS Handbook website">
+                    </div>
+                    <figcaption>TTS Handbook</figcaption>
                   </figure>
                 </a>
               </li>
@@ -155,6 +231,8 @@ layout: home
                   <figcaption>Department of the Treasury</figcaption>
                 </figure>
               </li>
+            </ul>
+            <ul class="figure-list mobile-center">
               <li>
                 <figure class="figure figure-seal">
                   <img src="{{site.baseurl}}/assets/images/logos/partners/500px-GSA.png" alt="Seal of the General Services Adminstration" height="64" width="64">
@@ -201,7 +279,7 @@ layout: home
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="{{site.baseurl}}/assets/images/home-page/Federalist-Proposal-Thumbnail.jpg">
+                  <a href="{{site.baseurl}}/assets/documents/Federalist-Proposal.pdf"><img src="{{site.baseurl}}/assets/images/home-page/Federalist-Proposal-Thumbnail.jpg"></a>
                 </div>
                 <figcaption>
                   <h6>Federalist proposal</h6>
@@ -213,7 +291,7 @@ layout: home
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="{{site.baseurl}}/assets/images/home-page/how-federalist-works-diagram-Thumbnail.jpg">
+                  <a href="{{site.baseurl}}/assets/documents/how-federalist-works-diagram.pdf"><img src="{{site.baseurl}}/assets/images/home-page/how-federalist-works-diagram-Thumbnail.jpg"></a>
                 </div>
                 <figcaption>
                   <h6>Federalist basic diagram</h6>
@@ -225,7 +303,7 @@ layout: home
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <img src="{{site.baseurl}}/assets/images/home-page/Federalist-Compliance-Memo-Thumbnail.jpg">
+                  <a href="{{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf"><img src="{{site.baseurl}}/assets/images/home-page/Federalist-Compliance-Memo-Thumbnail.jpg"></a>
                 </div>
                 <figcaption>
                   <h6>Compliance memo</h6>

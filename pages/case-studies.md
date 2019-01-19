@@ -42,7 +42,7 @@ redirect_from:
         </ul>
       </div>
       <div class="usa-width-one-half info-image">          
-        <a href="//vote.gov"><img src="/assets/images/cs-preview-vote.png"></a>
+        <a href="https://vote.gov"><img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/vote.gov.png"></a>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@ redirect_from:
         </ul>
       </div>
       <div class="usa-width-one-half info-image">          
-        <a href="//collegescorecard.ed.gov"><img src="/assets/images/cs-preview-college.png"></a>
+        <a href="https://collegescorecard.ed.gov"><img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/collegescorecard.ed.gov.png"></a>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@ redirect_from:
         </ul>
       </div>
       <div class="usa-width-one-half info-image">
-        <a href="//cyber.dhs.gov/"><img src="/assets/images/cs-preview-dhs.png"></a>
+        <a href="https://cyber.dhs.gov/"><img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/cyber.dhs.gov.png"></a>
       </div>
     </div>
   </div>
@@ -99,55 +99,17 @@ redirect_from:
           Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
         </p>
       </div>
+      
+      <!--1 -->
       <div class="usa-width-one-full flexbox-grid example-sites-list">
-        <div class="usa-width-one-third case-study">
-          <a href="https://www.performance.gov">
-            <img data-action="name-site" class="thumbnail" src="/assets/images/performance-gov.png" alt="U.S. Web Design Standards home page">              
-            <p>Performance.gov</p>
-          </a>
-        </div>
-        <div class="usa-width-one-third case-study">
-          <a href="https://www.cio.gov">
-            <img data-action="name-site" class="thumbnail" src="/assets/images/cio-gov.png" alt="U.S. Web Design Standards home page">              
-            <p>CIO.gov</p>
-          </a>
-        </div>
-        <div class="usa-width-one-third case-study">
-          <a href="https://18f.gsa.gov">
-            <img data-action="name-site" class="thumbnail" src="/assets/images/18f-gsa-gov.png" alt="U.S. Web Design Standards home page">              
-            <p>18F.gsa.gov</p>
-          </a>
-        </div>
-        <div class="usa-width-one-third case-study">
-          <a href="https://login.gov">
-            <img data-action="name-site" class="thumbnail" src="/assets/images/login-gov.png" alt="U.S. Web Design Standards home page">              
-            <p>Login.gov</p>
-          </a>
-        </div>
-        <div class="usa-width-one-third case-study">
-          <a href="https://useiti.doi.gov">
-            <img data-action="name-site" class="thumbnail" src="/assets/images/useiti-doi-gov.png" alt="U.S. Web Design Standards home page">              
-            <p>DOI Revenue Data</p>
-          </a>
-        </div>
-        <div class="usa-width-one-third case-study">
-          <a href="https://oes.gsa.gov">
-            <img data-action="name-site" class="thumbnail" src="/assets/images/oes-gsa-gov.png" alt="U.S. Web Design Standards home page">              
-            <p>OES</p>
-          </a>
-        </div>
-        <div class="usa-width-one-third case-study">
-          <a href="https://standards.usa.gov/">
-            <img data-action="name-site" class="thumbnail" src="/assets/images/standards-usa-gov.png" alt="U.S. Web Design Standards home page">              
-            <p>USWDS</p>
-          </a>
-        </div>
-        <div class="usa-width-one-third case-study">
-          <a href="https://tech.gsa.gov">
-            <img data-action="name-site" class="thumbnail" src="/assets/images/tech-gsa-gov.png" alt="U.S. Web Design Standards home page">              
-            <p>tech.gsa.gov</p>
-          </a>
-        </div>
+        {% for item in site.data.screenshots %}
+          <div class="usa-width-one-fourth case-study">
+            <a href="{{item.url}}">
+              <img data-action="name-site" class="thumbnail" src="{{site.baseurl}}{{site.baseurl}}{{item.thumbnail}}" alt="{{item.title}} screenshot">
+              <p>{{item.title}}</p>
+            </a>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </section>
