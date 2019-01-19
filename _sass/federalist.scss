@@ -5,6 +5,19 @@
 .usa-hero-callout{
   color: white;
   padding: 2rem;
+  font-size: 100%;
+
+  .contrast-heading{
+    font-size: 18pt;
+  }
+  ul{
+    list-style: none;
+    padding-left: 0;
+    //      li{
+    //        list-style: none;
+    //      }
+  }
+  
 }
 
 .usa-layout-docs-main_content {
@@ -18,7 +31,8 @@
   .info-image{
     text-align: center;
     img{
-      width: 80%;
+      width: 100%;
+      border: 1px solid #ddd;
     }
   }
 }
@@ -46,6 +60,8 @@
 }
 
 #main-content{
+  padding-top: 40px;
+  
   .feature-group{
     margin-bottom: 40px;
     .feature-image{
@@ -73,7 +89,7 @@
 
 .figure-list .list-item, .figure-list li {
     padding-right: 20px;
-    width: 33%;
+    width: 50%;
 }
 .figure {
     margin: 0;

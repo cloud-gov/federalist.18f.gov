@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.3-node
+    steps:
+      - checkout
+      - run: bundle install
+      - run: bundle exec rspec spec
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - build

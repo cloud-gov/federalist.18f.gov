@@ -2,7 +2,6 @@
 title: Templates
 permalink: /pages/using-federalist/templates/
 ---
-{% assign templates = site.templates | sort: 'order' %}
 
 # Templates
 
@@ -10,21 +9,16 @@ Federalist offers several templates for common website types that are meant to s
 
 Here are the templates currently available:
 
-{% for tem in templates %}
-  <h3>{{ tem.title }}</h3>
+{% for template in site.data.templates %}
+  <h3>{{ template.title }}</h3>
   <p>
-    <a class='screenshot' href='{{ tem.preview_url }}'>
-      <img src='{{ site.baseurl }}{{ tem.img }}' alt='Screenshot of the {{ tem.title }}'>
+    <a class='screenshot' href='{{ template.preview_url }}'>
+      <img src='{{ site.baseurl }}{{ template.img }}' alt='Screenshot of the {{ template.title }}'>
     </a>
   </p>
   <p>
-    {% comment %}
-      TODO: move all the template docs that we support to federalist-docs.
-      If the docs live outside of federalist docs, use docs_url, otherwise use
-      the url for the template's docs page.
-    {% endcomment %}
-    {% assign default_docs_url = tem.url | prepend: site.baseurl %}
-    <a href="{{ tem.docs_url | default: default_docs_url }}">Read the template documentation.</a>
+    {% assign default_docs_url = template.url | prepend: site.baseurl %}
+    <a href="{{ template.docs_url | default: default_docs_url }}">Read the template documentation.</a>
   </p>
 {% endfor %}
 

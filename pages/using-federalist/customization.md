@@ -11,7 +11,7 @@ This page describes some more advanced features of Federalist and introduces
 {% include components/alert--note.html content=content %}
 
 You may have realized that Federalist is based on several technologies. One of
-the most important is [Jekyll](https://jekyllrb.com/), a static site generator.
+the most important is [Jekyll](https://jekyllrb.com/), a site generator.
 Federalist uses Jekyll to build your site, so anything you can do with Jekyll,
 you can do with Federalist.  If you understand how Jekyll works, you can
 customize all aspects of your entire site.

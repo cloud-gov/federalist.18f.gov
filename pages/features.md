@@ -1,7 +1,7 @@
 ---
 permalink: /features/
 title: Features
-layout: home
+layout: default
 ---
 
 <div class="features-page">
@@ -52,7 +52,7 @@ layout: home
               </div>
               <div class="feature-text">
                 <h5>Accessible templates</h5>
-                <p><a href="https://federalist-docs.18f.gov/pages/using-federalist/templates/">Our 508-compliant website templates</a> help you kickstart your design process.</p>
+                <p><a href="https://federalist.18f.gov/pages/using-federalist/templates/">Our 508-compliant website templates</a> help you kickstart your design process.</p>
               </div>
             </div>
           </div>

@@ -30,8 +30,8 @@ sidenav:
         href: /pages/about-federalist/why-use-federalist/
       - text: Access and Permissions
         href: /pages/using-federalist/access-permissions/
-      - text: Getting started
-        href: /pages/using-federalist/getting-started/
+      - text: Getting started with Jekyll
+        href: /pages/using-federalist/getting-started-with-jekyll/
       - text: Builds and previews
         href: /pages/using-federalist/previews/
       - text: Customer responsibilities
@@ -48,6 +48,9 @@ sidenav:
         href: /pages/using-federalist/search/
       - text: Site templates
         href: /pages/using-federalist/templates/
+      - text: Supported Site Engines
+        href: /pages/using-federalist/supported-site-engines/
+      - text: Support
       - text: Customizing your site
         href: /pages/using-federalist/customization/
       - text: Additional resources

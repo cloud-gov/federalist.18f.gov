@@ -32,7 +32,7 @@ defaults:
       path: ""
       type: templates
     values:
-      layout: "template"
+      layout: "default"
 
 scripts:
   - /assets/js/glossary.js
