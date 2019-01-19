@@ -1,24 +1,23 @@
 ---
 permalink: /
 title: Welcome to Federalist
-layout: home
+layout: default
 ---
+
 <div id="home" class="homepage">
     <div class="well">
       <div class="usa-grid federalist-hero">
         <div class="usa-width-two-thirds hero-heading">
-          <h1>
-            Federalist helps federal agencies and offices quickly launch compliant websites.
-          </h1>
-        </div>
+          <h1>Federalist helps federal agencies and offices quickly launch compliant websites.</h1>
+        </div>        
         <div class="usa-width-one-third usa-hero-callout">
-          <h5 class="contrast-heading">Federalist stats:</h5>
+          <h2 class="contrast-heading">Trusted and scalable</h2>
           <ul>
             <li><b>127</b> production .gov sites</li>
             <li><b>9</b> federal agencies</li>
-            <li><b>51</b> million visitors per year</li>
-            <li><b>400</b> prototypes developed</li>
-            <li><b>639</b> updates per week</li>
+            <li><b>51+</b> million visitors per year</li>
+            <li><b>400+</b> prototypes developed</li>
+            <li><b>639+</b> updates per week</li>
           </ul>
         </div>
       </div>
@@ -26,7 +25,6 @@ layout: home
     <div class="usa-grid info-block">
       <hr class="hr-light">
       <h2><a id="page-body"></a>Rely on Federalist for the heavy lifting.</h2>
-      <br>
       <section class="features">
         <div class="feature-group">
           <div class="usa-width-one-sixth">

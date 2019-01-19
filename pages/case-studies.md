@@ -1,7 +1,7 @@
 ---
 permalink: /case-studies/
 title: Case Studies
-layout: home
+layout: default
 redirect_from: 
   - /examples/
   - /content/examples/
