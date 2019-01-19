@@ -42,7 +42,7 @@ redirect_from:
         </ul>
       </div>
       <div class="usa-width-one-half info-image">          
-        <a href="https://vote.gov"><img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/vote.gov.png"></a>
+        <a href="https://vote.gov"><img src="{{site.baseurl}}/assets/images/partner-sites/vote.gov.png"></a>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@ redirect_from:
         </ul>
       </div>
       <div class="usa-width-one-half info-image">          
-        <a href="https://collegescorecard.ed.gov"><img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/collegescorecard.ed.gov.png"></a>
+        <a href="https://collegescorecard.ed.gov"><img src="{{site.baseurl}}/assets/images/partner-sites/collegescorecard.ed.gov.png"></a>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@ redirect_from:
         </ul>
       </div>
       <div class="usa-width-one-half info-image">
-        <a href="https://cyber.dhs.gov/"><img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/cyber.dhs.gov.png"></a>
+        <a href="https://cyber.dhs.gov/"><img src="{{site.baseurl}}/assets/images/partner-sites/cyber.dhs.gov.png"></a>
       </div>
     </div>
   </div>
@@ -105,7 +105,7 @@ redirect_from:
         {% for item in site.data.screenshots %}
           <div class="usa-width-one-fourth case-study">
             <a href="{{item.url}}">
-              <img data-action="name-site" class="thumbnail" src="{{site.baseurl}}{{site.baseurl}}{{item.thumbnail}}" alt="{{item.title}} screenshot">
+              <img data-action="name-site" class="thumbnail" src="{{site.baseurl}}{{item.thumbnail}}" alt="{{item.title}} screenshot">
               <p>{{item.title}}</p>
             </a>
           </div>

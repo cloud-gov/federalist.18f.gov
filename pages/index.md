@@ -31,7 +31,7 @@ layout: home
         <div class="feature-group">
           <div class="usa-width-one-sixth">
             <div class="feature-image">
-              <img src="/assets/images/icons/icon-rocket-color.svg">
+              <img src="{{site.baseurl}}/assets/images/icons/icon-rocket-color.svg">
             </div>
           </div>
           <div class="usa-width-three-fourths feature-text">
@@ -42,7 +42,7 @@ layout: home
         <div class="feature-group">
           <div class="usa-width-one-sixth">
             <div class="feature-image">
-              <img src="/assets/images/icons/icon-layout-color.svg">
+              <img src="{{site.baseurl}}/assets/images/icons/icon-layout-color.svg">
             </div>
           </div>
           <div class="usa-width-three-fourths feature-text">
@@ -78,7 +78,7 @@ layout: home
                 <a href="https://performance.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/performance.gov.png"  alt="A screenshot of the Performance.gov website">
+                    <img src="{{site.baseurl}}/assets/images/partner-sites/performance.gov.png"  alt="A screenshot of the Performance.gov website">
                   </div>
                   <figcaption>Performance.gov</figcaption>
                 </figure>
@@ -88,7 +88,7 @@ layout: home
                 <a href="https://pclob.gov">
                   <figure class="figure figure-seal">
                     <div class="tint">
-                      <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/pclob.gov.png"  alt="A screenshot of the Privacy an Civil Liberties Oversight Board website">
+                      <img src="{{site.baseurl}}/assets/images/partner-sites/pclob.gov.png"  alt="A screenshot of the Privacy an Civil Liberties Oversight Board website">
                     </div>
                     <figcaption>Privacy and Civil Liberties Oversight Board</figcaption>
                   </figure>
@@ -100,7 +100,7 @@ layout: home
                 <a href="https://fedramp.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/fedramp.gov.png" alt="A screenshot of the FedRAMP website">
+                    <img src="{{site.baseurl}}/assets/images/partner-sites/fedramp.gov.png" alt="A screenshot of the FedRAMP website">
                   </div>
                   <figcaption>FedRAMP</figcaption>
                 </figure>
@@ -110,7 +110,7 @@ layout: home
                 <a href="https://fedramp.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/cio.gov.png" alt="A screenshot of the CIO.gov website">
+                    <img src="{{site.baseurl}}/assets/images/partner-sites/cio.gov.png" alt="A screenshot of the CIO.gov website">
                   </div>
                   <figcaption>CIO.gov</figcaption>
                 </figure>
@@ -120,7 +120,7 @@ layout: home
                 <a href="https://coe.gsa.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="{{site.baseurl}}{{site.baseurl}}/assets/images/partner-sites/coe.gsa.gov.png" alt="A screenshot of the Centers of Excellence website">
+                    <img src="{{site.baseurl}}/assets/images/partner-sites/coe.gsa.gov.png" alt="A screenshot of the Centers of Excellence website">
                   </div>
                   <figcaption>Centers of Excellence</figcaption>
                 </figure>
@@ -322,7 +322,7 @@ layout: home
         <div class="feature-group large">
           <div class="usa-width-one-sixth flex-center">
             <div class="feature-image light">
-              <img src="/assets/images/graphic-speech-bubbles.svg" width="110" height="93">
+              <img src="{{site.baseurl}}/assets/images/graphic-speech-bubbles.svg" width="110" height="93">
             </div>
           </div>
           <div class="usa-width-two-thirds feature-text">
