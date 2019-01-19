@@ -1,0 +1,28 @@
+- title: Vote.gov
+  summary: Vote.gov makes it easier for eligible voters to participate in our democratic process by providing streamlined information on how to vote. Visitors can register electronically in states that allow it, and download a printable application in multiple languages for those states where electronic registration isn't an option. Vote.gov was ranked as the <a href="/assets/documents/2017-benchmarking-us-government-websites.pdf">#1 federal website in 2017</a> by the Information Technology &amp; Innovation Foundation for meeting basic standards in security, speed, mobile friendliness, and accessibility.
+  url: https://vote.gov
+  thumbnail: /assets/images/partner-sites/vote.gov.png
+
+
+- title: Department of Interior
+  summary: The Department of Interior's Natural Resources Revenue site provides data on the government's managing of energy, mineral resources, revenue, and disbursements. The website emphasizes on delivering timely data to experts that shape policy while also ensuring the generable public can follow along with an intuitive user interface and contextual information. This is an excellent example of how Federalist can be used to manage complex data sets and visualizations. You can learn more about <a href="https://revenuedata.doi.gov/blog/">their process on their blog</a>.
+  url: https://revenuedata.doi.gov
+  thumbnail: /assets/images/partner-sites/revenuedata.doi.gov.png
+
+
+- title: Login.gov
+  summary: Login.gov offers the public secure and private a single account account that users can sign in to multiple government agencies. With over 5 million registered users, Login.gov entrusts Federalist to power it's homepage and network traffic.
+  url: https://login.gov
+  thumbnail: /assets/images/partner-sites/login.gov.png
+
+
+- title: College Scorecard
+  summary: The Department of Education uses Federalist to host College Scorecard, a website that provides users with important information on everything from financial aid to expected earnings. College Scorecard demonstrates the power of Federalist when used together with <a href="http://cloud.gov">cloud.gov</a> for a API-backed database.  Federalist's cloud infrastructure helps manage site traffic during spikes in visitors, making sure College Scorecard is always available.
+  url: https://collegescorecard.ed.gov
+  thumbnail: /assets/images/partner-sites/collegescorecard.ed.gov.png
+
+
+- title: FedRAMP
+  summary: The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. FedRAMP's choice to use Federalist for its main website speaks to the security and reliability of the Federalist infrastructure.
+  url: https://fedramp.gov
+  thumbnail: /assets/images/partner-sites/fedramp.gov.png

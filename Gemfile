@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'uswds-jekyll'
 gem 'jekyll-redirect-from'
 
-
 group :development, :test do
   gem 'capybara'
   gem 'colorize'
