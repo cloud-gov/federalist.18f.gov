@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/18F/federalist.18f.gov/tree/master.svg?style=svg)](https://circleci.com/gh/18F/federalist.18f.gov/tree/master)
+
+
 # Federalist documentation
 
 This is an informational site with background on [Federalist](https://federalist.18f.gov/), a compliant static site publishing service for the federal government.
