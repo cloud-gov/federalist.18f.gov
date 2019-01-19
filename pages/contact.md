@@ -1,7 +1,7 @@
 ---
 permalink: /contact/
 title: Contact
-layout: home
+layout: default
 ---
 <div class="usa-grid info-block usa-content">
     <h1>Contact</h1>

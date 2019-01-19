@@ -1,7 +1,7 @@
 ---
 permalink: /features/
 title: Features
-layout: home
+layout: default
 ---
 
 <div class="features-page">
