@@ -4,7 +4,6 @@ require 'capybara'
 require 'capybara/rspec'
 require 'rack/jekyll'
 require 'rack/test'
-require 'pry'
 require 'simplecov'
 
 SimpleCov.start
