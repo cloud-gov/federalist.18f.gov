@@ -5,7 +5,7 @@ permalink: /pages/using-federalist/customer-responsibilities/
 
 # Customer Responsibilities
 
-## Your Responsibilities when using Federalist
+## Your Responsibilities
 
 Using Federalist places certain responsibilities on you as the government user of Federalist. GSA has many internal sites running on Federalist, but GSA cannot guarantee that Federalist is compatable with your agency's specific policies.
 

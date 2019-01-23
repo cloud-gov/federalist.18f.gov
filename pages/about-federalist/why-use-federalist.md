@@ -5,7 +5,7 @@ permalink: /pages/about-federalist/why-use-federalist/
 
 # Why Use Federalist?
 
-If you’re a program manager or a federal web developer you’ve probably been given a seemingly simple task: Create a basic website as part of a new initiative at your agency. The hardest part is often not crafting the content or designing the prototype, but getting the security and privacy compliance in order to launch and maintain the actual website. For that work, you might have to hire a contractor or put extra strain on your agency’s web team.
+If you’re a program manager or a federal web developer you’ve probably been given a seemingly simple task: Create a website as part of an initiative at your agency. The hardest part is often not crafting the content or designing the website, but getting the security and privacy compliance in order to launch and maintain the actual website. For that work, you might have to hire a contractor or put extra strain on your agency’s web team.
 
 It shouldn’t be that way.
 
