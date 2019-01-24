@@ -136,7 +136,7 @@ layout: default
             <h4>A few websites with custom themes</h4>
             <ul class="figure-list mobile-center">
               <li>
-                <a href="https://afwerx.af.mil">
+                <a href="https://www.afwerx.af.mil">
                 <figure class="figure figure-seal">
                   <div class="tint">
                     <img src="{{site.baseurl}}/assets/images/partner-sites/afwerx.af.mil.png" alt="A screenshot of the AFWERX website">
