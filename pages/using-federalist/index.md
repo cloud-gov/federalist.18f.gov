@@ -9,7 +9,7 @@ redirect_from:
 # Using Federalist
 
 
-### Getting Authorized to use Federalist
+### Getting Authorized
 
 Before you start using Federalist, the Federalist team needs to authorize you to use Federalist, either for a live site or for testing during the sales process. This will happen as part of business development conversations with the Federalist team or upon agreement execution.
 

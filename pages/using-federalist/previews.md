@@ -3,7 +3,7 @@ title: Previews
 permalink: /pages/using-federalist/previews/
 ---
 
-# Previews on Federalist
+# Site Previews 
 
 _Every_ branch in a GitHub repo is built by Federalist and is previewable. There can be two "special" branches, which are specified in the web UI's Basic Settings page as the Live Site Branch and/or the Demo Site Branch. Those branches can be built with custom domains (that's really the only way they're special).
 
