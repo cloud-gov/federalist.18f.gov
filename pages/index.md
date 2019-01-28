@@ -13,7 +13,7 @@ layout: default
         <div class="usa-width-one-third usa-hero-callout">
           <h2 class="contrast-heading">Trusted and scalable</h2>
           <ul>
-            <li><b>127</b> production .gov sites</li>
+            <li><b>134</b> production .gov sites</li>
             <li><b>9</b> federal agencies</li>
             <li><b>65+</b> million visitors per year</li>
             <li><b>400+</b> prototypes developed</li>
