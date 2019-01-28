@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'uswds-jekyll'
 gem 'jekyll-redirect-from'
+gem 'jekyll-sitemap'
+
 
 group :development, :test do
   gem 'capybara'
