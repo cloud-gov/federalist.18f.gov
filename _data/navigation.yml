@@ -23,11 +23,11 @@ secondary:
 
 
 sidenav:
-  - text: Using Federalist
-    href: /pages/using-federalist/
     subfolderitems:
       - text: Why use Federalist?
         href: /pages/about-federalist/why-use-federalist/
+      - text: Using Federalist
+        href: /pages/using-federalist/
       - text: Access and Permissions
         href: /pages/using-federalist/access-permissions/
       - text: Getting started with Jekyll
@@ -57,26 +57,28 @@ sidenav:
         href: /pages/using-federalist/resources/
       - text: Getting Support
         href: /pages/using-federalist/support/
+
   - text: Content guide
     href: /pages/content-guide/
-  - text: How Federalist works
-    href: /pages/how-federalist-works/
+
+
+  - text: For developers
+    href: /pages/for-federalist-developers/
     subfolderitems:
-      - text: Federalist and cloud.gov
-        href: /pages/how-federalist-works/cloud-gov/
+      - text: How Federalist works
+        href: /pages/how-federalist-works/
       - text: How builds work
         href: /pages/how-federalist-works/how-builds-work/
       - text: How custom URLs work
         href: /pages/how-federalist-works/custom-urls/
+      - text: Federalist and cloud.gov
+        href: /pages/how-federalist-works/cloud-gov/
+      - text: cloud.gov setup
+        href: /pages/for-federalist-developers/cloud-gov-setup/
       - text: Node on Federalist
         href: /pages/how-federalist-works/node-on-federalist/
       - text: RVM on Federalist
         href: /pages/how-federalist-works/rvm-on-federalist/
-  - text: For developers
-    href: /pages/for-federalist-developers/
-    subfolderitems:
-      - text: cloud.gov setup
-        href: /pages/for-federalist-developers/cloud-gov-setup/
       - text: Site wide alerts
         href: /pages/for-federalist-developers/site-wide-alert/
 
