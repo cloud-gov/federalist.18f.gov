@@ -3,13 +3,7 @@ title: Included with Federalist
 permalink: /pages/using-federalist/included-with-federalist/
 ---
 
-# Included with Federalist
-
-## What you get with Federalist
-
-We've gotten several questions about the value of purchasing Federalist. Here are some of the work efforts that you benefit from:
-
-### Included with Federalist
+# What you get with Federalist
 
 * An automatic deployment mechanism for certain static site assets and [supported site engines](../supported-site-engines).
 * Web-based configuration and access to preview builds.

@@ -5,8 +5,6 @@ permalink: /pages/using-federalist/launch-checklist/
 
 # Launch checklist
 
-## Launching a site with Federalist
-
 We've worked to make launching a live site on Federalist as simple as possible. You will need to complete these steps:
 
 1. Sign an IAA with 18F to use Federalist.
