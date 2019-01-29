@@ -15,7 +15,7 @@ dap_agency: GSA
 # https://search.usa.gov/signup
 # Your search_site_handle value is from the search.gov settings page.
 
-search_site_handle: federalist-docs
+search_site_handle: federalist
 
 support_email: federalist-support@gsa.gov
 
