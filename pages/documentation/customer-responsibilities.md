@@ -1,6 +1,8 @@
 ---
 title: Customer Responsibilities
-permalink: /pages/using-federalist/customer-responsibilities/
+permalink: /documentation/customer-responsibilities/
+redirect_from:
+  - /pages/using-federalist/customer-responsibilities/
 ---
 
 # Customer Responsibilities

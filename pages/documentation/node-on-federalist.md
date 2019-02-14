@@ -1,6 +1,9 @@
 ---
 title: Node on Federalist
-permalink: /pages/how-federalist-works/node-on-federalist/
+permalink: /documentation/node-on-federalist/
+redirect_from: 
+  - /pages/how-federalist-works/node-on-federalist/
+
 ---
 
 # Node on Federalist

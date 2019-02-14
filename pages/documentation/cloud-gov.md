@@ -1,6 +1,10 @@
 ---
 title: Federalist and cloud.gov
-permalink: /pages/how-federalist-works/cloud-gov/
+permalink: /documentation/cloud-gov/
+layout: page
+sidenav: documentation
+redirect_from:
+  - /pages/how-federalist-works/cloud-gov/
 ---
 
 # Federalist and cloud.gov

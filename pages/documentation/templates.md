@@ -1,6 +1,9 @@
 ---
 title: Templates
-permalink: /pages/using-federalist/templates/
+permalink: /documentation/templates/
+redirect_from:
+  - /pages/using-federalist/templates/
+
 ---
 
 # Templates

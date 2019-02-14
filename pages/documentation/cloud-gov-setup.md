@@ -1,6 +1,8 @@
 ---
 title: cloud.gov Setup
-permalink: /pages/for-federalist-developers/cloud-gov-setup/
+permalink: /documentation/cloud-gov-setup/
+layout: page
+sidenav: documentation
 redirect_from:
   - /pages/how-federalist-works/cloud-gov-setup/
 ---

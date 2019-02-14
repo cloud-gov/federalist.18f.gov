@@ -1,7 +1,10 @@
 ---
 title: Content Guide
-permalink: /pages/content-guide/
+permalink: /documentation/content-guide/
+layout: page
+sidenav: documentation
 redirect_from:
+  - /pages/content-guide/
   - /pages/content-guide/adding-search/
   - /pages/content-guide/best-practices-for-content/
   - /pages/content-guide/best-practices-for-writing-what-we-do/

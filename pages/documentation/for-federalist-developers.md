@@ -1,6 +1,6 @@
 ---
 title: For Federalist Developers
-permalink: /pages/for-federalist-developers/
+permalink: /documentation/for-federalist-developers/
 redirect_from:
   - /pages/how-federalist-works/for-federalist-developers/
 ---

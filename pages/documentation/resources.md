@@ -1,6 +1,9 @@
 ---
 title: Additional resources
-permalink: /pages/using-federalist/resources/
+permalink: /documentation/resources/
+redirect_from: 
+  - /pages/using-federalist/resources/
+
 ---
 # {{ page.title }}
 

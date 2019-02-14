@@ -1,6 +1,8 @@
 ---
 title: Site Wide Alert
-permalink: /pages/for-federalist-developers/site-wide-alert/
+permalink: /documentation/site-wide-alert/
+redirect_from:
+  - /pages/for-federalist-developers/site-wide-alert/
 ---
 
 # Site Wide Alert

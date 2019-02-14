@@ -1,6 +1,11 @@
 ---
 title: Access and Permissions
-permalink: /pages/using-federalist/access-permissions/
+permalink: /documentation/access-permissions/
+layout: page
+sidenav: documentation
+redirect_from: 
+  - /pages/using-federalist/access-permissions/
+
 ---
 
 # Access and Permissions

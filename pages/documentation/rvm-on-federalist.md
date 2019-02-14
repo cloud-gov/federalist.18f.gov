@@ -1,6 +1,8 @@
 ---
 title: RVM on Federalist
-permalink: /pages/how-federalist-works/rvm-on-federalist/
+permalink: /documentation/rvm-on-federalist/
+redirect_from:
+  - /pages/how-federalist-works/rvm-on-federalist/
 ---
 
 # RVM on Federalist

@@ -1,6 +1,10 @@
 ---
 title: Why Use Federalist?
-permalink: /pages/about-federalist/why-use-federalist/
+permalink: /documentation/why-use-federalist/
+layout: page
+sidenav: documentation
+redirect_from:
+  - /pages/about-federalist/why-use-federalist/
 ---
 
 # Why Use Federalist?

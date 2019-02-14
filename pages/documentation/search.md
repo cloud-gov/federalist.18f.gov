@@ -1,6 +1,9 @@
 ---
 title: Search on Federalist Sites
-permalink: /pages/using-federalist/search/
+permalink: /documentation/search/
+redirect_from:
+  - /pages/using-federalist/search/
+
 ---
 ## Search on Federalist Sites
 

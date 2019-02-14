@@ -1,6 +1,9 @@
 ---
 title: Included with Federalist
-permalink: /pages/using-federalist/included-with-federalist/
+permalink: /documentation/included-with-federalist/
+redirect_from: 
+  - /pages/using-federalist/included-with-federalist/
+
 ---
 
 # What you get with Federalist

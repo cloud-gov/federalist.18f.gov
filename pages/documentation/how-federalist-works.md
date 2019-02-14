@@ -1,6 +1,9 @@
 ---
 title: How Federalist Works
-permalink: /pages/how-federalist-works/
+permalink: /documentation/how-federalist-works/
+redirect_from: 
+  - /pages/how-federalist-works/
+
 ---
 
 # How Federalist Works

@@ -1,6 +1,8 @@
 ---
 title: Supported Site Engines
-permalink: /pages/using-federalist/supported-site-engines/
+permalink: /documentation/supported-site-engines/
+redirect_from:
+  - /pages/using-federalist/supported-site-engines/
 ---
 
 # Supported Site Engines

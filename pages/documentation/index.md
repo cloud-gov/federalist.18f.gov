@@ -1,13 +1,13 @@
 ---
 title: Using Federalist
-permalink: /pages/using-federalist/
+permalink: /documentation
+layout: page
+sidenav: documentation
 redirect_from:
-  - /support
-  - /documentation
+  - /pages/using-federalist/
 ---
 
 # Using Federalist
-
 
 ### Getting Authorized
 
@@ -44,6 +44,7 @@ The Federalist team also provides a [content guide specifically for Federalist w
 The settings option for a site lets you adjust how Federalist handles the site. These settings are for advanced functionality and most people will not need to change them.
 
 #### Basic Settings
+
 - **Live Site Branch** This is the branch of the site's repository that is built and hosted as the production version of the site. Other branches are considered drafts. Changing this value will rebuild the site using a different branch.
 
 - **Custom domains** Enter domain (including https://; without a trailing slash) to host your website on a custom domain. For example, `https://example.gov`. When this setting is defined during the launch process, Federalist will build your site so that links and images are loaded at the custom domain, and so that relative links are set according to the custom domain. For more about setting a custom domain, see the "[launch checklist]({{site.baseurl}}/pages/using-federalist/launch-checklist)" section.
@@ -51,6 +52,7 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 - **Demo Site** Federalist allows you to specify a different branch and domain for a "demo site" that can be used to publicly preview your content at a URL of your choice, such as "preview.login.gov." Launch of a demo URL works just like a live URL from a security standpoint.
 
 #### Advanced Settings
+
 - **Site Engine** This controls if and how Federalist builds your site. Currently, the following options are supported:
   - **Hugo** - builds your site with [Hugo](https://gohugo.io/)
   - **Jekyll** - builds your site with [Jekyll](http://jekyllrb.com)

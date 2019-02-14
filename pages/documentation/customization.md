@@ -1,6 +1,8 @@
 ---
 title: Customizing your site
-permalink: /pages/using-federalist/customization/
+permalink: /documentation/customization/
+redirect_from: 
+  - /using-federalist/customization/
 ---
 # {{ page.title }}
 

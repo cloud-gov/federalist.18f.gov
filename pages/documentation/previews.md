@@ -1,6 +1,9 @@
 ---
 title: Previews
-permalink: /pages/using-federalist/previews/
+permalink: /documentation/previews/
+redirect_from: 
+  - /pages/using-federalist/previews/
+
 ---
 
 # Site Previews 

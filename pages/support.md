@@ -1,6 +1,10 @@
 ---
 title: Support
-permalink: /pages/using-federalist/support/
+permalink: /support/
+layout: page
+redirect_from:
+  - /using-federalist/support/
+  - /pages/using-federalist/support/
 ---
 # Getting Support
 

@@ -1,6 +1,9 @@
 ---
 title: Migration guide
-permalink: /pages/using-federalist/migration-guide/
+permalink: /documentation/migration-guide/
+redirect_from: 
+  - /pages/using-federalist/migration-guide/
+
 ---
 
 # Migration Guide

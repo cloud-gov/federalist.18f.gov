@@ -20,21 +20,21 @@ search_site_handle: federalist
 support_email: federalist-support@gsa.gov
 
 collections:
-  templates:
+  pages:
     output: true
-    permalink: /pages/using-federalist/templates/:name/
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "page"
-      sidenav: "sidenav"
-  - scope:
-      path: ""
-      type: templates
-    values:
-      layout: "default"
+    permalink: /:path/
+#
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: "page"
+#       sidenav: "sidenav"
+#   - scope:
+#       path: ""
+#       type: templates
+#     values:
+#       layout: "default"
 
 scripts:
   - /assets/js/glossary.js

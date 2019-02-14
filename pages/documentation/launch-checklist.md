@@ -1,6 +1,9 @@
 ---
 title: Launch checklist
-permalink: /pages/using-federalist/launch-checklist/
+permalink: /documentation/launch-checklist/
+redirect_from: 
+  - /pages/using-federalist/launch-checklist/
+
 ---
 
 # Launch checklist

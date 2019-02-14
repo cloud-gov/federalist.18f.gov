@@ -1,6 +1,9 @@
 ---
 title: Instructional Demos
-permalink: /pages/using-federalist/instructional-demos/
+permalink: /documentation/instructional-demos/
+redirect_from: 
+  - /pages/using-federalist/instructional-demos/
+
 ---
 
 # Instructional Demos
