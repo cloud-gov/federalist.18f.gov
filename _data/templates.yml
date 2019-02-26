@@ -3,8 +3,8 @@
   preview_url: https://federalist-uswds-template.18f.gov/
   img: /assets/images/templates/federalist-uswds-template.png
   order: 1
-  summary: 
-    
+  summary:
+
 - title: Basic Report Template
   img: /assets/images/templates/federalist-report-template.png
   preview_url: https://federalist-proxy.app.cloud.gov/preview/18f/federalist-uswds-template/report-config/
@@ -18,11 +18,17 @@
   preview_url: https://federalist-landing-template.18f.gov/
   docs_url: https://github.com/18F/federalist-landing-page-template
   img: /assets/images/templates/federalist-landing-template.png
-  summary: 
+  summary:
 
 
 - title: Modern Team Template
   docs_url: https://github.com/18f/federalist-modern-team-template
   preview_url: https://federalist-modern-team-template.18f.gov/
   img: /assets/images/templates/federalist-modern-team-template.png
-  summary: 
+  summary:
+
+- title: Gatsby USWDS Template
+  docs_url: https://github.com/18F/federalist-uswds-gatsby
+  preview_url: https://federalist-proxy.app.cloud.gov/site/18f/federalist-uswds-gatsby/
+  img: /assets/images/templates/federalist-gatsby-uswds-template.png
+  summary:
