@@ -105,7 +105,7 @@ layout: default
                 </a>
               </li>
               <li>
-                <a href="https://fedramp.gov">
+                <a href="https://cio.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
                     <img src="{{site.baseurl}}/assets/images/partner-sites/cio.gov.png" alt="A screenshot of the CIO.gov website">
