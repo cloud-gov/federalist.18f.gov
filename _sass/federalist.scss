@@ -17,7 +17,7 @@
     //        list-style: none;
     //      }
   }
-  
+
 }
 
 .usa-layout-docs-main_content {
@@ -38,12 +38,12 @@
 }
 .example-sites-list{
   img{
-    border: 1px solid #ddd;    
+    border: 1px solid #ddd;
   }
   .usa-width-one-third{
     margin-right: 1.3%
   }
-  
+
   .case-study{
     p{
       text-align: center;
@@ -56,22 +56,22 @@
     .feature-text{
       text-align: center;
     }
-  }  
+  }
 }
 
 #main-content{
   padding-top: 40px;
-  
+
   .feature-group{
     margin-bottom: 40px;
     .feature-image{
       text-align: center;
     }
     p{
-      margin-bottom: 3%;      
+      margin-bottom: 3%;
     }
   }
-  
+
 
 }
 
@@ -82,15 +82,31 @@
 .figure-list {
     display: -ms-flexbox;
     display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
     list-style: none;
     margin-top: 4px;
     padding: 0;
 }
 
-.figure-list .list-item, .figure-list li {
-    padding-right: 20px;
-    width: 50%;
+.figure-list.max-2 li {
+  flex-basis: 45%;
 }
+
+.figure-list.max-3 li {
+  flex-basis: 27%;
+}
+
+.figure-list.max-4 li {
+  flex-basis: 160px;
+}
+
+@media(max-width: 480px) {
+  .figure-list.fact-sheets {
+    flex-direction: column;
+  }
+}
+
 .figure {
     margin: 0;
 }
