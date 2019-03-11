@@ -1,6 +1,8 @@
 ---
 title: Migration guide
 permalink: /documentation/migration-guide/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/using-federalist/migration-guide/
 

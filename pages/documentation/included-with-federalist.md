@@ -1,6 +1,8 @@
 ---
 title: Included with Federalist
 permalink: /documentation/included-with-federalist/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/using-federalist/included-with-federalist/
 

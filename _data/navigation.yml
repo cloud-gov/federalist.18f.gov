@@ -56,7 +56,7 @@ sidenav:
         href: /documentation/resources/
 
   - text: Content guide
-    href: /content-guide/
+    href: /documentation/content-guide/
 
   - text: Getting Support
     href: /documentation/support/
@@ -65,19 +65,19 @@ sidenav:
     href: /documentation/
     subfolderitems:
       - text: How Federalist works
-        href: /how-federalist-works/
+        href: /documentation/
       - text: How builds work
-        href: /how-federalist-works/how-builds-work/
+        href: /documentation/how-builds-work/
       - text: How custom URLs work
-        href: /how-federalist-works/custom-urls/
+        href: /documentation/custom-urls/
       - text: Federalist and cloud.gov
         href: /how-federalist-works/cloud-gov/
       - text: cloud.gov setup
         href: /documentation/cloud-gov-setup/
       - text: Node on Federalist
-        href: /how-federalist-works/node-on-federalist/
+        href: /documentation/node-on-federalist/
       - text: RVM on Federalist
-        href: /how-federalist-works/rvm-on-federalist/
+        href: /documentation/rvm-on-federalist/
       - text: Site wide alerts
         href: /documentation/site-wide-alert/
       - text: Supported Site Engines

@@ -1,6 +1,8 @@
 ---
 title: How Builds Work
 permalink: /documentation/how-builds-work/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/how-federalist-works/how-builds-work/
 ---

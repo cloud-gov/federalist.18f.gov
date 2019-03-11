@@ -1,6 +1,8 @@
 ---
 title: Launch checklist
 permalink: /documentation/launch-checklist/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/using-federalist/launch-checklist/
 

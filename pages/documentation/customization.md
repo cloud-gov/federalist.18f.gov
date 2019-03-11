@@ -1,6 +1,8 @@
 ---
 title: Customizing your site
 permalink: /documentation/customization/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /using-federalist/customization/
 ---

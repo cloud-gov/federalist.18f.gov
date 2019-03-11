@@ -1,6 +1,8 @@
 ---
 title: Site Wide Alert
 permalink: /documentation/site-wide-alert/
+layout: page
+sidenav: documentation
 redirect_from:
   - /pages/for-federalist-developers/site-wide-alert/
 ---

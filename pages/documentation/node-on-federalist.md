@@ -1,6 +1,8 @@
 ---
 title: Node on Federalist
 permalink: /documentation/node-on-federalist/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/how-federalist-works/node-on-federalist/
 

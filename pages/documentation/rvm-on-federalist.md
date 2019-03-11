@@ -1,6 +1,8 @@
 ---
 title: RVM on Federalist
 permalink: /documentation/rvm-on-federalist/
+layout: page
+sidenav: documentation
 redirect_from:
   - /pages/how-federalist-works/rvm-on-federalist/
 ---

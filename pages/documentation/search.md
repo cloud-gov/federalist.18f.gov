@@ -1,6 +1,8 @@
 ---
 title: Search on Federalist Sites
 permalink: /documentation/search/
+layout: page
+sidenav: documentation
 redirect_from:
   - /pages/using-federalist/search/
 

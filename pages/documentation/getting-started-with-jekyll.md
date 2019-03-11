@@ -1,6 +1,8 @@
 ---
 title: Getting started with Jekyll
 permalink: /documentation/getting-started-with-jekyll/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/using-federalist/getting-started-with-jekyll/
 

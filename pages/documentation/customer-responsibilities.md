@@ -1,6 +1,8 @@
 ---
 title: Customer Responsibilities
 permalink: /documentation/customer-responsibilities/
+layout: page
+sidenav: documentation
 redirect_from:
   - /pages/using-federalist/customer-responsibilities/
 ---

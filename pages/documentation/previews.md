@@ -1,6 +1,8 @@
 ---
 title: Previews
 permalink: /documentation/previews/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/using-federalist/previews/
 

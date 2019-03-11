@@ -1,6 +1,8 @@
 ---
 title: Instructional Demos
 permalink: /documentation/instructional-demos/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/using-federalist/instructional-demos/
 

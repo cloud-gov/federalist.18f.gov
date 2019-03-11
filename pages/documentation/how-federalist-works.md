@@ -1,6 +1,8 @@
 ---
 title: How Federalist Works
 permalink: /documentation/how-federalist-works/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/how-federalist-works/
 

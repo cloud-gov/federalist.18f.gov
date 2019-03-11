@@ -1,6 +1,8 @@
 ---
 title: Supported Site Engines
 permalink: /documentation/supported-site-engines/
+layout: page
+sidenav: documentation
 redirect_from:
   - /pages/using-federalist/supported-site-engines/
 ---

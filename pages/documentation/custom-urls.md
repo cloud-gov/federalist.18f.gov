@@ -1,6 +1,8 @@
 ---
 title: Custom URLs
 permalink: /documentation/custom-urls/
+layout: page
+sidenav: documentation
 redirect_from:
   - /pages/how-federalist-works/custom-urls/
 ---

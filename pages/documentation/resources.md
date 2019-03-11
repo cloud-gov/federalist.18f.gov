@@ -1,6 +1,8 @@
 ---
 title: Additional resources
 permalink: /documentation/resources/
+layout: page
+sidenav: documentation
 redirect_from: 
   - /pages/using-federalist/resources/
 

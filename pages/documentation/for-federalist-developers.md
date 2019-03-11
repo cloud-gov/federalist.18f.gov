@@ -1,6 +1,8 @@
 ---
 title: For Federalist Developers
 permalink: /documentation/for-federalist-developers/
+layout: page
+sidenav: documentation
 redirect_from:
   - /pages/how-federalist-works/for-federalist-developers/
 ---
