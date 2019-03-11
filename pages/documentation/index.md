@@ -1,6 +1,6 @@
 ---
 title: Using Federalist
-permalink: /documentation
+permalink: /documentation/
 layout: page
 sidenav: documentation
 redirect_from:
