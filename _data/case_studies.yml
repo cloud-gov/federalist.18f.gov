@@ -4,8 +4,8 @@
   thumbnail: /assets/images/partner-sites/vote.gov.png
 
 
-- title: Department of Interior
-  summary: The Department of Interior's Natural Resources Revenue site provides data on the government's managing of energy, mineral resources, revenue, and disbursements. The website emphasizes on delivering timely data to experts that shape policy while also ensuring the generable public can follow along with an intuitive user interface and contextual information. This is an excellent example of how Federalist can be used to manage complex data sets and visualizations. You can learn more about <a href="https://revenuedata.doi.gov/blog/">their process on their blog</a>.
+- title: Department of the Interior
+  summary: The Department of the Interior's Natural Resources Revenue site provides data about how the government manages federal energy and mineral resources, revenue, and disbursements. The website delivers valuable data to policy experts, while also ensuring the general public can follow along through an intuitive user interface and contextual information. This is an excellent example of how Federalist can be used to manage complex data sets and visualizations. You can learn more about <a href="https://revenuedata.doi.gov/blog/">their process on their blog</a>.
   url: https://revenuedata.doi.gov
   thumbnail: /assets/images/partner-sites/revenuedata.doi.gov.png
 

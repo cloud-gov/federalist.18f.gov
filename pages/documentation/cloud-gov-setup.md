@@ -129,7 +129,7 @@ Federalist's "build containers" are cloud.gov apps running with the `federalist-
 To push the app use `cf push`:
 
 ```shell
-cf push federalist-garden-build-1 --no-route -u none -m 1500G -k 4G -o "federalist-registry.fr.cloud.gov/federalist-garden-build"
+cf push federalist-garden-build-1 --no-route -u none -m 1500M -k 4G -o "federalist-registry.fr.cloud.gov/federalist-garden-build"
 ```
 
 The first time the app is pushed it may fail to start. That is okay. The app cannot stand on its own without an environment provided by federalist / federalist-builder. It will be restarted with a valid environment when federalist-builder schedules a build on it.
