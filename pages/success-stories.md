@@ -1,8 +1,9 @@
 ---
-permalink: /case-studies/
-title: Case Studies
+title: Success Studies
+permalink: /success-stories/
 layout: default
 redirect_from: 
+  - /case-studies/
   - /examples/
   - /content/examples/
 ---
