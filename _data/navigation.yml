@@ -76,6 +76,8 @@ sidenav:
         href: /pages/how-federalist-works/node-on-federalist/
       - text: RVM on Federalist
         href: /pages/how-federalist-works/rvm-on-federalist/
+      - text: Bundler on Federalist
+        href: /pages/how-federalist-works/bundler-on-federalist/
       - text: Site wide alerts
         href: /pages/for-federalist-developers/site-wide-alert/
       - text: Supported Site Engines
