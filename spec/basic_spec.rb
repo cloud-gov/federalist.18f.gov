@@ -31,9 +31,9 @@ describe "features page", type: :feature, js: false do
 
 end
 
-describe "case studies page", type: :feature, js: false do
+describe "success stories page", type: :feature, js: false do
   before(:each) do
-    visit '/case-studies'
+    visit '/success-stories'
   end
 
   it "has trust message" do
@@ -44,6 +44,15 @@ describe "case studies page", type: :feature, js: false do
     expect(page).to have_css("img[src*='/assets/images/partner-sites/vote.gov.png']")
   end
 
+end
+
+describe "support page", type: :feature, js: false do
+  before(:each) do
+    visit '/support'
+  end
+  it "has support message" do
+    expect(page).to have_text("Getting Support")
+  end
 end
 
 describe "contact page", type: :feature, js: false do
