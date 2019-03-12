@@ -278,7 +278,7 @@ layout: default
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <a href="{{site.baseurl}}/assets/documents/Federalist-Proposal.pdf"><img src="{{site.baseurl}}/assets/images/home-page/Federalist-Proposal-Thumbnail.jpg"></a>
+                  <a href="{{site.baseurl}}/assets/documents/Federalist-Proposal.pdf"><img src="{{site.baseurl}}/assets/images/home-page/Federalist-Proposal-Thumbnail.png"></a>
                 </div>
                 <figcaption>
                   <h6>Federalist proposal</h6>
