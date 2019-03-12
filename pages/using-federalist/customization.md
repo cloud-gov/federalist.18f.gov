@@ -95,4 +95,4 @@ If a user navigates to a page on your site that does not exist, they will see a 
 #### Federalist Default 404 Page
 ![Default 404 Page]({{site.baseurl}}/assets/images/default-404.png)
 
-In order to use a custom 404 Page, name your 404 Page "404.html" and make sure it is included in the resources that are deployed (For Jekyll sites or sites with no build process it should be in the root of your project). Then, let #federalist-support konw that you would like to use a custom 404 page named "404.html" and we willhandle the rest.
+In order to use a custom 404 Page, name your 404 Page "404.html" and make sure it is included in the resources that are deployed (For Jekyll sites or sites with no build process it should be in the root of your project). Then, let #federalist-support konw that you would like to use a custom 404 page named "404.html" and we will handle the rest.
