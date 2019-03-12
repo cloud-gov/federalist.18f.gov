@@ -2,8 +2,6 @@ title: Federalist Homepage
 name: Federalist Homepage
 theme: uswds-jekyll
 
-url: "https://federalist.18f.gov" 
-
 # Configuration for Google Analytics, add your UA code here:
 google_analytics_ua: UA-48605964-31
 
