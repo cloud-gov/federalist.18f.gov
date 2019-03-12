@@ -23,23 +23,13 @@ collections:
   pages:
     output: true
     permalink: /:path/
-#
-# defaults:
-#   - scope:
-#       path: ""
-#     values:
-#       layout: "page"
-#       sidenav: "sidenav"
-#   - scope:
-#       path: ""
-#       type: templates
-#     values:
-#       layout: "default"
 
 scripts:
   - /assets/js/glossary.js
   - /assets/js/index.js
   - /assets/uswds/js/uswds.min.js
+
+relative_permalinks: false
 
 styles:
   - /assets/css/site.css
