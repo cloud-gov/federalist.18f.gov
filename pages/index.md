@@ -112,7 +112,7 @@ layout: default
               </figure>
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="https://coe.gsa.gov">
               <figure class="figure figure-seal">
                 <div class="tint">
@@ -121,7 +121,7 @@ layout: default
                 <figcaption>Centers of Excellence</figcaption>
               </figure>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -178,7 +178,7 @@ layout: default
                 </figure>
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="https://handbook.18f.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
@@ -187,7 +187,7 @@ layout: default
                   <figcaption>TTS Handbook</figcaption>
                 </figure>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
