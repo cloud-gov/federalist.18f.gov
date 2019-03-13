@@ -88,3 +88,11 @@ described in Jekyll’s documentation on [converting to a regular theme](https:/
 Federalist would also like to learn more about how the theme is or is not
 working for you. Please [email us](mailto:{{ site.support_email }}) describing
 your experience so we can learn from you. Thank you!
+
+## Custom 404 pages
+If a user navigates to a page on your site that does not exist, they will see a “404 Page” (webspeak for a page that doesn’t exist). Federalist provides a default 404 Page (shown below), but you may prefer something that looks and feels like it is part of your site.
+
+#### Federalist Default 404 Page
+![Default 404 Page]({{site.baseurl}}/assets/images/default-404.png)
+
+In order to use a custom 404 Page, name your 404 Page "404.html" and make sure it is included in the resources that are deployed (For Jekyll sites or sites with no build process it should be in the root of your project). Then, let #federalist-support konw that you would like to use a custom 404 page named "404.html" and we will handle the rest.
