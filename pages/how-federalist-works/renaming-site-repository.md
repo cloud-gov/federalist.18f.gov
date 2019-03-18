@@ -10,5 +10,7 @@ Renaming your site repository will interrupt a site's ability to build.  In orde
 ## Steps to 
 
 1. Add the new site repository as described [here](/pages/using-federalist/)
-2. Follow steps 3-6 of the site [launch checklist](/pages/using-federalist/launch-checklist/)
-3. Once the the new site is live, you can opt to delete the old site from within the old site's Site Settings.  (Note: Once deleted, the settings and build history for the old site will be lost and is not transferable to the new site.)
+2. Build your site and verify that the site is ready for launch using our preview URLs.
+3. Contact the Federalist team; we’ll scan your site within a few days as part of our compliance process and let you know of the results.
+4. Let us know when you are ready to go live with the new site and we can update your CloudFront URL to point to your new site.
+5. Optional: After the new site is live, you can delete the old site within Site Settings.  (Note: Once deleted, the settings and build history for the site will be lost and is not transferable to a different site.)
