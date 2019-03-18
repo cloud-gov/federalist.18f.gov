@@ -83,7 +83,7 @@ sidenav:
       - text: Supported Site Engines
         href: /pages/using-federalist/supported-site-engines/
       - text: Renaming your site's repository
-        href: /pages/using-federalist/renaming-site-repository/
+        href: /pages/how-federalist-works/renaming-site-repository/
 
 footer:
   - text: Home
