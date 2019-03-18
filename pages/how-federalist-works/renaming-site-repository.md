@@ -9,7 +9,7 @@ Renaming your site repository will interrupt a site's ability to build.  In orde
 
 ## Steps to 
 
-1. Add the new site repository as described [here](/pages/using-federalist/)
+1. Add the new site repository as described [here]({{site.baseurl}}/pages/using-federalist/)
 2. Build your site and verify that the site is ready for launch using our preview URLs.
 3. Contact the Federalist team; we’ll scan your site within a few days as part of our compliance process and let you know of the results.
 4. Let us know when you are ready to go live with the new site and we can update your CloudFront URL to point to your new site.
