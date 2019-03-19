@@ -7,7 +7,7 @@ permalink: /pages/how-federalist-works/renaming-site-repository/
 
 Renaming your site repository will interrupt a site's ability to build.  In order to resume site building, it will require you to add a new site to Federalist with the new repository url.  (Note: Please be aware that if your site is already live, your site public site will be frozen until a security scan is performed on your new site.)
 
-## Steps to 
+## Next steps after renaming your repository
 
 1. Add the new site repository as described [here]({{site.baseurl}}/pages/using-federalist/)
 2. Build your site and verify that the site is ready for launch using our preview URLs.
