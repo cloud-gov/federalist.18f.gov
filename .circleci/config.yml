@@ -7,6 +7,7 @@ jobs:
       - checkout
       - run: bundle install
       - run: bundle exec rspec spec
+      - run: npm run test
 workflows:
   version: 2
   commit:
