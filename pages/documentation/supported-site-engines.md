@@ -23,12 +23,12 @@ For all engines **except Static** Federalist will serve whatever is in the `_sit
 ### Node
 A Node script can be run to generate a site OR as a preliminary step to generating one with Jekyll or Hugo. To use a Node script as the generator, choose **Script only** as the **Site Engine** in the Advanced Settings configuration for your site.
 
-For more details on using Node see [node on federalist](../../how-federalist-works/node-on-federalist).
+For more details on using Node see [node on federalist]({{site.baseurl}}/documentation/node-on-federalist).
 
 ## Jekyll Resources
 Federalist can generate any Jekyll website, which lets you build custom websites hosted on Federalist. For documentation on getting started with Jekyll, see [jekyllrb.com](http://jekyllrb.com/).
 
-For an example of a Jekyll site optimized for Federalist, see our [templates]({{site.baseurl}}/pages/using-federalist/templates/).
+For an example of a Jekyll site optimized for Federalist, see our [templates]({{site.baseurl}}/documentation/templates/).
 
 ### Jekyll build features
 

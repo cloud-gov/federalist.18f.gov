@@ -1,6 +1,9 @@
 ---
 title: Bundler on Federalist
-permalink: /pages/how-federalist-works/bundler-on-federalist/
+permalink: /documentation/bundler-on-federalist/
+redirect_from:
+  - /pages/how-federalist-works/bundler-on-federalist/
+
 ---
 
 # Bundler on Federalist

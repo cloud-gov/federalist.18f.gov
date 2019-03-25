@@ -44,7 +44,7 @@ You should create a timeline for the site migration. This may be an opportunity 
 You should plan a stopgap measure into your migration timeline. This could be a basic Federalist setup with a landing page that provides information to key stakeholders or notifies visitors that work is in progress.
 
 Possible stopgap pages you could emulate include:
-- [Open Foia](https://open.foia.gov/) ([Code](github.com/18f/open-foia-redirect/))
+- [Open Foia](https://open.foia.gov/) ([Code](https://github.com/18f/open-foia-redirect/))
 - [GSA 10x](https://10x.gsa.gov) ([Code](https://github.com/GSA/10x/tree/fa7007ff3d881b80348dfb0d3161b8f9d84dc3d2))
 
 For these pages you can simply fork them on Github and reword the content in order to have it based on your website, or create your own static page to note the work in process. 18F can help you with your stopgap measure if you have a signed IAA.

@@ -164,10 +164,8 @@ commit your changes when you’re done.
 
 ## Template-specific customization
 
-Some templates are geared toward a specific task, like the [Basic Report
-template](https://federalist.18f.gov/using-federalist/templates/basic-report/),
-which features a downloadable PDF report. You’ll want to refer to the [template
-specific documentation](https://federalist.18f.gov/using-federalist/templates/)
+You’ll want to refer to the [template
+specific documentation]({{ site.baseurl }}/documentation/templates/)
 to learn how to configure your template beyond what is covered in this guide.
 
 Once you've got the basics down, we recommend that you check out our [customization
@@ -175,8 +173,8 @@ guide]({{ site.baseurl }}{% link pages/documentation/customization.md %}) for
 some more details on how to customize your site.
 
 
-[Federalist]: https://federalist.18f.gov/
-[federalist-sites]: https://federalist.18f.gov/sites
+[Federalist]: {{ site.baseurl }}
+[federalist-sites]: {{ site.baseurl }}/sites
 [resources-front-matter]: {{ site.baseurl }}{% link pages/documentation/resources.md %}#working-with-front-matter
 [resources-markdown]: {{ site.baseurl }}{% link pages/documentation/resources.md %}#working-with-markdown
 [resources-yaml]: {{ site.baseurl }}{% link pages/documentation/resources.md %}#working-with-yaml
