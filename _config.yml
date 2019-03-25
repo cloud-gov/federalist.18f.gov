@@ -30,6 +30,10 @@ scripts:
 
 relative_permalinks: false
 
+
+exclude:
+  - /coverage
+
 styles:
   - /assets/css/site.css
 
