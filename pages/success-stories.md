@@ -44,7 +44,7 @@ redirect_from:
           </ul>
         </div>
         <div class="usa-width-one-half info-image">
-          <a href="{{item.url}}"><img src="{{site.baseurl}}{{item.thumbnail}}"></a>
+          <a href="{{item.url}}"><img alt="website thumbnail" src="{{site.baseurl}}{{item.thumbnail}}"></a>
         </div>
       </div>
     </div>

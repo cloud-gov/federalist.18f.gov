@@ -13,7 +13,7 @@ redirect_from:
 
 Federalist is built to be deployed to the [GovCloud](https://cloud.gov/docs/apps/govcloud/) region in [cloud.gov](https://cloud.gov/docs/). This guide is targeted at anyone who wishes to deploy the entire Federalist system to cloud.gov from the ground up, or anyone who wishes to get a better grasp of how the system is architected by looking at how it is deployed.
 
-Before reading this guide, it may be helpful to refer to [How Federalist Works]({{site.baseurl}}/pages/how-federalist-works/) to understand what components make up the Federalist architecture and how they are interrelated.
+Before reading this guide, it may be helpful to refer to [How Federalist Works]({{site.baseurl}}/documentation/how-federalist-works/) to understand what components make up the Federalist architecture and how they are interrelated.
 
 A Federalist deploy comprises of the following steps:
 
@@ -144,7 +144,7 @@ The next pieces of Federalist that need to be deployed will depend on certain AW
 - An S3 bucket for storing the sites' files
 - An SQS queue for build messages
 
-[How Federalist Works]({{site.baseurl}}/pages/how-federalist-works/) contains the details about how each of these should be configured.
+[How Federalist Works]({{site.baseurl}}/documentation/how-federalist-works/) contains the details about how each of these should be configured.
 
 ### Provisioning an RDS instance
 
@@ -208,7 +208,7 @@ At this time cloud.gov does not have an SQS service broker. The SQS queue will n
 
 ## Deploying federalist-builder
 
-Note: `federalist-builder` is built to be [deployed from CircleCI](https://circleci.com/docs/2.0/deployment_integrations/). The instructions for manually deploying federalist-builder are described below and are necessary for the initial deploy, but subsequent deploys should happen on CircleCI.
+Note: `federalist-builder` is built to be [deployed from CircleCI](https://circleci.com/docs/2.0/deployment-integrations/). The instructions for manually deploying federalist-builder are described below and are necessary for the initial deploy, but subsequent deploys should happen on CircleCI.
 
 The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
 
@@ -293,19 +293,19 @@ By default, the CDN caches error responses, so you will also need to work with c
 **Only to be used in proxy downtime situations (which has only happened once historically).**
 
 1. Review initial “Default” cache behavior and origin.
-[![Initial cache settings]({{site.baseurl}}/assets/images/cloudfront-update-1.png)]({{site.baseurl}}/assets/documents/cloudfront-update-1.png)
+[![Initial cache settings]({{site.baseurl}}/assets/images/cloudfront-update-1.png)]({{site.baseurl}}/assets/images/cloudfront-update-1.png)
 
 2. Review the “origin path” for existing federalist-proxy.app.cloud.gov origin
-[![Current origin settings]({{site.baseurl}}/assets/images/cloudfront-update-2.png)]({{site.baseurl}}/assets/documents/cloudfront-update-2.png)
+[![Current origin settings]({{site.baseurl}}/assets/images/cloudfront-update-2.png)]({{site.baseurl}}/assets/images/cloudfront-update-2.png)
 
 3. Add a new S3 origin pointing directly to the federalist S3 bucket and site’s origin path found in step 2. (Note: you can skip this if the S3 origin already exists)
-[![S3 origin settings]({{site.baseurl}}/assets/images/cloudfront-update-3.png)]({{site.baseurl}}/assets/documents/cloudfront-update-3.png)
+[![S3 origin settings]({{site.baseurl}}/assets/images/cloudfront-update-3.png)]({{site.baseurl}}/assets/images/cloudfront-update-3.png)
 
 4. Modify “Default” cache behavior to point to the new S3 Origin:
-[![Use new origin]({{site.baseurl}}/assets/images/cloudfront-update-4.png)]({{site.baseurl}}/assets/documents/cloudfront-update-4.png)
+[![Use new origin]({{site.baseurl}}/assets/images/cloudfront-update-4.png)]({{site.baseurl}}/assets/images/cloudfront-update-4.png)
 
 5. After downtime, modify default cache behavior back to the original state.
-[![Initial cache settings]({{site.baseurl}}/assets/images/cloudfront-update-1.png)]({{site.baseurl}}/assets/documents/cloudfront-update-1.png)
+[![Initial cache settings]({{site.baseurl}}/assets/images/cloudfront-update-1.png)]({{site.baseurl}}/assets/images/cloudfront-update-1.png)
 
 
 ## Rotating credentials

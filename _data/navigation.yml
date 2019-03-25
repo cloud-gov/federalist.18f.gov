@@ -59,7 +59,7 @@ sidenav:
     href: /documentation/content-guide/
 
   - text: Getting Support
-    href: /documentation/support/
+    href: /support/
 
   - text: For developers
     href: /documentation/
@@ -71,7 +71,7 @@ sidenav:
       - text: How custom URLs work
         href: /documentation/custom-urls/
       - text: Federalist and cloud.gov
-        href: /how-federalist-works/cloud-gov/
+        href: /documentation/cloud-gov/
       - text: cloud.gov setup
         href: /documentation/cloud-gov-setup/
       - text: Node on Federalist

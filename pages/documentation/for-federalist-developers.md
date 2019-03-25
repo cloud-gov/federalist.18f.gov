@@ -21,7 +21,7 @@ Instructions for running Federalist components locally are in in each code repos
 ## Deploying Federalist from CircleCI
 
 This guide covers how the deployment process for Federalist and Federalist Builder works.
-In order to understand the process for Federalist Docker Build and Federalist Registry, see [the cloud.gov setup guide]({{site.baseurl}}/pages/for-federalist-developers/cloud-gov-setup/).
+In order to understand the process for Federalist Docker Build and Federalist Registry, see [the cloud.gov setup guide]({{site.baseurl}}/documentation/cloud-gov-setup/).
 
 Federalist is deployed by [CircleCI](https://circleci.com/docs/2.0/deployment_integrations/).
 Federalist and Federalist Builder are configured such that changes to the master branch are deployed to production and changes to the staging branch are deployed to staging.
