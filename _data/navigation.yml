@@ -58,9 +58,6 @@ sidenav:
   - text: Content guide
     href: /documentation/content-guide/
 
-  - text: Getting Support
-    href: /support/
-
   - text: For developers
     href: /documentation/
     subfolderitems:
