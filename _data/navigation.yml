@@ -82,6 +82,8 @@ sidenav:
         href: /pages/for-federalist-developers/site-wide-alert/
       - text: Supported Site Engines
         href: /pages/using-federalist/supported-site-engines/
+      - text: Renaming your site's repository
+        href: /pages/how-federalist-works/renaming-site-repository/
       - text: Monorepos on Federalist
         href: /pages/how-federalist-works/monorepos-on-federalist/
 
