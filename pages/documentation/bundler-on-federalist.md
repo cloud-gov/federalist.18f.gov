@@ -1,5 +1,6 @@
 ---
 title: Bundler on Federalist
+layout: page
 permalink: /documentation/bundler-on-federalist/
 redirect_from:
   - /pages/how-federalist-works/bundler-on-federalist/
