@@ -44,7 +44,7 @@ sidenav:
         href: /pages/using-federalist/launch-checklist/
       - text: Migration guide
         href: /pages/using-federalist/migration-guide/
-      - text: Adding Search 
+      - text: Adding Search
         href: /pages/using-federalist/search/
       - text: Site templates
         href: /pages/using-federalist/templates/
@@ -84,6 +84,8 @@ sidenav:
         href: /pages/using-federalist/supported-site-engines/
       - text: Renaming your site's repository
         href: /pages/how-federalist-works/renaming-site-repository/
+      - text: Monorepos on Federalist
+        href: /pages/how-federalist-works/monorepos-on-federalist/
 
 footer:
   - text: Home
