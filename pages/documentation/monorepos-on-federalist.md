@@ -1,6 +1,8 @@
 ---
 title: Monorepos on Federalist
 permalink: /documentation/monorepos-on-federalist/
+layout: page
+sidenav: documentation
 ---
 
 # Monorepos on Federalist
