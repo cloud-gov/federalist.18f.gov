@@ -29,7 +29,7 @@ layout: default
       <div class="feature-group">
         <div class="usa-width-one-sixth">
           <div class="feature-image">
-            <img src="{{site.baseurl}}/assets/images/icons/icon-rocket-color.svg">
+            <img alt="rocket icon" src="{{site.baseurl}}/assets/images/icons/icon-rocket-color.svg">
           </div>
         </div>
         <div class="usa-width-three-fourths feature-text">
@@ -40,7 +40,7 @@ layout: default
       <div class="feature-group">
         <div class="usa-width-one-sixth">
           <div class="feature-image">
-            <img src="{{site.baseurl}}/assets/images/icons/icon-layout-color.svg">
+            <img alt="layout icon" src="{{site.baseurl}}/assets/images/icons/icon-layout-color.svg">
           </div>
         </div>
         <div class="usa-width-three-fourths feature-text">
@@ -51,7 +51,7 @@ layout: default
       <div class="feature-group">
         <div class="usa-width-one-sixth">
           <div class="feature-image">
-            <img src="{{site.baseurl}}/assets/images/icons/icon-lock-color.svg">
+            <img alt="lock icon" src="{{site.baseurl}}/assets/images/icons/icon-lock-color.svg">
           </div>
         </div>
         <div class="usa-width-three-fourths feature-text">
@@ -278,7 +278,7 @@ layout: default
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <a href="{{site.baseurl}}/assets/documents/Federalist-Proposal.pdf"><img src="{{site.baseurl}}/assets/images/home-page/Federalist-Proposal-Thumbnail.png"></a>
+                  <a href="{{site.baseurl}}/assets/documents/Federalist-Proposal.pdf"><img  alt="Federalist Proposal Thumbnail" src="{{site.baseurl}}/assets/images/home-page/Federalist-Proposal-Thumbnail.png"></a>
                 </div>
                 <figcaption>
                   <h6>Federalist proposal</h6>
@@ -290,7 +290,9 @@ layout: default
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <a href="{{site.baseurl}}/assets/documents/how-federalist-works-diagram.pdf"><img src="{{site.baseurl}}/assets/images/home-page/how-federalist-works-diagram-Thumbnail.jpg"></a>
+                  <a href="{{site.baseurl}}/assets/documents/how-federalist-works-diagram.pdf">
+                    <img alt="Diagram of Federalist Thumbnail" src="{{site.baseurl}}/assets/images/home-page/how-federalist-works-diagram-Thumbnail.jpg">
+                  </a>
                 </div>
                 <figcaption>
                   <h6>Federalist basic diagram</h6>
@@ -302,7 +304,7 @@ layout: default
             <li>
               <figure class="figure">
                 <div class="tint">
-                  <a href="{{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf"><img src="{{site.baseurl}}/assets/images/home-page/Federalist-Compliance-Memo-Thumbnail.jpg"></a>
+                  <a href="{{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf"><img alt="Compliance Thumbnail" src="{{site.baseurl}}/assets/images/home-page/Federalist-Compliance-Memo-Thumbnail.jpg"></a>
                 </div>
                 <figcaption>
                   <h6>Compliance memo</h6>
@@ -322,7 +324,7 @@ layout: default
       <div class="feature-group large">
         <div class="usa-width-one-sixth flex-center">
           <div class="feature-image light">
-            <img src="{{site.baseurl}}/assets/images/graphic-speech-bubbles.svg" width="110" height="93">
+            <img alt="speech bubble icon" src="{{site.baseurl}}/assets/images/graphic-speech-bubbles.svg" width="110" height="93">
           </div>
         </div>
         <div class="usa-width-two-thirds feature-text">

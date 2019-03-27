@@ -4,7 +4,7 @@
 # header title differently from the site's title (as defined in
 # _config.yml).
 # title: Header title
-href: /
+# href: /
 type: extended
 
 # Show or hide the official USA banner at the top of the site.

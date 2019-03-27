@@ -10,10 +10,12 @@ secondary:
     href: /
   - text: Features
     href: /features/
-  - text: Case Studies
-    href: /case-studies/
+  - text: Success Stories
+    href: /success-stories/
+  - text: Documentation
+    href: /documentation/
   - text: Support
-    href: /pages/using-federalist/
+    href: /support/
   - text: Contact
     href: /contact/
     # Look inside assets/js/index.js to see that how this url changes depending on enviroment
@@ -25,78 +27,77 @@ secondary:
 
 sidenav:
   - text: Using Federalist
-    href: /pages/using-federalist/
+    href: /documentation/
     subfolderitems:
       - text: Why use Federalist?
-        href: /pages/about-federalist/why-use-federalist/
+        href: /documentation/why-use-federalist/
       - text: Access and Permissions
-        href: /pages/using-federalist/access-permissions/
+        href: /documentation/access-permissions/
       - text: Customer responsibilities
-        href: /pages/using-federalist/customer-responsibilities/
+        href: /documentation/customer-responsibilities/
       - text: Getting started with Jekyll
-        href: /pages/using-federalist/getting-started-with-jekyll/
+        href: /documentation/getting-started-with-jekyll/
       - text: Included with Federalist
-        href: /pages/using-federalist/included-with-federalist/
+        href: /documentation/included-with-federalist/
       - text: Instructional demos
-        href: /pages/using-federalist/instructional-demos/
+        href: /documentation/instructional-demos/
       - text: Builds and previews
-        href: /pages/using-federalist/previews/
+        href: /documentation/previews/
       - text: Launch checklist
-        href: /pages/using-federalist/launch-checklist/
+        href: /documentation/launch-checklist/
       - text: Migration guide
-        href: /pages/using-federalist/migration-guide/
-      - text: Adding Search
-        href: /pages/using-federalist/search/
+        href: /documentation/migration-guide/
+      - text: Adding Search 
+        href: /documentation/search/
       - text: Site templates
-        href: /pages/using-federalist/templates/
+        href: /documentation/templates/
       - text: Customizing your site
-        href: /pages/using-federalist/customization/
+        href: /documentation/customization/
       - text: Using the markup languages
-        href: /pages/using-federalist/resources/
+        href: /documentation/resources/
 
   - text: Content guide
-    href: /pages/content-guide/
-
-  - text: Getting Support
-    href: /pages/using-federalist/support/
+    href: /documentation/content-guide/
 
   - text: For developers
-    href: /pages/for-federalist-developers/
+    href: /documentation/
     subfolderitems:
       - text: How Federalist works
-        href: /pages/how-federalist-works/
+        href: /documentation/
       - text: How builds work
-        href: /pages/how-federalist-works/how-builds-work/
+        href: /documentation/how-builds-work/
       - text: How custom URLs work
-        href: /pages/how-federalist-works/custom-urls/
+        href: /documentation/custom-urls/
       - text: Federalist and cloud.gov
-        href: /pages/how-federalist-works/cloud-gov/
+        href: /documentation/cloud-gov/
       - text: cloud.gov setup
-        href: /pages/for-federalist-developers/cloud-gov-setup/
+        href: /documentation/cloud-gov-setup/
       - text: Node on Federalist
-        href: /pages/how-federalist-works/node-on-federalist/
+        href: /documentation/node-on-federalist/
       - text: RVM on Federalist
-        href: /pages/how-federalist-works/rvm-on-federalist/
+        href: /documentation/rvm-on-federalist/
       - text: Bundler on Federalist
-        href: /pages/how-federalist-works/bundler-on-federalist/
+        href: /documentation/bundler-on-federalist/
       - text: Site wide alerts
-        href: /pages/for-federalist-developers/site-wide-alert/
+        href: /documentation/site-wide-alert/
       - text: Supported Site Engines
-        href: /pages/using-federalist/supported-site-engines/
+        href: /documentation/supported-site-engines/
       - text: Renaming your site's repository
-        href: /pages/how-federalist-works/renaming-site-repository/
+        href: /documentation/renaming-site-repository/
       - text: Monorepos on Federalist
-        href: /pages/how-federalist-works/monorepos-on-federalist/
+        href: /documentation/monorepos-on-federalist/
 
 footer:
   - text: Home
     href: /
   - text: Features
     href: /features/
-  - text: Case Studies
-    href: /case-studies/
+  - text: Success Stories
+    href: /success-stories/
+  - text: Documentation
+    href: /documentation/
   - text: Support
-    href: /pages/using-federalist/
+    href: /support/
   - text: Contact
     href: /contact/
   - text: Manage Sites
