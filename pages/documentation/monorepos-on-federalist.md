@@ -1,6 +1,6 @@
 ---
 title: Monorepos on Federalist
-permalink: /pages/how-federalist-works/monorepos-on-federalist/
+permalink: /documentation/monorepos-on-federalist/
 ---
 
 # Monorepos on Federalist
