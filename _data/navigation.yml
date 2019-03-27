@@ -81,6 +81,8 @@ sidenav:
         href: /documentation/site-wide-alert/
       - text: Supported Site Engines
         href: /documentation/supported-site-engines/
+      - text: Monorepos on Federalist
+        href: /documentation/monorepos-on-federalist/
 
 footer:
   - text: Home
