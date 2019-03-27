@@ -1,6 +1,6 @@
 ---
 title: Renaming a site's repository
-permalink: /pages/how-federalist-works/renaming-site-repository/
+permalink: /documentation/renaming-site-repository/
 ---
 
 # Updating your Federalist site after renaming your repository
