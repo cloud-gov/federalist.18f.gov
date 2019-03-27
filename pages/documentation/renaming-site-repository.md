@@ -1,6 +1,8 @@
 ---
 title: Renaming a site's repository
 permalink: /documentation/renaming-site-repository/
+layout: page
+sidenav: documentation
 ---
 
 # Updating your Federalist site after renaming your repository
