@@ -37,7 +37,7 @@ layout: default
           <div class="usa-width-one-third">
             <div class="feature-group vertical">
               <div class="feature-image small">
-                <img src="{{site.baseurl}}/assets/images/icons/icon-rocket-color.svg">
+                <img alt="rocket icon" src="{{site.baseurl}}/assets/images/icons/icon-rocket-color.svg">
               </div>
               <div class="feature-text">
                 <h5>Deploy quickly</h5>
@@ -48,7 +48,7 @@ layout: default
           <div class="usa-width-one-third">
             <div class="feature-group vertical">
               <div class="feature-image small">
-                <img src="{{site.baseurl}}/assets/images/icons/icon-layout-color.svg">
+                <img alt="layout icon"  src="{{site.baseurl}}/assets/images/icons/icon-layout-color.svg">
               </div>
               <div class="feature-text">
                 <h5>Accessible templates</h5>
@@ -59,7 +59,7 @@ layout: default
           <div class="usa-width-one-third">
             <div class="feature-group vertical">
               <div class="feature-image small">
-                <img src="{{site.baseurl}}/assets/images/icons/icon-badge-color.svg">
+                <img alt="badge icon" src="{{site.baseurl}}/assets/images/icons/icon-badge-color.svg">
               </div>
               <div class="feature-text">
                 <h5>Customization</h5>
@@ -72,7 +72,7 @@ layout: default
           <div class="usa-width-one-third">
             <div class="feature-group vertical">
               <div class="feature-image small">
-                <img src="{{site.baseurl}}/assets/images/icons/icon-clockback-color.svg">
+                <img alt="clock icon" src="{{site.baseurl}}/assets/images/icons/icon-clockback-color.svg">
               </div>
               <div class="feature-text">
                 <h5>Simple version control</h5>
@@ -83,7 +83,7 @@ layout: default
           <div class="usa-width-one-third">
             <div class="feature-group vertical">
               <div class="feature-image small">
-                <img src="{{site.baseurl}}/assets/images/icons/icon-two-squares-color.svg">
+                <img alt="two squares icon" src="{{site.baseurl}}/assets/images/icons/icon-two-squares-color.svg">
               </div>
               <div class="feature-text">
                 <h5>Reusable and public</h5>

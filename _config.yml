@@ -2,8 +2,6 @@ title: Federalist Homepage
 name: Federalist Homepage
 theme: uswds-jekyll
 
-url: "https://federalist.18f.gov" 
-
 # Configuration for Google Analytics, add your UA code here:
 google_analytics_ua: UA-48605964-31
 
@@ -15,31 +13,26 @@ dap_agency: GSA
 # https://search.usa.gov/signup
 # Your search_site_handle value is from the search.gov settings page.
 
+
 search_site_handle: federalist
 
 support_email: federalist-support@gsa.gov
 
 collections:
-  templates:
+  pages:
     output: true
-    permalink: /pages/using-federalist/templates/:name/
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "page"
-      sidenav: "sidenav"
-  - scope:
-      path: ""
-      type: templates
-    values:
-      layout: "default"
+    permalink: /:path/
 
 scripts:
   - /assets/js/glossary.js
   - /assets/js/index.js
   - /assets/uswds/js/uswds.min.js
+
+relative_permalinks: false
+
+
+exclude:
+  - /coverage
 
 styles:
   - /assets/css/site.css
