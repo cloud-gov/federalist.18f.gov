@@ -22,6 +22,7 @@ secondary:
   - text: Manage Sites
     href: https://federalistapp.18f.gov
     external: true
+    class: usa-button usa-button-secondary nav-button
 
 
 sidenav:

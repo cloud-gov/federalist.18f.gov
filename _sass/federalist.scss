@@ -1,3 +1,6 @@
+$color-blue-darker: #2d476a;
+$white-shaded: #eef4fb;
+
 .usa-nav-secondary-links li{
   padding-left: 1.5rem;
 }
@@ -123,7 +126,19 @@
   }
 }
 
-
 .usa-footer-logo-img{
   margin-right: 10px;
+}
+
+.usa-nav .usa-button.nav-button {
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+  display: inline;
+  color: $color-blue-darker;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $white-shaded;
+  }
 }
