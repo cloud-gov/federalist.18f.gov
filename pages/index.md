@@ -33,7 +33,7 @@ layout: default
           </div>
         </div>
         <div class="usa-width-three-fourths feature-text">
-          <h3>TEST</h3>
+          <h3>Easy, powerful, and fast</h3>
           <p>You don't have to be a programmer or spend months working on compliance to get started. We’ve taken care of it using popular and easy-to-use open source tools so you can get right to work.</p>
         </div>
       </div>
