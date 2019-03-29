@@ -8,7 +8,7 @@ layout: default
   <div class="well">
     <div class="usa-grid federalist-hero">
       <div class="usa-width-two-thirds hero-heading">
-        <h1>Federalist helps federal agencies and offices quickly launch compliant websites.</h1>
+        <h1>There’s no new easier way to launch, maintain, and manage government sites.</h1>
       </div>
       <div class="usa-width-one-third usa-hero-callout">
         <h2 class="contrast-heading">Trusted and scalable</h2>
@@ -24,7 +24,7 @@ layout: default
   </div>
   <div class="usa-grid info-block">
     <hr class="hr-light">
-    <h2><a id="page-body"></a>Rely on Federalist for the heavy lifting.</h2>
+    <h2><a id="page-body"></a>Federalist is a publishing platform for modern, compliant government websites.</h2>
     <section class="features">
       <div class="feature-group">
         <div class="usa-width-one-sixth">
