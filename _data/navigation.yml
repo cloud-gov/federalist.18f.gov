@@ -2,12 +2,6 @@ primary:
 
 
 secondary:
-  - text: Glossary
-    external: false
-    href: "#"
-    class: 'glossary__toggle js-glossary-toggle'
-  - text: Home
-    href: /
   - text: Features
     href: /features/
   - text: Success Stories

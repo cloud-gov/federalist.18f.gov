@@ -24,9 +24,8 @@ collections:
     permalink: /:path/
 
 scripts:
-  - /assets/js/glossary.js
-  - /assets/js/index.js
   - /assets/uswds/js/uswds.min.js
+  - /assets/js/index.js
 
 relative_permalinks: false
 
