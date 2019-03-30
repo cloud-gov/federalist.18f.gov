@@ -49,10 +49,8 @@ sidenav:
         href: /documentation/customization/
       - text: Using the markup languages
         href: /documentation/resources/
-
-  - text: Content guide
-    href: /documentation/content-guide/
-
+      - text: Content guide
+        href: /documentation/content-guide/
   - text: For developers
     href: /documentation/
     subfolderitems:
