@@ -1,6 +1,7 @@
 ---
 title: Bundler on Federalist
 layout: page
+sidenav: documentation
 permalink: /documentation/bundler-on-federalist/
 redirect_from:
   - /pages/how-federalist-works/bundler-on-federalist/
