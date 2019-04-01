@@ -3,15 +3,29 @@ $white-shaded: #eef4fb;
 
 @media screen and (min-width: 951px){
   .usa-nav-secondary {
-      margin-top: 0;
-      position: absolute;
-      right: 0;
-      top: -8.7rem;
-      width: 70%;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: -5.7rem;
   }  
+}
+.usa-nav-secondary-links{
+  float: right;
 }
 .usa-nav-secondary-links li{
   padding-left: 1.5rem;
+}
+
+
+@media screen and (max-width: 951px){
+  .usa-nav-secondary-links {
+    float: left;
+  }  
+  
+  .usa-nav .usa-button.nav-button{
+    padding: 0;
+
+  }
 }
 
 .usa-hero-callout{
