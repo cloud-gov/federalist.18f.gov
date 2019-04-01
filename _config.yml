@@ -33,7 +33,15 @@ relative_permalinks: false
 
 exclude:
   - /coverage
-
+  - /README.md
+  - /Gemfile
+  - /Gemfile.lock
+  - /PULL_REQUEST_TEMPLATE.md
+  - /README.md
+  - /LICENSE.md
+  - /CONTRIBUTING.md
+  - /spec/*
+  
 styles:
   - /assets/css/site.css
 
