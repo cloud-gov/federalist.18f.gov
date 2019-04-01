@@ -1,6 +1,15 @@
 $color-blue-darker: #2d476a;
 $white-shaded: #eef4fb;
 
+@media screen and (min-width: 951px){
+  .usa-nav-secondary {
+      margin-top: 0;
+      position: absolute;
+      right: 0;
+      top: -8.7rem;
+      width: 70%;
+  }  
+}
 .usa-nav-secondary-links li{
   padding-left: 1.5rem;
 }
@@ -131,6 +140,10 @@ $white-shaded: #eef4fb;
 
 .usa-footer-logo-img{
   margin-right: 10px;
+}
+
+.usa-logo-text:hover{
+  cursor: pointer;
 }
 
 .usa-nav .usa-button.nav-button {
