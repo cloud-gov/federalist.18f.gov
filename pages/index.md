@@ -86,7 +86,7 @@ layout: default
               <a href="https://pclob.gov">
                 <figure class="figure figure-seal">
                   <div class="tint">
-                    <img src="{{site.baseurl}}/assets/images/partner-sites/pclob.gov.png"  alt="A screenshot of the Privacy an Civil Liberties Oversight Board website">
+                    <img src="{{site.baseurl}}/assets/images/partner-sites/pclob.gov.png"  alt="A screenshot of the Privacy and Civil Liberties Oversight Board website">
                   </div>
                   <figcaption>Privacy and Civil Liberties Oversight Board</figcaption>
                 </figure>
