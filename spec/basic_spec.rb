@@ -4,7 +4,7 @@ describe "home page", type: :feature, js: false do
   end
   
   it "has splash message" do
-    expect(page).to have_text("There’s no new easier way to launch, maintain, and manage government sites.")    
+    expect(page).to have_text("There’s no easier way to launch, maintain, and manage government sites.")    
   end
   
   it "should have the images" do
