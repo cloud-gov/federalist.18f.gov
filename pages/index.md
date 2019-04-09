@@ -282,7 +282,7 @@ layout: default
                 </div>
                 <figcaption>
                   <h6>Federalist proposal</h6>
-                  <p class="small">A two page overview about Federalist for stakeholder briefings.</p>
+                  <p class="small">A two-page overview about Federalist for stakeholder briefings.</p>
                   <a href="{{site.baseurl}}/assets/documents/Federalist-Proposal.pdf">Download PDF</a>
                 </figcaption>
               </figure>
