@@ -235,7 +235,7 @@ layout: default
           <ul class="figure-list max-4 mobile-center">
             <li>
               <figure class="figure figure-seal">
-                <img src="{{site.baseurl}}/assets/images/logos/partners/500px-GSA.png" alt="Seal of the General Services Adminstration" height="64" width="64">
+                <img src="{{site.baseurl}}/assets/images/logos/partners/500px-GSA.png" alt="Seal of the General Services Administration" height="64" width="64">
                 <figcaption>General Services Administration</figcaption>
               </figure>
             </li>
