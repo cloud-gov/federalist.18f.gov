@@ -23,7 +23,7 @@ You can view the live site [from Federalist][federalist-sites] and clicking
 {% capture content %}
 If you’re unfamiliar with GitHub, the Federalist team recommends that you
 [familiarize
-yourself](https://federalist.18f.gov/using-federalist/instructional-demos/#introduction-to-github-for-newcomers)
+yourself](https://federalist.18f.gov/documentation/instructional-demos/#introduction-to-github-for-newcomers)
 before continuing through this guide.
 {% endcapture %}
 {% include components/alert--note.html content=content %}
