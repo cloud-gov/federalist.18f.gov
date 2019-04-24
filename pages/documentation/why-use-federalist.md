@@ -49,4 +49,4 @@ Possible sites include:
 
 - A single page with information about a recently released report that may receive a lot of traffic.
 
-For real world examples, see these [ten existing sites]({{site.baseurl}}/success-stories) out of the 134 sites currently live on Federalist.
+For real world examples, see this list of [existing sites]({{site.baseurl}}/success-stories) out of the 134 sites currently live on Federalist.
