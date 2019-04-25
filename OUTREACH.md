@@ -1,0 +1,11 @@
+- 18F website
+- Federalist proposal
+- GSA website on cyber security (https://www.gsa.gov/technology/government-it-initiatives/cybersecurity/cybersecurity-programs-policy)
+- Federalist homepage
+- Insite (https://insite.gsa.gov/cdnstatic/Federalist-Proposal.pdf)
+- Insite (https://insite.gsa.gov/cdnstatic/how-federalist-works-diagram.pdf)
+- Slides
+- Digital.gov
+- BD drive (https://drive.google.com/drive/u/0/folders/0BxS2K9tCtwSXYks4anNXNlowcTA)
+- 18F UI Style Guide (https://github.com/18F/18f.gsa.gov/blob/master/_styleguide/subpages/for-developers.md)
+- 18F Handbook (https://handbook.18f.gov/federalist/)
