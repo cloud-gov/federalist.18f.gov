@@ -57,9 +57,9 @@ The settings option for a site lets you adjust how Federalist handles the site. 
 - **Site Engine** This controls if and how Federalist builds your site. Currently, the following options are supported:
   - **Hugo** - builds your site with [Hugo](https://gohugo.io/)
   - **Jekyll** - builds your site with [Jekyll](http://jekyllrb.com)
-  - **Script only** - runs a [Node](https://nodejs.org) script
-  - **Static** - serves pre-generated content
+  - **Node.js** - runs a [Node](https://nodejs.org) script
+  - **Static HTML** - serves pre-generated content
 
-If using one of the Federalist provided templates, this should always be "**Jekyll**." The site engine should not be altered once your site is live. Contact the Federalist team for additional support. More information on these options can be found [TODO]().
+If using one of the Federalist provided templates, this should always be "**Jekyll**." The site engine should not be altered once your site is live. Contact the Federalist team for additional support. 
 
 - **Custom configuration (site and preview)** For advanced Jekyll users, you can append different settings to your `_config.yml` configuration during build. This configuration is stored in Federalist, so you may use it to store settings that you don't want to commit to your GitHub repository. Federalist automatically adds a `branch` attribute with the name of the rendered branch, accessible in templates as `site.branch`.
