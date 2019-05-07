@@ -11,8 +11,8 @@ redirect_from:
 
 ## Current Support
 - [Jekyll](http://jekyllrb.com)
-- [Hugo](https://gohugo.io/) (experimental)
-- Script only (experimental) - Runs a [Node](https://nodejs.org) script
+- [Hugo](https://gohugo.io/)
+- Node.js - Runs a [Node](https://nodejs.org) script
 - Static - Pushes the files in your repository to S3 without modifying them, useful for exports from content management systems or web development tools.
 
 ## Requirements
@@ -21,7 +21,7 @@ For all engines **except Static** Federalist will serve whatever is in the `_sit
 - create a symlink from `_site` to whatever folder will contain the generator's output
 
 ### Node
-A Node script can be run to generate a site OR as a preliminary step to generating one with Jekyll or Hugo. To use a Node script as the generator, choose **Script only** as the **Site Engine** in the Advanced Settings configuration for your site.
+A Node script can be run to generate a site OR as a preliminary step to generating one with Jekyll or Hugo. To use a Node script as the generator, choose **Node.js** as the **Site Engine** in the Advanced Settings configuration for your site.
 
 For more details on using Node see [node on federalist]({{site.baseurl}}/documentation/node-on-federalist).
 
