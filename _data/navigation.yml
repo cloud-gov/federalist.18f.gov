@@ -29,6 +29,8 @@ sidenav:
         href: /documentation/access-permissions/
       - text: Customer responsibilities
         href: /documentation/customer-responsibilities/
+      - text: Getting started with a sandbox
+        href: /documentation/federalist-sandbox/
       - text: Getting started with Jekyll
         href: /documentation/getting-started-with-jekyll/
       - text: Included with Federalist
