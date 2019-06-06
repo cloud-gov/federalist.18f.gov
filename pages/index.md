@@ -149,7 +149,7 @@ layout: default
               </a>
             </li>
             <li>
-              <a href="https://cyber.dhs.gov">
+              <a href="https://revenuedata.doi.gov">
               <figure class="figure figure-seal">
                 <div class="tint">
                   <img src="{{site.baseurl}}/assets/images/partner-sites/revenuedata.doi.gov.png"  alt="A screenshot of the Department of the Interior Natural Resources Revenue Data website">
