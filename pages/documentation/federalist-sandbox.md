@@ -11,8 +11,14 @@ redirect_from:
 
 ## Getting started with a Federalist sandbox environment:
 
-Having the ability to practice with the actual tool is important, and so with Federalist we give you the power to do just that, prior to any contracts or agreements. If you’re interested in seeing how Federalist works for yourself, we’re more than happy to set you up with a sandbox environment in Github. We don’t require a contract or agreement. This will allow you to practice using the tool itself, and to get comfortable with the platform before any of the real implementations or deployments take place. We understand federal contracting can be challenging, so read how [AFWERX](../../assets/documents/AFWERX-case-study-PDF.pdf) was able to build their entire website through the sandbox environment, while they waited for their legal departments to complete the contract. Having the sandbox environment saved them time, so that when the contract was signed, in less than 30 minutes their completed website was published live. This is just another added benefit of working with the Federalist program. 
+If you're interested in seeing how Federalist works for yourself, [let us know]({{site.baseurl}}/contact/), and we can create a sandbox environment for your team.
+
+It's important to try a tool before committing to using it, and with Federalist, we give you the power to do just that before having to do any paperwork.
+
+We understand that signing agreements in the federal government can be slow, but you can read how [AFWERX]({{site.baseurl}}/assets/documents/AFWERX-case-study.pdf) was able to build their entire website in their sandbox environment and when they signed the agreement, the site was ready to launch to production.
 
 ## When you’re ready to launch:
 
-If after using the sandbox proves Federalist is the solution with you, our team will work with you to begin the necessary contracting and IAA process. In the meantime, you’re more than happy to continue using the sandbox environment in staging. Once the IAA is signed and we have the necessary agreements in place, this is your greenlight to publicly launch your site live. Per compliance, we cannot allow websites to be pushed to a productive state until the necessary documents are signed and ready to go. However, we do encourage you to create and build whatever you’d like in the sandbox - it’s yours to explore!
+If the Federalist sandbox environment proves useful, our team will work with you through the necessary the IAA process. In the meantime, you are more than welcome to continue using the sandbox environment in staging. 
+
+Once an IAA is signed, this is your green light to launch your site to the public. Per compliance, we cannot allow websites to be published to a production state until the necessary documents are signed and ready to go. However, we do encourage you to create and build whatever you’d like in the sandbox.
