@@ -100,3 +100,10 @@ If a user navigates to a page on your site that does not exist, they will see a 
 ![Default 404 Page]({{site.baseurl}}/assets/images/default-404.png)
 
 In order to use a custom 404 Page, name your 404 Page "404.html" and make sure it is included in the resources that are deployed (For Jekyll sites or sites with no build process it should be in the root of your project). Then, let #federalist-support konw that you would like to use a custom 404 page named "404.html" and we will handle the rest.
+
+## security.txt
+
+Federalist supports the proposed [security.txt](https://securitytxt.org/) standard.  Simply create and place the **security.txt** file within the **.well-known** directory created at the root of your repository.  Visit the [security.txt](https://securitytxt.org/) website, for more information on this proposed standard.
+```
+[repository root]/.well-known/security.txt
+```
