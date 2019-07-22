@@ -60,6 +60,8 @@ sidenav:
         href: /documentation/
       - text: How builds work
         href: /documentation/how-builds-work/
+      - text: Environment variables on builds
+        href: /documentation/env-vars-on-federalist-builds/
       - text: How custom URLs work
         href: /documentation/custom-urls/
       - text: Federalist and cloud.gov
