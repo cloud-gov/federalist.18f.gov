@@ -39,18 +39,6 @@ exclude:
 
 After adding that, jekyll will ignore the `node_modules` directory when building the site.
 
-## Environment variables available when your site builds
-
-When Federalist builds your site it makes available the following environment variables.
-
-Name|Description
----|---
-BRANCH|Github branch being built
-OWNER|Owner of Github repository
-REPOSITORY|Github repository
-SITE_PREFIX|Path of s3 bucket in which your site will be deployed
-BASEURL|Path for deployed site
-
 ## Examples
 ### Use Webpack to pre-process javascript
 
