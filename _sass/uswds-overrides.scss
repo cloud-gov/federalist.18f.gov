@@ -1,3 +1,7 @@
+h4 {
+  font-size: 1.8rem;
+}
+
 .usa-content {
   ul,
   ol,
@@ -58,6 +62,13 @@
 }
 .usa-navbar {
   border-bottom: none;
+}
+
+@media screen and (min-width: 600px) {
+  .steps-block {
+    .usa-width-one-third:last-child {
+    }
+  }
 }
 
 @media screen and (max-width: 951px) {

@@ -1,15 +1,13 @@
+type: "big"
+
 # Whether to show the "Return to top" link; can also be
 # configured as an object with 'text' and 'href' properties.
 # top: true
 top: false
 
-# Which links to show at the top of the footer.
-# This can key into _data/navigation.yml or a list of link objects
-# with 'text' and 'href' properties.
-links: footer
 
 # The optional heading for the footer.
-# heading: Federalist
+heading:  <p>Federalist is a product of the <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">General Services Administration</a>.</p>
 
 # An array of agency logos to show, side by side, in the lower left
 # of the footer on large screens.
@@ -21,9 +19,6 @@ logos:
   - src: /assets/images/federalist-logo.png
     alt: Federalist logo
     url: https://federalist.18f.gov
-
-contact:
-  heading:
 
 edit_page:
   text: Edit this page
