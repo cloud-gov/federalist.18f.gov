@@ -17,8 +17,34 @@ $white-shaded: #eef4fb;
   padding-left: 1.5rem;
 }
 
+.mobile {
+  display: none;
+}
+
 
 @media screen and (max-width: 951px){
+  .federalist-intro {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+
+  .federalist-hero {
+    width: 100% !important;
+  }
+
+  .feature {
+    margin-bottom: 6rem;
+  }
+
+  .mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .steps-block {
+    display: none;
+  }
+
   .usa-nav-secondary-links {
     float: left;
   }  

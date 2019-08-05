@@ -30,31 +30,33 @@ layout: default
           <div class="steps-circle position-right">3</div>
         </div>
       </div>
-
-      <div class="usa-grid-full features-block mt-xl">
-        <section class="usa-width-one-third" style="position: relative; right:1%;">
+      <section class="usa-grid-full features-block mt-xl">
+        <div class="usa-width-one-third feature" style="position: relative; right:1%;">
+          <div class="steps-circle position-center mb-sm mobile">1</div>
           <p class="sans-bold federalist-intro-heading section-title">BUILD</p>
           <img src="{{site.baseurl}}/assets/images/build.png" alt="Hand building a website" class="mb-xl">
           <p class="sans-regular">Use our templates or develop your own—publish your web page  right away.</p>
           <a class="sans-regular" href="https://google.com">See how the Centers of Excellence (CoEs) use Federalist to get new pages up quickly →</a>
-        </section>
-        <div class="usa-width-one-third">
-          <section class="position-center">
+        </div>
+        <div class="usa-width-one-third feature">
+          <div class="position-center">
+            <div class="steps-circle position-center mb-sm mobile">2</div>
             <p class="sans-bold federalist-intro-heading section-title">LAUNCH</p>
             <img src="{{site.baseurl}}/assets/images/launch.png" alt="Hand launching a secure website with cloud.gov" class="mb-xl">
             <p class="sans-regular">You focus on the content, we'll worry about the security, compliance, deployment.</p>
             <a class="sans-regular" href="https://google.com">Learn how DoD leveraged the Federalist platform to build their own template designs →</a>
-          </section>
+          </div>
         </div>
-        <div class="usa-width-one-third">
-          <section clss="position-right" style="left:5%;position:relative;">
+        <div class="usa-width-one-third feature">
+          <div clss="position-right" style="left:5%;position:relative;">
+            <div class="steps-circle position-center mb-sm mobile">3</div>
             <p class="sans-bold federalist-intro-heading section-title">MANAGE</p>
             <img src="{{site.baseurl}}/assets/images/manage.png" alt="Hand using faders to manage website deployments" class="mb-xl">
             <p class="sans-regular">Use our intuitive interface to control the process from start to finish.</p>
             <a class="sans-regular" href="https://google.com">Learn how DOI used a Federalist template to host their data projects →</a>
-          </section>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   </div>
   {% include homepage/agencies.html %}
