@@ -92,8 +92,13 @@ $white-shaded: #eef4fb;
 .features-block {
   position: relative;
 
-  p {
+  .section-title {
     margin-top: 0;
+  }
+
+  a {
+    color: white;
+    font-size: 1.4rem;
   }
 }
 
@@ -183,19 +188,47 @@ $white-shaded: #eef4fb;
 }
 
 .mt-xl {
-  margin-top: 4rem;
+  margin-top: 4rem !important;
+}
+
+.mb-sm {
+  margin-bottom: 1rem !important;
+}
+
+.mb-md {
+  margin-bottom: 2rem !important;
 }
 
 .mb-xl {
-  margin-bottom: 4rem;
+  margin-bottom: 4rem !important;
 }
 
 .mb-xxl {
-  margin-bottom: 5rem;
+  margin-bottom: 5rem !important;
+}
+
+.p-lg {
+  padding: 3rem;
+}
+
+.p-xl {
+  padding: 4rem;
 }
 
 .p-xxl {
   padding: 5rem;
+}
+
+.pt-xl {
+  padding-top: 4rem;
+}
+
+.pb-xl {
+  padding-bottom: 4rem;
+}
+
+.pb-xxl {
+  padding-bottom: 5rem;
 }
 
 #main-content{
