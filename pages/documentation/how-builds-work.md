@@ -19,7 +19,7 @@ When building our your sites, please remember that all government websites must 
 
 ## Scheduling Nightly Builds
 
-Builds can be scheduled to occur nightly.  If you wish to schedule automatic builds of your live or demo site, add the following custom environment variable to your [live/demo branch's build configuration]({{site.baseurl}}/documentation/env-vars-on-federalist-builds/):
+Sites with public repositories can schedule builds to occur nightly.  If you wish to schedule automatic builds of your live or demo site, add the following custom environment variable to your [live/demo branch's build configuration]({{site.baseurl}}/documentation/env-vars-on-federalist-builds/):
 ```
 schedule: nightly
 ```
