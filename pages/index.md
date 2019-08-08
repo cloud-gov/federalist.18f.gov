@@ -66,6 +66,7 @@ layout: default
     </div>
   </div>
   {% include homepage/agencies.html %}
+  {% include homepage/success-stories.html %}
   {% include homepage/contact.html %}
   {% include homepage/templates.html %}
   {% include homepage/fact-sheets.html %}
