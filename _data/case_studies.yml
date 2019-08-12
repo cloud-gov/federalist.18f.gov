@@ -1,3 +1,15 @@
+- title: AFWERX
+  summary: AFWERX helps the Air Force engage with industry, academia and non-traditional contributors to foster an Air Force culture of innovation. The AFWERX team needed a fully compliant, Fedramp approved solution for their website. The internal solution on offer wasn’t as customizable as AFWERX needed it to be (through control of CSS/JavaScript/HTML) and couldn’t use an S3 bucket. The AFWERX team was particularly interested in how Federalist gave them the flexibility to choose their own template designers and ability to track analytics on the backend.
+  url: https://www.afwerx.af.mil/
+  thumbnail: /assets/images/partner-sites/afwerx.af.mil.png
+
+
+- title: Centers of Excellence
+  summary: The Centers of Excellence (CoE) leverages the private sector to modernize government IT. To promote their work, the team needed a website to talk about their successes  across government. The CoEs already had a working website, but the team wanted to add new functionality and improve the website’s  visual design.
+  url: https://coe.gsa.gov/
+  thumbnail: /assets/images/partner-sites/coe.gsa.gov.png
+
+
 - title: Vote.gov
   summary: Vote.gov makes it easier for eligible voters to participate in our democratic process by providing streamlined information on how to vote. Visitors can register electronically in states that allow it, and download a printable application in multiple languages for those states where electronic registration isn't an option. Vote.gov was ranked as the <a href="/assets/documents/2017-benchmarking-us-government-websites.pdf">#1 federal website in 2017</a> by the Information Technology &amp; Innovation Foundation for meeting basic standards in security, speed, mobile friendliness, and accessibility.
   url: https://vote.gov
