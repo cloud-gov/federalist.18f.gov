@@ -11,7 +11,7 @@ redirect_from:
 <div id="home">
   <div class="well">
     <div class="usa-grid federalist-hero">
-      <div class="usa-width-two-thirds">
+      <div class="usa-width-one-full">
         <h1 class="hero-heading">
           Trusted and scalable.
         </h1>
