@@ -49,7 +49,7 @@ redirect_from:
       <!--1 -->
       <div class="usa-width-one-full flexbox-grid example-sites-list">
         {% for item in site.data.screenshots %}
-          <div class="usa-width-one-fourth case-study">
+          <div class="usa-width-one-third case-study">
             <a href="{{item.url}}">
               <img data-action="name-site" class="thumbnail" src="{{site.baseurl}}{{item.thumbnail}}" alt="{{item.title}} screenshot">
               <p>{{item.title}}</p>
