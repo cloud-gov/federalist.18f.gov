@@ -14,6 +14,16 @@ layout: default
           Federalist is a publishing platform for modern, compliant government websites.
         </p>
       </div>
+      <div class="usa-width-one-third usa-hero-callout">
+        <h2 class="contrast-heading">Trusted and scalable</h2>
+        <ul>
+          <li><b>134</b> production .gov sites</li>
+          <li><b>9</b> federal agencies</li>
+          <li><b>65+</b> million visitors per year</li>
+          <li><b>400+</b> prototypes developed</li>
+          <li><b>639+</b> updates per week</li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="usa-header federalist-intro p-xxl">
@@ -37,7 +47,7 @@ layout: default
           <img src="{{site.baseurl}}/assets/images/build.png" alt="Hand building a website" class="mb-xl">
           <div class="feature-copy">
             <p class="sans-regular">Use our templates or develop your own—publish your web page  right away.</p>
-            <a class="sans-regular feature-link" href="https://google.com">See how the Centers of Excellence (CoEs) use Federalist to get new pages up quickly →</a>
+            <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/coe-success.pdf">See how the Centers of Excellence (CoEs) use Federalist to get new pages up quickly →</a>
           </div>
         </div>
         <div class="usa-width-one-third feature">
@@ -47,7 +57,7 @@ layout: default
             <img src="{{site.baseurl}}/assets/images/launch.png" alt="Hand launching a secure website with cloud.gov" class="mb-xl">
             <div class="feature-copy">
               <p class="sans-regular">You focus on the content, we'll worry about the security, compliance, deployment.</p>
-              <a class="sans-regular feature-link" href="https://google.com">Learn how DoD leveraged the Federalist platform to build their own template designs →</a>
+              <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/afwerx-success.pdf">Learn how DoD leveraged the Federalist platform to build their own template designs →</a>
             </div>
           </div>
         </div>
@@ -58,7 +68,7 @@ layout: default
             <img src="{{site.baseurl}}/assets/images/manage.png" alt="Hand using faders to manage website deployments" class="mb-xl">
             <div class="feature-copy">
               <p class="sans-regular">Use our intuitive interface to control the process from start to finish.</p>
-              <a class="sans-regular feature-link" href="https://google.com">Learn how DOI used a Federalist template to host their data projects →</a>
+              <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/doi-success.pdf">Learn how DOI used a Federalist template to host their data projects →</a>
             </div>
           </div>
         </div>
@@ -66,6 +76,7 @@ layout: default
     </div>
   </div>
   {% include homepage/agencies.html %}
+  {% include homepage/case-studies.html %}
   {% include homepage/contact.html %}
   {% include homepage/templates.html %}
   {% include homepage/fact-sheets.html %}
