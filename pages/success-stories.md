@@ -9,16 +9,12 @@ redirect_from:
 ---
 
 <div id="home">
-  <div class="well">
-    <div class="usa-grid federalist-hero">
-      <div class="usa-width-one-full">
-        <h1 class="hero-heading">
-          Trusted and scalable.
-        </h1>
-        <p class="hero-copy sub-heading">
-          Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
-        </p>
-      </div>
+  <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <h1>Trusted and scalable.</h1>
+      <p>
+        Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
+      </p>
     </div>
   </div>
 
