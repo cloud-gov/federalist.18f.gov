@@ -46,8 +46,8 @@ layout: default
           <p class="sans-bold federalist-intro-heading section-title">BUILD</p>
           <img src="{{site.baseurl}}/assets/images/build.png" alt="Hand building a website" class="mb-xl">
           <div class="feature-copy">
-            <p class="sans-regular">Use our templates or develop your own—publish your web page  right away.</p>
-            <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/coe-success.pdf">See how the Centers of Excellence (CoEs) use Federalist to get new pages up quickly →</a>
+            <p class="sans-regular">Use our templates or develop your own and publish your web page  right away.</p>
+            <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/coe-success.pdf">See how the Centers of Excellence (CoEs) used Federalist to get new pages up quickly →</a>
           </div>
         </div>
         <div class="usa-width-one-third feature">
@@ -56,7 +56,7 @@ layout: default
             <p class="sans-bold federalist-intro-heading section-title">LAUNCH</p>
             <img src="{{site.baseurl}}/assets/images/launch.png" alt="Hand launching a secure website with cloud.gov" class="mb-xl">
             <div class="feature-copy">
-              <p class="sans-regular">You focus on the content, we'll worry about the security, compliance, deployment.</p>
+              <p class="sans-regular">You focus on the content, we'll worry about the security, compliance, and deployment.</p>
               <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/afwerx-success.pdf">Learn how DoD leveraged the Federalist platform to build their own template designs →</a>
             </div>
           </div>
