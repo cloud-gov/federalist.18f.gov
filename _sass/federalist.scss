@@ -28,6 +28,10 @@ $white-shaded: #eef4fb;
       > div {
         left: 0 !important;
       }
+
+      img {
+        width: auto;
+      }
     }
   }
 
@@ -102,6 +106,7 @@ $white-shaded: #eef4fb;
   }
   margin-bottom: 100px;
 }
+
 .example-sites-list{
   img{
     border: 1px solid #ddd;
@@ -130,13 +135,6 @@ $white-shaded: #eef4fb;
 
 .features-block {
   position: relative;
-
-  .feature {
-    > div {
-      left:5%;
-      position:relative;
-    }
-  }
 
   .section-title {
     margin-top: 0;
@@ -182,9 +180,7 @@ $white-shaded: #eef4fb;
 }
 
 .position-right {
-  left: 90%;
-  margin-right: 4.8291588071% !important;
-  position: relative;
+  float: right;
 }
 
 .font-large {
