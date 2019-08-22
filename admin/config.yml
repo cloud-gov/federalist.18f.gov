@@ -21,8 +21,9 @@ collections:
       - {label: 'Layout', name: 'layout', widget: 'string', default: 'page'}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: Documentation
-    label: Documentation Page
+  - name: Documentation Pages
+    label: Documentation Pages
+    label_singular: Documentation Page
     folder: pages/documentation
     create: true
     slug: "{{slug}}"
