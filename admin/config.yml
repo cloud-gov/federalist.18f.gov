@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: 18f/federalist.18f.gov
+  base_url: https://federalistapp-staging.18f.gov
+  auth_endpoint: external/auth/github
+
+media_folder: /assets/images
+public_folder: /uploads
+publish_mode: editorial_workflow
+logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
+
+collections:
+  - name: Pages
+    label: Pages
+    label_singular: Page
+    folder: pages/
+    create: true
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'string', default: 'page'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: Documentation
+    label: Documentation Page
+    folder: pages/documentation
+    create: true
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
