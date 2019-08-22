@@ -9,18 +9,16 @@ redirect_from:
 ---
 
 <div id="home">
-  <div class="usa-grid">
-    <div class="usa-width-two-thirds">
-      <h1>Trusted and scalable.</h1>
-      <p>
-        Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
-      </p>
-    </div>
-    <div class="usa-width-one-third usa-hero-callout">
-      <p>
-        Federalist welcomes its newest client, <b>GSA's Office of Government Wide Policy Councils Team</b>
-      </p>
-      <p>February 28, 2018</p>
+  <div class="well">
+    <div class="usa-grid federalist-hero">
+      <div class="usa-width-one-full">
+        <h1 class="hero-heading">
+          Trusted and scalable.
+        </h1>
+        <p class="hero-copy sub-heading">
+          Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
+        </p>
+      </div>
     </div>
   </div>
 
