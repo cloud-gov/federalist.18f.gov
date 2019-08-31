@@ -8,8 +8,8 @@ secondary:
     href: /success-stories/
   - text: Documentation
     href: /documentation/
-  - text: Support
-    href: /support/
+  - text: Pricing
+    href: /pricing/
   - text: Contact
     href: /contact/
     # Look inside assets/js/index.js to see that how this url changes depending on enviroment
@@ -60,6 +60,8 @@ sidenav:
         href: /documentation/
       - text: How builds work
         href: /documentation/how-builds-work/
+      - text: Specific build Errors
+        href: /documentation/build-errors/
       - text: Environment variables on builds
         href: /documentation/env-vars-on-federalist-builds/
       - text: How custom URLs work
