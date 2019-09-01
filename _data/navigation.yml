@@ -19,6 +19,24 @@ secondary:
     class: usa-button usa-button-secondary nav-button
 
 
+footer:
+  - text: Home
+    href: /
+  - text: Features
+    href: /features/
+  - text: Success Stories
+    href: /success-stories/
+  - text: Documentation
+    href: /documentation/
+  - text: Pricing
+    href: /pricing/
+  - text: Contact
+    href: /contact/
+  - text: Manage Sites
+    href: https://federalistapp.18f.gov
+    external: true
+
+
 sidenav:
   - text: Using Federalist
     href: /documentation/
@@ -60,7 +78,7 @@ sidenav:
         href: /documentation/
       - text: How builds work
         href: /documentation/how-builds-work/
-      - text: Specific build Errors
+      - text: Specific build errors
         href: /documentation/build-errors/
       - text: Environment variables on builds
         href: /documentation/env-vars-on-federalist-builds/
@@ -85,19 +103,3 @@ sidenav:
       - text: Monorepos on Federalist
         href: /documentation/monorepos-on-federalist/
 
-footer:
-  - text: Home
-    href: /
-  - text: Features
-    href: /features/
-  - text: Success Stories
-    href: /success-stories/
-  - text: Documentation
-    href: /documentation/
-  - text: Support
-    href: /support/
-  - text: Contact
-    href: /contact/
-  - text: Manage Sites
-    href: https://federalistapp.18f.gov
-    external: true
