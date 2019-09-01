@@ -27,6 +27,5 @@ Here are the templates currently available:
   </p>
 {% endfor %}
 
-As time allows, we hope to add other templates based on existing Federalist sites.
 
-Additionally, Federalist will build any Jekyll or Hugo website, supporting [custom website templates]({{site.baseurl}}/documentation/how-builds-work). Hugo support is currently experimental.
+Federalist will build any Jekyll, Gatsby or Hugo website, supporting [custom website templates]({{site.baseurl}}/documentation/how-builds-work). 
