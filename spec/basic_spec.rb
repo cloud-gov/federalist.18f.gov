@@ -46,12 +46,12 @@ describe "success stories page", type: :feature, js: false do
 
 end
 
-describe "support page", type: :feature, js: false do
+describe "pricing page", type: :feature, js: false do
   before(:each) do
-    visit '/support'
+    visit '/pricing'
   end
   it "has support message" do
-    expect(page).to have_text("Getting Support")
+    expect(page).to have_text("Pricing")
   end
 end
 
