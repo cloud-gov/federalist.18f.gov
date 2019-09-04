@@ -8,7 +8,7 @@ layout: default
   <div class="well mb-xl">
     <div class="usa-grid">
       <div class="usa-width-two-thirds">
-        <h1>"There’s no easier way to" <br> "build, launch, and manage government sites".</h1>
+        <h1>There’s no easier way to <br>build, launch, and manage government sites.</h1>
         <p class="font-large sans-regular">
           <a id="page-body"></a>
           Federalist is a publishing platform for modern, compliant government websites.
