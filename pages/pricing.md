@@ -5,7 +5,7 @@ layout: page
 ---
 # Pricing
 
-### Basic plan: Access to Federalist $24,949/year
+## Basic plan: Access to Federalist $24,949/year
 
 **Included in each subscription**
 - GSA-maintained GSA Authority to Operate (ATO) for all your sites.
@@ -21,7 +21,7 @@ need heavy customization of templates, or 2) you have a team capable of managing
 
 
 
-### Basic plan + Additional support $82,699/year
+## Basic plan + Additional support $82,699/year
 Included in each subscription
 - Design feedback and technical implementation recommendations.
 - Technical assistance implementing a U.S Web Design System template.
