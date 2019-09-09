@@ -357,6 +357,17 @@ $white-shaded: #eef4fb;
   cursor: pointer;
 }
 
+.usa-logo a {
+  background-image: url('../../assets/images/federalist-logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: transparent;
+  display: inline-block;
+  height: auto;
+  width: 150px;
+}
+
 .usa-nav .usa-button.nav-button {
   border: none;
   border-radius: 2px;
