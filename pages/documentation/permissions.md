@@ -13,10 +13,10 @@ redirect_from:
 ## Initial access
 
 ### Personal Access
-Basic access to federalist is authenticated using GitHub OAuth.  Please ask your team's primary contact for Federalist to request access to Federalist by e-mailing federalist-support@gsa.gov with the GitHub usernames of those that should have access. Primary contacts should also let us know when to remove access as part of offboarding.
+Basic access to Federalist is authenticated using GitHub OAuth.  Please ask your team's primary contact for Federalist to request access to Federalist by e-mailing federalist-support@gsa.gov with the GitHub usernames of those that should have access. Next, you should receive an invitation to join the federalist-users GitHub organization which you must accept before you can [sign in to Federalist](https://federalistapp.18f.gov/auth/github). Primary contacts should also let us know when to remove access as part of offboarding.
 
 ### Organizational Access
-In order to manage sites where the repository is owned by an organization, Federalist uses GitHub oAuth at the organizational level.  After you have obtained personal access to Federalist by joining the federalist-users GitHub organization, as described above, you must [request organization approval](https://help.github.com/en/articles/requesting-organization-approval-for-oauth-apps) for the federalist.18f.gov oAuth App.  Be sure to follow up with your organization's GitHub admin to confirm approval.
+In order to manage sites where the repository is owned by an organization, Federalist uses GitHub oAuth at the organizational level.  After you have signed-in to Federalist, as described in the Personal Access section above, you must [request organization approval](https://help.github.com/en/articles/requesting-organization-approval-for-oauth-apps) for the federalist.18f.gov oAuth App.  Be sure to follow up with your organization's GitHub admin to confirm approval.
 
 ## Site permissions
 
