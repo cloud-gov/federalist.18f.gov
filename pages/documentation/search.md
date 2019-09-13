@@ -5,9 +5,7 @@ layout: page
 sidenav: documentation
 redirect_from:
   - /pages/using-federalist/search/
-
 ---
-## Search on Federalist Sites
 
 It's easy to add search functionality to a site.
 

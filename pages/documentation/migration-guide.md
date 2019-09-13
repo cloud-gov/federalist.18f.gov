@@ -8,8 +8,6 @@ redirect_from:
 
 ---
 
-# Migration Guide
-
 Welcome to your migrating journey onto Federalist! This process may be difficult. 18F generally cannot provide support for migration work beyond general guidance under a standard Federalist agreement, but if you are in a situation where you need a lot of help, please [contact us](mailto:inquiries18F@gsa.gov) for a path analysis from our Custom Partner Solutions team.
 
 ## Before you start

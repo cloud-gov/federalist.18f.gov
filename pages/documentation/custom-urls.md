@@ -7,7 +7,6 @@ redirect_from:
   - /pages/how-federalist-works/custom-urls/
 ---
 
-# Custom URLs
 
 ## How Federalist custom URLs work
 

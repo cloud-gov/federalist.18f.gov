@@ -1,9 +1,8 @@
 ---
-title: Support
+title: Pricing
 permalink: /pricing/
 layout: page
 ---
-# Pricing
 
 ## Basic plan: Access to Federalist $24,949/year
 

@@ -6,8 +6,6 @@ sidenav: documentation
 ---
 
 
-# Build Errors
-
 The following is a non-exhausitve list of commmon issues we see partners run into:
 
 - Trying to deploy code that uses the `github-pages` gem interferes with the Federalist build process to specific URLs. Users should always remove that gem from their repos.

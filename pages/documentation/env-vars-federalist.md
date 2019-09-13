@@ -1,5 +1,5 @@
 ---
-title: ENV variables available during Federalist builds
+title: Build environment variables
 permalink: /documentation/env-vars-on-federalist-builds/
 layout: page
 sidenav: documentation

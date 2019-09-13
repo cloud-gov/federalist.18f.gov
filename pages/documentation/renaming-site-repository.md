@@ -5,7 +5,7 @@ layout: page
 sidenav: documentation
 ---
 
-# Updating your Federalist site after renaming your repository
+## Updating your Federalist site after renaming your repository
 
 Renaming your site repository will interrupt a site's ability to build.  In order to resume site building, it will require you to add a new site to Federalist with the new repository url.  (Note: Please be aware that if your site is already live and its repository has been renamed, it will be frozen until a new site is added to Federalist at the new repository and a security scan is successfully performed on your new site.)
 

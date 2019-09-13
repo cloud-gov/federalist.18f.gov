@@ -8,8 +8,6 @@ redirect_from:
 
 ---
 
-# Access and Permissions
-
 ## Initial access
 
 ### Personal Access

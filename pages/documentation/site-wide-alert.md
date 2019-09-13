@@ -7,8 +7,6 @@ redirect_from:
   - /pages/for-federalist-developers/site-wide-alert/
 ---
 
-# Site Wide Alert
-
 Members of the Federalist dev team can update Federalist to display a banner explaining any maintenance, bugs, or degradation that users should be aware of. This is done by setting values in a user provided service.
 
 ## Setting A Site Wide Alert

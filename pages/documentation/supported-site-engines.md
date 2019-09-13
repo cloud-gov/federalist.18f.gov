@@ -7,8 +7,6 @@ redirect_from:
   - /pages/using-federalist/supported-site-engines/
 ---
 
-# Supported Site Engines
-
 ## Current Support
 - [Jekyll](http://jekyllrb.com)
 - [Hugo](https://gohugo.io/)

@@ -8,7 +8,6 @@ redirect_from:
 
 ---
 
-# Bundler on Federalist
 
 Federalist uses [Bundler](https://bundler.io/) to manage your Federalist site's dependencies.  By default, Federalist runs Bundler version 1.
 

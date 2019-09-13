@@ -12,8 +12,6 @@ redirect_from:
 
 ---
 
-# Using Federalist
-
 ### Getting started
 After we execute an Inter-Agency Agreement (IAA), and you are a live customer, we will onboard you into our support process. Our goal is to provide you with support responses within one business day though we aspire to be faster in our responses. As a reminder, Federalist agreements do not include labor hours, but we always want to make sure the platform is working and responsive to your needs as we consider new features.
 

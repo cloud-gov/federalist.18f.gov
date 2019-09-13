@@ -7,8 +7,6 @@ redirect_from:
   - /pages/how-federalist-works/cloud-gov-setup/
 ---
 
-# Cloud.gov Setup
-
 ## Configuring Federalist in cloud.gov's GovCloud environment
 
 Federalist is built to be deployed to the [GovCloud](https://cloud.gov/docs/apps/govcloud/) region in [cloud.gov](https://cloud.gov/docs/). This guide is targeted at anyone who wishes to deploy the entire Federalist system to cloud.gov from the ground up, or anyone who wishes to get a better grasp of how the system is architected by looking at how it is deployed.

@@ -13,6 +13,5 @@ redirect_from:
   - /pages/content-guide/writing-content-for-your-federalist-homepage/
 ---
 
-# Content Guide
 
 18F maintains [a content guide](https://content-guide.18f.gov/) that helps writers create clear, accessible, and user-friendly content.
