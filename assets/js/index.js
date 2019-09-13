@@ -12,3 +12,10 @@ switch (window.location.hostname){
     // this will catch different local addresses: localhost, 0.0.0.0, 127.0.0.1, etc
     document.querySelector('.usa-nav-secondary-links li:last-child a').href = 'http://localhost:1337';
 }
+
+// Temporary added to ensure the search input is visible to browser users
+//
+// Can be removed once https://github.com/18F/uswds-jekyll/issues/184 is resolved
+// and the dependency is updated.
+//
+document.getElementById('search_form').classList.remove('usa-sr-only');
