@@ -2,7 +2,8 @@
   "name": "federalist.18f.gov",
   "description": "Federalist is a publishing platform for modern, compliant government websites.",
   "scripts": {
-    "update_jquery": "cp node_modules/jquery/dist/jquery.min.js ./assets/js/3/jquery.min.js;"
+    "update_jquery": "cp node_modules/jquery/dist/jquery.min.js ./assets/js/3/jquery.min.js;",
+    "federalist": "npm run update_jquery",
   },
   "repository": {
     "type": "git",
