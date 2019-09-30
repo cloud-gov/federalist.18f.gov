@@ -1,0 +1,19 @@
+{
+  "name": "federalist.18f.gov",
+  "description": "Federalist is a publishing platform for modern, compliant government websites.",
+  "scripts": {
+    "update_jquery": "cp node_modules/jquery/dist/jquery.min.js ./assets/js/3/jquery.min.js;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18F/federalist.18f.gov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/18F/federalist.18f.gov/issues"
+  },
+  "dependencies": {
+    "jquery": "3.x"
+  }
+}
