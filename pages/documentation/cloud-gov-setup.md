@@ -134,6 +134,15 @@ The first time the app is pushed it may fail to start. That is okay. The app can
 
 Note that it is possible to push multiple build containers, as long as they have unique names.
 
+### Internal Domains
+
+Federalist leverages [internal container-to-container routes](https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html#internal-routes) to efficiently receive build status and log updates from build containers; therfore, a [network policy](https://cli.cloudfoundry.org/en-US/cf/add-network-policy.html) must be added per build container to send messages to Federalist.
+
+To add a network policy for a build container to send messages Federalist's internal domain:
+```shell
+cf add-network-policy federalist-build-container-staging-1 --destination-app federalistapp --protocol tcp --port 8080
+```
+
 ## Provisioning AWS resources
 
 The next pieces of Federalist that need to be deployed will depend on certain AWS resources. That makes this a good time to provision the AWS resources that are needed:
