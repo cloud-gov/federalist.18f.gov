@@ -16,10 +16,10 @@ Netlify CMS functionality is now built into the base Federalist Jekyll, Gatsby, 
 ### Adding Netlify CMS to existing site
 If your site is already up and running, please follow the instructions on [Netlify's Add To Your Site](https://www.netlifycms.org/docs/add-to-your-site/) page to add Netlify CMS. Please pay particular attention to the location of the admin folder depending on your static site generator.
 
-**Jekyll:
+Jekyll:
 ./admin/config.yml
 
-# Gatsby or Hugo:
+Gatsby or Hugo:
 ./static/admin/config.yml
 
 ### Getting familiar with Netlify CMS
