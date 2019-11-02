@@ -1,3 +1,5 @@
+case_studies_title: Trusted and scalable.
+case_studies_summary: Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
 case_studies:
   - title: Vote.gov
     summary: Vote.gov makes it easier for eligible voters to participate in our democratic process by providing streamlined information on how to vote. Visitors can register electronically in states that allow it, and download a printable application in multiple languages for those states where electronic registration isn't an option. Vote.gov was ranked as the <a href="/assets/documents/2017-benchmarking-us-government-websites.pdf">#1 federal website in 2017</a> by the Information Technology &amp; Innovation Foundation for meeting basic standards in security, speed, mobile friendliness, and accessibility.
@@ -34,6 +36,9 @@ case_studies:
     url: https://fedramp.gov
     thumbnail: /assets/images/partner-sites/fedramp.gov.png
 
+
+screenshots_title: See more sites powered by Federalist.
+screenshots_summary: Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
 screenshots:
   - title: Performance.gov
     url: https://www.performance.gov
@@ -54,7 +59,7 @@ screenshots:
   - title: Office of Evaluation Sciences
     url: https://oes.gsa.gov
     thumbnail: /assets/images/partner-sites/oes.gsa.gov.png
-    
+
   - title: PCLOB
     url: https://pclob.gov
     thumbnail: /assets/images/partner-sites/pclob.gov.png

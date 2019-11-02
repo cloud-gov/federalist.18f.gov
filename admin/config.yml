@@ -4,6 +4,7 @@ backend:
   base_url: https://federalistapp-staging.18f.gov
   auth_endpoint: external/auth/github
   branch: dc/netlify-cms
+  use_graphql: true
 
 media_folder: /assets/images
 public_folder: /uploads
@@ -18,6 +19,8 @@ collections:
         name: "success-stories"
         file: "_data/success_stories.yml"
         fields:
+          - {label: "Case Studies Title", name: "case_studies_title", widget: string}
+          - {label: "Case Studies Summary", name: "case_studies_summary", widget: text}
           - label: "Case Studies"
             name: "case_studies"
             widget: list
@@ -26,6 +29,8 @@ collections:
               - {label: "Summary", name: "summary", widget: "text"}
               - {label: "Url", name: "url", widget: "string"}
               - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+          - {label: "Screenshots Title", name: "screenshots_title", widget: string}
+          - {label: "Screenshots Summary", name: "screenshots_summary", widget: text}
           - label: "Screenshots"
             name: "screenshots"
             widget: list
