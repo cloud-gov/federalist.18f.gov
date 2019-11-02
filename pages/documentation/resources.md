@@ -7,7 +7,6 @@ redirect_from:
   - /pages/using-federalist/resources/
 
 ---
-# {{ page.title }}
 
 ## Working with markdown
 

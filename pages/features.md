@@ -5,27 +5,23 @@ layout: default
 ---
 
 <div class="features-page">
-  <div class="well">
-    <div class="usa-grid federalist-hero">
-      <div class="usa-width-two-thirds">
-        <h1 class="hero-heading">
-          Less work.<br>
-          More Federalist.
-        </h1>
-        <p class="hero-copy sub-heading">We’ve taken the work out of launching a compliant federal website.</p>
-      </div>
-      <div class="usa-width-one-third usa-hero-callout">
-        <h2>Try it for free</h2>
-        <p>Contact us to try Federalist temporarily on a prototype or test project.</p>
-        <a class="usa-button" href="mailto:federalist-inquiries@gsa.gov?body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20your%20website%20project%20or%20your%20questions%20about%20federalist:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%20and%20when%20might%20be%20a%20good%20time%3F%0A"> Get in touch</a>
-      </div>
+  <div class="usa-grid mb-lg">
+    <div class="usa-width-two-thirds">
+      <h1>
+        Less work.<br>
+        More Federalist.
+      </h1>
+      <p>We’ve taken the work out of launching a compliant federal website.</p>
+    </div>
+    <div class="usa-width-one-third usa-hero-callout">
+      <h2>Try it for free</h2>
+      <p>Contact us to try Federalist temporarily on a prototype or test project.</p>
+      <a class="usa-button" href="mailto:federalist-inquiries@gsa.gov?body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20your%20website%20project%20or%20your%20questions%20about%20federalist:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%20and%20when%20might%20be%20a%20good%20time%3F%0A"> Get in touch</a>
     </div>
   </div>
 
-  <div class="usa-grid">
-    <br>
-    <hr class="hr-light">    
-    <br>
+  <div class="usa-grid mb-lg">
+    <hr class="hr-light">
   </div>
   
   <div class="usa-grid">
@@ -102,7 +98,7 @@ layout: default
     <hr class="hr-light">    
   </div>
   
-  <div class="usa-grid">
+  <div class="usa-grid mb-xxl">
     <section class="info-block">
       <a id="page-body"></a>
       <h1>It’s easy to get started.</h1>
@@ -147,30 +143,24 @@ layout: default
     </section>
   </div>
 
-
-  <div class="usa-grid">
-    <br>
-    <hr class="hr-light">    
-    <br>
+  <div class="usa-grid mb-lg">
+    <hr class="hr-light"/>
   </div>
-  
 
-  <div class="well">
-    <div class="usa-grid federalist-hero">
-      <h1>We’re here to help.</h1>
-      <div class="flexbox-grid">
-        <div class="usa-width-one-third flexbox-item">
-          <p class="medium-copy">Try a free test site to see if Federalist is right for you.</p>
-          <a class="usa-button callout-inline" href="mailto:federalist-inquiries@gsa.gov?body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20your%20website%20project%20or%20your%20questions%20about%20federalist:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%20and%20when%20might%20be%20a%20good%20time%3F%0A">Get in touch</a>          
-        </div>
-        <div class="usa-width-one-third flexbox-item">
-          <p class="medium-copy">Join our Slack community to connect and learn from other Federalist users across the federal government.</p>
-          <a class="usa-button" href="https://chat.18f.gov/">Join the Slack channel</a>
-        </div>
-        <div class="usa-width-one-third flexbox-item">
-          <p class="medium-copy">The Federalist team wants to learn from your experience so we can improve the product for all our users.</p>
-          <a class="usa-button" href="mailto:federalist-inquiries@gsa.gov">Share your feedback</a>
-        </div>
+  <div class="usa-grid mt-md">
+    <h1>We’re here to help.</h1>
+    <div class="flexbox-grid">
+      <div class="usa-width-one-third flexbox-item">
+        <p class="medium-copy">Try a free test site to see if Federalist is right for you.</p>
+        <a class="usa-button callout-inline" href="mailto:federalist-inquiries@gsa.gov?body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20your%20website%20project%20or%20your%20questions%20about%20federalist:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%20and%20when%20might%20be%20a%20good%20time%3F%0A">Get in touch</a>          
+      </div>
+      <div class="usa-width-one-third flexbox-item">
+        <p class="medium-copy">Join our Slack community to connect and learn from other Federalist users across the federal government.</p>
+        <a class="usa-button" href="https://chat.18f.gov/">Join the Slack channel</a>
+      </div>
+      <div class="usa-width-one-third flexbox-item">
+        <p class="medium-copy">The Federalist team wants to learn from your experience so we can improve the product for all our users.</p>
+        <a class="usa-button" href="mailto:federalist-inquiries@gsa.gov">Share your feedback</a>
       </div>
     </div>
   </div>

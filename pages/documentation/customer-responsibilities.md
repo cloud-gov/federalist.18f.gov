@@ -7,7 +7,6 @@ redirect_from:
   - /pages/using-federalist/customer-responsibilities/
 ---
 
-# Customer Responsibilities
 
 ## Your Responsibilities
 

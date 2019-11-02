@@ -8,8 +8,6 @@ redirect_from:
 
 ---
 
-# Instructional Demos
-
 We've created some video tutorials on using Federalist.
 
 ## Introduction to Federalist

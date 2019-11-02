@@ -7,8 +7,6 @@ redirect_from:
   - /pages/using-federalist/supported-site-engines/
 ---
 
-# Supported Site Engines
-
 ## Current Support
 - [Jekyll](http://jekyllrb.com)
 - [Hugo](https://gohugo.io/)
@@ -84,7 +82,7 @@ Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-bas
 
 ### Hugo version
 
-When building a Federalist site using Hugo, the desired version of Hugo for building your site must be specified in a `.hugo-verson` file located in your repository's root directory.
+When building a Federalist site using Hugo, the desired version of Hugo for building your site must be specified in a `.hugo-version` file located in your repository's root directory.
 >Sample .hugo-version file contents:
 >>```markdown
 0.48

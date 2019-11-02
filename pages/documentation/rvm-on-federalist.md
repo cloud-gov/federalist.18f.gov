@@ -7,8 +7,6 @@ redirect_from:
   - /pages/how-federalist-works/rvm-on-federalist/
 ---
 
-# RVM on Federalist
-
 Federalist uses [RVM](https://rvm.io/) to select which ruby version to use to build a Federalist site.
 
 ## Specifying a Ruby version

@@ -8,8 +8,6 @@ redirect_from:
 
 ---
 
-# Node on Federalist
-
 *Note that the features described in this document are experimental.*
 
 Federalist supports using node and npm to build your entire site OR to build parts of your site before the build engine starts its work.

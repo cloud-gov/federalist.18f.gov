@@ -7,8 +7,6 @@ redirect_from:
   - /pages/using-federalist/getting-started-with-jekyll/
 
 ---
-# {{ page.title }}
-
 
 _Welcome! The intended audience of this guide is content creators who have
 limited technical knowledge and no HTML, CSS, or YAML experience. Keep in mind

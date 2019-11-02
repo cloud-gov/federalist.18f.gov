@@ -8,8 +8,6 @@ redirect_from:
 
 ---
 
-# What you get with Federalist
-
 * An automatic deployment mechanism for certain static site assets and [supported site engines]({{site.baseurl}}/documentation/supported-site-engines).
 * Web-based configuration and access to preview builds.
 * 18F's work to complete and maintain an agency Authority to Operate (ATO) for Federalist's hosting, leveraging the cloud.gov System Security Plan (SSP), with a short process to add new sites to the ATO documentation.

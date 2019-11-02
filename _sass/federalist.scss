@@ -7,8 +7,9 @@ $white-shaded: #eef4fb;
     position: absolute;
     right: 0;
     top: -5.7rem;
-  }  
+  }
 }
+
 .usa-nav-secondary-links{
   float: right;
 }
@@ -16,15 +17,60 @@ $white-shaded: #eef4fb;
   padding-left: 1.5rem;
 }
 
+.mobile {
+  display: none;
+}
+
 
 @media screen and (max-width: 951px){
+  .features-block {
+    .feature {
+      > div {
+        left: 0 !important;
+      }
+
+      img {
+        width: auto;
+      }
+    }
+  }
+
+  .federalist-intro {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .feature-copy {
+    padding-left: 0 !important;
+    text-align: center !important;
+  }
+
+  .federalist-hero {
+    width: 100% !important;
+  }
+
+  .feature {
+    margin-bottom: 6rem;
+  }
+
+  .mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .steps-block {
+    display: none;
+  }
+
   .usa-nav-secondary-links {
     float: left;
   }  
   
   .usa-nav .usa-button.nav-button{
     padding: 0;
-
+  }
+  .line::before {
+    content: none;
   }
 }
 
@@ -39,9 +85,6 @@ $white-shaded: #eef4fb;
   ul{
     list-style: none;
     padding-left: 0;
-    //      li{
-    //        list-style: none;
-    //      }
   }
 
 }
@@ -63,6 +106,7 @@ $white-shaded: #eef4fb;
   }
   margin-bottom: 100px;
 }
+
 .example-sites-list{
   img{
     border: 1px solid #ddd;
@@ -78,6 +122,108 @@ $white-shaded: #eef4fb;
   }
 }
 
+.federalist-heading {
+  font-family: "merriweatherblack";
+  font-size: 2.6rem;
+}
+
+.steps-block {
+  margin: 0 auto;
+  position: relative;
+  width: 75%;
+}
+
+.features-block {
+  position: relative;
+
+  .section-title {
+    margin-top: 0;
+  }
+
+  .feature-copy {
+    padding-left: 3rem;
+    text-align: left;
+  }
+
+  .feature-link {
+    color: white;
+    font-size: 1.4rem;
+  }
+}
+
+.steps-circle {
+  background-color: #0271BB;
+  border-radius: 5rem;
+  color: white;
+  font-family: "merriweatherblack";
+  font-size: 2.6rem;
+  height: 5rem;
+  line-height: 5rem;
+  position: relative;
+  width: 5rem;
+}
+
+.line::before{
+  content: '';
+  position: absolute;
+  top: 2.5rem;
+  left: 5rem;
+  height: .4rem;
+  background: white;
+  width: 90%;
+  z-index: -1;
+}
+
+
+.position-center {
+  margin: 0 auto;
+}
+
+.position-right {
+  float: right;
+}
+
+.font-large {
+  font-size: 3rem;
+}
+
+.sans-regular {
+  font-family: "source_sans_proregular";
+}
+
+.sans-bold {
+  font-family: "source_sans_probold";
+}
+
+.federalist-intro {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.federalist-intro-heading {
+  font-size: 2.6rem;
+}
+
+.federalist-hero {
+  color: white;
+  font-family: "source_sans_proregular";
+  font-size: 2.6rem;
+  line-height: 3.2rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  width: 50%;
+  
+  .usa-button {
+    background-color: #0271bb;
+    border-radius: 2px;
+    font-size: 2rem;
+    padding: 1.6rem;
+    width: 45%;
+  }
+}
+
 .features-page{
   .feature-group{
     .feature-text{
@@ -86,6 +232,58 @@ $white-shaded: #eef4fb;
   }
   
   margin-bottom: 200px;
+}
+
+.mt-xl {
+  margin-top: 4rem !important;
+}
+
+.mb-sm {
+  margin-bottom: 1rem !important;
+}
+
+.mb-md {
+  margin-bottom: 2rem !important;
+}
+
+.mb-lg {
+  margin-bottom: 3rem !important;
+}
+
+.mb-xl {
+  margin-bottom: 4rem !important;
+}
+
+.mb-xxl {
+  margin-bottom: 5rem !important;
+}
+
+.mt-md {
+  margin-top: 2rem !important;
+}
+
+.p-lg {
+  padding: 3rem;
+}
+
+.p-xl {
+  padding: 4rem;
+}
+
+.p-xxl {
+  padding: 5rem;
+}
+
+.pt-xl {
+  padding-top: 4rem;
+}
+
+.pb-xl {
+  padding-bottom: 4rem;
+}
+
+.pb-xxl {
+  padding-bottom: 5rem;
 }
 
 #main-content{
@@ -100,8 +298,6 @@ $white-shaded: #eef4fb;
       margin-bottom: 3%;
     }
   }
-
-
 }
 
 .figure-seal{
@@ -115,6 +311,7 @@ $white-shaded: #eef4fb;
     justify-content: space-between;
     list-style: none;
     margin-top: 4px;
+    margin-bottom: 0px;
     padding: 0;
 }
 
@@ -158,6 +355,17 @@ $white-shaded: #eef4fb;
 
 .usa-logo-text:hover{
   cursor: pointer;
+}
+
+.usa-logo a {
+  background-image: url('../../assets/images/federalist-logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: transparent;
+  display: inline-block;
+  height: auto;
+  width: 150px;
 }
 
 .usa-nav .usa-button.nav-button {

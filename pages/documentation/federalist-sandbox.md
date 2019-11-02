@@ -7,8 +7,6 @@ redirect_from:
   - /using-federalist/federalist-sandbox/
 ---
 
-# {{ page.title }}
-
 ## Getting started with a Federalist sandbox environment:
 
 If you're interested in seeing how Federalist works for yourself, [let us know]({{site.baseurl}}/contact/), and we can create a sandbox environment for your team.

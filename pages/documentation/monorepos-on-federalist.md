@@ -5,7 +5,6 @@ layout: page
 sidenav: documentation
 ---
 
-# Monorepos on Federalist
 
 Monorepos on Federalist follow the same rules as any other Federalist site; as long as Federalist knows what command to run to build the site AND the contents are available in the `_site` folder in the project root, Federalist will be happy.
 
