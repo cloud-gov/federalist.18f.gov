@@ -3,6 +3,7 @@ backend:
   repo: 18f/federalist.18f.gov
   base_url: https://federalistapp-staging.18f.gov
   auth_endpoint: external/auth/github
+  branch: dc/netlify-cms
 
 media_folder: /assets/images
 public_folder: /uploads
@@ -10,17 +11,29 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
-  - name: Pages
-    label: Pages
-    label_singular: Page
-    folder: pages/
-    create: true
-    slug: "{{slug}}"
-    preview_path: "{{slug}}"
-    fields:
-      - {label: 'Layout', name: 'layout', widget: 'string', default: 'page'}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - label: Pages
+    name: Pages
+    files:
+      - label: "Success Stories"
+        name: "success-stories"
+        file: "_data/success_stories.yml"
+        fields:
+          - label: "Case Studies"
+            name: "case_studies"
+            widget: list
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Summary", name: "summary", widget: "text"}
+              - {label: "Url", name: "url", widget: "string"}
+              - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+          - label: "Screenshots"
+            name: "screenshots"
+            widget: list
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Url", name: "url", widget: "string"}
+              - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+
   - name: Documentation Pages
     label: Documentation Pages
     label_singular: Documentation Page
