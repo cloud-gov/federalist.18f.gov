@@ -9,8 +9,8 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
-    CMS.registerPreviewStyle("assets/css/main.css");
-    CMS.registerPreviewStyle("assets/css/site.css");
+    CMS.registerPreviewStyle("../assets/css/main.css");
+    CMS.registerPreviewStyle("../assets/css/site.css");
   </script>
   <script>
     const SuccessStoriesPreview = createClass({
@@ -20,7 +20,7 @@
         const thirdStyle = { display: 'inline-block', width: '33%' };
 
         const renderCaseStudy = (cs, index) => {
-            const src = this.props.getAsset(cs.getIn(['data', 'thumbnail']));
+            const src = this.props.getAsset(`..${cs.getIn(['data', 'thumbnail'])}`);
             return h('div', {key: index},
               h('div', { style: halfStyle },
                 h('h2', {}, cs.getIn(['data', 'title'])),
@@ -36,7 +36,7 @@
           };
 
         const renderScreenshot = (s, index) => {
-          const src = this.props.getAsset(s.getIn(['data', 'thumbnail']));
+          const src = this.props.getAsset(`..${s.getIn(['data', 'thumbnail'])}`);
           return h('div', { style: { display: 'inline-block', width: '31%', textAlign: 'center', marginRight: '1rem' } },
             h('a', {href: s.getIn(['data', 'url']), style: { display: 'block', marginBottom: '2rem'}},
               h('img', { src: src.toString(), style: { border: '1px solid lightgray' } })
