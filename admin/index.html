@@ -35,7 +35,7 @@
           };
 
         const renderScreenshot = (s, index) => {
-          const src = "{{ site.baseurl }}" + this.props.getAsset(cs.getIn(['data', 'thumbnail'])).toString();
+          const src = "{{ site.baseurl }}" + this.props.getAsset(s.getIn(['data', 'thumbnail'])).toString();
           return h('div', { style: { display: 'inline-block', width: '31%', textAlign: 'center', marginRight: '1rem' } },
             h('a', {href: s.getIn(['data', 'url']), style: { display: 'block', marginBottom: '2rem'}},
               h('img', { src, style: { border: '1px solid lightgray' } })
