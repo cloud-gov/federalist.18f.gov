@@ -27,7 +27,7 @@ BASEURL|Path for deployed site
 
 ## Adding custom environment variables available when your site builds
 
-Additional environment varialbes can be added to your live and demo site builds by:
+Additional environment variables can be added to your live and demo site builds by:
 1. Visit your site's Site Settings -> Advanced Settings
 2. In the Site/Demo Configuration textarea enter your environment variables as yaml formatted text (Note: nested data is supported)
 3. Click "Save advanced settings"
