@@ -87,7 +87,7 @@ When building a Federalist site using Hugo, the desired version of Hugo for buil
 ```markdown
 0.48.0
 ```
-For an extended Hugo version:
+>For an extended Hugo version:
 ```markdown
 extended_0.48.0
 ```
