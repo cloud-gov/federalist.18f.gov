@@ -48,5 +48,7 @@ collections:
     preview_path: "{{slug}}"
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
+      - {label: 'Sidenav', name: 'sidenav', widget: 'hidden', default: 'documentation'}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
