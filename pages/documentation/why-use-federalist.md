@@ -11,7 +11,7 @@ If you’re a program manager or a federal web developer you’ve probably been 
 
 It shouldn’t be that way.
 
-### Why Federalist?
+## Why Federalist?
 
 Federalist serves our fellow federal partners by expertly managing the backend and compliance work to launch and manage a website, allowing you to focus your expertise on your content.
 
@@ -23,7 +23,7 @@ Federalist serves our fellow federal partners by expertly managing the backend a
 
 [![Diagram of Federalist architecture]({{site.baseurl}}/assets/images/how-federalist-works-diagram.png)]({{site.baseurl}}/assets/documents/how-federalist-works-diagram.pdf)
 
-### Why static websites?
+## Why static websites?
 
 Federalist generates static websites instead of using a more complex content management system (CMS) like Drupal or WordPress. There are several advantages to static websites:
 
@@ -35,7 +35,7 @@ Federalist generates static websites instead of using a more complex content man
 
 - **Fully customizable:** Designers and developers can customize static websites into whatever form they want without having to strip away CMS-provided features and defaults. Static sites can be used to build many different types of sites, from organization homepages or intranets to pre-generated web application program interfaces that display data from a separate server.
 
-### What can I build with Federalist?
+## What can I build with Federalist?
 
 Federalist supports plain files and certain [site engines]({{site.baseurl}}/documentation/supported-site-engines), and provides [ready-to-use Jekyll templates]({{site.baseurl}}/documentation/templates/) for several common website types.
 
