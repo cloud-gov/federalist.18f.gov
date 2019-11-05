@@ -27,7 +27,7 @@ before continuing through this guide.
 {% include components/alert--note.html content=content %}
 
 
-### Getting started with Jekyll
+## Getting started with Jekyll
 
 Immediately after building a new site, you need to customize the general content
 on your site, including your site title and office’s contact information. To do
@@ -108,7 +108,7 @@ can see the build progress on the [build history page][federalist-sites].<!--
 TODO link to this site’s build history page. -->
 
 
-### Agency logo and other assets
+## Agency logo and other assets
 
 Images, PDFs, and other static files served with your site are called “assets”.
 We recommend they be stored in the assets/ directory.
@@ -125,7 +125,7 @@ able to reference the asset by using a path like `/assets/agency-logo.png` in
 your content and in `_config.yml`.
 
 
-### Create a new page
+## Create a new page
 
 Click the pages/ directory in GitHub, then click the “Create new file” button.
 Give the file a name with an `.md` extension.
@@ -149,7 +149,7 @@ layout: page
 permalink: /link/to/your-new-content-page/
 ---
 
-### Your new content page heading
+## Your new content page heading
 
 And your content goes here.
 ```
@@ -160,7 +160,7 @@ is usually `page`, meaning that your content is going to be put onto the default
 commit your changes when you’re done.
 
 
-### Template-specific customization
+## Template-specific customization
 
 You’ll want to refer to the [template
 specific documentation]({{ site.baseurl }}/documentation/templates/)
