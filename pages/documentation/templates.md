@@ -1,5 +1,5 @@
 ---
-title: Templates
+title: Site Templates
 permalink: /documentation/templates/
 layout: page
 sidenav: documentation
@@ -27,3 +27,4 @@ Here are the templates currently available:
 
 
 Federalist will build any Jekyll, Gatsby or Hugo website, supporting [custom website templates]({{site.baseurl}}/documentation/how-builds-work). 
+Update 
