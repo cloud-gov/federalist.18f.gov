@@ -38,6 +38,20 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Url", name: "url", widget: "string"}
               - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+      - label: "Pricing"
+        name: "pricing"
+        file: "_data/pricing.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "string"}
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
+          - label: "Plans"
+            name: "plans"
+            widget: list
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Summary", name: "summary", widget: "markdown"}
+              - {label: "Features", name: "features", widget: list, field: {label: "Text", name: "text", widget: "string"}}
 
   - name: Documentation Pages
     label: Documentation Pages

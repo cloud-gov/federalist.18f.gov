@@ -17,6 +17,37 @@
 
     const getData = (entry, key) => entry.getIn(['data', key]);
 
+    const PricingPreview = createClass({
+
+      render() {
+        const renderFeature = (feature, index) => {
+          const d = key => getData(feature, key);
+          return (
+            h('li', { key: index }, d('text'))
+          );
+        };
+
+        const renderPlan = (plan, index) => {
+          const d = key => getData(plan, key);
+          return (
+            h('div', { key: index },
+              h('h2', {}, d('title')),
+              h('p', {}, h('strong', {}, 'Included in each subscription')),
+              h('ul', {}, [].map(renderFeature)), // TODO!?????
+              h('p', {}, d('summary'))
+            )
+          );
+        }
+        const d = key => getData(this.props.entry, key);
+        return (
+          h('div', {},
+            h('h1', {}, d('title')),
+            this.props.widgetsFor('plans').map(renderPlan),
+          )
+        );
+      }
+    });
+    
     const SuccessStoriesPreview = createClass({
       assetUrl(entry, key) {
         return this.props.getAsset(getData(entry, key)).toString();
@@ -29,12 +60,8 @@
           return (
             h('div', { key: index, className: 'case-study' },
               h('div', {},
-                h('h2', {},
-                  d('title')
-                ),
-                h('p', {},
-                  d('summary')
-                ),
+                h('h2', {}, d('title')),
+                h('p', {}, d('summary')),
               ),
               h('div', {},
                 h('a', { href: d('url') },
@@ -64,22 +91,14 @@
         const d = key => getData(this.props.entry, key);
         return (
           h('div', {},
-            h('h1', {},
-              d('case_studies_title')
-            ),
-            h('p', {},
-              d('case_studies_summary')
-            ),
+            h('h1', {}, d('case_studies_title')),
+            h('p', {}, d('case_studies_summary')),
             h('hr', {}),
 
             this.props.widgetsFor('case_studies').map(renderCaseStudy),
 
-            h('h1', {},
-              d('screenshots_title')
-            ),
-            h('p', {},
-              d('screenshots_summary')
-            ),
+            h('h1', {}, d('screenshots_title')),
+            h('p', {}, d('screenshots_summary')),
 
             h('div', {}, this.props.widgetsFor('screenshots').slice(0, 3).map(renderScreenshot)),
             h('div', {}, this.props.widgetsFor('screenshots').slice(3, 6).map(renderScreenshot))
