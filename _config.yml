@@ -40,7 +40,7 @@ exclude:
   - /LICENSE.md
   - /CONTRIBUTING.md
   - /spec/*
-
+  
 styles:
   - /assets/css/site.css
 
