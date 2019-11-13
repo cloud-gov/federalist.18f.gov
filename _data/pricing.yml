@@ -1,6 +1,7 @@
 plans:
   - title: "Basic plan: Access to Federalist $24,949/year"
-    summary: "Basic training via video conference for Federalist and GitHub. This subscription is ideal if 1) you are focused on publishing content and do not need heavy customization of templates, or 2) you have a team capable of managing our easy-to-use templates on GitHub."
+    summary: >-
+      Basic training via video conference for Federalist and GitHub. This subscription is ideal if 1) you are focused on publishing content and do not need heavy customization of templates, or 2) you have a team capable of managing our easy-to-use templates on GitHub.
     features:
       - { text: GSA-maintained GSA Authority to Operate (ATO) for all your sites. }
       - { text: Automated tests and previews before going live. }
@@ -11,7 +12,8 @@ plans:
       - { text: No charges for storage or bandwidth. }
 
   - title: "Basic plan + Additional support $82,699/year"
-    summary: "This subscription is ideal if you want your team to have hands-on support from Federalist staff. Our goal is to transfer knowledge to your team and does not include ad-hoc consulting services."
+    summary: >-
+      This subscription is ideal if you want your team to have hands-on support from Federalist staff. Our goal is to transfer knowledge to your team and does not include ad-hoc consulting services.
     features:
       - { text: Design feedback and technical implementation recommendations. }
       - { text: Technical assistance implementing a U.S Web Design System template. }

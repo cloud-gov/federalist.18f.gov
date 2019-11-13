@@ -6,8 +6,7 @@ backend:
   branch: dc/netlify-cms
   use_graphql: true
 
-media_folder: /assets/images
-public_folder: /uploads
+media_folder: assets/images
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
@@ -50,9 +49,6 @@ collections:
         name: "pricing"
         file: "_data/pricing.yml"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Permalink", name: "permalink", widget: "string"}
-          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
           - label: "Plans"
             name: "plans"
             widget: list
@@ -60,6 +56,21 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Summary", name: "summary", widget: "markdown"}
               - {label: "Features", name: "features", widget: list, field: {label: "Text", name: "text", widget: "string"}}
+
+      - label: "Templates"
+        name: "templates"
+        file: "_data/templates.yml"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: list
+            fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Docs Url", name: "docs_url", widget: "string"}
+            - {label: "Preview Url", name: "preview_url", widget: "string"}
+            - {label: "Image", name: "img", widget: "image"}
+            - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
+            - {label: "Summary", name: "summary", widget: "text"}
 
   - name: Documentation Pages
     label: Documentation Pages
