@@ -3,15 +3,14 @@ backend:
   repo: 18f/federalist.18f.gov
   base_url: https://federalistapp-staging.18f.gov
   auth_endpoint: external/auth/github
-  branch: dc/netlify-cms
+  branch: master
   use_graphql: true
   preview_context: federalist/build
 
 media_folder: assets/images
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
-site_url: https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/preview/18f/federalist.18f.gov/dc/netlify-cms
-display_url: Current
+site_url: https://federalist.18f.gov
 
 collections:
   - label: Data
