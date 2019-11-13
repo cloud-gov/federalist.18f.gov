@@ -11,6 +11,7 @@ media_folder: assets/images
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 site_url: https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/preview/18f/federalist.18f.gov/dc/netlify-cms
+display_url: Current
 
 collections:
   - label: Data
