@@ -5,6 +5,7 @@ backend:
   auth_endpoint: external/auth/github
   branch: dc/netlify-cms
   use_graphql: true
+  preview_context: federalist/build
 
 media_folder: assets/images
 publish_mode: editorial_workflow
