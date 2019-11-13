@@ -12,8 +12,10 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
-  - label: Pages
-    name: Pages
+  - label: Data
+    name: data
+    editor:
+      preview: false
     files:
       - label: "Case Studies"
         name: "case_studies"

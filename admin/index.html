@@ -9,103 +9,103 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
-    CMS.registerPreviewStyle('/assets/css/main.css');
-    CMS.registerPreviewStyle('/assets/css/site.css');
-    CMS.registerPreviewStyle('preview.css');
+    // CMS.registerPreviewStyle('/assets/css/main.css');
+    // CMS.registerPreviewStyle('/assets/css/site.css');
+    // CMS.registerPreviewStyle('preview.css');
   </script>
   <script>
 
-    const getData = (entry, key) => entry.getIn(['data', key]);
+    // const getData = (entry, key) => entry.getIn(['data', key]);
 
-    const PricingPreview = createClass({
+    // const PricingPreview = createClass({
 
-      render() {
-        const renderFeature = (feature, index) => {
-          const d = key => getData(feature, key);
-          return (
-            h('li', { key: index }, d('text'))
-          );
-        };
+    //   render() {
+    //     const renderFeature = (feature, index) => {
+    //       const d = key => getData(feature, key);
+    //       return (
+    //         h('li', { key: index }, d('text'))
+    //       );
+    //     };
 
-        const renderPlan = (plan, index) => {
-          const d = key => getData(plan, key);
-          return (
-            h('div', { key: index },
-              h('h2', {}, d('title')),
-              h('p', {}, h('strong', {}, 'Included in each subscription')),
-              h('ul', {}, [].map(renderFeature)), // TODO!?????
-              h('p', {}, d('summary'))
-            )
-          );
-        }
-        const d = key => getData(this.props.entry, key);
-        return (
-          h('div', {},
-            h('h1', {}, d('title')),
-            this.props.widgetsFor('plans').map(renderPlan),
-          )
-        );
-      }
-    });
+    //     const renderPlan = (plan, index) => {
+    //       const d = key => getData(plan, key);
+    //       return (
+    //         h('div', { key: index },
+    //           h('h2', {}, d('title')),
+    //           h('p', {}, h('strong', {}, 'Included in each subscription')),
+    //           h('ul', {}, [].map(renderFeature)), // TODO!?????
+    //           h('p', {}, d('summary'))
+    //         )
+    //       );
+    //     }
+    //     const d = key => getData(this.props.entry, key);
+    //     return (
+    //       h('div', {},
+    //         h('h1', {}, d('title')),
+    //         this.props.widgetsFor('plans').map(renderPlan),
+    //       )
+    //     );
+    //   }
+    // });
     
-    const SuccessStoriesPreview = createClass({
-      assetUrl(entry, key) {
-        return this.props.getAsset(getData(entry, key)).toString();
-      },
+    // const SuccessStoriesPreview = createClass({
+    //   assetUrl(entry, key) {
+    //     return this.props.getAsset(getData(entry, key)).toString();
+    //   },
 
-      render() {
-        const renderCaseStudy = (cs, index) => {
-          const d = key => getData(cs, key);
-          const src = this.assetUrl(cs, 'thumbnail')
-          return (
-            h('div', { key: index, className: 'case-study' },
-              h('div', {},
-                h('h2', {}, d('title')),
-                h('p', {}, d('summary')),
-              ),
-              h('div', {},
-                h('a', { href: d('url') },
-                  h('img', { src })
-                )
-              ),
-              h('hr', {})
-            )
-          );
-        };
+    //   render() {
+    //     const renderCaseStudy = (cs, index) => {
+    //       const d = key => getData(cs, key);
+    //       const src = this.assetUrl(cs, 'thumbnail')
+    //       return (
+    //         h('div', { key: index, className: 'case-study' },
+    //           h('div', {},
+    //             h('h2', {}, d('title')),
+    //             h('p', {}, d('summary')),
+    //           ),
+    //           h('div', {},
+    //             h('a', { href: d('url') },
+    //               h('img', { src })
+    //             )
+    //           ),
+    //           h('hr', {})
+    //         )
+    //       );
+    //     };
 
-        const renderScreenshot = (s, index) => {
-          const d = key => getData(s, key);
-          const src = this.assetUrl(s, 'thumbnail');
-          return (
-            h('div', { key: index, className: 'screenshot' },
-              h('a', { href: d('url') },
-                h('img', { src })
-              ),
-              h('a', { href: d('url') },
-                d('title')
-              ),
-            )
-          );
-        };
+    //     const renderScreenshot = (s, index) => {
+    //       const d = key => getData(s, key);
+    //       const src = this.assetUrl(s, 'thumbnail');
+    //       return (
+    //         h('div', { key: index, className: 'screenshot' },
+    //           h('a', { href: d('url') },
+    //             h('img', { src })
+    //           ),
+    //           h('a', { href: d('url') },
+    //             d('title')
+    //           ),
+    //         )
+    //       );
+    //     };
 
-        const d = key => getData(this.props.entry, key);
-        return (
-          h('div', {},
-            h('h1', {}, d('case_studies_title')),
-            h('p', {}, d('case_studies_summary')),
-            h('hr', {}),
+    //     const d = key => getData(this.props.entry, key);
+    //     return (
+    //       h('div', {},
+    //         h('h1', {}, d('case_studies_title')),
+    //         h('p', {}, d('case_studies_summary')),
+    //         h('hr', {}),
 
-            this.props.widgetsFor('case_studies').map(renderCaseStudy),
+    //         this.props.widgetsFor('case_studies').map(renderCaseStudy),
 
-            h('h1', {}, d('screenshots_title')),
-            h('p', {}, d('screenshots_summary')),
+    //         h('h1', {}, d('screenshots_title')),
+    //         h('p', {}, d('screenshots_summary')),
 
-            h('div', {}, this.props.widgetsFor('screenshots').slice(0, 3).map(renderScreenshot)),
-            h('div', {}, this.props.widgetsFor('screenshots').slice(3, 6).map(renderScreenshot))
-          )
-        );
-      }
-    });
+    //         h('div', {}, this.props.widgetsFor('screenshots').slice(0, 3).map(renderScreenshot)),
+    //         h('div', {}, this.props.widgetsFor('screenshots').slice(3, 6).map(renderScreenshot))
+    //       )
+    //     );
+    //   }
+    // });
 
     // CMS.registerPreviewTemplate('success-stories', SuccessStoriesPreview);
   </script>
