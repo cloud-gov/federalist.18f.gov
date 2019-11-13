@@ -29,6 +29,7 @@ scripts:
 
 relative_permalinks: false
 
+
 exclude:
   - /coverage
   - /README.md
@@ -39,9 +40,6 @@ exclude:
   - /LICENSE.md
   - /CONTRIBUTING.md
   - /spec/*
-
-include:
-  - /admin/index.html
 
 styles:
   - /assets/css/site.css
