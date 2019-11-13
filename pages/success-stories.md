@@ -11,12 +11,12 @@ redirect_from:
 <div id="home">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
-      <h1>{{ site.data.success_stories.case_studies_title }}</h1>
-      <p>{{ site.data.success_stories.case_studies_summary }}</p>
+      <h1>{{ site.data.case_studies.title }}</h1>
+      <p>{{ site.data.case_studies.summary }}</p>
     </div>
   </div>
 
-  {% for item in site.data.success_stories.case_studies %}
+  {% for item in site.data.case_studies.items %}
     <div class="usa-grid">
       <hr class="hr-light">
       <div class="usa-width-one-half">
@@ -36,12 +36,12 @@ redirect_from:
   <section class="example-sites">
     <div class="usa-grid">
       <div class="usa-width-one-full">
-        <h1>{{ site.data.success_stories.screenshots_title }}</h1>
-        <p>{{ site.data.success_stories.screenshots_summary }}</p>
+        <h1>{{ site.data.screenshots.title }}</h1>
+        <p>{{ site.data.screenshots.summary }}</p>
       </div>
       
       <div class="usa-width-one-full flexbox-grid example-sites-list">
-        {% for item in site.data.success_stories.screenshots %}
+        {% for item in site.data.screenshots.items %}
           <div class="usa-width-one-third case-study">
             <a href="{{item.url}}">
               <img data-action="name-site" class="thumbnail" src="{{site.baseurl}}{{item.thumbnail}}" alt="{{item.title}} screenshot">

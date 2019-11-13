@@ -15,29 +15,35 @@ collections:
   - label: Pages
     name: Pages
     files:
-      - label: "Success Stories"
-        name: "success-stories"
-        file: "_data/success_stories.yml"
+      - label: "Case Studies"
+        name: "case_studies"
+        file: "_data/case_studies.yml"
         fields:
-          - {label: "Case Studies Title", name: "case_studies_title", widget: string}
-          - {label: "Case Studies Summary", name: "case_studies_summary", widget: text}
-          - label: "Case Studies"
-            name: "case_studies"
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Summary", name: "summary", widget: text}
+          - label: "Items"
+            name: "items"
             widget: list
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Summary", name: "summary", widget: "text"}
-              - {label: "Url", name: "url", widget: "string"}
-              - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-          - {label: "Screenshots Title", name: "screenshots_title", widget: string}
-          - {label: "Screenshots Summary", name: "screenshots_summary", widget: text}
-          - label: "Screenshots"
-            name: "screenshots"
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Summary", name: "summary", widget: "text"}
+            - {label: "Url", name: "url", widget: "string"}
+            - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+      
+      - label: "Screenshots"
+        name: "screenshots"
+        file: "_data/screenshots.yml"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Summary", name: "summary", widget: text}
+          - label: "Items"
+            name: "items"
             widget: list
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Url", name: "url", widget: "string"}
-              - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Url", name: "url", widget: "string"}
+            - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+
       - label: "Pricing"
         name: "pricing"
         file: "_data/pricing.yml"
