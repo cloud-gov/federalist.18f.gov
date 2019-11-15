@@ -22,30 +22,30 @@ collections:
         name: "case_studies"
         file: "_data/case_studies.yml"
         fields:
-          - {label: "Title", name: "title", widget: string}
-          - {label: "Summary", name: "summary", widget: text}
+          - { label: "Title", name: "title", widget: string }
+          - { label: "Summary", name: "summary", widget: text }
           - label: "Items"
             name: "items"
             widget: list
             fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Summary", name: "summary", widget: "text"}
-            - {label: "Url", name: "url", widget: "string"}
-            - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-      
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Url", name: "url", widget: "string" }
+              - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
       - label: "Screenshots"
         name: "screenshots"
         file: "_data/screenshots.yml"
         fields:
-          - {label: "Title", name: "title", widget: string}
-          - {label: "Summary", name: "summary", widget: text}
+          - { label: "Title", name: "title", widget: string }
+          - { label: "Summary", name: "summary", widget: text }
           - label: "Items"
             name: "items"
             widget: list
             fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Url", name: "url", widget: "string"}
-            - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Url", name: "url", widget: "string" }
+              - { label: "Thumbnail", name: "thumbnail", widget: "image" }
 
       - label: "Pricing"
         name: "pricing"
@@ -55,9 +55,14 @@ collections:
             name: "plans"
             widget: list
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Summary", name: "summary", widget: "markdown"}
-              - {label: "Features", name: "features", widget: list, field: {label: "Text", name: "text", widget: "string"}}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "markdown" }
+              - {
+                  label: "Features",
+                  name: "features",
+                  widget: list,
+                  field: { label: "Text", name: "text", widget: "string" },
+                }
 
       - label: "Templates"
         name: "templates"
@@ -67,12 +72,18 @@ collections:
             name: "items"
             widget: list
             fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Docs Url", name: "docs_url", widget: "string"}
-            - {label: "Preview Url", name: "preview_url", widget: "string"}
-            - {label: "Image", name: "img", widget: "image"}
-            - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
-            - {label: "Summary", name: "summary", widget: "text"}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Docs Url", name: "docs_url", widget: "string" }
+              - { label: "Preview Url", name: "preview_url", widget: "string" }
+              - { label: "Image", name: "img", widget: "image" }
+              - {
+                  label: "Order",
+                  name: "order",
+                  widget: "number",
+                  valueType: "int",
+                  min: 1,
+                }
+              - { label: "Summary", name: "summary", widget: "text" }
 
   - name: Documentation Pages
     label: Documentation Pages
@@ -82,8 +93,13 @@ collections:
     slug: "{{slug}}"
     preview_path: "documentation/{{slug}}"
     fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
-      - {label: 'Sidenav', name: 'sidenav', widget: 'hidden', default: 'documentation'}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - {
+          label: "Sidenav",
+          name: "sidenav",
+          widget: "hidden",
+          default: "documentation",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
