@@ -12,7 +12,7 @@ Federalist offers several templates for common website types that are meant to s
 
 Here are the templates currently available:
 
-{% for template in site.data.templates %}
+{% for template in site.data.templates.items %}
   <h3>{{ template.title }}</h3>
   <p>
     <a class='screenshot' href='{{ template.preview_url }}'>
