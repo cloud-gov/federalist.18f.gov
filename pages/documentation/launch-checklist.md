@@ -1,5 +1,5 @@
 ---
-title: Launch checklist
+title: Launch Checklist
 permalink: /documentation/launch-checklist/
 layout: page
 sidenav: documentation

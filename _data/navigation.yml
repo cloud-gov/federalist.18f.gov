@@ -43,13 +43,13 @@ sidenav:
     subfolderitems:
       - text: Why use Federalist?
         href: /documentation/why-use-federalist/
-      - text: Access and Permissions
+      - text: Access and permissions
         href: /documentation/access-permissions/
       - text: Customer responsibilities
         href: /documentation/customer-responsibilities/
       - text: Getting started with a sandbox
         href: /documentation/federalist-sandbox/
-      - text: Getting started with Jekyll
+      - text: Getting started with jekyll
         href: /documentation/getting-started-with-jekyll/
       - text: Included with Federalist
         href: /documentation/included-with-federalist/
@@ -61,7 +61,7 @@ sidenav:
         href: /documentation/launch-checklist/
       - text: Migration guide
         href: /documentation/migration-guide/
-      - text: Adding Search 
+      - text: Adding search 
         href: /documentation/search/
       - text: Site templates
         href: /documentation/templates/
@@ -96,7 +96,7 @@ sidenav:
         href: /documentation/bundler-on-federalist/
       - text: Site wide alerts
         href: /documentation/site-wide-alert/
-      - text: Supported Site Engines
+      - text: Supported site engines
         href: /documentation/supported-site-engines/
       - text: Renaming your site's repository
         href: /documentation/renaming-site-repository/

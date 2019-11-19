@@ -1,5 +1,5 @@
 ---
-title: Getting started with Jekyll
+title: Getting Started With Jekyll
 permalink: /documentation/getting-started-with-jekyll/
 layout: page
 sidenav: documentation
@@ -27,7 +27,7 @@ before continuing through this guide.
 {% include components/alert--note.html content=content %}
 
 
-## Getting Started with Jekyll
+## Getting started with Jekyll
 
 Immediately after building a new site, you need to customize the general content
 on your site, including your site title and office’s contact information. To do
