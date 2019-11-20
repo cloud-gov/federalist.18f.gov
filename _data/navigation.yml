@@ -61,6 +61,8 @@ sidenav:
         href: /documentation/launch-checklist/
       - text: Migration guide
         href: /documentation/migration-guide/
+      - text: Forms
+        href: /documentation/forms/
       - text: Adding Search 
         href: /documentation/search/
       - text: Site templates
