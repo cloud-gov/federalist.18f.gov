@@ -4,20 +4,26 @@ permalink: /documentation/forms/
 layout: page
 sidenav: documentation
 ---
+This page will help you navigate form rules and choose what technology is appropriate.
 
-When adding a form to your Federalist website, you need to answer two main questions:
-1. Does your form need to go through the Paperwork Reduction Act process?
-2. What technology will best serve your form's purpose?
-
-Forms in the Federal government have a lot of rules around what is allowed. This page will help you navigate those rules and help to choose what technology is appropriate.
+## Form rules
+A number of rules may apply to your federal agency's digital form. 
 
 ### The Paperwork Reduction Act (PRA)
-The PRA can be a complicated and lengthy process. It can take **6 to 9 months** to get a form approved for your website! Luckily, a fantastic guide has been written at [https://pra.digital.gov/](https://pra.digital.gov/) to help your understanding of the PRA and its applicability to your form.
+The Paperwork Reduction Act (PRA) determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: a fantastic guide has been written at [https://pra.digital.gov/](https://pra.digital.gov/) to help you understand if any how PRA is applicable to your form. Here's a quick preview of the basic steps you should take:
 
-1. Figure out if your form needs to go through the PRA process. There are a handful of exemptions. Also, some agencies have generic clearances in place for common forms already. [https://pra.digital.gov/do-i-need-clearance/](https://pra.digital.gov/do-i-need-clearance/)
-2. For help, get in touch with your agency's PRA contact. [https://pra.digital.gov/contact/](https://pra.digital.gov/contact/)
-3. If you do need to get PRA approval, then start early! [https://pra.digital.gov/clearance-process/](https://pra.digital.gov/clearance-process/)
-4. After you've started the PRA process, then build the form.
+1. To figure out if PRA applies to your form, first see if an exemption or generic clearance for common forms applies here:[https://pra.digital.gov/do-i-need-clearance/](https://pra.digital.gov/do-i-need-clearance/)
+2. If you do need to get PRA approval, then start early! [https://pra.digital.gov/clearance-process/](https://pra.digital.gov/clearance-process/)In some cases it can take 6 to 9 months to get a form approved for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more-basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed. 
+3. After you've started the PRA process, then build the form.
+4. Don't go it alone; get in touch with your agency's PRA contact. [https://pra.digital.gov/contact/](https://pra.digital.gov/contact/)
+
+### Privacy Act (PA)
+Add overview and link
+
+### Additional rules that may apply
+- The 21st Century IDEA Act applies to all executive agencies' public-facing websites. Use USDWS code to build your form found [here] (https://designsystem.digital.gov/components/form-templates/) and [here] (https://designsystem.digital.gov/components/form-controls/), which have important usability guidance baked right in.  
+- While the PRA and PA primarily focus on how data is collected, it is the [Federal Records Act] (https://www.archives.gov/records-mgmt/faqs/federal.html) that focus on how that data is stored or destroyed. Contact [X] to find out more.
+- If you will be collecting sensitive health data, fill in with overview and link. Contact [X] to find out more.
 
 ### Choosing a form service
 Federalist pages are static websites, there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some recommendations.
