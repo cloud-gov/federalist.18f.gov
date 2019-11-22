@@ -25,12 +25,12 @@ Add overview and link
 - While the PRA and PA primarily focus on how data is collected, it is the [Federal Records Act] (https://www.archives.gov/records-mgmt/faqs/federal.html) that focus on how that data is stored or destroyed. Contact [X] to find out more.
 - If you will be collecting sensitive health data, fill in with overview and link. Contact [X] to find out more.
 
-### Choosing a form service
-Federalist pages are static websites, there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some recommendations.
+## Choosing a form service
+Federalist pages are static websites; there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some recommendations.
 
 - Newsletter Sign Ups - [GovDelivery](https://granicus.com/solution/govdelivery/) is the most common tool used for newsletters sign ups. Your agency probably already has an account.
-- Customer Feedback - [Touchpoints](https://touchpoints.digital.gov) offers fast track PRA approval for a standardized customer feedback survey.
-- Everything else - [Google Forms](https://gsuite.google.com/products/forms/). Google Forms can handle most all of your form needs. Below is more advice for Google Forms.
+- Customer Feedback - [Touchpoints](https://touchpoints.digital.gov) offers fast track PRA approval for a standardized customer feedback survey. This service costs X.
+- Everything else - [Google Forms](https://gsuite.google.com/products/forms/). Google Forms can handle most all of your form needs for free. Below is more advice for Google Forms.
 
 #### Google Forms
 Google Forms are easy to implement, secure, and customizable enough to handle whatever your form needs are. Here is advice on getting access to Google Forms and for adding them to your website with lots of examples.
