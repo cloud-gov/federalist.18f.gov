@@ -4,7 +4,7 @@ permalink: /documentation/forms/
 layout: page
 sidenav: documentation
 ---
-This page will help you navigate form rules and choose what technology is appropriate.
+This page will help you navigate form rules and choose which technology is appropriate.
 
 ## Form rules
 A number of rules may apply to your federal agency's digital form. 
@@ -35,7 +35,7 @@ Federalist pages are static websites; there is no backend for you to log into to
 
 - Newsletter Sign Ups - [GovDelivery](https://granicus.com/solution/govdelivery/) is the most common tool used for newsletters sign ups. Your agency probably already has an account. [HubSpot](https://www.hubspot.com/) is another service used by Federalist customers.
 - Customer Feedback - [Touchpoints](https://touchpoints.digital.gov) offers fast track PRA approval for a standardized customer feedback survey.
-- Contact forms, bug reporting, support requests - [Google Forms](https://gsuite.google.com/products/forms/). Google Forms can handle most of your form needs. Below is more advice for Google Forms.
+- Contact forms, bug reporting, support requests - [Google Forms](https://www.google.com/forms/about/). Google Forms can handle most of your form needs. Below is more advice for Google Forms.
 
 #### Google Forms
 Google Forms are easy to implement, secure, and customizable enough to handle whatever your form needs are. Here is advice on getting access to Google Forms and for adding them to your website with lots of examples.
@@ -55,7 +55,7 @@ Other agencies, while they may not have an official Google GSuite account purcha
 * Get a special waiver from your own agency.
 
 ##### Advice for using a Google Form
-* Google Forms have a setting that lets you restrict submissions to just users within your agency. Turn that on or off as appropriate for your form.
-* Text fields have a validation option explained [here](https://support.google.com/docs/answer/3378864?hl=en). This can be used to limit submissions to users with a `.gov` or `.mil` email address, as in this [example](https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform).
+* Google Forms has a setting that lets you restrict submissions to just users within your agency. Turn that on or off as appropriate for your form.
+* The validation options for text fields are explained [here](https://support.google.com/docs/answer/3378864?hl=en). This can be used to limit submissions to users with a `.gov` or `.mil` email address, as in this [example](https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform).
 * The easiest way to include a Google Form on your page is to just link to it. Here is an [example](https://coe.gsa.gov/connect/contact-us.html#joinus) that links to a few different Google Forms.
 * A more advanced technique is to write your own HTML form that posts the data directly to Google Forms. Here are some Federalist examples: [Example](https://tech.gsa.gov/work-with-us/#contact), [Example](https://www.afwerx.af.mil/join.html). This lets you maintain a consistent user experience and design for your forms.  Here is [a well written guide](https://blog.webjeda.com/google-form-customize/) for how to write your own HTML form that matches your created Google Form. You'll need to set your form's action url to post to the Google Form url, then set the correct name element for each of your form's questions. Good luck!
