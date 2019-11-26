@@ -51,7 +51,7 @@ Other agencies, while they may not have an official Google GSuite account purcha
 
 ##### Options for getting access to Google Forms
 * Create a Google Account with [your government email](https://accounts.google.com/SignUpWithoutGmail).
-* Federalist staff can help set you up a with GSA Affiliated Customer Account (GACA).
+* Federalist staff can help set you up a with GSA Affiliated Customer Account (GACA). Instructions for Federalist staff are behind the GSA firewall [here](https://insite.gsa.gov/node/118179?term=gaca).
 * Get a special waiver from your own agency.
 
 ##### Advice for using a Google Form
