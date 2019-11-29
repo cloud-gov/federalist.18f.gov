@@ -10,7 +10,7 @@ This page will help you navigate form rules and choose which technology is appro
 A number of rules may apply to your federal agency's digital form. 
 
 ### The Paperwork Reduction Act (PRA)
-The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: a fantastic guide has been written at [https://pra.digital.gov/](https://pra.digital.gov/) to help you understand if any how PRA is applicable to your form. Here's a quick preview of the basic steps you should take:
+The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: a fantastic guide has been written at [https://pra.digital.gov/](https://pra.digital.gov/) to help you understand if and how PRA is applicable to your form. Here's a quick preview of the basic steps you should take:
 
 1. To figure out if PRA applies to your form, first see if an exemption or generic clearance for common forms applies here: [https://pra.digital.gov/do-i-need-clearance/](https://pra.digital.gov/do-i-need-clearance/)
 2. If you do need to get PRA approval, then start early! [https://pra.digital.gov/clearance-process/](https://pra.digital.gov/clearance-process/) In some cases it can take 6 to 9 months to get a form approved for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed.
@@ -28,7 +28,7 @@ The USWDS has [508](https://www.section508.gov/manage/laws-and-policies) complia
 Any forms collecting Personally Identifiable Information (PII) will have to comply with their agency's Privacy process. Here is GSA's for reference: [https://before-you-ship.18f.gov/privacy/](https://before-you-ship.18f.gov/privacy/).
 
 #### SORN
-The Federal Records Act also requires that federal agencies publish a list of which systems they keep PII on. These are call System of Record Notices. Each agencies publishes a list, [here](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act) is GSA's for reference.
+The Federal Records Act also requires that federal agencies publish a list of which systems they keep PII on. These are call System of Record Notices. Each agency publishes a list, [here](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act) is GSA's for reference.
 
 ## Choosing a form service
 Federalist pages are static websites; there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some recommendations.
