@@ -13,7 +13,7 @@ A number of rules may apply to your federal agency's digital form.
 The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: a fantastic guide has been written at [https://pra.digital.gov/](https://pra.digital.gov/) to help you understand if any how PRA is applicable to your form. Here's a quick preview of the basic steps you should take:
 
 1. To figure out if PRA applies to your form, first see if an exemption or generic clearance for common forms applies here: [https://pra.digital.gov/do-i-need-clearance/](https://pra.digital.gov/do-i-need-clearance/)
-2. If you do need to get PRA approval, then start early! [https://pra.digital.gov/clearance-process/](https://pra.digital.gov/clearance-process/) In some cases it can take 6 to 9 months to get a form approved for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more-basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed.
+2. If you do need to get PRA approval, then start early! [https://pra.digital.gov/clearance-process/](https://pra.digital.gov/clearance-process/) In some cases it can take 6 to 9 months to get a form approved for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed.
 3. After you've started the PRA process, then build the form.
 4. Don't go it alone; get in touch with your agency's PRA contact. [https://pra.digital.gov/contact/](https://pra.digital.gov/contact/)
 
