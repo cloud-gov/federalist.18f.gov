@@ -1,11 +1,4 @@
 items:
-  - title: Jekyll - U.S. Web Design System v1.0
-    docs_url: https://github.com/18F/uswds-jekyll
-    preview_url: https://federalist-proxy.app.cloud.gov/site/18f/uswds-jekyll/
-    img: /assets/images/templates/federalist-uswds-template.png
-    order: 1
-    summary: >-
-  
   - title: Jekyll - U.S. Web Design System v2.0
     docs_url: https://github.com/18F/federalist-uswds-jekyll
     preview_url: https://federalist-proxy.app.cloud.gov/site/18f/federalist-uswds-jekyll/
