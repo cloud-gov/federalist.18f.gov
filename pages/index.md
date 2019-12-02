@@ -19,7 +19,7 @@ layout: default
         <ul>
           <li><b>134</b> production .gov sites</li>
           <li><b>9</b> federal agencies</li>
-          <li><b>65+</b> million visitors per year</li>
+          <li><b>150+</b> million visitors per year</li>
           <li><b>400+</b> prototypes developed</li>
           <li><b>639+</b> updates per week</li>
         </ul>
