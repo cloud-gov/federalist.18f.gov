@@ -4,7 +4,19 @@ permalink: /documentation/forms/
 layout: page
 sidenav: documentation
 ---
-This page will help you navigate form rules and choose which technology is appropriate.
+This page will help you choose what technology to use and how to navigate the compliance process for government forms.
+
+There are three sections in the page:
+* [Choosing a form service](#choosing-a-form-service)
+* [Form rules](#form-rules)
+* [Other tips](#other-tips)
+
+## Choosing a form service
+Federalist pages are static websites; there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some options:
+
+- Newsletter Sign Ups - [GovDelivery](https://granicus.com/solution/govdelivery/) is the most common tool used for newsletters sign ups. Your agency probably already has an account. [HubSpot](https://www.hubspot.com/) is another service used by Federalist customers.
+- Customer Feedback - [Touchpoints](https://touchpoints.digital.gov) offers fast track PRA approval for a standardized customer feedback survey.
+- Contact forms, bug reporting, support requests - [Google Forms](https://www.google.com/forms/about/). Google Forms can handle most of your form needs. Below is more advice for Google Forms.
 
 ## Form rules
 A number of rules may apply to your federal agency's digital form. 
@@ -30,13 +42,8 @@ Any forms collecting Personally Identifiable Information (PII) will have to comp
 #### SORN
 The Federal Records Act also requires that federal agencies publish a list of which systems they keep PII on. These are call System of Record Notices. Each agency publishes a list, [here](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act) is GSA's for reference.
 
-## Choosing a form service
-Federalist pages are static websites; there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some recommendations.
 
-- Newsletter Sign Ups - [GovDelivery](https://granicus.com/solution/govdelivery/) is the most common tool used for newsletters sign ups. Your agency probably already has an account. [HubSpot](https://www.hubspot.com/) is another service used by Federalist customers.
-- Customer Feedback - [Touchpoints](https://touchpoints.digital.gov) offers fast track PRA approval for a standardized customer feedback survey.
-- Contact forms, bug reporting, support requests - [Google Forms](https://www.google.com/forms/about/). Google Forms can handle most of your form needs. Below is more advice for Google Forms.
-
+## Other tips
 #### Google Forms
 Google Forms are easy to implement, secure, and customizable enough to handle whatever your form needs are. Here is advice on getting access to Google Forms and for adding them to your website with lots of examples.
 
