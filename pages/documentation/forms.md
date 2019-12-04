@@ -33,7 +33,7 @@ Federalist pages are static websites; there is no backend for you to log into to
 
 [Touchpoints](https://touchpoints.digital.gov)
 - Use cases: standardized feedback and contact forms, custom forms
-- Access: Available for all federal agencies with associated generic clearance. Standardized forms include fast track Paperwork Reduction Act (PRA) approval. Additional approval may be required for custom forms.
+- Access: Available for all federal agencies, including access to Touchpoint's associated generic clearance. Standardized forms include fast track Paperwork Reduction Act (PRA) approval. Additional approval may be required for custom forms.
 - To get started, do this/go here.
 
 ## Form rules
