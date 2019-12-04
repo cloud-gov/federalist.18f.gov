@@ -4,12 +4,11 @@ permalink: /documentation/forms/
 layout: page
 sidenav: documentation
 ---
-This page will help you choose what technology to use and how to navigate the compliance process for government forms.
+Looking to post a form to your Federalist site? This page provides an overview of existing form tools and requirements so you can determine which best apply to your situation and get started on your form.
 
-There are three sections in the page:
+This pages covers:
 * [Choosing a form service](#choosing-a-form-service)
 * [Form rules](#form-rules)
-* [Form tips](#form-tips)
 
 ## Choosing a form service
 Federalist pages are static websites; there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some options:
