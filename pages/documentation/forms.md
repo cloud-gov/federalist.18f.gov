@@ -4,14 +4,14 @@ permalink: /documentation/forms/
 layout: page
 sidenav: documentation
 ---
-Looking to post a form to your Federalist site? This page provides an overview of existing form tools and requirements so you can determine which best apply to your situation and get started on your form.
+Looking to post a digital form to your federal agency's Federalist site? This page provides an overview of existing ditigal form tools and requirements so you can determine which best apply to your agency's situation and get started.
 
 This pages covers:
 * [Choosing a form service](#choosing-a-form-service)
-* [Form rules](#form-rules)
+* [Form requirements](#form-requirements)
 
 ## Choosing a form service
-Federalist pages are static websites; there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some options:
+Federalist pages are static websites. This means there is no backend for you to log into to get your agency's form data. You'll need to use a separate form service to use a digital form on your agency's site. Choosing a service depends on what the purpose of your agency's form is. Here are some options:
 
 [Google Forms](https://www.google.com/forms/about/)
 - Use cases: sign ups, contact us, feedback, bug reporting, support requests, data filtering, other custom forms
@@ -36,8 +36,8 @@ Federalist pages are static websites; there is no backend for you to log into to
 - Access: Available for all federal agencies, including access to Touchpoint's associated generic clearance. Standardized forms include fast track Paperwork Reduction Act (PRA) approval. Additional approval may be required for custom forms.
 - To get started, do this/go here.
 
-## Form rules
-A number of rules may apply to your federal agency's digital form. 
+## Form requirements
+Here are some requirements that may apply to your agency's digital form. 
 
 ### The Paperwork Reduction Act (PRA)
 The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: a fantastic guide has been written at [https://pra.digital.gov/](https://pra.digital.gov/) to help you understand if and how PRA is applicable to your form. Here's a quick preview of the basic steps you should take:
