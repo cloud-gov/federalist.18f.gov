@@ -49,6 +49,8 @@ sidenav:
         href: /documentation/customer-responsibilities/
       - text: Getting started with a sandbox
         href: /documentation/federalist-sandbox/
+      - text: "21st Century IDEA"
+        href: /documentation/21st-century-idea/
       - text: Getting started with jekyll
         href: /documentation/getting-started-with-jekyll/
       - text: Included with Federalist

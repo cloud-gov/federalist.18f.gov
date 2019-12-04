@@ -11,7 +11,7 @@ layout: default
         <h1>There’s no easier way to <br>build, launch, and manage government sites.</h1>
         <p class="font-large sans-regular">
           <a id="page-body"></a>
-          Federalist lets web developers get a jumpstart <br>with <a target="_new" href="https://digital.gov/resources/21st-century-integrated-digital-experience-act/">21st Century IDEA</a>.
+          Federalist lets web developers get a jumpstart <br>with <a href="/documentation/21st-century-idea/">21st Century IDEA</a>.
         </p>
       </div>
       <div class="usa-width-one-third usa-hero-callout">
