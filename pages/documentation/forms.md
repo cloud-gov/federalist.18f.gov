@@ -18,8 +18,7 @@ Federalist pages are static websites; there is no backend for you to log into to
 - Use cases: sign ups, contact us, feedback, bug reporting, support requests, data filtering, other custom forms
 - Access: Federalist staff can help you determine if you are able to create a google account with [your government email](https://accounts.google.com/SignUpWithoutGmail) or create a GSA Affiliated Customer Account (GACA). Some agencies are fully blocked from using Google Forms; check with your agency if a special waiver for Google GSuite access may be issued.
 - Quick tips:
-* Google Forms has a setting that lets you restrict submissions to just users within your agency. Turn that on or off as appropriate for your form.
-* [Limit submissions to users with a `.gov` or `.mil` email address] (https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform), see how in these [text validation instructions] (https://support.google.com/docs/answer/3378864?hl=en).
+* [Limit submissions to users with a `.gov` or `.mil` email address] (https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform) or certain agency affiliation, see how in these [text validation instructions] (https://support.google.com/docs/answer/3378864?hl=en).
 * Link one, or [multiple] (https://coe.gsa.gov/connect/contact-us.html#joinus), forms on your page.
 - To get started, do this/go here.
 
