@@ -9,14 +9,34 @@ This page will help you choose what technology to use and how to navigate the co
 There are three sections in the page:
 * [Choosing a form service](#choosing-a-form-service)
 * [Form rules](#form-rules)
-* [Other tips](#other-tips)
+* [Form tips](#form-tips)
 
 ## Choosing a form service
 Federalist pages are static websites; there is no backend for you to log into to get your form data. You'll need to use a separate form service to use a form on your webpage. Choosing a service depends on what the purpose of your form is. Here are some options:
 
-- Newsletter Sign Ups - [GovDelivery](https://granicus.com/solution/govdelivery/) is the most common tool used for newsletters sign ups. Your agency probably already has an account. [HubSpot](https://www.hubspot.com/) is another service used by Federalist customers.
-- Customer Feedback - [Touchpoints](https://touchpoints.digital.gov) offers fast track PRA approval for a standardized customer feedback survey.
-- Contact forms, bug reporting, support requests - [Google Forms](https://www.google.com/forms/about/). Google Forms can handle most of your form needs. Below is more advice for Google Forms.
+[Google Forms](https://www.google.com/forms/about/)
+- Use cases: sign ups, contact us, feedback, bug reporting, support requests, data filtering, other custom forms
+- Access: Federalist staff can help you determine if you are able to create a google account with [your government email](https://accounts.google.com/SignUpWithoutGmail) or create a GSA Affiliated Customer Account (GACA). Some agencies are fully blocked from using Google Forms; check with your agency if a special waiver for Google GSuite access may be issued.
+- Quick tips:
+* Google Forms has a setting that lets you restrict submissions to just users within your agency. Turn that on or off as appropriate for your form.
+* [Limit submissions to users with a `.gov` or `.mil` email address] (https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform), see how in these [text validation instructions] (https://support.google.com/docs/answer/3378864?hl=en).
+* Link one, or [multiple] (https://coe.gsa.gov/connect/contact-us.html#joinus), forms on your page.
+- To get started, do this/go here.
+
+[GovDelivery](https://granicus.com/solution/govdelivery/)
+- Use cases: sign ups
+- Access: Available for GSA; fully 508 compliant and FedRAMP certified. For others, check with your agency's X group. 
+- To get started, do this/go here.
+
+[HubSpot](https://www.hubspot.com/)
+- Use cases: sign ups
+- Access: Available for GSA. For others, check with your agency's X group.
+- To get started, do this/go here.
+
+[Touchpoints](https://touchpoints.digital.gov)
+- Use cases: standardized feedback and contact forms, custom forms
+- Access: Available for all federal agencies with associated generic clearance. Standardized forms include fast track Paperwork Reduction Act (PRA) approval. Additional approval may be required for custom forms.
+- To get started, do this/go here.
 
 ## Form rules
 A number of rules may apply to your federal agency's digital form. 
@@ -41,28 +61,3 @@ Any forms collecting Personally Identifiable Information (PII) will have to comp
 
 #### SORN
 The Federal Records Act also requires that federal agencies publish a list of which systems they keep PII on. These are call System of Record Notices. Each agency publishes a list, [here](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act) is GSA's for reference.
-
-
-## Other tips
-#### Google Forms
-Google Forms are easy to implement, secure, and customizable enough to handle whatever your form needs are. Here is advice on getting access to Google Forms and for adding them to your website with lots of examples.
-
-<div class="usa-alert usa-alert-warning">
-  <div class="usa-alert-body">
-    <h3 class="usa-alert-heading">Some agencies can't use Google.</h3>
-    <p class="usa-alert-text">Some agencies have the Google Forms domains blocked on their office networks. Unfortunately these agencies will need to find another service to use.</p>
-  </div>
-</div>
-
-Other agencies, while they may not have an official Google GSuite account purchased for use, can still usually get Google Forms another way.
-
-##### Options for getting access to Google Forms
-* Create a Google Account with [your government email](https://accounts.google.com/SignUpWithoutGmail).
-* Federalist staff can help set you up a with GSA Affiliated Customer Account (GACA). Instructions for Federalist staff are behind the GSA firewall [here](https://insite.gsa.gov/node/118179?term=gaca).
-* Get a special waiver from your own agency.
-
-##### Advice for using a Google Form
-* Google Forms has a setting that lets you restrict submissions to just users within your agency. Turn that on or off as appropriate for your form.
-* The validation options for text fields are explained [here](https://support.google.com/docs/answer/3378864?hl=en). This can be used to limit submissions to users with a `.gov` or `.mil` email address, as in this [example](https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform).
-* The easiest way to include a Google Form on your page is to just link to it. Here is an [example](https://coe.gsa.gov/connect/contact-us.html#joinus) that links to a few different Google Forms.
-* A more advanced technique is to write your own HTML form that posts the data directly to Google Forms. Here are some Federalist examples: [Example](https://tech.gsa.gov/work-with-us/#contact), [Example](https://www.afwerx.af.mil/join.html). This lets you maintain a consistent user experience and design for your forms.  Here is [a well written guide](https://blog.webjeda.com/google-form-customize/) for how to write your own HTML form that matches your created Google Form. You'll need to set your form's action url to post to the Google Form url, then set the correct name element for each of your form's questions. Good luck!
