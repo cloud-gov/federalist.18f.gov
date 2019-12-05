@@ -39,23 +39,22 @@ Federalist pages are static websites. This means there is no backend for you to 
 ## Form requirements
 Here are some requirements that may apply to your agency's digital form. 
 
-### The Paperwork Reduction Act (PRA)
-The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: a fantastic guide has been written at [https://pra.digital.gov/](https://pra.digital.gov/) to help you understand if and how PRA is applicable to your form. Here's a quick preview of the basic steps you should take:
+#### The Paperwork Reduction Act (PRA)
+* What it is: The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: [a fantastic guide](https://pra.digital.gov/) has been written to help you understand if and how PRA is applicable to your form. 
+* When it applies: To [figure out if PRA applies to your form](https://pra.digital.gov/do-i-need-clearance/), first see if an exemption or generic clearance for common forms applies.
+* Tips: If you do need to get PRA approval, then start early! In some cases it can take 6 to 9 months to [get a form approved](https://pra.digital.gov/clearance-process/) for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed.
+* How to get started: Get in touch with your agency's [PRA contact](https://pra.digital.gov/contact/).
 
-1. To figure out if PRA applies to your form, first see if an exemption or generic clearance for common forms applies here: [https://pra.digital.gov/do-i-need-clearance/](https://pra.digital.gov/do-i-need-clearance/)
-2. If you do need to get PRA approval, then start early! [https://pra.digital.gov/clearance-process/](https://pra.digital.gov/clearance-process/) In some cases it can take 6 to 9 months to get a form approved for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed.
-3. After you've started the PRA process, then build the form.
-4. Don't go it alone; get in touch with your agency's PRA contact. [https://pra.digital.gov/contact/](https://pra.digital.gov/contact/)
 
-#### Accessibility
-The [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) applies to all executive agencies' public-facing websites. It mandates a modern user experience in government websites. Importantly, it requires accessibility compliance for users with disabilities. We recommend using the [United States Web Design System](https://designsystem.digital.gov/) for your form. Our Federalist [templates](https://federalist.18f.gov/documentation/templates/) are all built using the USWDS.
+#### 508 Accessibility
+What it is: [508](https://www.section508.gov/manage/laws-and-policies) requires that government websites be fully accessible to people with disabilities. The [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) reinforces this accessibility, and requires a modern user experience.
+Tips: We recommend using the [United States Web Design System](https://designsystem.digital.gov/) for your form. Our Federalist [templates](https://federalist.18f.gov/documentation/templates/) are all built using the USWDS.
 - [The USWDS form elements](https://designsystem.digital.gov/components/form-controls/)
 - A few pre built [form templates](https://designsystem.digital.gov/components/form-templates/).
 
-The USWDS has [508](https://www.section508.gov/manage/laws-and-policies) compliance built in. If you end up creating a form without using the USWDS, you'll need to do the work to make your form accessible. Use [https://accessibility.18f.gov/](https://accessibility.18f.gov/) as a guide.
+The USWDS has ben built to include accessibility and modern web design. It is still best practice to [scan for accessibility compliance](https://accessibility.18f.gov/tools/). If you end up creating a form without using the USWDS, you'll need to do the work to make your form accessible. Use [https://accessibility.18f.gov/](https://accessibility.18f.gov/) as a guide.
 
-#### Privacy
-Any forms collecting Personally Identifiable Information (PII) will have to comply with their agency's Privacy process. Here is GSA's for reference: [https://before-you-ship.18f.gov/privacy/](https://before-you-ship.18f.gov/privacy/).
+#### Privacy Act
+What it is: https://www.archives.gov/about/laws/privacy-act-1974.html
 
-#### SORN
-The Federal Records Act also requires that federal agencies publish a list of which systems they keep PII on. These are call System of Record Notices. Each agency publishes a list, [here](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act) is GSA's for reference.
+Any forms collecting Personally Identifiable Information (PII) will have to comply with their agency's Privacy process. Here is GSA's for reference: [https://before-you-ship.18f.gov/privacy/](https://before-you-ship.18f.gov/privacy/). The Federal Records Act also requires that federal agencies publish a list of which systems they keep PII on. These are call System of Record Notices. Each agency publishes a list, [here](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act) is GSA's for reference.
