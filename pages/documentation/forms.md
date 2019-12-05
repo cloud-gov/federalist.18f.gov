@@ -13,25 +13,25 @@ This pages covers:
 ## Choosing a form service
 Federalist pages are static websites. This means there is no backend for you to log into to get your agency's form data. You'll need to use a separate form service to use a digital form on your agency's site. Choosing a service depends on what the purpose of your agency's form is. Here are some options:
 
-[Google Forms](https://www.google.com/forms/about/)
+#### [Google Forms](https://www.google.com/forms/about/)
 - Use cases: sign ups, contact us, feedback, bug reporting, support requests, data filtering, other custom forms
 - Access: Federalist staff can help you determine if you are able to [create a google account with your government email](https://accounts.google.com/SignUpWithoutGmail) or create a GSA Affiliated Customer Account (GACA). Some agencies are fully blocked from using Google Forms; check with your agency if a special waiver for Google GSuite access may be issued.
 - Quick tips:
-* [Limit submissions to users with a `.gov` or `.mil` email address](https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform) or certain agency affiliation, see how in these [text validation instructions](https://support.google.com/docs/answer/3378864?hl=en).
-* Link one, or [multiple](https://coe.gsa.gov/connect/contact-us.html#joinus), forms on your page.
+  * [Limit submissions to users with a `.gov` or `.mil` email address](https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform) or certain agency affiliation, see how in these [text validation instructions](https://support.google.com/docs/answer/3378864?hl=en).
+  * Link one, or [multiple](https://coe.gsa.gov/connect/contact-us.html#joinus), forms on your page.
 - To get started, do this/go here.
 
-[GovDelivery](https://granicus.com/solution/govdelivery/)
+#### [GovDelivery](https://granicus.com/solution/govdelivery/)
 - Use cases: sign ups
 - Access: Available for GSA; fully 508 compliant and FedRAMP certified. For others, check with your agency's X group. 
 - To get started, do this/go here.
 
-[HubSpot](https://www.hubspot.com/)
+#### [HubSpot](https://www.hubspot.com/)
 - Use cases: sign ups
 - Access: Available for GSA. For others, check with your agency's X group.
 - To get started, do this/go here.
 
-[Touchpoints](https://touchpoints.digital.gov)
+#### [Touchpoints](https://touchpoints.digital.gov)
 - Use cases: standardized feedback and contact forms, custom forms
 - Access: Available for all federal agencies, including access to Touchpoint's associated generic clearance. Standardized forms include fast track Paperwork Reduction Act (PRA) approval. Additional approval may be required for custom forms.
 - To get started, do this/go here.
