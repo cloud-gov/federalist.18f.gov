@@ -11,7 +11,7 @@ This pages covers:
 * [Form requirements](#form-requirements)
 
 ## Choosing a form service
-Federalist pages are static websites. This means there is no backend for you to log into to get your agency's form data. You'll need to use a separate form service to use a digital form on your agency's site. Choosing a service depends on what the purpose of your agency's form is. Here are some options:
+Federalist pages are static websites. This means there is no backend for you to log into to get your agency's form data. You'll need to use a separate form service to use a digital form on your agency's site. Choosing a service depends on the purpose of your agency's form.
 
 #### [Google Forms](https://www.google.com/forms/about/)
 - Use cases: Newsletter sign ups, contact us, feedback, bug reporting, support requests, other custom forms
@@ -30,32 +30,43 @@ Federalist pages are static websites. This means there is no backend for you to 
 #### [HubSpot](https://www.hubspot.com/)
 - Use cases: sign ups
 - Access: Available for GSA. For others, check with your agency's X group.
-- To get started, do this/go here.
+- To get started: Talk to your agency's CISO office to find out if you have access.
 
-#### [Touchpoints](https://touchpoints.digital.gov)
+#### [Touchpoints](https://feedback.usa.gov/touchpoints/)
 - Use cases: standardized feedback and contact forms, custom forms
 - Access: Available for all federal agencies, including access to Touchpoint's associated generic clearance. Standardized forms include fast track Paperwork Reduction Act (PRA) approval. Additional approval may be required for custom forms.
-- To get started, do this/go here.
+- To get started: Visit [https://feedback.usa.gov/touchpoints/](https://feedback.usa.gov/touchpoints/)
 
 ## Form requirements
-Here are some requirements that may apply to your agency's digital form. 
+Here are some requirements that may apply to your agency's digital form. These compliance needs apply to any form, wether they are on Federalist or not.
 
 #### The Paperwork Reduction Act (PRA)
-* What it is: The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: [a fantastic guide](https://pra.digital.gov/) has been written to help you understand if and how PRA is applicable to your form. 
-* When it applies: To [figure out if PRA applies to your form](https://pra.digital.gov/do-i-need-clearance/), first see if an exemption or generic clearance for common forms applies.
-* Tips: If you do need to get PRA approval, then start early! In some cases it can take 6 to 9 months to [get a form approved](https://pra.digital.gov/clearance-process/) for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed.
-* How to get started: Get in touch with your agency's [PRA contact](https://pra.digital.gov/contact/).
+What it is: The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: [a fantastic guide](https://pra.digital.gov/) has been written to help you understand if and how PRA is applicable to your form.
+
+When it applies: To [figure out if PRA applies to your form](https://pra.digital.gov/do-i-need-clearance/), first see if an exemption or generic clearance for common forms applies.
+
+Tips: If you do need to get PRA approval, then start early! In some cases it can take 6 to 9 months to [get a form approved](https://pra.digital.gov/clearance-process/) for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed.
+
+How to get started: Get in touch with your agency's [PRA contact](https://pra.digital.gov/contact/).
 
 
 #### 508 Accessibility
-What it is: [508](https://www.section508.gov/manage/laws-and-policies) requires that government websites be fully accessible to people with disabilities. The [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) reinforces this accessibility, and requires a modern user experience.
-Tips: We recommend using the [United States Web Design System](https://designsystem.digital.gov/) for your form. Our Federalist [templates](https://federalist.18f.gov/documentation/templates/) are all built using the USWDS.
-- [The USWDS form elements](https://designsystem.digital.gov/components/form-controls/)
-- A few pre built [form templates](https://designsystem.digital.gov/components/form-templates/).
+What it is: [Section 508](https://www.section508.gov/manage/laws-and-policies) requires that government websites be fully accessible to people with disabilities. The [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) reinforces this accessibility, and requires a modern user experience.
 
-The USWDS has ben built to include accessibility and modern web design. It is still best practice to [scan for accessibility compliance](https://accessibility.18f.gov/tools/). If you end up creating a form without using the USWDS, you'll need to do the work to make your form accessible. Use [https://accessibility.18f.gov/](https://accessibility.18f.gov/) as a guide.
+Tips: We recommend using the [United States Web Design System](https://designsystem.digital.gov/) (USWDS) for your form. Our Federalist [templates](https://federalist.18f.gov/documentation/templates/) are all built using the USWDS.
+  - [The USWDS form elements](https://designsystem.digital.gov/components/form-controls/)
+  - A few pre built [form templates](https://designsystem.digital.gov/components/form-templates/).
+
+The USWDS is built to more easily comply with accessibility. It is still best practice to regularly [scan for accessibility compliance](https://accessibility.18f.gov/tools/). If you end up creating a form without using the USWDS, you'll need to do the work to make your form accessible. Use [https://accessibility.18f.gov/](https://accessibility.18f.gov/) as a guide.
+
+Another best practice is to write your content in a way that is accessible for the public. [Guidelines available at plainlanguage.gov](https://plainlanguage.gov/guidelines/)
+
+To talk to others, join the [Web Content Managers Forum](https://digital.gov/communities/web-content-managers/).
 
 #### Privacy Act
-What it is: https://www.archives.gov/about/laws/privacy-act-1974.html
+What it is: The [Privacy Act](https://www.archives.gov/about/laws/privacy-act-1974.html) requires the government to keep track of any forms collecting Personally Identifiable Information (PII) and to help keep that information secure. If your form is collecting PII from the public, you'll most likely need to:
+  - Include Privacy Act Notice language with the relevant form. Here is [GSA's Privacy and Security Notice](https://www.gsa.gov/website-information/privacy-and-security-notice), which is linked to from each form on GSA's website.
+  - Ensure the form tool you are using has an official System of Record Notice (SORN). Here is the list of [GSA's SORNs for reference](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act).
+  - Complete a Privacy Impact Assessment (PIA) to ensure that privacy issues and protections are addressed. Here is a [PIA written for GovDelivery by the Department of the Interior](https://www.doi.gov/sites/doi.gov/files/uploads/govdelivery_pia_final_05.31.2017_1.pdf).
 
-Any forms collecting Personally Identifiable Information (PII) will have to comply with their agency's Privacy process. Here is GSA's for reference: [https://before-you-ship.18f.gov/privacy/](https://before-you-ship.18f.gov/privacy/). The Federal Records Act also requires that federal agencies publish a list of which systems they keep PII on. These are call System of Record Notices. Each agency publishes a list, [here](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act) is GSA's for reference.
+How to get started: Get in contact with your agency's Privacy Office.
