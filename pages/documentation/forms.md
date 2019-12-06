@@ -1,5 +1,5 @@
 ---
-title: Forms
+title: Forms on Federalist sites
 permalink: /documentation/forms/
 layout: page
 sidenav: documentation
@@ -10,8 +10,8 @@ This pages covers:
 * [Choosing a form service](#choosing-a-form-service)
 * [Form requirements](#form-requirements)
 
-## Choosing a form service
-Federalist pages are static websites. This means there is no backend for you to log into to get your agency's form data. You'll need to use a separate form service to use a digital form on your agency's site. Choosing a service depends on the purpose of your agency's form.
+## Form services
+Federalist pages are static websites. This means there is no backend for you to log into to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. Below is a list of service providers identified through research funded by GSA's 10x program. This list is continuously updated, please contact [Federalist product owners](x) if you see other service providers that should be added.
 
 #### [Google Forms](https://www.google.com/forms/about/)
 - Use cases: Newsletter sign ups, contact us, feedback, bug reporting, support requests, other custom forms
@@ -20,48 +20,43 @@ Federalist pages are static websites. This means there is no backend for you to 
   * [Limit submissions to users with a `.gov` or `.mil` email address](https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform) or certain agency affiliation, see how in these [text validation instructions](https://support.google.com/docs/answer/3378864?hl=en).
   * Link one, or [multiple](https://coe.gsa.gov/connect/contact-us.html#joinus), forms on your page.
   * If you need to include government employees whose agency has blocked Google services, provide an alternative submission method, such as an email address.
-- To get started: Talk to Federalist staff to find out if your agency allows access to Google services.
+- To get started: Talk to [Federalist product owners](x) to find out if your agency allows access to Google services.
 
 #### [GovDelivery](https://granicus.com/solution/govdelivery/)
-- Use cases: Newsletter sign ups
-- Access: Available for GSA; fully 508 compliant and FedRAMP certified.
-- To get started: Check this [FedRamp link](https://marketplace.fedramp.gov/#/product/govdelivery-communications-cloud?sort=productName&productNameSearch=govdelivery) to see if your agency has access. Talk to your Chief Information Security Office (CISO) to get an account.
+- Use cases: Newsletter sign ups.
+- Access: Available for GSA; fully 508 compliant and FedRAMP certified. Other agencies with access listed at the [FedRamp marketplace](https://marketplace.fedramp.gov/#/product/govdelivery-communications-cloud?sort=productName&productNameSearch=govdelivery).
+- To get started:  Talk to your Chief Information Security Office (CISO) to get an account.
 
 #### [HubSpot](https://www.hubspot.com/)
-- Use cases: sign ups
-- Access: Available for GSA.
-- To get started: Talk to your agency's CISO office to find out if you have access and can get an account.
+- Use cases: Newsletter sign ups.
+- Access: Available for GSA. May be available for other agencies.
+- To get started: Talk to your CISO to find out if you have access.
 
 #### [Touchpoints](https://feedback.usa.gov/touchpoints/)
 - Use cases: standardized feedback and contact forms, custom forms
 - Access: Available for all federal agencies, including access to Touchpoint's associated generic clearance. Standardized forms include fast track Paperwork Reduction Act (PRA) approval. Additional approval may be required for custom forms.
-- To get started: Visit [https://feedback.usa.gov/touchpoints/](https://feedback.usa.gov/touchpoints/)
+- To get started: Visit the [Touchpoints homepage](https://feedback.usa.gov/touchpoints/) to learn more.
 
 ## Form requirements
-Here are some requirements that may apply to your agency's digital form. These compliance needs apply to any form, wether they are on Federalist or not.
+Several requirements may apply to your agency's digital form, whether posting to Federalist or another site.
 
 #### The Paperwork Reduction Act (PRA)
-What it is: The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: [a fantastic guide](https://pra.digital.gov/) has been written to help you understand if and how PRA is applicable to your form.
+What it is: The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: this [guide to the PRA](https://pra.digital.gov/) will help you understand if and how PRA is applicable to your form.
 
-When it applies: To [figure out if PRA applies to your form](https://pra.digital.gov/do-i-need-clearance/), first see if an exemption or generic clearance for common forms applies.
+Tip: If you do need to get PRA approval, publish a more basic version of your form that falls under a PRA exemption, and at the same time, [submit your full version for review]((https://pra.digital.gov/clearance-process/). This will allow you to move forward while you wait for approval, which can take 6 to 9 months.
 
-Tips: If you do need to get PRA approval, then start early! In some cases it can take 6 to 9 months to [get a form approved](https://pra.digital.gov/clearance-process/) for your website. To avoid delaying your work, PRA experts recommend you first try to publish a more basic version of your form that falls under a PRA exemption, while you wait for your full version to be reviewed.
-
-How to get started: Get in touch with your agency's [PRA contact](https://pra.digital.gov/contact/).
-
+How to get started: First figure out if PRA applies to your form](https://pra.digital.gov/do-i-need-clearance/) or if an exemption or generic clearance applies to your situation. Also, get in touch with your agency's [PRA contact](https://pra.digital.gov/contact/).
 
 #### 508 Accessibility
-What it is: [Section 508](https://www.section508.gov/manage/laws-and-policies) requires that government websites be fully accessible to people with disabilities. The [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) reinforces this accessibility, and requires a modern user experience.
+What it is: [Section 508 of the Rehabilitation Act of 1973](https://www.section508.gov/manage/laws-and-policies) requires that government websites be fully accessible to people with disabilities. The [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) amplifies this accessibility, and requires a modern user experience.
 
-Tips: We recommend using the [United States Web Design System](https://designsystem.digital.gov/) (USWDS) for your form. Our Federalist [templates](https://federalist.18f.gov/documentation/templates/) are all built using the USWDS.
-  - [The USWDS form elements](https://designsystem.digital.gov/components/form-controls/)
-  - A few pre built [form templates](https://designsystem.digital.gov/components/form-templates/).
+Tips:
+- Use the [United States Web Design System](https://designsystem.digital.gov/) (USWDS) to design your form. It's built to help you more easily comply with accessibility. [Federalist templates](https://federalist.18f.gov/documentation/templates/) are all built using the USWDS. To design the different parts of your form, refer to [USWDS form controls](https://designsystem.digital.gov/components/form-controls/). Pre-built [form templates](https://designsystem.digital.gov/components/form-templates/) offer great examples. Even if you use the USDWS, regularly [scan for accessibility compliance](https://accessibility.18f.gov/tools/).
+- If you create a form without using the USWDS, follow [18F's accessibility guide](https://accessibility.18f.gov/) to still ensure your form is accessible.
+- Follow these [plainlanguage guidelines](https://plainlanguage.gov/guidelines/) to ensure your content is accessible to the public.
+- Join the [Web Content Managers Forum](https://digital.gov/communities/web-content-managers/) to learn with others.
 
-The USWDS is built to more easily comply with accessibility. It is still best practice to regularly [scan for accessibility compliance](https://accessibility.18f.gov/tools/). If you end up creating a form without using the USWDS, you'll need to do the work to make your form accessible. Use [https://accessibility.18f.gov/](https://accessibility.18f.gov/) as a guide.
-
-Another best practice is to write your content in a way that is accessible for the public. [Guidelines available at plainlanguage.gov](https://plainlanguage.gov/guidelines/)
-
-To talk to others, join the [Web Content Managers Forum](https://digital.gov/communities/web-content-managers/).
+To get started: X. 
 
 #### Privacy Act
 What it is: The [Privacy Act](https://www.archives.gov/about/laws/privacy-act-1974.html) requires the government to keep track of any forms collecting Personally Identifiable Information (PII) and to help keep that information secure. If your form is collecting PII from the public, you'll most likely need to:
@@ -70,3 +65,6 @@ What it is: The [Privacy Act](https://www.archives.gov/about/laws/privacy-act-19
   - Complete a Privacy Impact Assessment (PIA) to ensure that privacy issues and protections are addressed. Here is a [PIA written for GovDelivery by the Department of the Interior](https://www.doi.gov/sites/doi.gov/files/uploads/govdelivery_pia_final_05.31.2017_1.pdf).
 
 How to get started: Get in contact with your agency's Privacy Office.
+
+## Want to learn more about Federalist or forms?
+Contact [Federalist product owners](x).
