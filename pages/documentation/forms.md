@@ -11,7 +11,7 @@ This pages covers:
 * [Form requirements](#form-requirements)
 
 ## Form services
-Federalist pages are static websites. This means there is no backend for you to log into to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. Below is a list of service providers, identified through research funded by [GSA's 10x program](https://18f.gsa.gov/tags/10x/). This list is continuously updated, please contact [Federalist product owners](federalist-support@gsa.gov) if you see other service providers that should be added.
+Federalist pages are static websites. This means there is no backend for you to log into to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. Below is a list of service providers, identified through research funded by [GSA's 10x program](https://18f.gsa.gov/tags/10x/). This list is continuously updated, please contact Federalist product owners at federalist-support@gsa.gov if you see other service providers that should be added.
 
 #### [Google Forms](https://www.google.com/forms/about/)
 - Use cases: Newsletter sign ups, contact us, feedback, bug reporting, support requests, other custom forms
