@@ -4,7 +4,7 @@ permalink: /documentation/forms/
 layout: page
 sidenav: documentation
 ---
-Do you need to ask questions of the people visiting your Federalist website? Do you need to ask for their contact info or let them give you feedback? You need a form. This page provides an overview of existing digital form tools and requirements so you can determine which best apply to your agency's situation and get started.
+Do you want to use a digital form to ask questions of the people visiting your Federalist website? Do you want them to fill out a form with their contact info or feedback? This page provides an overview of existing digital form tools and requirements so you can determine which best apply to your situation and get started.
 
 This pages covers:
 * [form services](#choosing-a-form-service)
@@ -15,7 +15,7 @@ Federalist pages are static websites. This means there is no backend for you to 
 
 #### [Google Forms](https://www.google.com/forms/about/)
 - Use cases: Newsletter sign ups, contact us, feedback, bug reporting, support requests, other custom forms
-- Access: Federalist staff can help you determine if you are able to [create a google account with your government email](https://accounts.google.com/SignUpWithoutGmail) or create a GSA Affiliated Customer Account (GACA). Some agencies are fully blocked from using Google Forms; check with your agency if a special waiver for Google GSuite access may be issued.
+- Access: Federalist staff can help you determine if you are able to [create a google account with your government email](https://accounts.google.com/SignUpWithoutGmail) or create a GSA Affiliated Customer Account (GACA). Some agencies are fully blocked from using Google Forms; check with your agency if a special waiver for Google GSuite access may be issued. Your form users will also need access to Google Forms to be able to use your form.
 - Quick tips:
   * [Limit submissions to users with a `.gov` or `.mil` email address](https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform) or certain agency affiliation, see how in these [text validation instructions](https://support.google.com/docs/answer/3378864?hl=en).
   * Link one, or [multiple](https://coe.gsa.gov/connect/contact-us.html#joinus), forms on your page.
@@ -45,13 +45,13 @@ What it is: The Paperwork Reduction Act determines how federal agencies collect 
 
 Tip: If you do need to get PRA approval, publish a more basic version of your form that falls under a PRA exemption, and at the same time, [submit your full version for review](https://pra.digital.gov/clearance-process/). This will allow you to move forward while you wait for approval, which can take 6 to 9 months.
 
-How to get started: First figure out if PRA applies to your form](https://pra.digital.gov/do-i-need-clearance/) or if an exemption or generic clearance applies to your situation. Also, get in touch with your agency's [PRA contact](https://pra.digital.gov/contact/).
+How to get started: First [figure out if PRA applies to your form](https://pra.digital.gov/do-i-need-clearance/) or if an exemption or generic clearance applies to your situation. Also, get in touch with your agency's [PRA contact](https://pra.digital.gov/contact/).
 
 #### 508 Accessibility
 What it is: [Section 508 of the Rehabilitation Act of 1973](https://www.section508.gov/manage/laws-and-policies) requires that government websites be fully accessible to people with disabilities. The [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) amplifies this accessibility, and requires a modern user experience.
 
 Tips:
-- Use the [United States Web Design System](https://designsystem.digital.gov/) (USWDS) to design your form. It's built to help you more easily comply with accessibility. [Federalist templates](https://federalist.18f.gov/documentation/templates/) are all built using the USWDS. To design the different parts of your form, refer to [USWDS form controls](https://designsystem.digital.gov/components/form-controls/). Pre-built [form templates](https://designsystem.digital.gov/components/form-templates/) offer great examples. Even if you use the USDWS, regularly [scan for accessibility compliance](https://accessibility.18f.gov/tools/).
+- Use the [United States Web Design System](https://designsystem.digital.gov/) (USWDS) to design your form. It's built to help you more easily comply with accessibility. [Federalist templates](https://federalist.18f.gov/documentation/templates/) are all built using the USWDS. To design the different parts of your form, refer to [USWDS form controls](https://designsystem.digital.gov/components/form-controls/). [Pre-built form templates](https://designsystem.digital.gov/components/form-templates/) offer great examples. Even if you use the USDWS, regularly [scan for accessibility compliance](https://accessibility.18f.gov/tools/).
 - If you create a form without using the USWDS, follow [18F's accessibility guide](https://accessibility.18f.gov/) to still ensure your form is accessible.
 - Follow these [plainlanguage guidelines](https://plainlanguage.gov/guidelines/) to ensure your content is accessible to the public.
 - Join the [Web Content Managers Forum](https://digital.gov/communities/web-content-managers/) to learn with others.
@@ -65,6 +65,11 @@ What it is: The [Privacy Act](https://www.archives.gov/about/laws/privacy-act-19
   - Complete a Privacy Impact Assessment (PIA) to ensure that privacy issues and protections are addressed. Here is a [PIA written for GovDelivery by the Department of the Interior](https://www.doi.gov/sites/doi.gov/files/uploads/govdelivery_pia_final_05.31.2017_1.pdf).
 
 How to get started: Get in contact with your agency's Privacy Office.
+
+#### Records Management
+What is is: The data collected in your form needs to be stored and destroyed in compliance with the Federal Records Act. You are responsible for identifying what of your data is considered a record, and managing those records in accordance with your agency's [National Archives and Records Administration (NARA)-approved record schedule](https://www.archives.gov/about/laws/fed-agencies.html).
+Tip: If your form data is considered a record, remember that the data collected in your form is stored in the forms service, not in Federalist.
+To get started: Get in touch with your agency's Records and Information Management (RIM) office.
 
 ## Want to learn more about Federalist or forms?
 Contact [Federalist product owners](x).
