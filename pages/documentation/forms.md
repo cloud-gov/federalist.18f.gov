@@ -7,11 +7,11 @@ sidenav: documentation
 Do you need to ask questions of the people visiting your Federalist website? Do you need to ask for their contact info or let them give you feedback? You need a form. This page provides an overview of existing digital form tools and requirements so you can determine which best apply to your agency's situation and get started.
 
 This pages covers:
-* [Choosing a form service](#choosing-a-form-service)
+* [form services](#choosing-a-form-service)
 * [Form requirements](#form-requirements)
 
 ## Form services
-Federalist pages are static websites. This means there is no backend for you to log into to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. Below is a list of service providers identified through research funded by GSA's 10x program. This list is continuously updated, please contact [Federalist product owners](x) if you see other service providers that should be added.
+Federalist pages are static websites. This means there is no backend for you to log into to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. Below is a list of service providers identified through research funded by [GSA's 10x program](https://18f.gsa.gov/tags/10x/). This list is continuously updated, please contact [Federalist product owners](x) if you see other service providers that should be added.
 
 #### [Google Forms](https://www.google.com/forms/about/)
 - Use cases: Newsletter sign ups, contact us, feedback, bug reporting, support requests, other custom forms
