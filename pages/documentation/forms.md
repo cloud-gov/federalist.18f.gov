@@ -19,7 +19,7 @@ Federalist pages are static websites. This means there is no backend for you to 
 - Quick tips:
   * [Limit submissions to users with a `.gov` or `.mil` email address](https://docs.google.com/forms/d/e/1FAIpQLSePimoF0RkiCP62BSIL_yj0yMXEUePNJ9AabPJqq1Xzbp_GVg/viewform) or certain agency affiliation, see how in these [text validation instructions](https://support.google.com/docs/answer/3378864?hl=en).
   * Link one, or [multiple](https://coe.gsa.gov/connect/contact-us.html#joinus), forms on your page.
-  * Some agencies block Google forms, so if you need government employees to answer provide and alternative, such as an email address.
+  * If you need to include government employees whose agency has blocked Google services, provide an alternative submission method, such as an email address.
 - To get started: Talk to Federalist staff to find out if your agency allows access to Google services.
 
 #### [GovDelivery](https://granicus.com/solution/govdelivery/)
