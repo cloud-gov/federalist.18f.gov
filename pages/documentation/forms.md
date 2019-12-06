@@ -43,7 +43,7 @@ Several requirements may apply to your agency's digital form, whether posting to
 #### The Paperwork Reduction Act (PRA)
 What it is: The Paperwork Reduction Act determines how federal agencies collect information from the public. Adhering to this law doesn't have to be complicated: this [guide to the PRA](https://pra.digital.gov/) will help you understand if and how PRA is applicable to your form.
 
-Tip: If you do need to get PRA approval, publish a more basic version of your form that falls under a PRA exemption, and at the same time, [submit your full version for review]((https://pra.digital.gov/clearance-process/). This will allow you to move forward while you wait for approval, which can take 6 to 9 months.
+Tip: If you do need to get PRA approval, publish a more basic version of your form that falls under a PRA exemption, and at the same time, [submit your full version for review](https://pra.digital.gov/clearance-process/). This will allow you to move forward while you wait for approval, which can take 6 to 9 months.
 
 How to get started: First figure out if PRA applies to your form](https://pra.digital.gov/do-i-need-clearance/) or if an exemption or generic clearance applies to your situation. Also, get in touch with your agency's [PRA contact](https://pra.digital.gov/contact/).
 
