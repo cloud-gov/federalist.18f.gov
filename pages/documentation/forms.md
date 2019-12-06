@@ -25,12 +25,12 @@ Federalist pages are static websites. This means there is no backend for you to 
 #### [GovDelivery](https://granicus.com/solution/govdelivery/)
 - Use cases: Newsletter sign ups
 - Access: Available for GSA; fully 508 compliant and FedRAMP certified.
-- To get started: Check this [FedRamp link](https://marketplace.fedramp.gov/#/product/govdelivery-communications-cloud?sort=productName&productNameSearch=govdelivery) to see if your agency has access.
+- To get started: Check this [FedRamp link](https://marketplace.fedramp.gov/#/product/govdelivery-communications-cloud?sort=productName&productNameSearch=govdelivery) to see if your agency has access. Talk to your Chief Information Security Office (CISO) to get an account.
 
 #### [HubSpot](https://www.hubspot.com/)
 - Use cases: sign ups
-- Access: Available for GSA. For others, check with your agency's X group.
-- To get started: Talk to your agency's CISO office to find out if you have access.
+- Access: Available for GSA.
+- To get started: Talk to your agency's CISO office to find out if you have access and can get an account.
 
 #### [Touchpoints](https://feedback.usa.gov/touchpoints/)
 - Use cases: standardized feedback and contact forms, custom forms
