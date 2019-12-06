@@ -7,7 +7,7 @@ sidenav: documentation
 Do you want to use a digital form to ask questions of the people visiting your Federalist website? Do you want them to fill out a form with their contact info or feedback? This page provides an overview of existing digital form tools and requirements so you can determine which best apply to your situation and get started.
 
 This pages covers:
-* [form services](#choosing-a-form-service)
+* [Form services](#form-services)
 * [Form requirements](#form-requirements)
 
 ## Form services
