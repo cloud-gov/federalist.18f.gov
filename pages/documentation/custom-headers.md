@@ -89,18 +89,18 @@ The segment wildcard `":foo"` (where "foo" can be anything) matches everything *
 Adding caching related headers to your site is considered a best practice and can greatly improve your site's performance. However, if done incorrectly, it is possible to create undesired outcomes such as users not seeing the latest version of your site. **Make sure you have a good understanding of how caching works before configuring these headers yourself.** See [MDN Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching) and [MDN Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) for more information.
 
 ### Defaults
-The current default if for all files to be cached for 1 minute:
+The current default is for all files to be cached for 1 minute:
 
 ```
 cache-control: max-age=60
 ```
 
 ### Caching Rules of Thumb
-While the configuration that makes sense will depend on your particulary site, here are some rules of thumb.
+While the configuration that makes sense will depend on your particular site; here are some rules of thumb.
 
 Images, Javascript, and CSS files are good candidates for long-term caching as they can be large AND their urls/filenames are not typically known to the users.
 
-1. Make sure your build system generates unique filenames for the assets you want to cache for longer period. For example, the filenames should look something like `app-87648563467.js` or `styles.4574395739578.css`.
+1. Make sure your build system generates unique filenames for the assets you want to cache for a longer period. For example, the filenames should look something like `app-87648563467.js` or `styles.4574395739578.css`.
 2. Configure cache-control to cache for 1 year:
 ```
 public, max-age=31536000, immutable
