@@ -73,6 +73,10 @@ sidenav:
         href: /documentation/resources/
       - text: Content guide
         href: /documentation/content-guide/
+      - text: Custom headers
+        href: /documentation/custom-headers/
+      - text: Federalist.json
+        href: /documentation/federalist-json/
   - text: For developers
     href: /documentation/
     subfolderitems:
