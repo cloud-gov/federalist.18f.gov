@@ -39,7 +39,10 @@ Federalist pages are static websites. This means there is no backend for you to 
   const email = document.getElementById('fed-email');
   document.getElementById('submit-btn').addEventListener('click', function(e){
     if (/(.gov|.mil)$/.test(email.value)) {
-      window.location.href = '/documentation/form-services';
+      // redirect that works on preview builds too
+      const current_url = window.location.href;
+      const new_url = current_url.replace("forms", "form-services")
+      window.location.href = new_url;
     } else {
       email.setCustomValidity("Please enter a federal email.");
     }
