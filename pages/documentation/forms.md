@@ -41,7 +41,8 @@ Federalist pages are static websites. This means there is no backend for you to 
     if (/(.gov|.mil)$/.test(email.value)) {
       // redirect that works on preview builds too
       const current_url = window.location.href;
-      const new_url = current_url.replace("forms", "form-services")
+      // Just replace the url with the entire one we want
+      const new_url = "{{ site.baseurl }}/documentation/form-services";
       window.location.href = new_url;
     } else {
       email.setCustomValidity("Please enter a federal email.");
