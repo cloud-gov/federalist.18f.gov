@@ -11,44 +11,9 @@ This pages covers:
 * [Form requirements](#form-requirements)
 
 ## Form services
-Federalist pages are static websites. This means there is no backend for you to log into to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. You should check with your agency for what services you already have licenses and access for.
+Federalist pages are static websites. This means there is no backend for you to log into in order to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. To support existing and potential Federalist users wishing to publish a form on their government static site, Federalist maintains a reference guide which lists service providers and setup instructions, identified through research funded by [GSA's 10x program](https://10x.gsa.gov/). This guide is available upon request by contacting Federalist at https://federalist.18f.gov/contact/.
 
-<div class="usa-alert usa-alert-info" >
-  <div class="usa-alert-body">
-    <h3 class="usa-alert-heading">
-      More vendor specific advice is available for federal employees. Enter your email to access that page.
-    </h3>
-    <p class="usa-alert-text">
-      <form id='fed-email-form' class="usa-form">
-        <label for="fed-email">Enter your federal email.</label>
-        <input class="usa-input" id="fed-email" name="fed-email" type="email">
-        <input class="usa-button" id="submit-btn" type="submit" value="Go to next page">
-      </form>
-    </p>
-  </div>
-</div>
-
-<script>
-  // Block form submission
-  const form = document.getElementById('fed-email-form');
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();
-  });
-
-  // Validate on button click
-  const email = document.getElementById('fed-email');
-  document.getElementById('submit-btn').addEventListener('click', function(e){
-    if (/(.gov|.mil)$/.test(email.value)) {
-      // redirect that works on preview builds too
-      const current_url = window.location.href;
-      // Just replace the url with the entire one we want
-      const new_url = "{{ site.baseurl }}/documentation/form-services";
-      window.location.href = new_url;
-    } else {
-      email.setCustomValidity("Please enter a federal email.");
-    }
-  });
-</script>
+Note: The guide is available upon request rather than posted on this public government site to comply with federal laws, which prohibit federal agencies from giving the appearance of endorsement of particular vendors. The guide is provided as a self-service user resource only. Neither Federalist nor GSA promote any particular form service.
 
 ## Form requirements
 Several requirements may apply to your agency's digital form, whether posting to Federalist or another site.
