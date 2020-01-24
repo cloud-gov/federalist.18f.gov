@@ -11,7 +11,7 @@ This pages covers:
 * [Form requirements](#form-requirements)
 
 ## Form services
-Federalist pages are static websites. This means there is no backend for you to log into in order to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. To support existing and potential Federalist users wishing to publish a form on their government static site, Federalist maintains a reference guide which lists service providers and setup instructions, identified through research funded by [GSA's 10x program](https://10x.gsa.gov/). This guide is available upon request by contacting Federalist at https://federalist.18f.gov/contact/.
+Federalist pages are static websites. This means there is no backend for you to log into in order to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. To support existing and potential Federalist users wishing to publish a form on their government static site, Federalist maintains a reference guide which lists service providers and setup instructions, identified through research funded by [GSA's 10x program](https://10x.gsa.gov/). This guide is available upon request by contacting Federalist at [https://federalist.18f.gov/contact/](https://federalist.18f.gov/contact/).
 
 Note: The guide is available upon request rather than posted on this public government site to comply with federal laws, which prohibit federal agencies from giving the appearance of endorsement of particular vendors. The guide is provided as a self-service user resource only. Neither Federalist nor GSA promote any particular form service.
 
