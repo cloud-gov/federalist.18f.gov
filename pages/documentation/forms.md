@@ -6,16 +6,10 @@ sidenav: documentation
 ---
 Do you want to use a digital form to ask questions of the people visiting your Federalist website? Do you want them to fill out a form with their contact info or feedback? This page provides an overview of existing digital form tools and requirements so you can determine which best apply to your situation and get started.
 
-This pages covers:
-* [Form services](#form-services)
-* [Form requirements](#form-requirements)
 
-## Form services
+## A note about form services
 Federalist pages are static websites. This means there is no backend for you to log into in order to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. You should check with your agency's Office of Chief Information Officer for what services are licensed and approved for your use.
 
-To support existing and potential Federalist users wishing to publish a form on their government static site, Federalist maintains a reference guide which lists service providers and setup instructions, identified through research funded by [GSA's 10x program](https://10x.gsa.gov/). This guide is available upon request by contacting Federalist at [https://federalist.18f.gov/contact/](https://federalist.18f.gov/contact/). 
-
-Note: The guide is available upon request rather than posted on this public government site to comply with federal laws, which prohibit federal agencies from giving the appearance of endorsement of particular vendors. The guide is provided as a self-service user resource only. Neither Federalist nor GSA promote any particular form service.
 
 ## Form requirements
 Several requirements may apply to your agency's digital form, whether posting to Federalist or another site.
