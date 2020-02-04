@@ -34,8 +34,7 @@ To get started: Use the USWDS to design your site. Regularly scan your site for 
 #### [Privacy Act](https://www.archives.gov/about/laws/privacy-act-1974.html)
 What it is: The Privacy Act controls many aspects of an agency's collection, maintenance, use, and dissemination of information about individuals. The type of information that falls under the Act is much broader than most people expect.
 
-##### A Note about Privacy Impact Assessments (PIAs)
-When collecting information about individuals through digital forms, Section 208 of the E-Government Act of 2002 may require you to conduct a PIA.
+**A Note about Privacy Impact Assessments (PIAs)**: When collecting information about individuals through digital forms, Section 208 of the E-Government Act of 2002 may require you to conduct a PIA.
 
 Tips:
 - Be prepared to explain the authority, purpose, and use of the information you're collecting on your digital form.
