@@ -38,8 +38,9 @@ What it is: The Privacy Act controls many aspects of an agency's collection, mai
 When collecting information about individuals through digital forms, Section 208 of the E-Government Act of 2002 may require you to conduct a PIA.
 
 Tips:
-- Be prepared to tell your Privacy Office the authority, purpose, and use of the information you're collecting on your digital form.
-- If you are required to conduct a PIA, you'll need to work with your agency's Privacy Office, Chief Data Office, Office of General Counsel, and potentially, Chief Information Office. You can find examples of your agency's previous PIAs on your agency's Privacy Program page.
+- Be prepared to explain the authority, purpose, and use of the information you're collecting on your digital form.
+- If you are required to conduct a PIA, you'll need to work with your agency's Privacy Office, Chief Data Office, Office of General Counsel, and potentially, Chief Information Office.
+- You can find examples of your agency's previous PIAs on your agency's Privacy Program page.
 
 How to get started: It is important that you start by first contacting your agency's Privacy Office and telling them what you're trying to accomplish. Ask if you need a new or modified System of Records Notice (SORN) and a Privacy Act Statement on your form. GSA users should start by filling out the [GSA Privacy Office intake form](https://docs.google.com/forms/d/1fYME9MzhfAYuRiONJEsf1EFS9cmg03jODFq2Y9hkEgs/viewform?edit_requested=true).
 
