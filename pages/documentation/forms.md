@@ -32,13 +32,16 @@ Tips:
 To get started: Use the USWDS to design your site. Regularly scan your site for accessibility. Contact the [508 Access Board](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for technical assistance . 
 
 #### [Privacy Act](https://www.archives.gov/about/laws/privacy-act-1974.html)
-What it is: The Privacy Act determines how agencies collect, use, and share information from individuals, whether that's their name or social security number. This is to ensure that agencies' information collection is relevant, necessary, appropriately announced, and secure. The Privacy Act also requires that agencies used approved systems, including form services, to manage the information they collect. Related to the Privacy Act, Section 208 of the E-Government Act of 2002 may require agencies to conduct a Privacy Impact Assessment (PIA).
+What it is: The Privacy Act controls many aspects of an agency's collection, maintenance, use, and dissemination of information about individuals. The type of information that falls under the Act is much broader than most people expect.
 
-Tip:
-- Find out what form services you can use by asking your Privacy Officer for your agency's list of approved systems with official System of Record Notices (SORNs). Here is [GSA's list of SORNs](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act).
-- If you do need a PIA and it's your first time, check out this [PIA conducted by the Department of the Interior](https://www.doi.gov/sites/doi.gov/files/uploads/govdelivery_pia_final_05.31.2017_1.pdf) for an example of what this analysis and formal documentation entails.
+### A Note about Privacy Impact Assessments (PIAs)
+When collecting information about individuals through digital forms, Section 208 of the E-Government Act of 2002 may require you to conduct a PIA.
 
-How to get started: Get in contact with your agency's Privacy Office and tell them what you're trying to accomplish. GSA users should start by filling out the [GSA Privacy Office intake form](https://docs.google.com/forms/d/1fYME9MzhfAYuRiONJEsf1EFS9cmg03jODFq2Y9hkEgs/viewform?edit_requested=true).
+Tips:
+- Be prepared to tell your Privacy Office the authority, purpose, and use of the information you're collecting on your digital form.
+- If you are required to conduct a PIA, you'll need to work with your agency's Privacy Office, Chief Data Office, Office of General Counsel, and potentially, Chief Information Office. You can find examples of your agency's previous PIAs on your agency's Privacy Program page.
+
+How to get started: It is important that you start by first contacting your agency's Privacy Office and telling them what you're trying to accomplish. Ask if you need a new or modified System of Records Notice (SORN) and a Privacy Act Statement on your form. GSA users should start by filling out the [GSA Privacy Office intake form](https://docs.google.com/forms/d/1fYME9MzhfAYuRiONJEsf1EFS9cmg03jODFq2Y9hkEgs/viewform?edit_requested=true).
 
 #### [Federal Records Act](https://www.archives.gov/about/laws/fed-agencies.html)
 What is is: The data collected in your form needs to be stored and destroyed in compliance with the Federal Records Act. You are responsible for identifying what of your data is considered a record, and managing those records in accordance with your agency's [National Archives and Records Administration (NARA)-approved record schedule](https://www.archives.gov/about/laws/fed-agencies.html).
