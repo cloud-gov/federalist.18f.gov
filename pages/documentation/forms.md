@@ -8,7 +8,7 @@ Do you want to use a digital form to ask questions of the people visiting your F
 
 
 ## A note about form services
-Federalist pages are static websites. This means there is no backend for you to log into in order to get your agency’s form data. You’ll need to use a separate form service to use a digital form on your agency’s site. You should check with your agency's Office of Chief Information Officer for what services are licensed and approved for your use.
+Federalist pages are static websites. This means that while you can add a form to your site, there is no mechanism to handle the form submission to store and see the results. You’ll need to use a separate form service to use a digital form on your agency’s site. You should check with your agency's Office of Chief Information Officer for what services are licensed and approved for your use.
 
 
 ## Form requirements
