@@ -8,8 +8,7 @@ Do you want to use a digital form to ask questions of the people visiting your F
 
 
 ## A note about form services
-Federalist pages are static websites. This means that while you can add a form to your site, there is no mechanism to handle the form submission to store and see the results. You’ll need to use a separate form service to use a digital form on your agency’s site. You should check with your agency's Office of Chief Information Officer for what services are licensed and approved for your use.
-
+Federalist pages are static websites. This means that while you can add a form to your site, there is no mechanism to handle the form submission to store and see the results. You’ll need to use a separate form service to use a digital form on your agency’s site. Federalist identified a list of service providers and setup instructions, through research funded by [GSA's 10x program](https://10x.gsa.gov/). This list is not shared on this public government site to comply with federal laws, which prohibit federal agencies from giving the appearance of endorsement of particular vendors. Neither Federalist nor GSA promote any particular form service. You should check with your agency's Office of Chief Information for what services are licensed and approved for your use.
 
 ## Form requirements
 Several requirements may apply to your agency's digital form, whether posting to Federalist or another site.
