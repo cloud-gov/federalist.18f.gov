@@ -8,7 +8,7 @@ Federalist is a compliant web publishing service for [open source](https://githu
 
 The team at [18F](https://18f.gsa.gov/) builds and maintains Federalist as a service available to federal government agencies. We also use Federalist to host many of our own websites.
 
-## Evaluating Federalist for your office or agency
+# Evaluating Federalist for your office or agency
 
 Federalist is [out of beta and open for business](https://18f.gsa.gov/2017/06/01/federalist-is-out-of-beta-and-open-for-business/)! We've produced some materials that may be useful for your office's review of Federalist.
 
