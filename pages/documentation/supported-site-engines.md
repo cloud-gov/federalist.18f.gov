@@ -7,12 +7,10 @@ redirect_from:
   - /pages/using-federalist/supported-site-engines/
 ---
 
-# Supported Site Engines
-
 ## Current Support
 - [Jekyll](http://jekyllrb.com)
-- [Hugo](https://gohugo.io/) (experimental)
-- Script only (experimental) - Runs a [Node](https://nodejs.org) script
+- [Hugo](https://gohugo.io/)
+- Node.js - Runs a [Node](https://nodejs.org) script
 - Static - Pushes the files in your repository to S3 without modifying them, useful for exports from content management systems or web development tools.
 
 ## Requirements
@@ -21,7 +19,7 @@ For all engines **except Static** Federalist will serve whatever is in the `_sit
 - create a symlink from `_site` to whatever folder will contain the generator's output
 
 ### Node
-A Node script can be run to generate a site OR as a preliminary step to generating one with Jekyll or Hugo. To use a Node script as the generator, choose **Script only** as the **Site Engine** in the Advanced Settings configuration for your site.
+A Node script can be run to generate a site OR as a preliminary step to generating one with Jekyll or Hugo. To use a Node script as the generator, choose **Node.js** as the **Site Engine** in the Advanced Settings configuration for your site.
 
 For more details on using Node see [node on federalist]({{site.baseurl}}/documentation/node-on-federalist).
 
@@ -84,14 +82,12 @@ Federalist can also generate websites with [Hugo](http://gohugo.io/), the Go-bas
 
 ### Hugo version
 
-When building a Federalist site using Hugo, the desired version of Hugo for building your site must be specified in a `.hugo-verson` file located in your repository's root directory.
+When building a Federalist site using Hugo, the desired version of Hugo for building your site must be specified in a `.hugo-version` file located in your repository's root directory.
 >Sample .hugo-version file contents:
->>```markdown
-0.48
+```markdown
+0.48.0
 ```
-
-## Build environment variables
-
-At the time your site is built with either Jekyll or Hugo, a number of special environment variables are exposed. You can access these environment variables with your build engine to customize your build (for instance, to add some special text to your site to show which branch has been built).
-
-See the [federalist-garden-build README](https://github.com/18f/federalist-garden-build#variables-exposed-during-builds) for information on the environment variables that your site build can access.
+>For an extended Hugo version:
+```markdown
+extended_0.48.0
+```

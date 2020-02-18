@@ -8,8 +8,8 @@ secondary:
     href: /success-stories/
   - text: Documentation
     href: /documentation/
-  - text: Support
-    href: /support/
+  - text: Pricing
+    href: /pricing/
   - text: Contact
     href: /contact/
     # Look inside assets/js/index.js to see that how this url changes depending on enviroment
@@ -19,17 +19,39 @@ secondary:
     class: usa-button usa-button-secondary nav-button
 
 
+footer:
+  - text: Home
+    href: /
+  - text: Features
+    href: /features/
+  - text: Success Stories
+    href: /success-stories/
+  - text: Documentation
+    href: /documentation/
+  - text: Pricing
+    href: /pricing/
+  - text: Contact
+    href: /contact/
+  - text: Manage Sites
+    href: https://federalistapp.18f.gov
+    external: true
+
+
 sidenav:
   - text: Using Federalist
     href: /documentation/
     subfolderitems:
       - text: Why use Federalist?
         href: /documentation/why-use-federalist/
-      - text: Access and Permissions
+      - text: Access and permissions
         href: /documentation/access-permissions/
       - text: Customer responsibilities
         href: /documentation/customer-responsibilities/
-      - text: Getting started with Jekyll
+      - text: Getting started with a sandbox
+        href: /documentation/federalist-sandbox/
+      - text: "21st Century IDEA"
+        href: /documentation/21st-century-idea/
+      - text: Getting started with jekyll
         href: /documentation/getting-started-with-jekyll/
       - text: Included with Federalist
         href: /documentation/included-with-federalist/
@@ -41,7 +63,9 @@ sidenav:
         href: /documentation/launch-checklist/
       - text: Migration guide
         href: /documentation/migration-guide/
-      - text: Adding Search 
+      - text: Adding forms
+        href: /documentation/forms/
+      - text: Adding search 
         href: /documentation/search/
       - text: Site templates
         href: /documentation/templates/
@@ -51,6 +75,10 @@ sidenav:
         href: /documentation/resources/
       - text: Content guide
         href: /documentation/content-guide/
+      - text: Custom headers
+        href: /documentation/custom-headers/
+      - text: Federalist.json
+        href: /documentation/federalist-json/
   - text: For developers
     href: /documentation/
     subfolderitems:
@@ -58,6 +86,10 @@ sidenav:
         href: /documentation/
       - text: How builds work
         href: /documentation/how-builds-work/
+      - text: Specific build errors
+        href: /documentation/build-errors/
+      - text: Environment variables on builds
+        href: /documentation/env-vars-on-federalist-builds/
       - text: How custom URLs work
         href: /documentation/custom-urls/
       - text: Federalist and cloud.gov
@@ -72,26 +104,9 @@ sidenav:
         href: /documentation/bundler-on-federalist/
       - text: Site wide alerts
         href: /documentation/site-wide-alert/
-      - text: Supported Site Engines
+      - text: Supported site engines
         href: /documentation/supported-site-engines/
       - text: Renaming your site's repository
         href: /documentation/renaming-site-repository/
       - text: Monorepos on Federalist
         href: /documentation/monorepos-on-federalist/
-
-footer:
-  - text: Home
-    href: /
-  - text: Features
-    href: /features/
-  - text: Success Stories
-    href: /success-stories/
-  - text: Documentation
-    href: /documentation/
-  - text: Support
-    href: /support/
-  - text: Contact
-    href: /contact/
-  - text: Manage Sites
-    href: https://federalistapp.18f.gov
-    external: true

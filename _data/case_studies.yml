@@ -1,28 +1,45 @@
-- title: Vote.gov
-  summary: Vote.gov makes it easier for eligible voters to participate in our democratic process by providing streamlined information on how to vote. Visitors can register electronically in states that allow it, and download a printable application in multiple languages for those states where electronic registration isn't an option. Vote.gov was ranked as the <a href="/assets/documents/2017-benchmarking-us-government-websites.pdf">#1 federal website in 2017</a> by the Information Technology &amp; Innovation Foundation for meeting basic standards in security, speed, mobile friendliness, and accessibility.
-  url: https://vote.gov
-  thumbnail: /assets/images/partner-sites/vote.gov.png
+title: Trusted and scalable.
+summary: >-
+  Federalist hosts over 100+ sites across Federal agencies which account for over 140,000+ page views per day.
+items:
+  - title: Vote.gov
+    summary: >-
+      Vote.gov makes it easier for eligible voters to participate in our democratic process by providing streamlined information on how to vote. Visitors can register electronically in states that allow it, and download a printable application in multiple languages for those states where electronic registration isn't an option. Vote.gov was ranked as the <a href="/assets/documents/2017-benchmarking-us-government-websites.pdf">#1 federal website in 2017</a> by the Information Technology &amp; Innovation Foundation for meeting basic standards in security, speed, mobile friendliness, and accessibility.
+    url: https://vote.gov
+    thumbnail: /assets/images/partner-sites/vote.gov.png
 
+  - title: Department of the Interior
+    summary: >-
+      The Department of the Interior's Natural Resources Revenue site provides data about how the government manages federal energy and mineral resources, revenue, and disbursements. The website delivers valuable data to policy experts, while also ensuring the general public can follow along through an intuitive user interface and contextual information. This is an excellent example of how Federalist can be used to manage complex data sets and visualizations. You can learn more about <a href="https://revenuedata.doi.gov/blog/">their process on their blog</a>.
+    url: https://revenuedata.doi.gov
+    thumbnail: /assets/images/partner-sites/revenuedata.doi.gov.png
 
-- title: Department of the Interior
-  summary: The Department of the Interior's Natural Resources Revenue site provides data about how the government manages federal energy and mineral resources, revenue, and disbursements. The website delivers valuable data to policy experts, while also ensuring the general public can follow along through an intuitive user interface and contextual information. This is an excellent example of how Federalist can be used to manage complex data sets and visualizations. You can learn more about <a href="https://revenuedata.doi.gov/blog/">their process on their blog</a>.
-  url: https://revenuedata.doi.gov
-  thumbnail: /assets/images/partner-sites/revenuedata.doi.gov.png
+  - title: Login.gov
+    summary: >-
+      Login.gov offers the public a secure and private single account allowing users to sign in to multiple government agencies. With over 5 million registered users, Login.gov entrusts Federalist to power its homepage and network traffic.
+    url: https://login.gov
+    thumbnail: /assets/images/partner-sites/login.gov.png
 
+  - title: College Scorecard
+    summary: >-
+      The Department of Education uses Federalist to host College Scorecard, a website that provides users with important information on everything from financial aid to expected earnings. College Scorecard demonstrates the power of Federalist when used together with <a href="http://cloud.gov">cloud.gov</a> for a API-backed database.  Federalist's cloud infrastructure helps manage site traffic during spikes in visitors, making sure College Scorecard is always available.
+    url: https://collegescorecard.ed.gov
+    thumbnail: /assets/images/partner-sites/collegescorecard.ed.gov.png
 
-- title: Login.gov
-  summary: Login.gov offers the public secure and private a single account account that users can sign in to multiple government agencies. With over 5 million registered users, Login.gov entrusts Federalist to power it's homepage and network traffic.
-  url: https://login.gov
-  thumbnail: /assets/images/partner-sites/login.gov.png
+  - title: AFWERX
+    summary: >-
+      In 2017, the Secretary of the Air Force established AFWERX — a technology accelerator that brings the best from academia and industry together to solve problems and enhance the Air Force's effectiveness.<br/>A military website needs military compliance, and Federalist made it easy for AFWERX to get there. Because it's fully customizable, AFWERX could design a brand that would attract the cutting-edge contributors they were looking for. And because it's FedRAMP-authorized, they could launch their site knowing their security met the standards the Department of Defense demands.
+    url: https://www.afwerx.af.mil
+    thumbnail: /assets/images/partner-sites/afwerx.af.mil.png
 
-
-- title: College Scorecard
-  summary: The Department of Education uses Federalist to host College Scorecard, a website that provides users with important information on everything from financial aid to expected earnings. College Scorecard demonstrates the power of Federalist when used together with <a href="http://cloud.gov">cloud.gov</a> for a API-backed database.  Federalist's cloud infrastructure helps manage site traffic during spikes in visitors, making sure College Scorecard is always available.
-  url: https://collegescorecard.ed.gov
-  thumbnail: /assets/images/partner-sites/collegescorecard.ed.gov.png
-
-
-- title: FedRAMP
-  summary: The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. FedRAMP's choice to use Federalist for its main website speaks to the security and reliability of the Federalist infrastructure.
-  url: https://fedramp.gov
-  thumbnail: /assets/images/partner-sites/fedramp.gov.png
+  - title: Centers of Excellence
+    summary: >-
+      "GSA's Centers of Excellence (CoE) program accelerates the modernization of IT infrastructure across government. But in early 2018, the CoE team was in need of their own modernization: their website was cumbersome, required vendors for updates, and took 30-45 minutes to make a single change.<br/>With Federalist, CoEs can make their own changes — no outside help needed — in five minutes or less. Because everything's organized in one place, maintaining their website is simple, efficient, and easily managed by in-house staff. And thanks to Federalist's modern, accessible templates, this signature White House initiative is now fully compliant with the 21st Century Integrated Digital Experience Act (IDEA)."
+    url: https://coe.gsa.gov
+    thumbnail: /assets/images/partner-sites/coe.gsa.gov.png
+    
+  - title: FedRAMP
+    summary: >-
+      The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. FedRAMP's choice to use Federalist for its main website speaks to the security and reliability of the Federalist infrastructure.
+    url: https://fedramp.gov
+    thumbnail: /assets/images/partner-sites/fedramp.gov.png

@@ -1,24 +1,27 @@
-- title: Performance.gov
-  url: https://www.performance.gov
-  thumbnail: /assets/images/partner-sites/performance.gov.png
-- title: 18F 
-  url: https://18f.gsa.gov
-  thumbnail: /assets/images/partner-sites/18f.gsa.gov.png
-- title: CIO.gov
-  url: https://cio.gov
-  thumbnail: /assets/images/partner-sites/cio.gov.png
-- title: U.S. Web Design System
-  url: https://designsystem.digital.gov
-  thumbnail: /assets/images/partner-sites/uswds.png
-- title: Office of Evaluation Sciences
-  url: https://oes.gsa.gov
-  thumbnail: /assets/images/partner-sites/oes.gsa.gov.png
-- title: PCLOB
-  url: https://pclob.gov
-  thumbnail: /assets/images/partner-sites/pclob.gov.png
-- title: Centers of Excellence
-  url: https://coe.gsa.gov
-  thumbnail: /assets/images/partner-sites/coe.gsa.gov.png
-- title: AFWERX
-  url: https://www.afwerx.af.mil
-  thumbnail: /assets/images/partner-sites/afwerx.af.mil.png
+title: See more sites powered by Federalist.
+summary: >-
+  Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
+items:
+  - title: Performance.gov
+    url: https://www.performance.gov
+    thumbnail: /assets/images/partner-sites/performance.gov.png
+
+  - title: 18F 
+    url: https://18f.gsa.gov
+    thumbnail: /assets/images/partner-sites/18f.gsa.gov.png
+
+  - title: CIO.gov
+    url: https://cio.gov
+    thumbnail: /assets/images/partner-sites/cio.gov.png
+
+  - title: U.S. Web Design System
+    url: https://designsystem.digital.gov
+    thumbnail: /assets/images/partner-sites/uswds.png
+
+  - title: Office of Evaluation Sciences
+    url: https://oes.gsa.gov
+    thumbnail: /assets/images/partner-sites/oes.gsa.gov.png
+
+  - title: PCLOB
+    url: https://pclob.gov
+    thumbnail: /assets/images/partner-sites/pclob.gov.png

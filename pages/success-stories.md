@@ -9,71 +9,40 @@ redirect_from:
 ---
 
 <div id="home">
-  <div class="well">
-    <div class="usa-grid federalist-hero">
-      <div class="usa-width-two-thirds">
-        <h1 class="hero-heading">
-          Trusted and scalable.
-        </h1>
-        <p class="hero-copy sub-heading">
-          Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
-        </p>
-      </div>
-      <div class="usa-width-one-third usa-hero-callout">
-        <p class="medium-copy">
-          Federalist welcomes its newest client, <b>GSA's Office of Government Wide Policy Councils Team</b>
-        </p>
-        <p class="small">
-          February 28, 2018
-        </p>
-      </div>
+  <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <h1>{{ site.data.case_studies.title }}</h1>
+      <p>{{ site.data.case_studies.summary }}</p>
     </div>
   </div>
-        
-  
-  {% for item in site.data.case_studies %}
+
+  {% for item in site.data.case_studies.items %}
     <div class="usa-grid">
       <hr class="hr-light">
-      <div class="info-block">
-        <div class="usa-width-one-half description">
-          <h2 class="heading">{{item.title}}</h2>
-          <p class="copy">
-            {{item.summary}}
-          </p>
-          <ul class="figure-list">
-          </ul>
-        </div>
-        <div class="usa-width-one-half info-image">
-          <a href="{{item.url}}"><img alt="website thumbnail" src="{{site.baseurl}}{{item.thumbnail}}"></a>
-        </div>
+      <div class="usa-width-one-half">
+        <h2>{{item.title}}</h2>
+        <p>{{item.summary}}</p>
+      </div>
+      <div class="usa-width-one-half info-image">
+        <a href="{{item.url}}"><img alt="website thumbnail" src="{{site.baseurl}}{{item.thumbnail}}"></a>
       </div>
     </div>
   {% endfor %}
 
-
-
-
-
   <div class="usa-grid">
-    <br/>
     <hr class="hr-light">
   </div>    
 
-  <section class="well example-sites">
-    <div class="usa-grid federalist-hero">
+  <section class="example-sites">
+    <div class="usa-grid">
       <div class="usa-width-one-full">
-        <h1 class="hero-heading">
-          See more sites powered by Federalist.
-        </h1>
-        <p class="example-sites-copy">
-          Nine agencies use Federalist to host over 100 sites with over 140,000 page views per day. This page shows a sample of our partners.
-        </p>
+        <h1>{{ site.data.screenshots.title }}</h1>
+        <p>{{ site.data.screenshots.summary }}</p>
       </div>
       
-      <!--1 -->
       <div class="usa-width-one-full flexbox-grid example-sites-list">
-        {% for item in site.data.screenshots %}
-          <div class="usa-width-one-fourth case-study">
+        {% for item in site.data.screenshots.items %}
+          <div class="usa-width-one-third case-study">
             <a href="{{item.url}}">
               <img data-action="name-site" class="thumbnail" src="{{site.baseurl}}{{item.thumbnail}}" alt="{{item.title}} screenshot">
               <p>{{item.title}}</p>
@@ -83,5 +52,4 @@ redirect_from:
       </div>
     </div>
   </section>
-
 </div>

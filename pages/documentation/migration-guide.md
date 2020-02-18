@@ -1,5 +1,5 @@
 ---
-title: Migration guide
+title: Migration Guide
 permalink: /documentation/migration-guide/
 layout: page
 sidenav: documentation
@@ -7,8 +7,6 @@ redirect_from:
   - /pages/using-federalist/migration-guide/
 
 ---
-
-# Migration Guide
 
 Welcome to your migrating journey onto Federalist! This process may be difficult. 18F generally cannot provide support for migration work beyond general guidance under a standard Federalist agreement, but if you are in a situation where you need a lot of help, please [contact us](mailto:inquiries18F@gsa.gov) for a path analysis from our Custom Partner Solutions team.
 
@@ -18,7 +16,7 @@ Get a sense of how big your migration is before you start. How many pages does y
 
 - To find this out, try searching with the query “site:[your domain]” and seeing how many pages are found
 - Example: “site:18f.gsa.gov” shows that there are about 722 pages on 18F’s website
-  - Note that blog tags pages or others may show up as individual pages, skewing the count
+  - Note that blog tag pages or others may show up as individual pages, skewing the count
 
 ## Federalist’s role
 
@@ -43,13 +41,9 @@ You should create a timeline for the site migration. This may be an opportunity 
 
 You should plan a stopgap measure into your migration timeline. This could be a basic Federalist setup with a landing page that provides information to key stakeholders or notifies visitors that work is in progress.
 
-Possible stopgap pages you could emulate include:
-- [Open Foia](https://open.foia.gov/) ([Code](https://github.com/18f/open-foia-redirect/))
-- [GSA 10x](https://10x.gsa.gov) ([Code](https://github.com/GSA/10x/tree/fa7007ff3d881b80348dfb0d3161b8f9d84dc3d2))
-
 For these pages you can simply fork them on Github and reword the content in order to have it based on your website, or create your own static page to note the work in process. 18F can help you with your stopgap measure if you have a signed IAA.
 
-## Testing the Plan
+## Testing the plan
 
 Test your migration concept by first making one page and learning how to work with Federalist. Try using setting up layouts and content separately. Once the first page is live on a prototype site, you can migrate other pages, but focus on completing one first so that you have a good sense of the effort required.
 
@@ -58,7 +52,7 @@ You should create a staging branch in your Github repo and create a pull request
 
 Reserve time for the go live process. Plan few days before live launch to do a soft launch for stakeholders at a different URL.
 
-## The Migration Team
+## The migration team
 
 Who you need in your migration team is based on the work involved in your specific migration. Generally, a migration PM is probably not necessary unless you are managing against a timeline.
 
@@ -73,8 +67,7 @@ Your team will need the following access to get started:
 
 You are able to start working while IAA is being signed.
 
-## Additional Info
+## Additional info
 
 If your site has over 1 GB of images to serve you should look into another way to store those files. Github is not intended to store large amounts of files.
-- Github has no problem storing less than 1GB of different files types
-For hosting over 1GB of files, we suggest getting access to a public database service that will load the files. One provider of this type of service is [cloud.gov](https://cloud.gov/). More information on repository size limitations is available [here](https://help.github.com/articles/what-is-my-disk-quota/).
+- Github has no problem storing less than 1GB of different files types. For hosting over 1GB of files, we suggest getting access to a public database service that will load the files. One provider of this type of service is [cloud.gov](https://cloud.gov/). More information on repository size limitations is available [here](https://help.github.com/articles/what-is-my-disk-quota/).

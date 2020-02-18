@@ -1,34 +1,14 @@
-- title: U.S. Web Design Standards Landing and Docs Template
-  docs_url: https://github.com/18f/federalist-uswds-template/
-  preview_url: https://federalist-uswds-template.18f.gov/
-  img: /assets/images/templates/federalist-uswds-template.png
-  order: 1
-  summary:
+items:
+  - title: Jekyll - U.S. Web Design System v2.0
+    docs_url: https://github.com/18F/federalist-uswds-jekyll
+    preview_url: https://federalist-proxy.app.cloud.gov/site/18f/federalist-uswds-jekyll/
+    img: /assets/images/templates/federalist-jekyll-uswds-template.png
+    order: 2
+    summary: >-
 
-- title: Basic Report Template
-  img: /assets/images/templates/federalist-report-template.png
-  preview_url: https://federalist-proxy.app.cloud.gov/preview/18f/federalist-uswds-template/report-config/
-  summary: |
-    The basic report template is a simple, easy to use setup designed to host
-    multiple pages about a recent report or order. This setup provides a clean space
-    for complex details or instructions. Navigation can be customized to host many
-    pages while maintaining a clear hierarchy.
-
-- title: Landing Page Template
-  preview_url: https://federalist-landing-template.18f.gov/
-  docs_url: https://github.com/18F/federalist-landing-page-template
-  img: /assets/images/templates/federalist-landing-template.png
-  summary:
-
-
-- title: Modern Team Template
-  docs_url: https://github.com/18f/federalist-modern-team-template
-  preview_url: https://federalist-modern-team-template.18f.gov/
-  img: /assets/images/templates/federalist-modern-team-template.png
-  summary:
-
-- title: Gatsby USWDS Template
-  docs_url: https://github.com/18F/federalist-uswds-gatsby
-  preview_url: https://federalist-proxy.app.cloud.gov/site/18f/federalist-uswds-gatsby/
-  img: /assets/images/templates/federalist-gatsby-uswds-template.png
-  summary:
+  - title: Gatsby - U.S. Web Design System v2.0
+    docs_url: https://github.com/18F/federalist-uswds-gatsby
+    preview_url: https://federalist-proxy.app.cloud.gov/site/18f/federalist-uswds-gatsby/
+    img: /assets/images/templates/federalist-gatsby-uswds-template.png
+    order: 3
+    summary: >-

@@ -4,7 +4,7 @@ describe "home page", type: :feature, js: false do
   end
   
   it "has splash message" do
-    expect(page).to have_text("There’s no new easier way to launch, maintain, and manage government sites.")    
+    expect(page).to have_text("There’s no easier way to build, launch, and manage government sites.")    
   end
   
   it "should have the images" do
@@ -46,12 +46,12 @@ describe "success stories page", type: :feature, js: false do
 
 end
 
-describe "support page", type: :feature, js: false do
+describe "pricing page", type: :feature, js: false do
   before(:each) do
-    visit '/support'
+    visit '/pricing'
   end
   it "has support message" do
-    expect(page).to have_text("Getting Support")
+    expect(page).to have_text("Pricing")
   end
 end
 
