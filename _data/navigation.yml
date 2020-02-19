@@ -53,6 +53,8 @@ sidenav:
         href: /documentation/21st-century-idea/
       - text: Getting started with jekyll
         href: /documentation/getting-started-with-jekyll/
+      - text: Getting started with Netlify CMS
+        href: /documentation/getting-started-with-netlify-cms/
       - text: Included with Federalist
         href: /documentation/included-with-federalist/
       - text: Instructional demos
