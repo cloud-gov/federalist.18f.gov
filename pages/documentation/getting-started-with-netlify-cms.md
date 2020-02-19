@@ -11,7 +11,7 @@ redirect_from:
 Federalist recently integrated support for Netlify CMS, an open source content management system for your Git workflow that provides editors with a friendly UI and intuitive workflows.
 
 ### Building a new site from template
-Netlify CMS functionality is now built into the base Federalist Jekyll, Gatsby, and Hugo templates. To begin utilizing, select  the template that you wish to use as your base site and 
+Netlify CMS functionality is now built into the base Federalist Jekyll and Gatsby templates. To begin utilizing, just select the [template](/documentation/templates) that you wish to use as your base site and you'll be ready to edit your site once the initial build and deployment are complete.
 
 ### Adding Netlify CMS to existing site
 If your site is already up and running, please follow the instructions on [Netlify's Add To Your Site](https://www.netlifycms.org/docs/add-to-your-site/) page to add Netlify CMS. Please pay particular attention to the location of the admin folder depending on your static site generator.
