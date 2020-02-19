@@ -1,5 +1,5 @@
 ---
-title: cloud.gov Setup
+title: Cloud.gov Setup
 permalink: /documentation/cloud-gov-setup/
 layout: page
 sidenav: documentation

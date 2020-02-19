@@ -11,7 +11,7 @@ layout: default
         <h1>There’s no easier way to <br>build, launch, and manage government sites.</h1>
         <p class="font-large sans-regular">
           <a id="page-body"></a>
-          Federalist is a publishing platform for modern, compliant government websites.
+          Federalist is a publishing platform for <br>modern <a href="/documentation/21st-century-idea/">21st Century IDEA</a> websites.
         </p>
       </div>
       <div class="usa-width-one-third usa-hero-callout">
@@ -19,7 +19,7 @@ layout: default
         <ul>
           <li><b>134</b> production .gov sites</li>
           <li><b>9</b> federal agencies</li>
-          <li><b>65+</b> million visitors per year</li>
+          <li><b>100+</b> million visitors per year</li>
           <li><b>400+</b> prototypes developed</li>
           <li><b>639+</b> updates per week</li>
         </ul>

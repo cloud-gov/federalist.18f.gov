@@ -20,6 +20,6 @@ redirect_from:
 * GSA's previous work to procure cloud Infrastructure as a Service with extraordinary uptime so your static sites don't go down once deployed.
 * GSA's previous work to build a [robust and secure platform as a service](https://cloud.gov), recognized with a FedRAMP Moderate (DISA Level 2) PATO, that ensures Federalist's underlying technology is secure.
 
-### Not included with Federalist
+## Not included with Federalist
 
 * A large file hosting system. GitHub isn't generally set up to host more than a gigabyte of file content and Federalist's build container can't accommodate extremely large repositories in the build process. Instead, you should store very large files separately and link to them from your Federalist site.

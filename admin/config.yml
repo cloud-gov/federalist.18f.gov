@@ -1,0 +1,105 @@
+backend:
+  name: github
+  repo: 18f/federalist.18f.gov
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  branch: master
+  use_graphql: true
+  preview_context: federalist/build
+
+media_folder: assets/images
+publish_mode: editorial_workflow
+logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
+site_url: https://federalist.18f.gov
+
+collections:
+  - label: Data
+    name: data
+    editor:
+      preview: false
+    files:
+      - label: "Case Studies"
+        name: "case_studies"
+        file: "_data/case_studies.yml"
+        fields:
+          - { label: "Title", name: "title", widget: string }
+          - { label: "Summary", name: "summary", widget: text }
+          - label: "Items"
+            name: "items"
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Url", name: "url", widget: "string" }
+              - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+      - label: "Screenshots"
+        name: "screenshots"
+        file: "_data/screenshots.yml"
+        fields:
+          - { label: "Title", name: "title", widget: string }
+          - { label: "Summary", name: "summary", widget: text }
+          - label: "Items"
+            name: "items"
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Url", name: "url", widget: "string" }
+              - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+      - label: "Pricing"
+        name: "pricing"
+        file: "_data/pricing.yml"
+        fields:
+          - label: "Plans"
+            name: "plans"
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "markdown" }
+              - {
+                  label: "Features",
+                  name: "features",
+                  widget: list,
+                  field: { label: "Text", name: "text", widget: "string" },
+                }
+
+      - label: "Templates"
+        name: "templates"
+        file: "_data/templates.yml"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Docs Url", name: "docs_url", widget: "string" }
+              - { label: "Preview Url", name: "preview_url", widget: "string" }
+              - { label: "Image", name: "img", widget: "image" }
+              - {
+                  label: "Order",
+                  name: "order",
+                  widget: "number",
+                  valueType: "int",
+                  min: 1,
+                }
+              - { label: "Summary", name: "summary", widget: "text" }
+
+  - name: Documentation Pages
+    label: Documentation Pages
+    label_singular: Documentation Page
+    folder: pages/documentation
+    create: true
+    slug: "{{slug}}"
+    preview_path: "documentation/{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - {
+          label: "Sidenav",
+          name: "sidenav",
+          widget: "hidden",
+          default: "documentation",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

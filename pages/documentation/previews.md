@@ -1,5 +1,5 @@
 ---
-title: Previews
+title: Builds and Previews
 permalink: /documentation/previews/
 layout: page
 sidenav: documentation
@@ -8,7 +8,7 @@ redirect_from:
 
 ---
 
-# Site Previews 
+## Site previews 
 
 _Every_ branch in a Federalist-enabled GitHub repo is built by Federalist with
 a site preview.

@@ -43,13 +43,15 @@ sidenav:
     subfolderitems:
       - text: Why use Federalist?
         href: /documentation/why-use-federalist/
-      - text: Access and Permissions
+      - text: Access and permissions
         href: /documentation/access-permissions/
       - text: Customer responsibilities
         href: /documentation/customer-responsibilities/
       - text: Getting started with a sandbox
         href: /documentation/federalist-sandbox/
-      - text: Getting started with Jekyll
+      - text: "21st Century IDEA"
+        href: /documentation/21st-century-idea/
+      - text: Getting started with jekyll
         href: /documentation/getting-started-with-jekyll/
       - text: Getting started with Netlify CMS
         href: /documentation/getting-started-with-netlify-cms/
@@ -63,7 +65,9 @@ sidenav:
         href: /documentation/launch-checklist/
       - text: Migration guide
         href: /documentation/migration-guide/
-      - text: Adding Search 
+      - text: Adding forms
+        href: /documentation/forms/
+      - text: Adding search 
         href: /documentation/search/
       - text: Site templates
         href: /documentation/templates/
@@ -73,6 +77,10 @@ sidenav:
         href: /documentation/resources/
       - text: Content guide
         href: /documentation/content-guide/
+      - text: Custom headers
+        href: /documentation/custom-headers/
+      - text: Federalist.json
+        href: /documentation/federalist-json/
   - text: For developers
     href: /documentation/
     subfolderitems:
@@ -98,7 +106,7 @@ sidenav:
         href: /documentation/bundler-on-federalist/
       - text: Site wide alerts
         href: /documentation/site-wide-alert/
-      - text: Supported Site Engines
+      - text: Supported site engines
         href: /documentation/supported-site-engines/
       - text: Renaming your site's repository
         href: /documentation/renaming-site-repository/

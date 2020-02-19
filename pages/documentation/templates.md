@@ -1,5 +1,5 @@
 ---
-title: Templates
+title: Site Templates
 permalink: /documentation/templates/
 layout: page
 sidenav: documentation
@@ -12,7 +12,7 @@ Federalist offers several templates for common website types that are meant to s
 
 Here are the templates currently available:
 
-{% for template in site.data.templates %}
+{% for template in site.data.templates.items %}
   <h3>{{ template.title }}</h3>
   <p>
     <a class='screenshot' href='{{ template.preview_url }}'>
@@ -27,3 +27,4 @@ Here are the templates currently available:
 
 
 Federalist will build any Jekyll, Gatsby or Hugo website, supporting [custom website templates]({{site.baseurl}}/documentation/how-builds-work). 
+Update 
