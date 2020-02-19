@@ -23,6 +23,6 @@ Gatsby or Hugo:
 /static/admin/config.yml
 
 ### Getting familiar with Netlify CMS
-To learn more about Netlify CMS and how it may help you manage content changes on your Federalist site, please visit [netlifycms.org/](netlifycms.org/) 
+To learn more about Netlify CMS and how it may help you manage content changes on your Federalist site, please visit [netlifycms.org/](https://www.netlifycms.org/) 
 
 [GovCloud](https://cloud.gov/docs/apps/govcloud/) region in [cloud.gov](https://cloud.gov/docs/)
