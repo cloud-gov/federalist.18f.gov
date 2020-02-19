@@ -85,8 +85,8 @@ collections:
                 }
               - { label: "Summary", name: "summary", widget: "text" }
 
-  - name: Documentation Pages
-    label: Documentation Pages
+  - label: Documentation Pages
+    name: documentation_pages
     label_singular: Documentation Page
     folder: pages/documentation
     create: true
