@@ -91,7 +91,6 @@ collections:
     folder: pages/documentation
     create: true
     slug: "{{slug}}"
-    preview_path: "documentation/{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - {
