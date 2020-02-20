@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6.4-node
+      - image: circleci/ruby:2.7.0
     steps:
       - checkout
       - run: bundle install
