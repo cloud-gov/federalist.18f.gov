@@ -101,4 +101,10 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string" }
+      - {
+          label: "Redirects",
+          name: "redirect_from",
+          widget: "list",
+          hint: "A comma separated list of paths that will redirect to the current page"
+        }
       - { label: "Body", name: "body", widget: "markdown" }
