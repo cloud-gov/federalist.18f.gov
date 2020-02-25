@@ -5,8 +5,6 @@ layout: page
 sidenav: documentation
 ---
 
-# Custom Headers
-
  ⚠️ **This feature is currently experimental, make sure you know what you are doing!** ⚠️
 
 You can configure custom headers for your site by adding information under the `headers` key in the [Federalist configuration file](/documentation/federalist-json).
