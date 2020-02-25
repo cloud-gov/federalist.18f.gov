@@ -3,6 +3,8 @@ layout: page
 sidenav: documentation
 title: Getting started with Netlify CMS
 permalink: /documentation/getting-started-with-netlify-cms/
+redirect_from:
+  - /pages/getting-started-with-netlify-cms/
 ---
 
 Federalist recently integrated support for Netlify CMS, an open source content management system for your Git workflow that provides editors with a friendly UI and intuitive workflows.
