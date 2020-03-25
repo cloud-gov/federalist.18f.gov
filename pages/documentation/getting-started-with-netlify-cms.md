@@ -33,6 +33,10 @@ If your site is already up and running, please follow the instructions on [Netli
 - Jekyll: `/admin/config.yml`
 - Gatsby or Hugo: `/static/admin/config.yml`
 
+For examples of existing configurations, see the Federalist starter:
+- [Federalist USWDS Jekyll](https://github.com/18F/federalist-uswds-jekyll/blob/master/admin/config.yml)
+- [Federalist USWDS Gatsby](https://github.com/18F/federalist-uswds-gatsby/blob/master/static/admin/config.yml)
+
 ### Configuration Requirements
 To use Netlify CMS, you must authenticate with Github, and in order for Federalist to facilitate this, your Netlify CMS configuration should include the following:
 
