@@ -10,7 +10,7 @@ redirect_from:
 Federalist uses [RVM](https://rvm.io/) to select which ruby version to use to build a Federalist site.
 
 ## Default Ruby version
-By default, the build will use Ruby version 2.6.3.
+By default, the build will use Ruby version 2.6.6.
 
 ## Specifying a Ruby version
 
