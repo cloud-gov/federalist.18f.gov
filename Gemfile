@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'uswds-jekyll'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
-gem "html-proofer", "~> 3.10"
+gem "html-proofer", "~> 3.15"
 
 group :development, :test do
   gem 'capybara'
