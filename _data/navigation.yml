@@ -85,7 +85,7 @@ sidenav:
     href: /documentation/
     subfolderitems:
       - text: How Federalist works
-        href: /documentation/
+        href: /documentation/how-federalist-works/
       - text: How builds work
         href: /documentation/how-builds-work/
       - text: Specific build errors
