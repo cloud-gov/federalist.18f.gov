@@ -18,5 +18,5 @@ We've worked to make launching a live site on Federalist as simple as possible. 
 6. When you set the CNAME for your domain, a SSL certificate should automatically be created and associted with your domain within 1 hour. (Note: If you do not set the Cloudfront CNAME and TXT record within 24 hrs, your certificate will fail to be issued and we will need to re-initiate the certificate issuance process.)
 7. Once the domain's CNAME and TXT record is set, your site content will be available at your custom URL. If your assets (Javascript, CSS, Images, etc ) do not load properly, you will need to make sure your custom URL is properly set in Federalist web interface. Technical background on this process is [here]({{site.baseurl}}/documentation/custom-urls/).
 8. After your customURL is set in the Federalist web interface, Federalist will rebuild your site, which will set the proper URLs in the site.
-9. Sign your Site Review Document when contacted by GSA IT Information Systems Security Officer (ISSO).
+9. Sign your Site Review Document when contacted by Federalist's GSA IT Information Systems Security Officer (ISSO).
 10. Your site is fully live!
