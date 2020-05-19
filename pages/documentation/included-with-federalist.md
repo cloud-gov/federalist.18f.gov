@@ -23,3 +23,5 @@ redirect_from:
 ## Not included with Federalist
 
 * A large file hosting system. GitHub isn't generally set up to host more than a gigabyte of file content and Federalist's build container can't accommodate extremely large repositories in the build process. Instead, you should store very large files separately and link to them from your Federalist site.
+
+* A good way to edit more than one file at a time.  GitHub has limitations, not the least of which is the ability to rename files.  There is also not a true preview feature that shows an edited page in context of your website, so it will take a few minutes for the Federalist site to rebuild, even for small changes.
