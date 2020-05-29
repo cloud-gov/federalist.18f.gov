@@ -8,16 +8,23 @@ redirect_from:
 
 ---
 
-*Note that the features described in this document are experimental.*
-
 Federalist supports using node and npm to build your entire site OR to build parts of your site before the build engine starts its work.
 This is helpful for doing things like compiling a site's assets, or employing a build tool such as [Fractal](https://github.com/frctl/fractal).
 
 ## The Federalist NPM script
 
-Before running any other generator, the Federalist build engine will check for a package.json file. If it finds one, it will run `npm install`. Additionally, if the package.json provides a script named `federalist`, the build engine will run this script. This enables Federalist users to add Javascript dependencies to their site, and run a script to prepare the site for the build engine. If **Node.js** is the configured **Site Engine**, no other steps are run.
+Before running any other generator, the Federalist build engine will check for a package.json file. If it finds one, it will [install npm dependencies](#installing-npm-dependencies). Additionally, if the package.json provides a script named `federalist`, the build engine will run this script. This enables Federalist users to add Javascript dependencies to their site, and run a script to prepare the site for the build engine. If **Node.js** is the configured **Site Engine**, no other steps are run.
 
 For more details see [package.json examples](#examples).
+
+## Installing NPM dependencies
+
+Federalist will install dependencies from NPM on your behalf, you **should not** include a call to `npm install` from your "federalist" NPM script or anywhere else. In particular, Federalist runs `npm ci --production` which means:
+- Your project must have a package-lock.json file
+- The dependencies in package-lock.json must match those in package.json
+- Development dependencies (those listed under the "devDependencies" key in package.json) will not be installed
+
+See [npm-ci](https://docs.npmjs.com/cli/ci) and [npm-install](https://docs.npmjs.com/cli/install) for more details.
 
 ## Specifying a Node version
 
