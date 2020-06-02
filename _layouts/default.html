@@ -1,29 +1,7 @@
 ---
+layout: base
 ---
-{% assign glossary = site.data.flags.glossary %}
-{% unless glossary %}{% assign glossary = 'no-glossary' %}{% endunless %}
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
-  <head>
-    {% include meta.html %}
-    {% include styles.html %}
-    {% if site.google_analytics_ua or site.dap_agency %}
-      {% include analytics.html %}
-    {% endif %}
-    {% unless site.branch == "master" %}
-      <meta name="robots" content="noindex, nofollow">
-    {% endunless %}
-  </head>
-  <body class="{{ glossary }} {{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
 
-    {% include skipnav.html %}
-    {% include header.html %}
-
-    <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
-    {{ content }}
-    </main>
-
-    {% include footer.html %}
-    {% include scripts.html %}
-  </body>
-</html>
+<main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
+  {{ content }}
+</main>
