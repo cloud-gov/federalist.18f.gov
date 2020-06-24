@@ -14,7 +14,7 @@ The <b>21st Century Integrated Digital Experience Act (IDEA)</b> aims to improve
 - improve customer experience, and
 - standardize and transition to centralized shared services.
 
-All new, public-facing websites and digital services should meet eight specific requirements.
+All new, public-facing websites and digital services must meet eight specific requirements:
 
 1. **Accessible** - be accessible to individuals with disabilities in  accordance with Section 508
 1. **Consistent** - have a consistent appearance
