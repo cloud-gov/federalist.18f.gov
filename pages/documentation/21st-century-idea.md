@@ -6,9 +6,15 @@ sidenav: documentation
 ---
 
 
-The <b>21st Century Integrated Digital Experience Act (IDEA )</b> aims to improve the digital experience for government customers and reinforces existing requirements for federal public websites. Specifically, the Act requires all executive branch agencies to:
+The <b>21st Century Integrated Digital Experience Act (IDEA)</b> aims to improve the digital experience for government customers and reinforces existing requirements for federal public websites. Specifically, the Act requires all executive branch agencies to:
 
-All new, public-facing websites and digital services must meet eight specific requirements.
+- modernize their websites,
+- digitize services and forms,
+- accelerate use of e-signatures,
+- improve customer experience, and
+- standardize and transition to centralized shared services.
+
+All new, public-facing websites and digital services should meet eight specific requirements.
 
 1. **Accessible** - be accessible to individuals with disabilities in  accordance with Section 508
 1. **Consistent** - have a consistent appearance
@@ -19,4 +25,4 @@ All new, public-facing websites and digital services must meet eight specific re
 1. **Customizable** - provide an option for a more customized digital experience
 1. **Mobile-friendly** - be functional and usable on mobile devices
 
-To learn more about this law, [check out](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).
+To learn more about this law, see [Digital.gov](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).
