@@ -19,4 +19,4 @@ All new, public-facing websites and digital services must meet eight specific re
 1. **Customizable** - provide an option for a more customized digital experience
 1. **Mobile-friendly** - be functional and usable on mobile devices
 
-To learn more about this law, [check out](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).
+To learn more about this law, check out the [21st Century IDEA resource on Digital.gov](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).
