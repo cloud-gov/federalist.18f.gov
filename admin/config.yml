@@ -3,7 +3,7 @@ backend:
   repo: 18f/federalist.18f.gov
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
-  branch: master
+  branch: main
   use_graphql: true
   preview_context: federalist/build
 

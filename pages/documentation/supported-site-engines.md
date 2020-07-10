@@ -55,14 +55,14 @@ Image: `{% raw %}![18F]({{site.baseurl}}/uploads/18f-logo.png){% endraw %}`
 To instruct search engines not to index the `preview` builds of your site, try adding the following code within your site's `<head>` tags which are most likely found in your template's head.html or meta.html file:
 {% raw %}
 ```markdown
-{% unless site.branch == "master" %}
+{% unless site.branch == "main" %}
   <meta name="robots" content="noindex, nofollow">
 {% endunless %}
 ```
 {% endraw %}
-***Note:*** This code sample assumes the live version of your site's code is maintained in the `master` branch of your site's code repository.
+***Note:*** This code sample assumes the live version of your site's code is maintained in the `main` branch of your site's code repository.
 
-For all versions of your site that aren't built from `master`, the source code of the site will contain the code above. For an example, see [here](https://federalist-proxy.app.cloud.gov/preview/18f/federalist-docs/wslack-patch-1/), view source, and jump to line 57.
+For all versions of your site that aren't built from `main`, the source code of the site will contain the code above. For an example, see [here](https://federalist-proxy.app.cloud.gov/preview/18f/federalist-docs/wslack-patch-1/), view source, and jump to line 57.
 
 ### Jekyll Plugins
 
@@ -72,7 +72,7 @@ Federalist supports Jekyll plugins, enabling any plugins in a site's `_plugins` 
 
 Several dependencies are already available for use in the building environment. These include `ruby`, `python`, and `node.js`. You can write plugins that take advantage of these without needing a `Gemfile`.
 
-To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-garden-build/blob/master/Dockerfile).
+To see the exact configuration of the build environment, see the [build environment `Dockerfile`](https://github.com/18F/federalist-garden-build/blob/main/Dockerfile).
 
 **Note:** using `Gemfile` may considerably slow down the generation of your website, depending on how long the `bundle install` step takes to complete.
 
