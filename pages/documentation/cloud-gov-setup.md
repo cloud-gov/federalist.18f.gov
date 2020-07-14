@@ -162,7 +162,7 @@ cf create-service s3 basic-public federalist-production-s3
 
 Configuration of the S3 bucket is done with the [AWS CLI tool](https://aws.amazon.com/cli/).
 
-Once the bucket is created CORS will need to be [enabled and configured to only serve GET or HEAD requests that come from a specific whitelist](https://cloud.gov/docs/services/s3/#allowing-client-side-web-access-from-external-applications).
+Once the bucket is created CORS will need to be [enabled and configured to only serve GET or HEAD requests that come from a specific allowlist](https://cloud.gov/docs/services/s3/#allowing-client-side-web-access-from-external-applications).
 
 First save the following snippet as `cors.json`:
 
@@ -208,7 +208,7 @@ At this time cloud.gov does not have an SQS service broker. The SQS queue will n
 
 Note: `federalist-builder` is built to be [deployed from CircleCI](https://circleci.com/docs/2.0/deployment-integrations/). The instructions for manually deploying federalist-builder are described below and are necessary for the initial deploy, but subsequent deploys should happen on CircleCI.
 
-The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
+The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/main/manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
 
 federalist-builder has 2 user provided services that must be created before deploying in order for the app to work.
 
@@ -249,7 +249,7 @@ When the application is created, save the client and secret keys to add to the
 
 Note: federalist is built to be [deployed from CircleCI](https://circleci.com/docs/2.0/deployment_integrations/). The instructions for manually deploying federalist are described below and are necessary for the initial deploy, but subsequent deploys should happen on CircleCI.
 
-The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/master/manifest.yml) or [staging_manifest.yml](https://github.com/18F/federalist-builder/blob/master/staging_manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
+The first step to deploy federalist-builder is to configure the environment. The app's [manifest.yml](https://github.com/18F/federalist-builder/blob/main/manifest.yml) or [staging_manifest.yml](https://github.com/18F/federalist-builder/blob/main/staging_manifest.yml) set's the app's environment. The manifest sets environment variables directly for non-secret configs. For secret configs it binds user-provided services.
 
 The manifest specifies the following services which are provided by cloud.gov by cloud.gov service brokers:
 

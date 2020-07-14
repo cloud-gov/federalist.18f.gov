@@ -10,7 +10,7 @@
     {% if site.google_analytics_ua or site.dap_agency %}
       {% include analytics.html %}
     {% endif %}
-    {% unless site.branch == "master" %}
+    {% unless site.branch == "main" %}
       <meta name="robots" content="noindex, nofollow">
     {% endunless %}
   </head>

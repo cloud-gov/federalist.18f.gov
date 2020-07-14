@@ -47,7 +47,7 @@ For these pages you can simply fork them on Github and reword the content in ord
 
 Test your migration concept by first making one page and learning how to work with Federalist. Try using setting up layouts and content separately. Once the first page is live on a prototype site, you can migrate other pages, but focus on completing one first so that you have a good sense of the effort required.
 
-You should create a staging branch in your Github repo and create a pull request from that branch to your master branch. Then, migrate to the staging branch and push to master once you’ve confirmed everything is working correctly in staging. This will help you keep track of changes and provide and easy way to identify what is causing issues. You should push to master everyday.
+You should create a staging branch in your Github repo and create a pull request from that branch to your main branch. Then, migrate to the staging branch and push to main once you’ve confirmed everything is working correctly in staging. This will help you keep track of changes and provide and easy way to identify what is causing issues. You should push to main everyday.
 - You may want to consider creating separate staging branches for content and for settings
 
 Reserve time for the go live process. Plan few days before live launch to do a soft launch for stakeholders at a different URL.

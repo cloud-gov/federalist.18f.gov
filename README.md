@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/18F/federalist.18f.gov/tree/master.svg?style=svg)](https://circleci.com/gh/18F/federalist.18f.gov/tree/master)
+[![CircleCI](https://circleci.com/gh/18F/federalist.18f.gov/tree/main.svg?style=svg)](https://circleci.com/gh/18F/federalist.18f.gov/tree/main)
 [![Known Vulnerabilities](https://snyk.io/test/github/18F/federalist.18f.gov/badge.svg)](https://snyk.io/test/github/18F/federalist.18f.gov)
 
 
