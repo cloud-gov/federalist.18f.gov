@@ -39,11 +39,13 @@ The URLs above have broken CSS and assets because published Federalist sites on 
 
 1. The partner confirms the site is ready for an initial scan; the Federalist team scans the site and sends to GSA IT for initial approval.
 1. After initial scans, the partner confirms readiness for the site to go-live at a specific permanent URL (this URL process needs to happen within a few hours timespan when started).
-1. The Federalist team uses the [cloud.gov CloudFront broker](https://cloud.gov/docs/services/cdn-route/) to begin set up for a distribution for a given URL.
-    * We do this by accessing our org in cloud.gov and running the command `cf create-service cdn-route cdn-route YOUR.URL.gov-route -c '{"domain": "YOUR.URL.gov", "origin": "federalist-proxy.app.cloud.gov", "path": "/site/<org>/<repo-name>"}'`. Note that the path argument here does not have a trailing slash.
-1. After running the command above, the command `cf service YOUR.URL.gov-route` is used to retrieve the CloudFront URL to be used in DNS changes. We communicate that URL to whoever sets the DNS records.
-1. The partner sets DNS records with a CNAME to point the subdomain (e.g. `yourprogram.youragency.gov`) to the CloudFront distribution URL (e.g. `d2oezh1w8w4o1u.cloudfront.net`).
-    * It takes roughly 15-30 minutes for the CNAME to a `d2oezh1w8w4o1u.cloudfront.net`-style URL to propagate and the broker to create an HTTPS certificate, which also must propagate. Once `yourprogram.youragency.gov` shows site content (perhaps without images or CSS) under the correct HTTPS certificate, the CloudFront delegation process is complete.
+1. The partner sets a DNS record with a CNAME to point the subdomain (e.g. `_acme-challenge.yourprogram.youragency.gov.`) to the SSL certificate ACME challenge value (e.g. `_acme-challenge.www.example.gov.external-domains-production.cloud.gov`).
+    * It takes roughly 15-30 minutes for the CNAME to propagate and the broker to create an HTTPS certificate, which also must propagate.  The certificate is typically issued within an hour.
+_acme-challenge.www.example.gov. with value _acme-challenge.www.example.gov.external-domains-production.cloud.gov
+1. The partner sets a DNS record with a CNAME to point the subdomain (e.g. `yourprogram.youragency.gov`) to the CloudFront distribution alias (e.g. `yourprogram.youragency.gov.external-domains-production.cloud.gov`).
+1. The Federalist team uses the [cloud.gov CloudFront broker](https://cloud.gov/docs/services/external-domain-service/) to begin set up for a distribution for a given URL.
+    * We do this by accessing our org in cloud.gov and running the command `cf create-service external-domain domain-with-cdn YOUR.URL.gov-ext -c '{"domain": "YOUR.URL.gov", "origin": "federalist-proxy.app.cloud.gov", "path": "/site/<org>/<repo-name>"}'`. Note that the path argument here does not have a trailing slash.
+    * Once `yourprogram.youragency.gov` shows site content (perhaps without images or CSS) under the correct HTTPS certificate, the CloudFront delegation process is complete.
 1. The partner then modifies their site's Federalist's configuration with the custom URL to ensure assets and CSS are loaded at the custom URL. This is deliberate so that the site only loads at the correct URL, such as [https://federalist-modern-team-template.18f.gov/](https://federalist-modern-team-template.18f.gov/). **Please note that URLs must start with https://**.
 1. The site is then served from the CloudFront broker with automatic HTTPS. Partners retain control of DNS.
 
