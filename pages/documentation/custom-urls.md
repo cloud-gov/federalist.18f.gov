@@ -20,7 +20,7 @@ These web addresses are public and useful for testing, but the URLs are not usef
 
 Luckily, Federalist also proxies — that is, creates a forwarding address — for those S3 URLs at URLs such as:
 
-- [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/). 
+- [https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/](https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/).
 
 The proxy adds some required headers and is much cleaner for sending preview links around. 
 
@@ -28,9 +28,9 @@ When ready to go live at their own .gov URL, partners point DNS for sampleprogra
 
 Here's a full example chain:
 
- - https://federalist-modern-team-template.18f.gov/ is CNAME'd to https://d2xyasfn4889hb.cloudfront.net/
- - https://d2xyasfn4889hb.cloudfront.net/ is set to load from [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/)
- - [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/) proxies [http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/](http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/)
+ - https://federalist-modern-team-template.18f.gov/ is CNAME'd to federalist-modern-team-template.18f.gov.external-domains-production.cloud.gov
+ - federalist-modern-team-template.18f.gov.external-domains-production.cloud.gov is set to load from [https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/](https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/)
+ - [https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/](https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/) proxies [http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/](http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/)
 
 The URLs above have broken CSS and assets because published Federalist sites on their own URLs don't publish to a "/site/18f" directory. The above links are showing HTML content that is published at [https://federalist-modern-team-template.18f.gov/](https://federalist-modern-team-template.18f.gov/). The assets for this site are at addresses like [https://federalist-modern-team-template.18f.gov/assets/img/logo-main.gif](https://federalist-modern-team-template.18f.gov/assets/img/logo-main.gif) - whereas to display properly on the proxy or S3 buckets the assets would need to be published at https://federalist-modern-team-template.18f.gov/site/18f/assets/img/logo-main.gif. See the "/site/18f/" in the second link?
 
