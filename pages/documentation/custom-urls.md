@@ -28,8 +28,8 @@ When ready to go live at their own .gov URL, partners point DNS for sampleprogra
 
 Here's a full example chain:
 
- - https://federalist-modern-team-template.18f.gov/ is CNAME'd to federalist-modern-team-template.18f.gov.external-domains-production.cloud.gov
- - federalist-modern-team-template.18f.gov.external-domains-production.cloud.gov is set to load from [https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/](https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/)
+ - `https://federalist-modern-team-template.18f.gov` is CNAME'd to `federalist-modern-team-template.18f.gov.external-domains-production.cloud.gov`
+ - `federalist-modern-team-template.18f.gov.external-domains-production.cloud.gov` is set to load from [https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/](https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/)
  - [https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/](https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/) proxies [http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/](http://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.s3-website-us-gov-west-1.amazonaws.com/site/18f/federalist-modern-team-template/)
 
 The URLs above have broken CSS and assets because published Federalist sites on their own URLs don't publish to a "/site/18f" directory. The above links are showing HTML content that is published at [https://federalist-modern-team-template.18f.gov/](https://federalist-modern-team-template.18f.gov/). The assets for this site are at addresses like [https://federalist-modern-team-template.18f.gov/assets/img/logo-main.gif](https://federalist-modern-team-template.18f.gov/assets/img/logo-main.gif) - whereas to display properly on the proxy or S3 buckets the assets would need to be published at https://federalist-modern-team-template.18f.gov/site/18f/assets/img/logo-main.gif. See the "/site/18f/" in the second link?
@@ -39,10 +39,10 @@ The URLs above have broken CSS and assets because published Federalist sites on 
 
 1. The partner confirms the site is ready for an initial scan; the Federalist team scans the site and sends to GSA IT for initial approval.
 1. After initial scans, the partner confirms readiness for the site to go-live at a specific permanent URL (this URL process needs to happen within a few hours timespan when started).
-1. The partner sets a DNS record with a CNAME to point the subdomain (e.g. `_acme-challenge.yourprogram.youragency.gov.`) to the SSL certificate ACME challenge value (e.g. `_acme-challenge.www.example.gov.external-domains-production.cloud.gov`).
+1. The partner sets a DNS record with a CNAME to point the domain (e.g. `_acme-challenge.yourprogram.youragency.gov`) to the SSL certificate ACME challenge value (e.g. `_acme-challenge.www.example.gov.external-domains-production.cloud.gov.`).
     * It takes roughly 15-30 minutes for the CNAME to propagate and the broker to create an HTTPS certificate, which also must propagate.  The certificate is typically issued within an hour.
-_acme-challenge.www.example.gov. with value _acme-challenge.www.example.gov.external-domains-production.cloud.gov
-1. The partner sets a DNS record with a CNAME to point the subdomain (e.g. `yourprogram.youragency.gov`) to the CloudFront distribution alias (e.g. `yourprogram.youragency.gov.external-domains-production.cloud.gov`).
+`_acme-challenge.www.example.gov` with value `_acme-challenge.www.example.gov.external-domains-production.cloud.gov.`
+1. The partner sets a DNS record with a CNAME to point the domain (e.g. `yourprogram.youragency.gov`) to the CloudFront distribution alias (e.g. `yourprogram.youragency.gov.external-domains-production.cloud.gov.`).
 1. The Federalist team uses the [cloud.gov CloudFront broker](https://cloud.gov/docs/services/external-domain-service/) to begin set up for a distribution for a given URL.
     * We do this by accessing our org in cloud.gov and running the command `cf create-service external-domain domain-with-cdn YOUR.URL.gov-ext -c '{"domain": "YOUR.URL.gov", "origin": "federalist-proxy.app.cloud.gov", "path": "/site/<org>/<repo-name>"}'`. Note that the path argument here does not have a trailing slash.
     * Once `yourprogram.youragency.gov` shows site content (perhaps without images or CSS) under the correct HTTPS certificate, the CloudFront delegation process is complete.
