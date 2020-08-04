@@ -11,12 +11,14 @@ redirect_from:
 We've worked to make launching a live site on Federalist as simple as possible. You will need to complete these steps:
 
 1. Sign an IAA with 18F to use Federalist.
-2. Verify that your agency accepts the risk of launching a site on Federalist.
-3. Build your site and verify that the site is ready for launch using our URL previews.
-4. Contact the Federalist team; as part of our compliance process, GSA will complete a security scan of your site and let you know of the results within a week.
-5. When you are ready to launch your site with a production-ready URL, the Federalist team will provide you with a CloudFront URL (For example: https://d2xyasfn4889hb.cloudfront.net/) and TXT record (needed to issue your auto-renewed TLS certificate). You'll need to configure your DNS records with the CNAME and TXT values within 24 hrs. (Note: Please be aware that you cannot set a CNAME for a apex domain.  If you are looking to set a CNAME for a apex domain like example.gov, a common solution is to create the domain www.example.gov, set the CNAME for www.example.gov, and setup a HTTP redirect from example.gov to www.example.gov. We recommend that you check with your DNS Admin or IT support to see what HTTP redirect options are available to you.)
-6. When you set the CNAME for your domain, a SSL certificate should automatically be created and associted with your domain within 1 hour. (Note: If you do not set the Cloudfront CNAME and TXT record within 24 hrs, your certificate will fail to be issued and we will need to re-initiate the certificate issuance process.)
-7. Once the domain's CNAME and TXT record is set, your site content will be available at your custom URL. If your assets (Javascript, CSS, Images, etc ) do not load properly, you will need to make sure your custom URL is properly set in Federalist web interface. Technical background on this process is [here]({{site.baseurl}}/documentation/custom-urls/).
-8. After your customURL is set in the Federalist web interface, Federalist will rebuild your site, which will set the proper URLs in the site.
-9. Sign your Site Review Document when contacted by Federalist's GSA IT Information Systems Security Officer (ISSO).
-10. Your site is fully live!
+1. Verify that your agency accepts the risk of launching a site on Federalist.
+1. Build your site and verify that the site is ready for launch using our URL previews.
+1. Contact the Federalist team; as part of our compliance process, GSA IT will complete a security scan of your site and let you know of the results within a week.  The Federalist team will also ask you to complete a brief questionnaire providign background information on your site.
+1. When you are ready to launch your site with a production-ready URL (ie: www.example.gov), you must apply the following DNS changes to obtain your auto-renewed TLS certificate and make your site accessible at your domain:
+	1. create a CNAME for `_acme-challenge.www.example.gov.` with value `_acme-challenge.www.example.gov.external-domains-production.cloud.gov.`.
+	1. create an CNAME for `www.example.gov.` with value `www.example.gov.external-domains-production.cloud.gov.`
+	(Note: Please be aware that you cannot set a CNAME for a root domain.  If you are looking to set a CNAME for a root domain like example.gov, a common solution is to create the domain www.example.gov, set the CNAME for www.example.gov, and setup a redirect from example.gov to www.example.gov. If you're migrating your already live site to Federalist and would like to minimize downtime, you can opt to complete this step after the Cloudfront distribution is provisioned and your TLS certificate is issued).
+1. Let the Federalist team know that your DNS settings have been made and you are ready for your CloudFront distribution required to make your site accessible at www.example.gov.  Be sure to provide your sites preview url.
+1. The Federalist team uses the [cloud.gov CloudFront broker](https://cloud.gov/docs/services/external-domain-service/) to provision a Cloudfront Distribution for your given URL.
+1. Once your site's TLS certificate is issued, your site content will be available at your custom URL. If your assets (Javascript, CSS, Images, etc ) do not load properly, you will need to make sure your custom URL is properly set in Federalist web interface. Technical background on this process is [here]({{site.baseurl}}/documentation/custom-urls/).
+1. After your customURL is set in the Federalist web interface, Federalist will rebuild your site, which will set the proper URLs in the site.  Once the site is rebuilt, you will be fully live.
