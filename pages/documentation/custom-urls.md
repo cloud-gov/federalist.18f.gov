@@ -20,7 +20,7 @@ These web addresses are public and useful for testing, but the URLs are not usef
 
 Luckily, Federalist also proxies — that is, creates a forwarding address — for those S3 URLs at URLs such as:
 
-- [https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/). 
+- [https://cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov/site/18f/federalist-modern-team-template/](https://federalist-proxy.app.cloud.gov/site/18f/federalist-modern-team-template/). 
 
 The proxy adds some required headers and is much cleaner for sending preview links around. 
 
