@@ -13,7 +13,7 @@ We've worked to make launching a live site on Federalist as simple as possible. 
 1. Sign an IAA with 18F to use Federalist.
 1. Verify that your agency accepts the risk of launching a site on Federalist.
 1. Build your site and verify that the site is ready for launch using our URL previews.
-1. Contact the Federalist team; as part of our compliance process, GSA IT will complete a security scan of your site and let you know of the results within a week.  The Federalist team will also ask you to complete a brief questionnaire providign background information on your site.
+1. Contact the Federalist team; as part of our compliance process, GSA IT will complete a security scan of your site and let you know of the results within a week.  The Federalist team will also ask you to complete a brief questionnaire providing background information on your site.
 1. When you are ready to launch your site with a production-ready URL (ie: www.example.gov), you must apply the following DNS changes to obtain your auto-renewed TLS certificate and make your site accessible at your domain:
 	1. create a CNAME for `_acme-challenge.www.example.gov.` with value `_acme-challenge.www.example.gov.external-domains-production.cloud.gov.`.
 	1. create an CNAME for `www.example.gov.` with value `www.example.gov.external-domains-production.cloud.gov.`
