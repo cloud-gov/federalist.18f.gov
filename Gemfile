@@ -4,6 +4,7 @@ gem 'uswds-jekyll'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 gem "html-proofer", "~> 3.15"
+gem "kramdown-parser-gfm", "~> 1.1.0"
 
 group :development, :test do
   gem 'capybara'
