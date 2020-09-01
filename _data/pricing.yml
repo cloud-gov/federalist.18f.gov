@@ -1,7 +1,5 @@
 plans:
-  - title: "Basic plan: Access to Federalist $24,949/year"
-    summary: >-
-      Basic training via video conference for Federalist and GitHub. This subscription is ideal if 1) you are focused on publishing content and do not need heavy customization of templates, or 2) you have a team capable of managing our easy-to-use templates on GitHub.
+  - title: "Platform Access to Federalist $24,949/year"
     features:
       - { text: U.S Web Design System starter kits in Javascript and Ruby to get your site running within minutes. }
       - { text: GSA-maintained GSA Authority to Operate (ATO) for all your sites. }
@@ -11,13 +9,3 @@ plans:
       - { text: Automatic HTTPS certificates and renewals for all your websites. }
       - { text: Unlimited sites for your office. }
       - { text: No charges for storage or bandwidth. }
-
-  - title: "Basic plan + Additional support $82,699/year"
-    summary: >-
-      This subscription is ideal if you have complicated build requirements or want your hands-on support from Federalist staff. This plan does not include hourly labor.
-    features:
-      - { text: Video conference training session on using Federalist with Github. }
-      - { text: Optional monthly conference call to discuss technical questions. }
-      - { text: Top priority on support requests. }
-      - { text: When necessary, escalate email and/or Slack support to video conference call. }
-      - { text: Technical implementation recommendations on optimizing the use of Federalist. }
