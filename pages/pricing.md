@@ -8,7 +8,7 @@ layout: page
 
 ## {{ plan.title }}
 
-**Included in each subscription**
+**Included in subscription:**
 
 {% for feature in plan.features %}
 - {{ feature.text }} {% endfor %}
