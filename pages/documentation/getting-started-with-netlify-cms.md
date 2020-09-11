@@ -59,7 +59,7 @@ To use Netlify CMS, you must authenticate with Github, and in order for Federali
 See [Netlify CMS Backends Overview](https://www.netlifycms.org/docs/backends-overview) for a full description of the configuration options.
 
 ### Authentication Requirements
-Because Federalist facilitates the authentication with Github, we require users of Netlify CMS to be Federalist users in addition to Github having `write` permissions on the Github repository.
+Because Federalist facilitates the authentication with Github, we require users of Netlify CMS to be Federalist users in addition to having `write` permissions to the Github repository.
 
 ### Getting familiar with Netlify CMS
 To learn more about Netlify CMS and how it may help you manage content changes on your Federalist site, please visit [netlifycms.org/](https://www.netlifycms.org/)
