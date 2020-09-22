@@ -29,6 +29,8 @@ Examples:
 
 Setting `"fullClone": true` in your `federalist.json` file will tell Federalist to pull the entire revision history for the specific branch.
 
+**Note:** For larger repositories this may cause a noticiable increase in build time.
+
 Ex.
 ```js
 // federalist.json
