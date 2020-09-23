@@ -21,7 +21,7 @@ See [specifying custom headers](/documentation/custom-headers) for details.
 | anything else | | shallow clone |
 
 
-By default, Federalist does a "shallow" clone of a single branch of your repository to minimize the duration of your build as well as the space it requires. This means that entire git revision is NOT available during Federalist builds which may differ from your local environment. This can cause an issue with some site engines or plugins that generate "last modified" datetimes base on the git revision history for particular files.
+By default, Federalist does a "shallow" clone of a single branch of your repository to minimize the duration of your build as well as the space it requires. This means that the entire git revision history is NOT available during Federalist builds, which may differ from your local environment. This can cause an issue with some site engines or plugins that generate "last modified" datetimes based on the git revision history for particular files.
 
 Examples:
 - Hugo: `.Page.Lastmod` with configuration option `enableGitInfo = true`
