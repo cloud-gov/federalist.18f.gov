@@ -35,10 +35,10 @@ When you have satisfied the above requirements, start the process of launching y
 - Slack: `#federalist-support`
 
 2. Federalist support will:
-- initiate a GSA IT-provided site scan of the preview build of your site to identify any vulnerabilites
+- initiate GSA IT-provided scans of the preview build and source code of your site to identify any vulnerabilites
 - send you a brief site questionnaire that must be completed before continuing
 
-3. Complete the site questionnaire and resolve all vulnerabilities identified by the site scans (this may take several scans)
+3. Complete the site questionnaire and resolve all vulnerabilities identified by the vulnerability scans (this may take several scans)
 
 4. Complete the process of [adding your custom domain](/documentation/custom-domains)
 
@@ -49,7 +49,7 @@ When you have satisfied the above requirements, start the process of launching y
 
 1. Notify Federalist support that you are ready to launch your site
 2. Complete the site questionnaire provided to you by Federalist support
-3. Resolve any vulnerabilities identified by vulnerability scans
+3. Resolve any findings identified by vulnerability scans
 4. [Configure your DNS](/documentation/custom-domains#configure-your-dns)
 5. Notify Federalist support
 6. [Update your site settings](/documentation/custom-domains#update-your-site-settings)
