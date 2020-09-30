@@ -10,7 +10,7 @@ redirect_from:
 
 ## How Federalist custom URLs work
 
-This is technical documentation about how custom domains work on Federalist. It is not required reading to use Federalist and only provided for background; instructions for our partners are [here](/pages/using-federalist/launch-checklist/).
+This is technical documentation about how custom domains work on Federalist. It is not required reading to use Federalist and only provided for background; instructions for our partners are [here](/documentation/before-you-launch/).
 
 All Federalist deploys are rendered via S3 at a .com URL such as: 
 

@@ -5,7 +5,7 @@ layout: page
 sidenav: documentation
 ---
 
-When you are ready to share your site with the public you can add your own custom domain. Please make sure you have completed all of the requirements in [before you launch](/documentation/before-you-launch) before continuing.
+When you are ready to share your site with the public you can add your own custom domain. Please make sure you have completed all of the requirements in [before you launch](/documentation/before-you-launch#requirements) before continuing.
 
 It is possible to add up to 2 custom domains for your site, each one requires the completion of the following 3 steps:
 
@@ -88,11 +88,11 @@ Configure the following DNS records, replacing **`sub.example.gov`** with your a
 ---
 
 ## Notify Federalist
-Once your DNS changes are complete, to notify Federalist you can do one of the following:
-- email `federalist-support@gsa.gov`
-- post a message in the `#federalist-support` Slack channel
+Once your DNS changes are complete, notify Federalist support via:
+- email: `federalist-support@gsa.gov`
+- Slack: `#federalist-support`
 
-Someone from the Federalist team will assist you and make the updates to the Federalist platform.
+Someone from the Federalist support team will assist you and make the updates to the Federalist platform.
 
 ---
 

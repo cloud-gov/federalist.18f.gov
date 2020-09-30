@@ -61,8 +61,10 @@ sidenav:
         href: /documentation/instructional-demos/
       - text: Builds and previews
         href: /documentation/previews/
-      - text: Launch checklist
-        href: /documentation/launch-checklist/
+      - text: Custom Domains
+        href: /documentation/custom-domains/
+      - text: Before you launch
+        href: /documentation/before-you-launch/
       - text: Migration guide
         href: /documentation/migration-guide/
       - text: Adding forms

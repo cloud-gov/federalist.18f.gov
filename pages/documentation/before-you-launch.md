@@ -1,0 +1,55 @@
+---
+title: Before you launch
+permalink: /documentation/before-you-launch/
+layout: page
+sidenav: documentation
+redirect_from:
+  - /pages/using-federalist/launch-checklist/
+  - /documentation/launch-checklist/
+---
+
+We've worked to make publishing a government site on Federalist as simple as possible. Please note that while the entire process usually takes a couple days, it may take up to a week, so plan accordingly.
+
+- [Requirements](#requirements)
+- [Launch Process](#launch-process)
+- [Launch Checklist](#launch-checklist)
+
+## Requirements
+- You must have an active, signed IAA with Federalist. Sandbox accounts without IAAs will be unable to configure custom domains and preview urls are **not** suitable for production use.
+
+- Your agency must accept the risk of launching a site on Federalist. This requirement varies by agency, some will accept Federalist's GSA Agency ATO while others may require additional documentation.
+
+- You must understand [your responsibilities](/documentation/customer-responsibilities).
+
+- Ensure you know how, or who to contact to make changes to the DNS configuration for your domain.
+
+- If necessary, obtain a custom domain.
+
+When you have satisfied the above requirements, start the process of launching your site by reaching out to Federalist via:
+- email: `federalist-support@gsa.gov`
+- Slack: `#federalist-support`
+
+## Launch Process
+1. Notify Federalist support of your intent to launch along with your repository name/url and production-ready git branch via:
+- email: `federalist-support@gsa.gov`
+- Slack: `#federalist-support`
+
+2. Federalist support will:
+- initiate a GSA IT-provided site scan of the preview build of your site to identify any vulnerabilites
+- send you a brief site questionnaire that must be completed before continuing
+
+3. Complete the site questionnaire and resolve all vulnerabilities identified by the site scans (this may take several scans)
+
+4. Complete the process of [adding your custom domain](/documentation/custom-domains)
+
+5. Your site will now be live!
+
+
+## Launch Checklist
+
+1. Notify Federalist support that you are ready to launch your site
+2. Complete the site questionnaire provided to you by Federalist support
+3. Resolve any vulnerabilities identified by vulnerability scans
+4. [Configure your DNS](/documentation/custom-domains#configure-your-dns)
+5. Notify Federalist support
+6. [Update your site settings](/documentation/custom-domains#update-your-site-settings)
