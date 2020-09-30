@@ -32,6 +32,16 @@ To put a site live on Federalist, you must direct DNS for your URL to a custom a
 
 If your site is at a top level .gov domain, the process may be more challenging than for a subdomain as some DNS providers are less flexible for top level domain settings. We'll need to plan a solution for you before signing an agreement.
 
+##### SPF and DMARC records
+GSA IT requires that your your URL's apex domain has appropriately set DMARC and SPF records.  
+
+Expected DMARC record:
+>v=DMARC1; p=reject; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov,mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+
+Expected SPF record:
+>v=spf1 -all
+
+
 #### You own any custom code on your webpage
 
 You may wish to use custom Jekyll plugins, Google Analytics from GSA's [Digital Analytics Program](https://www.digitalgov.gov/services/dap/) using embedded Javascript, or other code on your site. Federalist makes this possible - we use analytics extensively on our sites - but you are responsible for the security and stability of any custom code.
