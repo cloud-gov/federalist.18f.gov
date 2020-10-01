@@ -39,7 +39,7 @@ You are responsible for ensuring compliance with any and all additional federal 
 
 #### You own your domain and DNS
 
-Federalist does not manage your domain name or provide DNS service. To launch a site on Federalist, you must configure the DNS for your domain to point to a domain provided by the Federalist team (meaning, that visitors to that address will be pointed at Federalist so they can load your site from us). Setting DNS for a new or existing domain may involve working with other offices at your agency; these processes typically vary.
+Federalist does not manage your domain name nor provide DNS services. To launch a site on Federalist, you must configure the DNS for your domain to point to a domain provided by the Federalist team (meaning, that visitors to that address will be pointed at Federalist so they can load your site from us). Setting DNS for a new or existing domain may involve working with other offices at your agency; these processes typically vary.
 
 If your domain is not an apex (e.g. 2nd level) domain, the process may be more challenging as some DNS providers do not support all required DNS record types. We recommend that you plan a solution before signing an agreement, please see [custom domains](/documentation/custom-domains) for more details.
 
