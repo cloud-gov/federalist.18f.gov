@@ -25,10 +25,6 @@ We've worked to make publishing a government site on Federalist as simple as pos
 
 - If necessary, obtain a custom domain.
 
-When you have satisfied the above requirements, start the process of launching your site by reaching out to Federalist via:
-- email: `federalist-support@gsa.gov`
-- Slack: `#federalist-support`
-
 ## Launch Process
 1. Notify Federalist support of your intent to launch along with your repository name/url and production-ready git branch via:
 - email: `federalist-support@gsa.gov`
@@ -38,11 +34,15 @@ When you have satisfied the above requirements, start the process of launching y
 - initiate GSA IT-provided scans of the preview build and source code of your site to identify any vulnerabilites
 - send you a brief site questionnaire that must be completed before continuing
 
-3. Complete the site questionnaire and resolve all vulnerabilities identified by the vulnerability scans (this may take several scans)
+3. Complete the site questionnaire and resolve all required vulnerabilities identified by the scans as identified by Federalist Support (this may take several scans)
 
-4. Complete the process of [adding your custom domain](/documentation/custom-domains)
+4. Complete the process of [adding your custom domain](/documentation/custom-domains). If you are migrating an existing site to Federalist, make sure to review [minimizing downtime](/documentation/custom-domains#minimizing-downtime)
 
 5. Your site will now be live!
+
+6. A scan of your custom domain will be run by GSA IT just to verify the final configuration, then the Federalist ISSO will share the Site Review document for your product owner to sign
+
+6. Sign and return the Site Review document provided by the Federalist ISSO
 
 
 ## Launch Checklist
@@ -53,3 +53,4 @@ When you have satisfied the above requirements, start the process of launching y
 4. [Configure your DNS](/documentation/custom-domains#configure-your-dns)
 5. Notify Federalist support
 6. [Update your site settings](/documentation/custom-domains#update-your-site-settings)
+7. Sign and return the Site Review document to the Federalist ISSO
