@@ -22,7 +22,7 @@ GitHub is used across the government (see [this dashboard](https://gsa.github.io
 
 #### You own your content
 
-Federalist provides templates for you to start with in configuring your sites, but is not responsible for editing or updating the content or local configuration of your site. The Federalist team ensures that the publishing mechanism remains available to you so that your content edits can be published nearly immediately. Your content must be low impact according to [FIPS 199](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf) and each branch on GitHub is published publicly by Federalist. Federalist is not suitable for hosting the following types of information:
+Federalist provides templates for you to start with in configuring your sites, but is not responsible for editing or updating the content or local configuration of your site. The Federalist team ensures that the publishing mechanism remains available to you so that your content edits can be published within minutes. Your content must be low impact according to [FIPS 199](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf) and each branch on GitHub is published publicly by Federalist. Federalist is not suitable for hosting the following types of information:
 - PII (Personally Identifiable Information)
 - FOUO (For Official Use Only)
 - CUI (Confidential Unclassified Information)
