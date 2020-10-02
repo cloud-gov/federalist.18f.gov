@@ -117,4 +117,4 @@ Once the Federalist team has notified you that the platform changes are complete
 
     ![Site Settings 2]({{ site.baseurl }}/assets/images/site-settings-2.png)
 
-3. Federalist will rebuild your site and then it will be available at the custom domain. If you notice that your site does not look correct and/or any site assets (css, js, images) appear to be missing, make sure that the urls to those assets are correct, we provide the environment variable `BASEURL` for this purpose. If using Jekyll, please make sure you use `{{ site.baseurl }}` when constructing asset urls manually or use the `{% asset %}` helper tag is using the `jekyll-assets` gem.
+3. Federalist will rebuild your site and then it will be available at the custom domain. If you notice that your site does not look correct and/or any site assets (css, js, images) appear to be missing, make sure that the urls to those assets are correct, we provide the environment variable `BASEURL` for this purpose. If using Jekyll, please make sure you use `site.baseurl` when constructing asset urls manually or use the `asset` helper tag if using the `jekyll-assets` gem.
