@@ -28,13 +28,3 @@ For security reasons, site previews are unavailable with pull requests from
 forked repositories.
 {% endcapture %}
 {% include components/alert--note.html content=content %}
-
-There can be two "special" branches, which are specified in the web UI's Basic
-Settings page as the Live Site Branch and/or the Demo Site Branch. Those
-branches can be built with custom domains (that's really the only way they're
-special).
-
-Here's how the URLs work:
-- for the Live site: Live Site Domain, if set, OR `https://<site-cdn-id>.app.cloud.gov/site/<OWNER>/<REPOSITORY>`.
-- for the Demo site:  Demo Site Domain, if set, OR `https://<site-cdn-id>.app.cloud.gov/demo/<OWNER>/<REPOSITORY>`.
-- for branch previews:  `https://<site-cdn-id>.app.cloud.gov/preview/<OWNER>/<REPOSITORY>/<BRANCH>`.
