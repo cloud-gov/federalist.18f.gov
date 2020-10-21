@@ -3,7 +3,7 @@ title: Customizing Your Site
 permalink: /documentation/customization/
 layout: page
 sidenav: documentation
-redirect_from: 
+redirect_from:
   - /using-federalist/customization/
 ---
 
@@ -100,7 +100,7 @@ If a user navigates to a page on your site that does not exist, they will see a 
 ## Federalist default 404 page
 ![Default 404 Page]({{site.baseurl}}/assets/images/default-404.png)
 
-In order to use a custom 404 Page, name your 404 Page "404.html" and make sure it is included in the resources that are deployed (For Jekyll sites or sites with no build process it should be in the root of your project). Then, let #federalist-support konw that you would like to use a custom 404 page named "404.html" and we will handle the rest.
+In order to use a custom 404 Page, name your 404 Page "404.html" and make sure it is included in the resources that are deployed at the root of your project. Jekyll sites should also have the set the file in the root of the project with the a front matter data value set to `permalink: /404.html`, see [the docs for reference](https://jekyllrb.com/tutorials/custom-404-page/). If you need to direct 404 errors to a file not named "404.html" to support single page applications (SPA), let #federalist-support or federalist-support@gsa.gov know that you would like to use a custom 404 page for a SPA and we will handle the rest.
 
 ## security.txt
 
