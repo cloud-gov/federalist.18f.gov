@@ -66,7 +66,7 @@ RSpec.configure do |config|
   # This is required otherwise the tests will begin before 
   # the page finishes rendering.
   # TODO: Is there a better way of handling this? 
-  sleep 0.1 while Capybara.app.compiling?
+  sleep 0.1 while !Capybara.app.complete?
 
   Capybara.server = :webrick
 

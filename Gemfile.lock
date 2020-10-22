@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/adaoraul/rack-jekyll
+  revision: a997bd0c384fa377cda3b9ebeb462f91cd8dfd03
+  ref: a997bd0
+  specs:
+    rack-jekyll (0.5.0)
+      jekyll (>= 1.3)
+      listen (>= 1.3)
+      rack (>= 1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -75,11 +85,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
-    rack (1.6.13)
-    rack-jekyll (0.5.0)
-      jekyll (>= 1.3)
-      listen (>= 1.3)
-      rack (~> 1.5)
+    rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rainbow (3.0.0)
@@ -131,7 +137,8 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   kramdown-parser-gfm (~> 1.1.0)
-  rack-jekyll
+  rack (>= 2.1.4)
+  rack-jekyll!
   rb-readline
   rspec
   simplecov
