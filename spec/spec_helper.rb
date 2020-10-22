@@ -55,18 +55,18 @@ RSpec.configure do |config|
   #   Capybara::Selenium::Driver.new(app, browser: :chrome)
   # end
   Capybara.use_default_driver       # switch back to default driver
-
-
+  
+  
   # Configure Capybara to load the website through rack-jekyll.
   # (force_build: true) builds the site before the tests are run,
   # so our tests are always running against the latest version
   # of our jekyll site.
   Capybara.app = Rack::Jekyll.new(force_build: true)
 
-  # This is required otherwise the tests will begin before
+  # This is required otherwise the tests will begin before 
   # the page finishes rendering.
-  # TODO: Is there a better way of handling this?
-  sleep 0.1 while !Capybara.app.complete?
+  # TODO: Is there a better way of handling this? 
+  sleep 0.1 while Capybara.app.compiling?
 
   Capybara.server = :webrick
 
