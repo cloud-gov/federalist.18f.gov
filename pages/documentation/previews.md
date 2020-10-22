@@ -28,3 +28,8 @@ For security reasons, site previews are unavailable with pull requests from
 forked repositories.
 {% endcapture %}
 {% include components/alert--note.html content=content %}
+
+## Builds and Logs
+Build history and logs for every build are available in the Federalist web application. Note: build logs will only be available for **180** days after the build completes.
+
+![Build logs screenshot]({{site.baseurl}}/assets/images/buildlogs.png)
