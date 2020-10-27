@@ -299,7 +299,9 @@ By default, the CDN caches error responses, so you will also need to work with c
 3. Add a new S3 origin pointing directly to the federalist S3 bucket and site’s origin path found in step 2. (Note: you can skip this if the S3 origin already exists)
 [![S3 origin settings]({{site.baseurl}}/assets/images/cloudfront-update-3.png)]({{site.baseurl}}/assets/images/cloudfront-update-3.png)
 
-4. Modify “Default” cache behavior to point to the new S3 Origin:
+4. Modify “Default” cache behavior:
+    1. Set the “Origin” to point to the new S3 Origin
+    2. Set the “Viewer Protocol” Policy to *HTTP and HTTPS*
 [![Use new origin]({{site.baseurl}}/assets/images/cloudfront-update-4.png)]({{site.baseurl}}/assets/images/cloudfront-update-4.png)
 
 5. After downtime, modify default cache behavior back to the original state.
