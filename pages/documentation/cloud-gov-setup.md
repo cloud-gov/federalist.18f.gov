@@ -296,7 +296,7 @@ By default, the CDN caches error responses, so you will also need to work with c
 2. Review the “origin path” for existing federalist-proxy.app.cloud.gov origin
 [![Current origin settings]({{site.baseurl}}/assets/images/cloudfront-update-2.png)]({{site.baseurl}}/assets/images/cloudfront-update-2.png)
 
-3. Add a new S3 origin pointing directly to the federalist S3 bucket and site’s origin path found in step 2. (Note: you can skip this if the S3 origin already exists)
+3. Add a new S3 origin pointing directly to the site's [S3 bucket endpoint](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteEndpoints.html) and site’s origin path (found in step 2). (Note: you can skip this if the S3 origin already exists)
 [![S3 origin settings]({{site.baseurl}}/assets/images/cloudfront-update-3.png)]({{site.baseurl}}/assets/images/cloudfront-update-3.png)
 
 4. Modify “Default” cache behavior:
