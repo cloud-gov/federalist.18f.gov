@@ -301,7 +301,7 @@ By default, the CDN caches error responses, so you will also need to work with c
 
 4. Modify “Default” cache behavior:
     1. Set the “Origin” to point to the new S3 Origin
-    2. Set the “Viewer Protocol” Policy to *HTTP and HTTPS*
+    2. Set the “Viewer Protocol Policy” to *HTTP and HTTPS*
 [![Use new origin]({{site.baseurl}}/assets/images/cloudfront-update-4.png)]({{site.baseurl}}/assets/images/cloudfront-update-4.png)
 
 5. After downtime, modify default cache behavior back to the original state.
