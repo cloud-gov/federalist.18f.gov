@@ -61,3 +61,6 @@ Access to Federalist's configuration tools for your specific content does not gr
 #### We control access to the hosting service that serves your webpages
 
 Federalist moves content from your GitHub repositories into a secure build process and then into a file storage system that holds your site files. The credentials for the file storage system (Amazon S3 for those familiar) are secured within cloud.gov.
+
+#### We maintain customer build logs for 180 days
+In accordance with [cloud.gov's log retention policy](https://cloud.gov/docs/deployment/logs/#web-based-logs-with-historic-log-data), we will store logs from customer builds for 180 days, after which they will no longer be available.
