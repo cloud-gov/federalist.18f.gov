@@ -306,17 +306,3 @@ By default, the CDN caches error responses, so you will also need to work with c
 
 5. After downtime, modify default cache behavior back to the original state.
 [![Initial cache settings]({{site.baseurl}}/assets/images/cloudfront-update-1.png)]({{site.baseurl}}/assets/images/cloudfront-update-1.png)
-
-
-## Rotating credentials
-
-Federalist uses cloud.gov's [space deployer](https://cloud.gov/docs/services/cloud-gov-service-account/#plans) service to commission separate deployer account credentials for CI (for automated deployments) and for Federalist Builder (so that it can deploy garden build containers).
-
-The space deployer services are called `federalist-[SPACE NAME]-deployer-circle` for the credentials used in CircleCI, and `federalist-[SPACE NAME]-deployer-build` for the credentials in the `federalist-deploy-user` user-provided service that is used by Federalist Builder. `[SPACE NAME]` is either `production` or `staging`.
-
-Occasionally, these credentials expire or otherwise need to be changed. When they do, it is necessary to regenerate the space deployer services by following the cloud.gov [space deployer documentation](https://cloud.gov/docs/services/cloud-gov-service-account/#plans). The new credentials then need to be updated in the `federalist-deploy-user` user-provided service and/or in CircleCI.
-
-To update the credentials in CircleCI, go to the settings for [federalist](https://circleci.com/gh/18F/federalist/edit#env-vars) and [federalist-builder](https://circleci.com/gh/18F/federalist-builder/edit#env-vars). There the `CF_USERNAME_STAGING`, `CF_USERNAME_PRODUCTION`, `CF_PASSWORD_STAGING`, and `CF_PASSWORD_PRODUCTION` environment variables can be set to the correct values. This needs to be done for each app.
-
-After the credentials are updated in CI, they need to be updated for the builder in `staging` and in `production`. The credentials live in a user provided service named `federalist-deploy-user`. That needs to be updated with new values for `DEPLOY_USER_USERNAME` and `DEPLOY_USER_PASSWORD`. To do that, see the docs on [updating user provided services](https://docs.cloudfoundry.org/devguide/services/user-provided.html#update).
-
