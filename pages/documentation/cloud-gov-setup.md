@@ -286,20 +286,22 @@ Once this is done, running `cf service federalist-route` should give you a Cloud
 
 By default, the CDN caches error responses, so you will also need to work with cloud.gov support to [change the mimimum error caching TTL to 0](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HTTPStatusCodes.html).
 
-## Updating CloudFront to serve from S3
+## Updating a Federalist site's CloudFront to serve from S3
 
 **Only to be used in proxy downtime situations (which has only happened once historically).**
 
 1. Review initial “Default” cache behavior and origin.
 [![Initial cache settings]({{site.baseurl}}/assets/images/cloudfront-update-1.png)]({{site.baseurl}}/assets/images/cloudfront-update-1.png)
 
-2. Review the “origin path” for existing federalist-proxy.app.cloud.gov origin
+2. Review the “origin path” for the existing *bucket-name*.app.cloud.gov origin
 [![Current origin settings]({{site.baseurl}}/assets/images/cloudfront-update-2.png)]({{site.baseurl}}/assets/images/cloudfront-update-2.png)
 
-3. Add a new S3 origin pointing directly to the federalist S3 bucket and site’s origin path found in step 2. (Note: you can skip this if the S3 origin already exists)
+3. Add a new S3 origin pointing directly to the site's [S3 website endpoint](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteEndpoints.html) and site’s origin path (found in step 2). (Note: you can skip this if the S3 origin already exists)
 [![S3 origin settings]({{site.baseurl}}/assets/images/cloudfront-update-3.png)]({{site.baseurl}}/assets/images/cloudfront-update-3.png)
 
-4. Modify “Default” cache behavior to point to the new S3 Origin:
+4. Modify “Default” cache behavior:
+    1. Set the “Origin” to point to the new S3 Origin
+    2. Set the “Viewer Protocol Policy” to *HTTP and HTTPS*
 [![Use new origin]({{site.baseurl}}/assets/images/cloudfront-update-4.png)]({{site.baseurl}}/assets/images/cloudfront-update-4.png)
 
 5. After downtime, modify default cache behavior back to the original state.
