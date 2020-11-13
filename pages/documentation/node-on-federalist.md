@@ -28,13 +28,25 @@ See [npm-ci](https://docs.npmjs.com/cli/ci) and [npm-install](https://docs.npmjs
 
 ## Specifying a Node version
 
-Federalist uses [Node Version Manager](https://github.com/nvm-sh/nvm) to track the node version your site is meant to use. Before running any npm commands, Federalist checks for a file named `.nvmrc` and if it finds one, will use NVM to install and use the desired node version before continuing. However, Federalist only allows the usage of Long Term Support (LTS) releases and will fail if `.nvmrc` specifies an unsupported version. See [Node Releases](https://nodejs.org/en/about/releases/) for the list of current LTS releases.
+Federalist only supports active and maintenance LTS (long Term Support) [Node releases](https://nodejs.org/en/about/releases/), the default version is currently v12.x (erbium).
 
-If no `.nvmrc` file is present, Federalist will use the latest release of the v12 (erbium) release line.
+You can specify a different version than the default by providing a file named `.nvmrc` at the root of your repository containing the desired version of Node. However, if an unsupported version is specified, the build will fail with a helpful error message. 
+
+### Examples
+Let the current active and maintenance LTS release be versions 10 and 12.
+
+| .nvmrc | node version used |
+|:------:|:-----------------:|
+| none | `12` (latest) |
+| `10.1.0` | `10.1.0` |
+| `8` | fail |
+| `13.x` | fail |
+
+See [.nvmrc](https://github.com/nvm-sh/nvm#nvmrc) for details on how to specifiy node versions.
 
 ## Excluding node modules
 
-When Federalist runs `npm install` it will create a directory named `node_modules`. This is where it saves the downloaded dependencies. When using Node alongside Jekyll or Hugo, these may be built into a site if the build is not configured to ignore them, causing them to be uploaded. This can cause the time it takes to upload a site increase significantly.
+When Federalist [installs dependencies](#installing-npm-dependencies) from npm, it will create a directory named `node_modules`. This is where it saves the downloaded dependencies. When using Node alongside Jekyll or Hugo, these may be built into a site if the build is not configured to ignore them, causing them to be uploaded. This can cause the time it takes to upload a site increase significantly.
 
 For example, to ignore the node modules for a Jekyll site, add the following to the site's `_config.yml`:
 
