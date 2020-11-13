@@ -102,7 +102,6 @@ After adding that, jekyll will ignore the `node_modules` directory when building
     "dev": "eleventy --serve",
     "build": "eleventy",
     "federalist": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
