@@ -28,8 +28,9 @@ See [npm-ci](https://docs.npmjs.com/cli/ci) and [npm-install](https://docs.npmjs
 
 ## Specifying a Node version
 
-Federalist uses [Node Version Manager](https://github.com/creationix/nvm) to track the node version your site is meant to use. Before running any npm commands, Federalist checks for a file named `.nvmrc`.
-If it finds one, it will use NVM to install and use the desired node version before continuing.
+Federalist uses [Node Version Manager](https://github.com/nvm-sh/nvm) to track the node version your site is meant to use. Before running any npm commands, Federalist checks for a file named `.nvmrc` and if it finds one, will use NVM to install and use the desired node version before continuing. However, Federalist only allows the usage of Long Term Support (LTS) releases and will fail if `.nvmrc` specifies an unsupported version. See [Node Releases](https://nodejs.org/en/about/releases/) for the list of current LTS releases.
+
+If no `.nvmrc` file is present, Federalist will use the latest release of the v12 (erbium) release line.
 
 ## Excluding node modules
 
