@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 Federalist supports using node and npm to build your entire site OR to build parts of your site before the build engine starts its work.
-This is helpful for doing things like compiling a site's assets, or employing a build tool such as [Fractal](https://github.com/frctl/fractal). To use node, be sure to set your site engine to ‘node.js’ in your site settings.
+This is helpful for doing things like compiling a site's assets, or employing a build tool such as [Fractal](https://github.com/frctl/fractal). To use node exclusively, be sure to set your site engine to ‘node.js’ in your site settings. If you want to use node alongside a different language, such as Jekyll or Hugo, do NOT change the site engine, Federalist will detect the presence of a package.json file and will run the `federalist` npm script.
 
 ## The Federalist NPM script
 
