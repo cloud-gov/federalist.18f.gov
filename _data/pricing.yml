@@ -11,7 +11,7 @@ plans:
       - { text: No charges for storage or bandwidth. }
   - title: "Platform Support $27,500/100 hours"
     features:
-      - { text: "Personalized on-boarding with review of Federalist features and Github integrations." }
+      - { text: "Personalized on-boarding with review of Federalist features and Github integration." }
       - { text: "Weekly office hours to answer questions and best practices." }
       - { text: "Review of U.S Web Design System, Digital Analytics Program, and Search.gov integrations." }
       - { text: "Troubleshooting issues with site builds." }
