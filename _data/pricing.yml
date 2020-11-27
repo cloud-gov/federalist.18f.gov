@@ -12,6 +12,7 @@ plans:
   - title: "Platform Support $27,500/100 hours"
     features:
       - { text: "Personalized on-boarding with review of Federalist features and Github integration." }
-      - { text: "Weekly office hours to answer questions and best practices." }
-      - { text: "Review of U.S Web Design System, Digital Analytics Program, and Search.gov integrations." }
+      - { text: "Weekly office hours to answer platform questions." }
+      - { text: "Implement best practices for static site generation, git-based CMS architecture, and Federalist deployments." }
+      - { text: "Review of U.S Web Design System, Digital Analytics Program, Search.gov, and Netlify CMS integrations." }
       - { text: "Troubleshooting issues with site builds." }
