@@ -46,7 +46,7 @@ See [.nvmrc](https://github.com/nvm-sh/nvm#nvmrc) for details on how to specifiy
 
 ## Excluding node modules
 
-When Federalist [installs dependencies](#installing-npm-dependencies) from npm, it will create a directory named `node_modules`. This is where it saves the downloaded dependencies. When using Node alongside Jekyll or Hugo, these may be built into a site if the build is not configured to ignore them, causing them to be uploaded. This can cause the time it takes to upload a site increase significantly.
+When Federalist [installs dependencies](#installing-npm-dependencies) from npm, it creates a directory named `node_modules` where it saves the installed dependency files. When using Node alongside Jekyll or Hugo, these dependency files may be built into a site if the build is not configured to ignore them. This can cause the time it takes to upload a site to increase significantly.
 
 For example, to ignore the node modules for a Jekyll site, add the following to the site's `_config.yml`:
 
