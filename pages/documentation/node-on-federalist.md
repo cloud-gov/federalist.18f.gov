@@ -28,7 +28,7 @@ See [npm-ci](https://docs.npmjs.com/cli/ci) and [npm-install](https://docs.npmjs
 
 ## Specifying a Node version
 
-Federalist only supports active and maintenance LTS (long Term Support) [Node releases](https://nodejs.org/en/about/releases/), the default version is currently v12.x (erbium).
+Federalist only supports active and maintenance LTS (Long Term Support) [Node releases](https://nodejs.org/en/about/releases/), the default version is currently v12.x (erbium).
 
 You can specify a different version than the default by providing a file named `.nvmrc` at the root of your repository containing the desired version of Node. However, if an unsupported version is specified, the build will fail with a helpful error message. 
 
