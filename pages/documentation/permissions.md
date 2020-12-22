@@ -12,6 +12,7 @@ redirect_from:
 
 ### Personal access
 Basic access to Federalist is authenticated using GitHub OAuth. Please ask your team's primary contact for Federalist to request access to Federalist by e-mailing federalist-support@gsa.gov with the GitHub usernames of those that should have access. Next, you should receive an invitation to join the federalist-users GitHub organization which you must accept before you can log in to Federalist. Primary contacts should also let us know when to remove access as part of offboarding.
+
 ***Note:*** If a user is inactive for 90 days, their user account will be disabled and they must submit a new request to regain access to Federalist.
 
 ### Organizational access
