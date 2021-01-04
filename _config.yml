@@ -33,7 +33,7 @@ relative_permalinks: false
 
 exclude:
   - /coverage
-  - /README.md
+  - /READMEE.md
   - /Gemfile
   - /Gemfile.lock
   - /PULL_REQUEST_TEMPLATE.md
