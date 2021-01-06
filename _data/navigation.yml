@@ -12,6 +12,8 @@ secondary:
     href: /pricing/
   - text: Contact
     href: /contact/
+  - text: Status
+    href: https://federalist.statuspage.io    
     # Look inside assets/js/index.js to see that how this url changes depending on enviroment
   - text: Manage Sites
     href: https://federalistapp.18f.gov
@@ -32,6 +34,8 @@ footer:
     href: /pricing/
   - text: Contact
     href: /contact/
+  - text: Status
+    href: https://federalist.statuspage.io
   - text: Manage Sites
     href: https://federalistapp.18f.gov
     external: true
