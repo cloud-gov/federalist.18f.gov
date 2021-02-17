@@ -52,7 +52,7 @@ _Expected DMARC record:_
 _Expected SPF record:_
 >`v=spf1 -all`
 
-SMTP MTA Strict Transport Security (MTA-STS) is a new standard that can enable domain names to opt into the strict transport layer security mode that requires public certificates and encryption. This standard may not be supported by all email providers but we encourage our customers to enable to use this standard if possible. See the standard ([RFC 3207](https://tools.ietf.org/html/rfc3207)).
+SMTP MTA Strict Transport Security (MTA-STS) is a new standard that can enable domain names to opt into the strict transport layer security mode for email that requires public certificates and encryption. This standard may not be supported by all email providers but we encourage our customers to enable to use this standard if possible and plan on using the domain for email. See the standard ([RFC 3207](https://tools.ietf.org/html/rfc3207)).
 
 _Expected MTA-STS record:_
 >`_mta-sts.example.gov IN TXT "v=STSv1; id=<id-value>"`
