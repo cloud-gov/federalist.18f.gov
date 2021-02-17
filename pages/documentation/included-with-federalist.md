@@ -13,7 +13,7 @@ redirect_from:
 * An agency Authority to Operate (ATO) for Federalist's hosting, leveraging the cloud.gov System Security Plan (SSP), with a short process to add new sites to the ATO documentation.
 * Premade templates for your sites, in addition to the many sites you can copy in creating your site. All templates now have Netlify CMS support built in, allowing content creators to make site changes without requiring extensive html, CSS, or YAML experience.
 * Automatically adds additional request headers to improve site security.
-  * `Strict-Transport-Security max-age=31536000; preload always;`
+  * `Strict-Transport-Security max-age=31536000; preload;`
   * `X-Frame-Options "SAMEORIGIN";`
 * Easy on-boarding or off-boarding: Federalist can deploy content from existing GitHub repositories used with other tools. Your Federalist site will also be easy to port to another deployment mechanism if that's ever needed.
 * Content delivery network support for your desired URL, with custom 404 page (see [customization](/documentation/customization/)).
