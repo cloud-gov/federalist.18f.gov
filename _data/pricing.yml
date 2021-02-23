@@ -9,3 +9,5 @@ plans:
       - { text: Automatic HTTPS certificates and renewals for all your websites. }
       - { text: Unlimited sites for your office. }
       - { text: No charges for storage or bandwidth. }
+      - { text: Site indexing and search powered by Search.gov. }
+      - { text: User analytics powered by the GSA Digital Analytics Program. }
