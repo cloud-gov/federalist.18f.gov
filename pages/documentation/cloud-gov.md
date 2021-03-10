@@ -7,7 +7,7 @@ redirect_from:
   - /pages/how-federalist-works/cloud-gov/
 ---
 
-As mentioned elsewhere, Federalist is built on top of the [cloud.gov platform-as-a-service](https://cloud.gov) (PaaS). cloud.gov takes care of the vast majority of the systems functionality that enables Federalist, especially by maintaining a FedRAMP authorization. cloud.gov also provides security, logging, authentication, cryptographic protection, monitoring, and provisioning services that Federalist consumes. Federalist's [compliance memo]({{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf) explains the technical relationship in detail.
+As mentioned elsewhere, Federalist is built on top of the [cloud.gov platform-as-a-service](https://cloud.gov) (PaaS). cloud.gov takes care of the vast majority of the systems functionality that enables Federalist, especially by maintaining a FedRAMP authorization. cloud.gov also provides security, logging, authentication, cryptographic protection, monitoring, and provisioning services that Federalist consumes. Federalist's [compliance memo]({{site.baseurl}}/assets/documents/Federalist-Compliance-Memo.pdf) & [extension letter]({{site.baseurl}}/assets/documents/Federalist-ATO-Extension-Letter.pdf) explains the technical relationship in detail.
 
 ## How Federalist and cloud.gov collaborate
 
