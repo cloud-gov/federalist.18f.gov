@@ -18,6 +18,7 @@ It is possible to add up to 2 custom domains for your site, each one requires th
         - [Your DNS provider does **not** support `ALIAS` records](#your-dns-provider-does-not-support-alias-records)
     * [Adding a subdomain](#adding-a-subdomain)
         - [Minimizing downtime](#minimizing-downtime)
+    * [CAA records](#caa-records)
 2. [Notify Federalist](#notify-federalist)
 3. [Update your Site Settings](#update-your-site-settings)
 
@@ -94,6 +95,20 @@ It may take 5-10 minutes to provision an SSL certificate, so there will be a non
 1. Create the `CNAME` record for the `_acme-challenge` subdomain as described above and notify Federalist support
 2. Federalist support will notify you once SSL certificate has been issued
 3. Create the `CNAME` record for your subdomain as described above
+
+---
+
+### CAA records
+
+If you aren't already using [CAA records](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization), you don't need to add one to work with Federalist. You can check your existing records in DNS.
+
+    $ dig CAA example.gov
+    example.gov.           299     IN      CAA     0 issue "certificate-issuer.example.com"
+
+If you are using CAA records, you must have a record for letsencrypt.org. This authorizes Federalist to issue a TLS certificate for your domain. The CAA record should have no flags (0) and the `issue` tag. CAA records are "recursive" so they apply to all subdomains, unless overridden. Federalist recommends adding a single CAA record for each of your Federalist sites.
+
+    site-a.example.gov.           299     IN      CAA     0 issue "letsencrypt.org"
+    site-b.example.gov.           299     IN      CAA     0 issue "letsencrypt.org"
 
 ---
 
