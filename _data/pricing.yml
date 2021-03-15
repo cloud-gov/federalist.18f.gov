@@ -13,6 +13,6 @@ plans:
     features:
       - { text: "Personalized on-boarding with review of Federalist features and Github integration." }
       - { text: "Weekly office hours to answer platform questions." }
-      - { text: "Implement best practices for static site generation, git-based CMS architecture, and Federalist deployments." }
+      - { text: "Hands-on guidance to help implement best practices for static site generation, git-based CMS architecture, and Federalist deployments." }
       - { text: "Review of U.S Web Design System, Digital Analytics Program, Search.gov, and Netlify CMS integrations." }
       - { text: "Troubleshooting issues with site builds." }
