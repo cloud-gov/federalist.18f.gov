@@ -102,6 +102,8 @@ If a user navigates to a page on your site that does not exist, they will see a 
 
 In order to use a custom 404 Page, name your 404 Page "404.html" and make sure it is at the root of and included in the resources that are deployed. Jekyll sites should also have the file in the root of the project with the front matter data value set to `permalink: /404.html`, see [the docs for reference](https://jekyllrb.com/tutorials/custom-404-page/). If you need to direct 404 errors to a file not named "404.html" to support single page applications (SPA), let #federalist-support or federalist-support@gsa.gov know that you would like to use a custom 404 page for a SPA and we will handle the rest.
 
+> If you have a custom domain and, while trying to set up your custom 404 page using a development branch, you are able to see it when running locally, but not live on the branch site, try pushing it to your custom domain. 
+
 ## security.txt
 
 Federalist supports the proposed [security.txt](https://securitytxt.org/) standard.  Simply create and place the **security.txt** file within the **.well-known** directory created at the root of your repository.  Visit the [security.txt](https://securitytxt.org/) website, for more information on this proposed standard.
