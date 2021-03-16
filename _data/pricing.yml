@@ -2,6 +2,7 @@ plans:
   - title: "Platform Access to Federalist $24,949/year"
     features:
       - { text: U.S Web Design System starter kits in Javascript and Ruby to get your site running within minutes. }
+      - { text: USWDS starter kits integrated with Search.gov and GSA Digital Analytics Program to further enhance your site. }
       - { text: GSA-maintained GSA Authority to Operate (ATO) for all your sites. }
       - { text: Automated tests and previews before going live. }
       - { text: Web-based configuration page for managing individual sites. }
@@ -9,4 +10,3 @@ plans:
       - { text: Automatic HTTPS certificates and renewals for all your websites. }
       - { text: Unlimited sites for your office. }
       - { text: No charges for storage or bandwidth. }
-      - { text: USWDS starter kits integrated with Search.gov and GSA Digital Analytics Program to get your site running within minutes. }
