@@ -23,7 +23,9 @@ The `headers` key in [Federalist configuration file](/documentation/federalist-j
     {
       "/*.html": {
         "cache-control": "no-cache"
-      },
+      }
+    },
+    {
       "/*": {
         "cache-control": "max-age=60"
       }
