@@ -19,10 +19,9 @@ For more details see [package.json examples](#examples).
 
 ## Installing NPM dependencies
 
-Federalist will install dependencies from NPM on your behalf, you **should not** include a call to `npm install` from your "federalist" NPM script or anywhere else. In particular, Federalist runs `npm ci --production` which means:
+Federalist will install dependencies from NPM on your behalf, you **should not** include a call to `npm install` from your "federalist" NPM script or anywhere else. In particular, Federalist runs `npm ci` which means:
 - Your project must have a package-lock.json file
 - The dependencies in package-lock.json must match those in package.json
-- Development dependencies (those listed under the "devDependencies" key in package.json) will not be installed
 
 See [npm-ci](https://docs.npmjs.com/cli/ci) and [npm-install](https://docs.npmjs.com/cli/install) for more details.
 
