@@ -41,7 +41,7 @@ If the current active and maintenance LTS release are versions 12, 14, and 16:
 | `10` | fail |
 | `13.x` | fail |
 
-See [.nvmrc](https://github.com/nvm-sh/nvm#nvmrc) for details on how to specifiy node versions.
+See [.nvmrc](https://github.com/nvm-sh/nvm#nvmrc) for details on how to specify node versions.
 
 ## Excluding node modules
 
