@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "09:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - davemcorwin
+  - amirbey
+  assignees:
+  - davemcorwin
+  ignore:
+  - dependency-name: html-proofer
+    versions:
+    - 3.19.0
+  - dependency-name: uswds-jekyll
+    versions:
+    - 5.3.0
