@@ -32,7 +32,7 @@ Federalist only supports active and maintenance LTS (Long Term Support) [Node re
 You can specify a different version than the default by providing a file named `.nvmrc` at the root of your repository containing the desired version of Node. However, if an unsupported version is specified, the build will fail with a helpful error message. 
 
 ### Examples
-Let the current active and maintenance LTS release be versions 10 and 12.
+If the current active and maintenance LTS release are versions 12, 14, and 16:
 
 | .nvmrc | node version used |
 |:------:|:-----------------:|
