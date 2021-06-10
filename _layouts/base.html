@@ -16,6 +16,9 @@
   </head>
   <body class="{{ glossary }} {{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
 
+    {% if page.title != "Federalist is becoming cloud.gov Pages" %}
+      {% include homepage/cloud-gov-pages-banner.html %}
+    {% endif %}
     {% include skipnav.html %}
     {% include header.html %}
 
