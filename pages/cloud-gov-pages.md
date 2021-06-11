@@ -21,7 +21,16 @@ layout: default
       </div>
       <hr class="hr-light">
       <p class="pages-prose">
-        Federalist is undergoing a name change to be more aligned with our cloud.gov suite of services. We are transitioning the name from Federalist to <span>cloud.gov Pages</span>! Pages will be the same great services provided with your current Federalist agreement, just with a new name and new features to come. In the upcoming months, we will be migrating our Federalist application to it’s new home on cloud.gov. We will update this alert as more information becomes available.
+        We are undergoing a transition to be more aligned with our cloud.gov suite of services. Federalist is changing to
+        <img
+          alt="cloud.gov logo icon"
+          src="{{site.baseurl}}/assets/images/logos/cg-logo-icon.svg"
+        />
+        <span>cloud.gov Pages</span>!
+        Pages is the same great services provided to you with your current Federalist agreement, just with a new name and some new features to coming soon. We are working on a transition guide and FAQ, and will start publishing updates at the end of <span>June, 2021</span>.
+      </p>
+      <p class="pages-prose">
+        We appreciate your continued support and are very excited with this transition and the future of the platform.
       </p>
     </div>
   </div>

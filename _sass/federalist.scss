@@ -250,6 +250,15 @@ $white-shaded: #eef4fb;
 .pages-prose {
   font-size: 2.1rem;
 
+  img {
+    background-color: $white-shaded;
+    border-radius: 100%;
+    height: 2.1rem;
+    padding: 2px;
+    vertical-align: middle;
+    width: 2.1rem;
+  }
+
   span {
     font-weight: bold;
   }
