@@ -1,4 +1,6 @@
+$color-blue-bright: rgb(5, 104, 253);
 $color-blue-darker: #2d476a;
+$color-gray: #333333;
 $white-shaded: #eef4fb;
 
 @media screen and (min-width: 951px){
@@ -64,8 +66,8 @@ $white-shaded: #eef4fb;
 
   .usa-nav-secondary-links {
     float: left;
-  }  
-  
+  }
+
   .usa-nav .usa-button.nav-button{
     padding: 0;
   }
@@ -174,6 +176,93 @@ $white-shaded: #eef4fb;
   z-index: -1;
 }
 
+.site-banner {
+  background-color: $color-blue-bright;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  color: $white-shaded;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 9999;
+
+  a {
+    color: $white-shaded;
+    font-weight: bold;
+  }
+
+  img {
+    background-color: $white-shaded;
+    border-radius: 100%;
+    height: 2rem;
+    padding: 2px;
+    vertical-align: text-bottom;
+    width: 2rem;
+  }
+
+  .inner-content {
+    display: inline-block;
+    width: 100%;
+  }
+
+  p {
+    font-family: "source_sans_proregular";
+    margin: .5rem;
+    text-align: center;
+  }
+
+  span {
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
+.pages-announcement {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 6rem 0;
+
+  h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .img-block {
+    display: inline-block;
+    height: auto;
+    max-width: 400px;
+
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  span {
+    display: inline-block;
+    color: $color-gray;
+    font-family: "Source Sans Pro";
+  }
+}
+
+.pages-prose {
+  font-size: 2.1rem;
+
+  img {
+    background-color: $white-shaded;
+    border-radius: 100%;
+    height: 2.1rem;
+    padding: 2px;
+    vertical-align: middle;
+    width: 2.1rem;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
 
 .position-center {
   margin: 0 auto;
@@ -214,7 +303,7 @@ $white-shaded: #eef4fb;
   padding: 1rem;
   text-align: center;
   width: 50%;
-  
+
   .usa-button {
     background-color: #0271bb;
     border-radius: 2px;
@@ -230,7 +319,7 @@ $white-shaded: #eef4fb;
       text-align: center;
     }
   }
-  
+
   margin-bottom: 200px;
 }
 
