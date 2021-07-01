@@ -49,7 +49,7 @@ jobs:
             text: |
               :x: FAILED: pages docs tests on staging
               ((build-url))
-              <@U01J8B463T5> <@U01J0M3E8NS> <@U01J7LKV5MZ>
+              ((slack-users))
             channel: ((slack-channel))
             username: ((slack-username))
             icon_url: ((slack-icon-url))                
