@@ -18,7 +18,7 @@ It is possible to add up to 2 custom domains for your site, each one requires th
         - [Your DNS provider does **not** support `ALIAS` records](#your-dns-provider-does-not-support-alias-records)
     * [Adding a subdomain](#adding-a-subdomain)
         - [Minimizing downtime](#minimizing-downtime)
-    * [IPv6](#IPv6)
+    * [IPv6](#ipv6)
     * [CAA records](#caa-records)
 2. [Notify Federalist](#notify-federalist)
 3. [Update your Site Settings](#update-your-site-settings)
