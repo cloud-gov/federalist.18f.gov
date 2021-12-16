@@ -1,8 +1,8 @@
 ---
-title: Before you launch
-permalink: /documentation/before-you-launch/
 layout: page
 sidenav: documentation
+title: Before you launch - foobar
+permalink: /documentation/before-you-launch/
 redirect_from:
   - /pages/using-federalist/launch-checklist/
   - /documentation/launch-checklist/
