@@ -18,6 +18,7 @@ It is possible to add up to 2 custom domains for your site, each one requires th
         - [Your DNS provider does **not** support `ALIAS` records](#your-dns-provider-does-not-support-alias-records)
     * [Adding a subdomain](#adding-a-subdomain)
         - [Minimizing downtime](#minimizing-downtime)
+    * [IPv6](#ipv6)
     * [CAA records](#caa-records)
 2. [Notify Federalist](#notify-federalist)
 3. [Update your Site Settings](#update-your-site-settings)
@@ -95,6 +96,13 @@ It may take 5-10 minutes to provision an SSL certificate, so there will be a non
 1. Create the `CNAME` record for the `_acme-challenge` subdomain as described above and notify Federalist support
 2. Federalist support will notify you once SSL certificate has been issued
 3. Create the `CNAME` record for your subdomain as described above
+
+---
+
+### IPv6
+Federalist supports IPv6 (`AAAA` records) as long as your DNS provider supports `ALIAS` records. To configure, you can follow the instructions for [adding an apex domain with alias records](#your-dns-provider-supports-alias-records).
+
+If your DNS provider supports `ALIAS` records and you are configuring a `AAAA` record for a subdomain be aware that you also must use an `A` record and not a `CNAME` record for IPv4 support.
 
 ---
 
