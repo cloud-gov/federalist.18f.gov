@@ -46,8 +46,9 @@ layout: default
           <p class="sans-bold federalist-intro-heading section-title">BUILD</p>
           <img src="{{site.baseurl}}/assets/images/build.png" alt="Hand building a website" class="mb-xl">
           <div class="feature-copy">
-            <p class="sans-regular">Use our templates or develop your own and publish your web page  right away.</p>
-            <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/coe-success.pdf">See how the Centers of Excellence (CoEs) used Federalist to get new pages up quickly →</a>
+            <p class="sans-regular">
+              Use our templates or develop your own and publish your web page right away.
+            </p>
           </div>
         </div>
         <div class="usa-width-one-third feature">
@@ -56,8 +57,9 @@ layout: default
             <p class="sans-bold federalist-intro-heading section-title">LAUNCH</p>
             <img src="{{site.baseurl}}/assets/images/launch.png" alt="Hand launching a secure website with cloud.gov" class="mb-xl">
             <div class="feature-copy">
-              <p class="sans-regular">You focus on the content, we'll worry about the security, compliance, and deployment.</p>
-              <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/afwerx-success.pdf">Learn how DoD leveraged the Federalist platform to build their own template designs →</a>
+              <p class="sans-regular">
+                You focus on the content, we'll worry about the security, compliance, and deployment.
+              </p>
             </div>
           </div>
         </div>
@@ -67,8 +69,9 @@ layout: default
             <p class="sans-bold federalist-intro-heading section-title">MANAGE</p>
             <img src="{{site.baseurl}}/assets/images/manage.png" alt="Hand using faders to manage website deployments" class="mb-xl">
             <div class="feature-copy">
-              <p class="sans-regular">Use our intuitive interface to control the process from start to finish.</p>
-              <a class="sans-regular feature-link" href="{{site.baseurl}}/assets/documents/doi-success.pdf">Learn how DOI used a Federalist template to host their data projects →</a>
+              <p class="sans-regular">
+                Use our intuitive interface to control the process from start to finish.
+              </p>
             </div>
           </div>
         </div>
