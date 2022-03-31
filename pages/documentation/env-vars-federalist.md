@@ -14,13 +14,13 @@ At the time your site is built, a number of special environment variables are ex
 
 When Federalist builds your site it makes available the following environment variables:
 
-Name|Description
----|---
-BRANCH|Github branch being built
-OWNER|Owner of Github repository
-REPOSITORY|Github repository
-SITE_PREFIX|Path of s3 bucket in which your site will be deployed
-BASEURL|Path for deployed site
+Name|Description|Example
+---|---|---
+BRANCH|Github branch being built|`main`
+OWNER|Owner of Github repository|`cloud-gov`
+REPOSITORY|Github repository|`my-website`
+SITE_PREFIX|Path of s3 bucket in which your site will be deployed|`site/cloud-gov/my-website`
+BASEURL|Path for deployed site|`''`
 
 ## Adding custom environment variables
 
