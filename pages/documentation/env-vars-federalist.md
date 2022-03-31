@@ -12,15 +12,69 @@ At the time your site is built, a number of special environment variables are ex
 
 ## Default environment variables
 
-When Federalist builds your site it makes available the following environment variables:
+When Federalist builds your site it makes available the following environment variables, which change depending on the environment (`preview`, `demo`, or `site`) being deployed to:
 
-Name|Description|Example
----|---|---
-BRANCH|Github branch being built|`main`
-OWNER|Owner of Github repository|`cloud-gov`
-REPOSITORY|Github repository|`my-website`
-SITE_PREFIX|Path of s3 bucket in which your site will be deployed|`site/cloud-gov/my-website`
-BASEURL|Path for deployed site|`''`
+<table>
+<thead>
+<tr>
+<th rowspan="2">Name</th>
+<th rowspan="2">Description</th>
+<th colspan="2" style="text-align: center">Example</th>
+</tr>
+<tr>
+<th>Preview</th>
+<th>Site (Live)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRANCH</td>
+<td>Github branch being built</td>
+<td markdown="1">
+`new-feature`
+</td>
+<td markdown="1">
+`main`
+</td>
+</tr>
+<tr>
+<td>OWNER</td>
+<td>Owner of Github repository</td>
+<td markdown="1" colspan="2" style="text-align: center">
+`cloud-gov`
+</td>
+</tr>
+<tr>
+<td>REPOSITORY</td>
+<td>Github repository</td>
+<td markdown="1" colspan="2" style="text-align: center">
+`my-website`
+</td>
+</tr>
+<tr>
+<td>SITE_PREFIX</td>
+<td>Path of s3 bucket in which your site will be deployed</td>
+<td markdown="1">
+`preview/cloud-gov/my-website/new-feature`
+</td>
+<td markdown="1">
+`site/cloud-gov/my-website`
+</td>
+</tr>
+<tr>
+<td>BASEURL</td>
+<td markdown="1">
+Path for deployed site (empty string when using a custom domain, otherwise the same as `SITE_PREFIX`)
+</td>
+<td markdown="1">
+`/preview/cloud-gov/my-website/new-feature`
+</td>
+<td markdown="1">
+`''`
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Adding custom environment variables
 
