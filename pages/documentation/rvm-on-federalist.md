@@ -21,7 +21,7 @@ For example, if you wish to use Ruby version 2.7.4 to build a site, add a new fi
 
 ## End of life (EOL)
 
-When specifying a version using `.ruby-version`, please be aware of the following maintenance stages:
+When specifying a version using `.ruby-version`, please be aware of the following maintenance stages for released versions of Ruby:
 
 - _normal maintenance_ (bug fix): Branch receives general bug fixes and security fixes.
 - _security maintenance_ (security fix): Only security fixes are backported to this branch.
