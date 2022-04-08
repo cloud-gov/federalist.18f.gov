@@ -27,4 +27,4 @@ When specifying a version using `.ruby-version`, please be aware of the followin
 - _security maintenance_ (security fix): Only security fixes are backported to this branch.
 - _eol (end-of-life)_: Branch is not supported by the ruby-core team any longer and does not receive any fixes. No further patch release will be released.
 
-Once a version reaches EOL, it will no longer receive any new fixes. Due to this, Federalist is unable to build or update a site that is using a deprecated version. To view the current maintenance status of various Ruby versions, please visit [Ruby Maintenance Branches](https://www.ruby-lang.org/en/downloads/branches/).
+Once a version reaches EOL, it will no longer receive any new fixes. Due to this, Federalist is unable to build or update a site that is using an EOL version of Ruby. To view the current maintenance status of various Ruby versions, please visit [Ruby Maintenance Branches](https://www.ruby-lang.org/en/downloads/branches/).
