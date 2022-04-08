@@ -27,7 +27,7 @@ layout: default
           src="{{site.baseurl}}/assets/images/logos/cg-logo-icon.svg"
         />
         <span>cloud.gov Pages</span>!
-        Pages offers the same great services provided to you with your current Federalist agreement, just with a new name along with some new features soon to come. We are working on a transition guide and FAQ, and will start publishing updates at the end of <span>June, 2021</span>.
+        Pages offers the same great services provided to you with your current Federalist agreement, just with a new name along with some new features soon to come. We are working on a transition guide and FAQ, and will start publishing updates soon.
       </p>
       <p class="pages-prose">
         We appreciate your continued support and are very excited with this transition and the future of the platform.

@@ -12,15 +12,15 @@ At the time your site is built, a number of special environment variables are ex
 
 ## Default environment variables
 
-When Federalist builds your site it makes available the following environment variables:
+When Federalist builds your site it makes available the following environment variables, which change depending on the environment (`preview`, `demo`, or `site`) being deployed to:
 
-Name|Description
----|---
-BRANCH|Github branch being built
-OWNER|Owner of Github repository
-REPOSITORY|Github repository
-SITE_PREFIX|Path of s3 bucket in which your site will be deployed
-BASEURL|Path for deployed site
+Name|Description|Examples
+---|---|---
+BRANCH|Github branch being built|`new-feature`, `main`, …
+OWNER|Owner of Github repository|`18f`, `cloud-gov`, …
+REPOSITORY|Github repository|`my-website`, `uswds-site`, …
+SITE_PREFIX|Path of s3 bucket in which your site will be deployed|`preview/cloud-gov/my-website/new-feature`, `site/cloud-gov/my-website`, …
+BASEURL|Path for deployed site (empty string when using a custom domain, otherwise the same as `SITE_PREFIX`)|`/preview/cloud-gov/my-website/new-feature`, `''`, …
 
 ## Adding custom environment variables
 
