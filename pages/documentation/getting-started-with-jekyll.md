@@ -170,9 +170,6 @@ Once you've got the basics down, we recommend that you check out our [customizat
 guide]({{ site.baseurl }}{% link pages/documentation/customization.md %}) for
 some more details on how to customize your site.
 
+## Assets and internal links
 
-[Federalist]: {{ site.baseurl }}
-[federalist-sites]: {{ site.baseurl }}/sites
-[resources-front-matter]: {{ site.baseurl }}{% link pages/documentation/resources.md %}#working-with-front-matter
-[resources-markdown]: {{ site.baseurl }}{% link pages/documentation/resources.md %}#working-with-markdown
-[resources-yaml]: {{ site.baseurl }}{% link pages/documentation/resources.md %}#working-with-yaml
+Make sure that the urls to assets and internal links will be correct locally, for preview builds and custom domains by using `site.baseurl` when constructing asset urls manually or use the `asset` helper tag if using the `jekyll-assets` gem. The value is provided by the platform  environment variable `BASEURL`. See [environment-variables](env-vars-federalist) for more information.
