@@ -19,7 +19,7 @@ We've worked to make publishing a government site on Federalist as simple as pos
 
 - Your agency must accept the risk of launching a site on Federalist. This requirement varies by agency, some will accept Federalist's GSA Agency ATO while others may require additional documentation.
 
-- You must understand [your responsibilities](/documentation/customer-responsibilities).
+- You must understand [your responsibilities](../customer-responsibilities).
 
 - Ensure you know how, or who to contact to make changes to the DNS configuration for your domain.
 
@@ -30,19 +30,19 @@ We've worked to make publishing a government site on Federalist as simple as pos
 - email: `federalist-support@gsa.gov`
 - Slack: `#federalist-support`
 
-2. Federalist support will:
-- initiate GSA IT-provided scans of the preview build and source code of your site to identify any vulnerabilites
-- send you a brief site questionnaire that must be completed before continuing
+2. Federalist support will send you a brief site questionnaire that must be completed before continuing.
 
-3. Complete the site questionnaire and resolve all required vulnerabilities identified by the scans as identified by Federalist Support (this may take several scans)
+3. Upon receipt of the completed site questionnaire, Federalist support will perform a static code scan of your repository and request a live site scan of your preview build to identify any vulnerabilities. If your repository is not open source, you must provide access to the source by either sending an archive to Federalist support or adding a Federalist operator as a read-only collaborator.
 
-4. Complete the process of [adding your custom domain](/documentation/custom-domains). If you are migrating an existing site to Federalist, make sure to review [minimizing downtime](/documentation/custom-domains#minimizing-downtime)
+4. After all findings from the aforementioned scans are resolved, your site is ready to launch!
 
-5. Your site will now be live!
+5. Complete the process of [adding your custom domain](../custom-domains) and notify Federalist Support. If you are migrating an existing site to Federalist, make sure to review [minimizing downtime](../custom-domains#minimizing-downtime).
 
-6. A scan of your custom domain will be run by GSA IT just to verify the final configuration, then the Federalist ISSO will share the Site Review document for your product owner to sign
+6. Federalist Support will reach out once the custom domain has been provisioned and your site is live!! Note, current limitations require a rebuild of your site once it is provisioned, so there may be a slight delay between then the custom domain resolves to your site and when css, images, and other assets are linked properly. This is triggered automatically, but if you have concerns, you can follow the steps in [minimizing downtime](../custom-domains#minimizing-downtime).
 
-6. Sign and return the Site Review document provided by the Federalist ISSO
+7. An additional live site scan of your custom domain will be run by GSA IT just to verify the final configuration, then the Federalist ISSO will share the Site Review document for your product owner to sign.
+
+8. Sign and return the Site Review document provided to the Federalist ISSO.
 
 
 ## Launch Checklist
@@ -50,7 +50,6 @@ We've worked to make publishing a government site on Federalist as simple as pos
 1. Notify Federalist support that you are ready to launch your site
 2. Complete the site questionnaire provided to you by Federalist support
 3. Resolve any findings identified by vulnerability scans
-4. [Configure your DNS](/documentation/custom-domains#configure-your-dns)
+4. [Configure your DNS](../custom-domains#configure-your-dns)
 5. Notify Federalist support
-6. [Update your site settings](/documentation/custom-domains#update-your-site-settings)
-7. Sign and return the Site Review document to the Federalist ISSO
+6. Sign and return the Site Review document to the Federalist ISSO
