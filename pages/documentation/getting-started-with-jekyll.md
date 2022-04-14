@@ -172,4 +172,4 @@ some more details on how to customize your site.
 
 ## Assets and internal links
 
-Make sure that the urls to assets and internal links will be correct locally, for preview builds and custom domains by using `site.baseurl` when constructing asset urls manually or use the `asset` helper tag if using the `jekyll-assets` gem. The value is provided by the platform  environment variable `BASEURL`. See [environment-variables](env-vars-federalist) for more information.
+Make sure that the urls to assets and internal links will be correct locally, for preview builds and custom domains by using `site.baseurl` when constructing asset urls manually or use the `asset` helper tag if using the `jekyll-assets` gem. The value is provided by the platform  environment variable `BASEURL`. See [build environment variables](../env-vars-on-federalist-builds) for more information.
