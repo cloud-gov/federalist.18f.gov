@@ -5,8 +5,6 @@ layout: page
 sidenav: documentation
 ---
 
- ⚠️ **This feature is currently experimental, make sure you know what you are doing!** ⚠️
-
 You can configure custom headers for your site by adding information under the `headers` key in the [Federalist configuration file](/documentation/federalist-json).
 
 ## Supported Custom Headers
@@ -14,11 +12,11 @@ You can configure custom headers for your site by adding information under the `
 
 ## Syntax
 
-The `headers` key in [Federalist configuration file](/documentation/federalist-json) expects a list of configurations that include a path pattern to match against the paths of individual files in your site and the headers to apply. Ex.
-```
-// federalist.json
+The `headers` key in [Federalist configuration file](/documentation/federalist-json) expects a list of configurations that include a path pattern to match against the paths of individual files in your site and the headers to apply.
+
+### Example
+```json
 {
-  ...
   "headers": [
     {
       "/*.html": {
@@ -29,10 +27,8 @@ The `headers` key in [Federalist configuration file](/documentation/federalist-j
       "/*": {
         "cache-control": "max-age=60"
       }
-    },
-    ...
+    }
   ]
-  ...
 }
 ```
 
