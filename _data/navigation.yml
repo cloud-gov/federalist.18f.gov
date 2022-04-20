@@ -85,6 +85,8 @@ sidenav:
         href: /documentation/content-guide/
       - text: Custom headers
         href: /documentation/custom-headers/
+      - text: Exclude and include paths
+        href: /documentation/excludepaths-and-includepaths/
       - text: Federalist.json
         href: /documentation/federalist-json/
   - text: For developers
