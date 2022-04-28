@@ -25,9 +25,19 @@ The `excludePaths` and `includePaths` keys in [Federalist configuration file](..
 ```
 
 ### Path Pattern Matching Rules
-- These patterns are applied against all of the files to be *deployed* for your site. For the `static` build engine, this is the root of your project, but for other build engines, matching is applied *after* the build process, that is, for the resulting files in the `_site` folder. Many libraries already provide a mechanism to exclude files from the results of the build, which should be preferred since it can be tested locally.
+- These patterns are applied against all of the files to be *deployed* for your site. For the `static` build engine, this is the root of your project, but for other build engines, matching is applied *after* the build process, that is, for the resulting files in the `_site` folder.
+
+  {% capture content %}
+  Many libraries already provide a mechanism to exclude files from the results of the build, which should be preferred since it can be tested locally.
+  {% endcapture %}
+  {% include components/alert--tip.html content=content %}
 
 - `includePaths` have priority over `excludePaths` so that you have the ability to override platform defaults as well as include specific files, such as dotfiles, when most should be excluded.
+
+  {% capture content %}
+  For engines with a build step, the files to be included must not be excluded by your build process. For example, Jekyll excludes dotfiles by default, so you would have to also configure Jekyll to include the desired files.
+  {% endcapture %}
+  {% include components/alert--tip.html content=content %}
 
 - All [unix-style `glob`](https://en.wikipedia.org/wiki/Glob_(programming)#Unix-like) are supported.
 
