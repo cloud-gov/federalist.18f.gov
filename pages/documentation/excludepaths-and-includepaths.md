@@ -19,7 +19,7 @@ The `excludePaths` and `includePaths` keys in [Federalist configuration file](..
     "*/all-files-with-this-name.txt"
   ],
   "includePaths": [
-    ".some-dot-file"
+    "/.some-dot-file"
   ]
 }
 ```
