@@ -7,10 +7,15 @@ sidenav: documentation
 
 Federalist-specific configuration can be done in a `federalist.json` file in the root of your project. Currently, we only support the following keys:
 - `headers`
+- `excludePaths`
+- `includePaths`
 - `fullClone`
 
 ## `headers`
-See [specifying custom headers](/documentation/custom-headers) for details.
+See [specifying custom headers](../custom-headers) for details.
+
+## `excludePaths` and `includePaths`
+See [specifying exclude and include paths](../excludepaths-and-includepaths) for details.
 
 ## `fullClone`
 
@@ -29,13 +34,11 @@ Examples:
 
 Setting `"fullClone": true` in your `federalist.json` file will tell Federalist to pull the entire revision history for the specific branch.
 
-**Note:** For larger repositories this may cause a noticiable increase in build time.
+**Note:** For larger repositories this may cause a noticable increase in build time.
 
-Ex.
-```js
-// federalist.json
+### Example
+```json
 {
-  ...
   "fullClone": true
 }
 ```
