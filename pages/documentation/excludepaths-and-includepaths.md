@@ -54,6 +54,8 @@ See [unix-style `glob`](https://en.wikipedia.org/wiki/Glob_(programming)#Unix-li
 #### Excluded files
 - all files named `Dockerfile`
 - all files named `docker-compose.yml`
+- all files named `federalist.json`
+- all files named `pages.json`
 - all dotfiles (files and folders starting with `.`)
   
 #### Included files
@@ -64,7 +66,9 @@ See [unix-style `glob`](https://en.wikipedia.org/wiki/Glob_(programming)#Unix-li
 {
   "excludeFiles": [
     "*/Dockerfile",
-    "*/docker-compose.yml"
+    "*/docker-compose.yml",
+    "*/federalist.json",
+    "*/pages.json"
   ],
   "includeFiles": [
     "/.well-known/security.txt"
