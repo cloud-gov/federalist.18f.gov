@@ -11,17 +11,17 @@ If you are migrating an existing site to Federalist and wish to minimize downtim
 
 It is possible to add up to 2 custom domains for your site, each one requires the completion of the following 3 steps:
 
-1. [Configure your DNS](#configure-your-dns)
-    * [Determine your domain type](#determine-your-domain-type)
-    * [Adding an apex domain](#adding-an-apex-domain)
-        - [Your DNS provider supports `ALIAS` records](#your-dns-provider-supports-alias-records)
-        - [Your DNS provider does **not** support `ALIAS` records](#your-dns-provider-does-not-support-alias-records)
-    * [Adding a subdomain](#adding-a-subdomain)
-        - [Minimizing downtime](#minimizing-downtime)
-    * [IPv6](#ipv6)
-    * [CAA records](#caa-records)
-2. [Notify Federalist](#notify-federalist)
-3. [Update your Site Settings](#update-your-site-settings)
+- [Configure your DNS](#configure-your-dns)
+  - [Determine your domain type](#determine-your-domain-type)
+    - [Examples](#examples)
+  - [Adding an apex domain](#adding-an-apex-domain)
+    - [Your DNS provider supports `ALIAS` records](#your-dns-provider-supports-alias-records)
+    - [Your DNS provider does **not** support `ALIAS` records](#your-dns-provider-does-not-support-alias-records)
+  - [Adding a subdomain](#adding-a-subdomain)
+    - [Minimizing downtime](#minimizing-downtime)
+  - [IPv6](#ipv6)
+  - [CAA records](#caa-records)
+- [Notify Federalist](#notify-federalist)
 
 ---
 
@@ -51,8 +51,17 @@ An "apex" or "2nd level" domain is the "root" of your domain and will contain on
 
 Because Federalist does not currently provide static IP addresses, in order for Federalist to serve a site at an apex domain your DNS provider must support `ALIAS` records. If they do not, you may require additional help for Federalist to be able to serve your site at that domain.
 
-- [Your DNS provider supports `ALIAS` records](#your-dns-provider-supports-alias-records)
-- [Your DNS provider does **not** support `ALIAS` records](#your-dns-provider-does-not-support-alias-records)
+- [Configure your DNS](#configure-your-dns)
+  - [Determine your domain type](#determine-your-domain-type)
+    - [Examples](#examples)
+  - [Adding an apex domain](#adding-an-apex-domain)
+    - [Your DNS provider supports `ALIAS` records](#your-dns-provider-supports-alias-records)
+    - [Your DNS provider does **not** support `ALIAS` records](#your-dns-provider-does-not-support-alias-records)
+  - [Adding a subdomain](#adding-a-subdomain)
+    - [Minimizing downtime](#minimizing-downtime)
+  - [IPv6](#ipv6)
+  - [CAA records](#caa-records)
+- [Notify Federalist](#notify-federalist)
 
 #### Your DNS provider supports `ALIAS` records
 
@@ -126,18 +135,3 @@ Once your DNS changes are complete, notify Federalist support via:
 - Slack: `#federalist-support`
 
 Someone from the Federalist support team will assist you and make the updates to the Federalist platform.
-
----
-
-## Update your site settings
-Once the Federalist team has notified you that the platform changes are complete, update your Site Settings to reflect the new custom domain.
-
-1. In the Federalist web application, navigate to the Site Settings page for your site by clicking on the `Site Settings` link on the lefthand navigation:
-
-    ![Site Settings 1]({{ site.baseurl }}/assets/images/site-settings-1.png)
-
-2. Under "Live Site" enter the branch name you want to associate to the custom domain and full url of the domain you just configured. When you are done, (scroll down if necessary and) click "save basic settings"
-
-    ![Site Settings 2]({{ site.baseurl }}/assets/images/site-settings-2.png)
-
-3. Federalist will rebuild your site and then it will be available at the custom domain. If you notice that your site does not look correct and/or any site assets (css, js, images) appear to be missing, make sure that the urls to those assets are correct, we provide the environment variable `BASEURL` for this purpose. If using Jekyll, please make sure you use `site.baseurl` when constructing asset urls manually or use the `asset` helper tag if using the `jekyll-assets` gem.
