@@ -54,6 +54,6 @@ plugins:
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github:
-  organization: 18F
+  organization: cloud-gov
   repository: federalist.18f.gov
   default_branch: main
