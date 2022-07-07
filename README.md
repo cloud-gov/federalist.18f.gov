@@ -1,7 +1,3 @@
-[![CircleCI](https://circleci.com/gh/18F/federalist.18f.gov/tree/main.svg?style=svg)](https://circleci.com/gh/18F/federalist.18f.gov/tree/main)
-[![Known Vulnerabilities](https://snyk.io/test/github/18F/federalist.18f.gov/badge.svg)](https://snyk.io/test/github/18F/federalist.18f.gov)
-
-
 # Federalist documentation
 
 This is an informational site with background on [Federalist](https://federalist.18f.gov/), a compliant static site publishing service for the federal government.

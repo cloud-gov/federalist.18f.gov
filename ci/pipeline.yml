@@ -50,7 +50,7 @@ jobs:
               :x: FAILED: pages docs tests on staging
               <$ATC_EXTERNAL_URL/teams/$BUILD_TEAM_NAME/pipelines/$BUILD_PIPELINE_NAME/jobs/$BUILD_JOB_NAME/builds/$BUILD_NAME|View build details>
               ((slack-users))
-            channel: ((slack-channel))
+            channel: ((((env))-slack-channel))
             username: ((slack-username))
             icon_url: ((slack-icon-url))                
     on_success:
@@ -79,7 +79,7 @@ resources:
     type: pull-request
     check_every: 5m
     source:
-      repository: 18F/federalist.18f.gov
+      repository: cloud-gov/federalist.18f.gov
       access_token: ((gh-access-token))
       base_branch: main
       disable_forks: true
