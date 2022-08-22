@@ -8,13 +8,14 @@ sidenav: documentation
 
 There are a few guidelines and restrictions to be aware of when dealing with large files, or a large number of files.
 
-## General Guidelines 
+## General Guidelines
 
 Due to restrictions imposed by Github and cloud.gov, as well as the internal infrastructure of Federalist, sometimes builds fail when running out of disk space. This usually shows up as an error in build logs like `"Disk quota exceeded"` or `"No space left on device"`. The Federalist team is looking into longer-term upgrades to help ease these restrictions. In the meantime, here are a few general rules and tips:
 - Regular build container provide 2GB of total user space. Because dependencies like those included in your `Gemfile` or `package.json` will be installed here, it's a good rule of thumb to keep your total Github repository size under 1GB.
+  - You can minimize your dependency size by removing development dependencies from `package.json` and using using [`npx`](https://www.npmjs.com/package/npx) to call development scripts.
+  - You can also minimize your total build size by optimizing images and compressing files that are intended for download.
 - If your site starts hitting this initial limit, you can request an upgrade to 4GB of user space. Send an email to [federalist-support@gsa.gov](mailto:federalist-support@gsa.gov).
-- If your site is going over both of these limits, one temporary workaround is to create a new site just to store certain large assets like images, PDFs, or slide decks. For example, the [Federal Retirement Thrift Savings Board](https://www.frtib.gov/) (FRTIB) hosts all their archived meeting minutes from another Github repo which deploys to https://minutes.frtib.gov and links to these from the primary site.
-
+- If your site is going over both of these limits, one temporary workaround is to create a new site just to store certain large assets like images, PDFs, or slide decks. For example, you could host large reports in a separate repository which deploys to `reports.example.gov` and then link to these assets from your primary site.
 
 ## Details
 
