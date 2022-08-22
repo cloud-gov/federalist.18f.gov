@@ -114,6 +114,8 @@ sidenav:
         href: /documentation/site-wide-alert/
       - text: Supported site engines
         href: /documentation/supported-site-engines/
+      - text: Large file handling
+        href: /documentation/large-file-handling/
       - text: Renaming your site's repository
         href: /documentation/renaming-site-repository/
       - text: Monorepos on Federalist
