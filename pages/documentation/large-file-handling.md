@@ -11,8 +11,8 @@ There are a few guidelines and restrictions to be aware of when dealing with lar
 ## General Guidelines 
 
 Due to restrictions imposed by Github and cloud.gov, as well as the internal infrastructure of Federalist, sometimes builds fail when running out of disk space. This usually shows up as an error in build logs like `"Disk quota exceeded"` or `"No space left on device"`. The Federalist team is looking into longer-term upgrades to help ease these restrictions. In the meantime, here are a few general rules and tips:
-- Our regular build container provide 2GB of total user space. Because dependencies like those included in your `Gemfile` or `package.json` will be installed here, it's a good rule of thumb to keep your total Github repository size under 1GB.
-- If your site starts hitting this initial limit, we can update your user space to 4GB.
+- Regular build container provide 2GB of total user space. Because dependencies like those included in your `Gemfile` or `package.json` will be installed here, it's a good rule of thumb to keep your total Github repository size under 1GB.
+- If your site starts hitting this initial limit, you can request an upgrade to 4GB of user space. Send an email to [federalist-support@gsa.gov](mailto:federalist-support@gsa.gov).
 - If your site is going over both of these limits, one temporary workaround is to create a new site just to store certain large assets like images, PDFs, or slide decks. For example, the [Federal Retirement Thrift Savings Board](https://www.frtib.gov/) (FRTIB) hosts all their archived meeting minutes from another Github repo which deploys to https://minutes.frtib.gov and links to these from the primary site.
 
 
@@ -20,7 +20,7 @@ Due to restrictions imposed by Github and cloud.gov, as well as the internal inf
 
 ### Federalist Build Containers
 
-We offer two sizes of build containers ("regular": 4GB and "large": 6GB). The maximum size is limited by the size of containers available on [cloud.gov](https://cloud.gov). The first 2GB of each container is taken up by dependencies installed by Federalist (Ruby, Node, Python, and additional packages for each) leaving either 2GB or 4GB for the user space.
+Federalist offer two sizes of build containers ("regular": 4GB and "large": 6GB). The maximum size is limited by the size of containers available on [cloud.gov](https://cloud.gov). The first 2GB of each container is taken up by dependencies installed by Federalist (Ruby, Node, Python, and additional packages for each) leaving either 2GB or 4GB for the user space.
 
 ### Github
 
