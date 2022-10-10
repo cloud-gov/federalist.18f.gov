@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'uswds-jekyll'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
-gem "html-proofer", "~> 3.19"
+gem "html-proofer", "~> 5.0"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 
 group :development, :test do
